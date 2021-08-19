@@ -1,0 +1,350 @@
+04:02:09,301 INFO Created experiment output at /users/mcopik/projects/serverless-benchmarks/experiments/prob_first_attempt_python_heavy/128/2_LARGE
+04:02:09,995 INFO Using cached storage input buckets ['010.sleep.heavy-0-input-2f859cc5-ba65-47']
+04:02:09,995 INFO Using cached storage output buckets []
+04:02:10,0 INFO Work on times [360, 480, 600, 720, 900, 1080, 1200]
+04:02:10,0 INFO Work on urls ['https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_360', 'https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_480', 'https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_600', 'https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_720', 'https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_900', 'https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_1080', 'https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_1200']
+04:02:10,0 INFO Running functions ['010_sleep_nodejs_128_128_1_2_360', '010_sleep_nodejs_128_128_1_2_480', '010_sleep_nodejs_128_128_1_2_600', '010_sleep_nodejs_128_128_1_2_720', '010_sleep_nodejs_128_128_1_2_900', '010_sleep_nodejs_128_128_1_2_1080', '010_sleep_nodejs_128_128_1_2_1200']
+04:02:10,0 INFO Using urls ['https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_360', 'https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_480', 'https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_600', 'https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_720', 'https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_900', 'https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_1080', 'https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_1200']
+04:02:10,529 INFO Updated 010_sleep_nodejs_128_128_1_2_360 to timeout 850
+04:02:10,683 INFO Updated 010_sleep_nodejs_128_128_1_2_480 to timeout 850
+04:02:10,833 INFO Updated 010_sleep_nodejs_128_128_1_2_600 to timeout 850
+04:02:10,983 INFO Updated 010_sleep_nodejs_128_128_1_2_720 to timeout 850
+04:02:11,136 INFO Updated 010_sleep_nodejs_128_128_1_2_900 to timeout 850
+04:02:18,904 INFO Repeat update...
+04:02:18,905 INFO An error occurred (TooManyRequestsException) when calling the UpdateFunctionConfiguration operation (reached max retries: 4): Rate exceeded
+04:02:20,134 INFO Updated 010_sleep_nodejs_128_128_1_2_1080 to timeout 850
+04:02:20,279 INFO Updated 010_sleep_nodejs_128_128_1_2_1200 to timeout 850
+04:02:50,453 INFO Updated 010_sleep_nodejs_128_128_1_2_360 to timeout 850
+04:02:50,594 INFO Updated 010_sleep_nodejs_128_128_1_2_480 to timeout 850
+04:02:50,734 INFO Updated 010_sleep_nodejs_128_128_1_2_600 to timeout 850
+04:02:50,873 INFO Updated 010_sleep_nodejs_128_128_1_2_720 to timeout 850
+04:02:51,12 INFO Updated 010_sleep_nodejs_128_128_1_2_900 to timeout 850
+04:02:51,153 INFO Updated 010_sleep_nodejs_128_128_1_2_1080 to timeout 850
+04:02:51,296 INFO Updated 010_sleep_nodejs_128_128_1_2_1200 to timeout 850
+04:02:51,296 INFO Start 2 invocations with 7 times
+04:03:06,323 INFO Process 1 begins url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_1200 with sleep 1200 func 010_sleep_nodejs_128_128_1_2_1200
+04:03:06,323 INFO P 1 T 6 Sleep 1200 F 010_sleep_nodejs_128_128_1_2_1200 Url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_1200
+04:03:06,335 INFO Process 0 begins url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_1200 with sleep 1200 func 010_sleep_nodejs_128_128_1_2_1200
+04:03:06,335 INFO P 0 T 6 Sleep 1200 F 010_sleep_nodejs_128_128_1_2_1200 Url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_1200
+04:03:07,912 INFO Processed request! Tid: 6 Start 1580612586.335962 End 1580612587.912515 Cold? True Duration 0
+04:03:07,977 INFO Processed request! Tid: 6 Start 1580612586.324002 End 1580612587.976888 Cold? True Duration 0
+04:03:16,425 INFO Process 1 begins url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_1080 with sleep 1080 func 010_sleep_nodejs_128_128_1_2_1080
+04:03:16,425 INFO P 1 T 5 Sleep 1080 F 010_sleep_nodejs_128_128_1_2_1080 Url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_1080
+04:03:16,437 INFO Process 0 begins url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_1080 with sleep 1080 func 010_sleep_nodejs_128_128_1_2_1080
+04:03:16,437 INFO P 0 T 5 Sleep 1080 F 010_sleep_nodejs_128_128_1_2_1080 Url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_1080
+04:03:17,982 INFO Processed request! Tid: 5 Start 1580612596.426012 End 1580612597.982225 Cold? True Duration 0
+04:03:18,1 INFO Processed request! Tid: 5 Start 1580612596.437421 End 1580612598.001041 Cold? True Duration 0
+04:03:26,527 INFO Process 1 begins url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_900 with sleep 900 func 010_sleep_nodejs_128_128_1_2_900
+04:03:26,527 INFO P 1 T 4 Sleep 900 F 010_sleep_nodejs_128_128_1_2_900 Url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_900
+04:03:26,538 INFO Process 0 begins url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_900 with sleep 900 func 010_sleep_nodejs_128_128_1_2_900
+04:03:26,538 INFO P 0 T 4 Sleep 900 F 010_sleep_nodejs_128_128_1_2_900 Url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_900
+04:03:28,102 INFO Processed request! Tid: 4 Start 1580612606.527782 End 1580612608.102618 Cold? True Duration 0
+04:03:28,425 INFO Processed request! Tid: 4 Start 1580612606.538870 End 1580612608.425272 Cold? True Duration 0
+04:03:36,628 INFO Process 1 begins url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_720 with sleep 720 func 010_sleep_nodejs_128_128_1_2_720
+04:03:36,629 INFO P 1 T 3 Sleep 720 F 010_sleep_nodejs_128_128_1_2_720 Url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_720
+04:03:36,639 INFO Process 0 begins url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_720 with sleep 720 func 010_sleep_nodejs_128_128_1_2_720
+04:03:36,640 INFO P 0 T 3 Sleep 720 F 010_sleep_nodejs_128_128_1_2_720 Url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_720
+04:03:38,217 INFO Processed request! Tid: 3 Start 1580612616.640295 End 1580612618.217286 Cold? True Duration 0
+04:03:38,230 INFO Processed request! Tid: 3 Start 1580612616.629385 End 1580612618.230611 Cold? True Duration 0
+04:03:46,730 INFO Process 1 begins url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_600 with sleep 600 func 010_sleep_nodejs_128_128_1_2_600
+04:03:46,731 INFO P 1 T 2 Sleep 600 F 010_sleep_nodejs_128_128_1_2_600 Url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_600
+04:03:46,741 INFO Process 0 begins url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_600 with sleep 600 func 010_sleep_nodejs_128_128_1_2_600
+04:03:46,741 INFO P 0 T 2 Sleep 600 F 010_sleep_nodejs_128_128_1_2_600 Url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_600
+04:03:48,288 INFO Processed request! Tid: 2 Start 1580612626.741683 End 1580612628.288848 Cold? True Duration 0
+04:03:48,365 INFO Processed request! Tid: 2 Start 1580612626.731338 End 1580612628.365889 Cold? True Duration 0
+04:03:56,832 INFO Process 1 begins url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_480 with sleep 480 func 010_sleep_nodejs_128_128_1_2_480
+04:03:56,842 INFO Process 0 begins url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_480 with sleep 480 func 010_sleep_nodejs_128_128_1_2_480
+04:03:56,843 INFO P 0 T 1 Sleep 480 F 010_sleep_nodejs_128_128_1_2_480 Url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_480
+04:03:56,832 INFO P 1 T 1 Sleep 480 F 010_sleep_nodejs_128_128_1_2_480 Url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_480
+04:03:58,399 INFO Processed request! Tid: 1 Start 1580612636.846238 End 1580612638.399771 Cold? True Duration 0
+04:03:58,411 INFO Processed request! Tid: 1 Start 1580612636.843153 End 1580612638.411639 Cold? True Duration 0
+04:04:06,934 INFO Process 1 begins url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_360 with sleep 360 func 010_sleep_nodejs_128_128_1_2_360
+04:04:06,934 INFO P 1 T 0 Sleep 360 F 010_sleep_nodejs_128_128_1_2_360 Url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_360
+04:04:06,934 INFO Process 0 begins url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_360 with sleep 360 func 010_sleep_nodejs_128_128_1_2_360
+04:04:06,935 INFO P 0 T 0 Sleep 360 F 010_sleep_nodejs_128_128_1_2_360 Url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_360
+04:04:08,518 INFO Processed request! Tid: 0 Start 1580612646.934988 End 1580612648.517975 Cold? True Duration 0
+04:04:08,550 INFO Processed request! Tid: 0 Start 1580612646.935388 End 1580612648.550674 Cold? True Duration 0
+04:10:09,948 INFO Processed request! Tid: 0 Start 1580613008.588903 End 1580613009.948549 Cold? False Duration 0
+04:10:09,948 INFO Processed request! Tid: 0 Start 1580613008.588560 End 1580613009.948803 Cold? False Duration 0
+04:11:59,835 INFO Processed request! Tid: 1 Start 1580613118.481709 End 1580613119.835627 Cold? False Duration 0
+04:12:00,42 INFO Processed request! Tid: 1 Start 1580613118.481708 End 1580613120.041912 Cold? True Duration 0
+04:13:49,746 INFO Processed request! Tid: 2 Start 1580613228.384914 End 1580613229.746071 Cold? False Duration 0
+04:13:50,45 INFO Processed request! Tid: 2 Start 1580613228.465935 End 1580613230.045512 Cold? True Duration 0
+04:15:39,657 INFO Processed request! Tid: 3 Start 1580613338.293199 End 1580613339.657134 Cold? False Duration 0
+04:15:39,861 INFO Processed request! Tid: 3 Start 1580613338.312357 End 1580613339.861390 Cold? True Duration 0
+04:18:29,773 INFO Processed request! Tid: 4 Start 1580613508.113519 End 1580613509.772998 Cold? True Duration 0
+04:18:30,44 INFO Processed request! Tid: 4 Start 1580613508.489406 End 1580613510.044065 Cold? True Duration 0
+04:21:19,370 INFO Processed request! Tid: 5 Start 1580613678.008183 End 1580613679.369997 Cold? True Duration 0
+04:21:19,627 INFO Processed request! Tid: 5 Start 1580613678.085072 End 1580613679.627196 Cold? True Duration 0
+04:23:09,518 INFO Processed request! Tid: 6 Start 1580613787.950309 End 1580613789.518702 Cold? True Duration 0
+04:23:09,559 INFO Processed request! Tid: 6 Start 1580613788.004109 End 1580613789.559430 Cold? True Duration 0
+04:23:09,597 INFO Finished iteration 0
+04:23:41,187 INFO Updated 010_sleep_nodejs_128_128_1_2_360 to timeout 851
+04:23:41,326 INFO Updated 010_sleep_nodejs_128_128_1_2_480 to timeout 851
+04:23:41,463 INFO Updated 010_sleep_nodejs_128_128_1_2_600 to timeout 851
+04:23:41,615 INFO Updated 010_sleep_nodejs_128_128_1_2_720 to timeout 851
+04:23:41,751 INFO Updated 010_sleep_nodejs_128_128_1_2_900 to timeout 851
+04:23:41,888 INFO Updated 010_sleep_nodejs_128_128_1_2_1080 to timeout 851
+04:23:42,40 INFO Updated 010_sleep_nodejs_128_128_1_2_1200 to timeout 851
+04:23:42,40 INFO Dumped data
+04:23:42,52 INFO Process 0 begins url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_1200 with sleep 1200 func 010_sleep_nodejs_128_128_1_2_1200
+04:23:42,53 INFO P 0 T 6 Sleep 1200 F 010_sleep_nodejs_128_128_1_2_1200 Url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_1200
+04:23:42,65 INFO Process 1 begins url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_1200 with sleep 1200 func 010_sleep_nodejs_128_128_1_2_1200
+04:23:42,65 INFO P 1 T 6 Sleep 1200 F 010_sleep_nodejs_128_128_1_2_1200 Url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_1200
+04:23:43,614 INFO Processed request! Tid: 6 Start 1580613822.053211 End 1580613823.614890 Cold? True Duration 0
+04:23:43,619 INFO Processed request! Tid: 6 Start 1580613822.065410 End 1580613823.619813 Cold? True Duration 0
+04:23:52,154 INFO Process 0 begins url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_1080 with sleep 1080 func 010_sleep_nodejs_128_128_1_2_1080
+04:23:52,155 INFO P 0 T 5 Sleep 1080 F 010_sleep_nodejs_128_128_1_2_1080 Url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_1080
+04:23:52,166 INFO Process 1 begins url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_1080 with sleep 1080 func 010_sleep_nodejs_128_128_1_2_1080
+04:23:52,167 INFO P 1 T 5 Sleep 1080 F 010_sleep_nodejs_128_128_1_2_1080 Url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_1080
+04:23:53,697 INFO Processed request! Tid: 5 Start 1580613832.155785 End 1580613833.697138 Cold? True Duration 0
+04:23:53,713 INFO Processed request! Tid: 5 Start 1580613832.167090 End 1580613833.712976 Cold? True Duration 0
+04:24:02,257 INFO Process 0 begins url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_900 with sleep 900 func 010_sleep_nodejs_128_128_1_2_900
+04:24:02,268 INFO Process 1 begins url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_900 with sleep 900 func 010_sleep_nodejs_128_128_1_2_900
+04:24:02,268 INFO P 1 T 4 Sleep 900 F 010_sleep_nodejs_128_128_1_2_900 Url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_900
+04:24:02,258 INFO P 0 T 4 Sleep 900 F 010_sleep_nodejs_128_128_1_2_900 Url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_900
+04:24:03,610 INFO Processed request! Tid: 4 Start 1580613842.268679 End 1580613843.609992 Cold? True Duration 0
+04:24:03,899 INFO Processed request! Tid: 4 Start 1580613842.270279 End 1580613843.899431 Cold? True Duration 0
+04:24:12,359 INFO Process 0 begins url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_720 with sleep 720 func 010_sleep_nodejs_128_128_1_2_720
+04:24:12,359 INFO P 0 T 3 Sleep 720 F 010_sleep_nodejs_128_128_1_2_720 Url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_720
+04:24:12,369 INFO Process 1 begins url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_720 with sleep 720 func 010_sleep_nodejs_128_128_1_2_720
+04:24:12,369 INFO P 1 T 3 Sleep 720 F 010_sleep_nodejs_128_128_1_2_720 Url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_720
+04:24:13,764 INFO Processed request! Tid: 3 Start 1580613852.369733 End 1580613853.764500 Cold? True Duration 0
+04:24:13,927 INFO Processed request! Tid: 3 Start 1580613852.359587 End 1580613853.927667 Cold? True Duration 0
+04:24:22,460 INFO Process 0 begins url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_600 with sleep 600 func 010_sleep_nodejs_128_128_1_2_600
+04:24:22,461 INFO P 0 T 2 Sleep 600 F 010_sleep_nodejs_128_128_1_2_600 Url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_600
+04:24:22,470 INFO Process 1 begins url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_600 with sleep 600 func 010_sleep_nodejs_128_128_1_2_600
+04:24:22,471 INFO P 1 T 2 Sleep 600 F 010_sleep_nodejs_128_128_1_2_600 Url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_600
+04:24:24,10 INFO Processed request! Tid: 2 Start 1580613862.471356 End 1580613864.010366 Cold? True Duration 0
+04:24:24,28 INFO Processed request! Tid: 2 Start 1580613862.461996 End 1580613864.028571 Cold? True Duration 0
+04:24:32,562 INFO Process 0 begins url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_480 with sleep 480 func 010_sleep_nodejs_128_128_1_2_480
+04:24:32,563 INFO P 0 T 1 Sleep 480 F 010_sleep_nodejs_128_128_1_2_480 Url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_480
+04:24:32,572 INFO Process 1 begins url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_480 with sleep 480 func 010_sleep_nodejs_128_128_1_2_480
+04:24:32,572 INFO P 1 T 1 Sleep 480 F 010_sleep_nodejs_128_128_1_2_480 Url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_480
+04:24:34,127 INFO Processed request! Tid: 1 Start 1580613872.572356 End 1580613874.127396 Cold? True Duration 0
+04:24:34,133 INFO Processed request! Tid: 1 Start 1580613872.563685 End 1580613874.133520 Cold? True Duration 0
+04:24:42,664 INFO Process 0 begins url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_360 with sleep 360 func 010_sleep_nodejs_128_128_1_2_360
+04:24:42,665 INFO P 0 T 0 Sleep 360 F 010_sleep_nodejs_128_128_1_2_360 Url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_360
+04:24:42,673 INFO Process 1 begins url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_360 with sleep 360 func 010_sleep_nodejs_128_128_1_2_360
+04:24:42,673 INFO P 1 T 0 Sleep 360 F 010_sleep_nodejs_128_128_1_2_360 Url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_360
+04:24:44,70 INFO Processed request! Tid: 0 Start 1580613882.673848 End 1580613884.070818 Cold? True Duration 0
+04:24:44,241 INFO Processed request! Tid: 0 Start 1580613882.665382 End 1580613884.241448 Cold? True Duration 0
+04:30:45,333 INFO Processed request! Tid: 0 Start 1580614244.141357 End 1580614245.333788 Cold? False Duration 0
+04:30:45,640 INFO Processed request! Tid: 0 Start 1580614244.298629 End 1580614245.640524 Cold? False Duration 0
+04:32:35,570 INFO Processed request! Tid: 1 Start 1580614354.185270 End 1580614355.569992 Cold? False Duration 0
+04:32:35,810 INFO Processed request! Tid: 1 Start 1580614354.233550 End 1580614355.810354 Cold? True Duration 0
+04:34:25,453 INFO Processed request! Tid: 2 Start 1580614464.039860 End 1580614465.453792 Cold? False Duration 0
+04:34:25,672 INFO Processed request! Tid: 2 Start 1580614464.053153 End 1580614465.672121 Cold? True Duration 0
+04:36:15,171 INFO Processed request! Tid: 3 Start 1580614573.800989 End 1580614575.171666 Cold? False Duration 0
+04:36:15,552 INFO Processed request! Tid: 3 Start 1580614574.014224 End 1580614575.552140 Cold? True Duration 0
+04:39:05,211 INFO Processed request! Tid: 4 Start 1580614743.635116 End 1580614745.211804 Cold? True Duration 0
+04:39:05,488 INFO Processed request! Tid: 4 Start 1580614743.950083 End 1580614745.488495 Cold? True Duration 0
+04:41:55,358 INFO Processed request! Tid: 5 Start 1580614913.801229 End 1580614915.358415 Cold? True Duration 0
+04:41:55,401 INFO Processed request! Tid: 5 Start 1580614913.797176 End 1580614915.401190 Cold? True Duration 0
+04:43:45,255 INFO Processed request! Tid: 6 Start 1580615023.719841 End 1580615025.254955 Cold? True Duration 0
+04:43:45,298 INFO Processed request! Tid: 6 Start 1580615023.692688 End 1580615025.298716 Cold? True Duration 0
+04:43:45,400 INFO Finished iteration 1
+04:44:16,947 INFO Updated 010_sleep_nodejs_128_128_1_2_360 to timeout 852
+04:44:17,107 INFO Updated 010_sleep_nodejs_128_128_1_2_480 to timeout 852
+04:44:17,239 INFO Updated 010_sleep_nodejs_128_128_1_2_600 to timeout 852
+04:44:17,372 INFO Updated 010_sleep_nodejs_128_128_1_2_720 to timeout 852
+04:44:17,509 INFO Updated 010_sleep_nodejs_128_128_1_2_900 to timeout 852
+04:44:17,645 INFO Updated 010_sleep_nodejs_128_128_1_2_1080 to timeout 852
+04:44:17,784 INFO Updated 010_sleep_nodejs_128_128_1_2_1200 to timeout 852
+04:44:17,784 INFO Dumped data
+04:44:17,798 INFO Process 1 begins url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_1200 with sleep 1200 func 010_sleep_nodejs_128_128_1_2_1200
+04:44:17,798 INFO Process 0 begins url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_1200 with sleep 1200 func 010_sleep_nodejs_128_128_1_2_1200
+04:44:17,798 INFO P 1 T 6 Sleep 1200 F 010_sleep_nodejs_128_128_1_2_1200 Url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_1200
+04:44:17,798 INFO P 0 T 6 Sleep 1200 F 010_sleep_nodejs_128_128_1_2_1200 Url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_1200
+04:44:19,354 INFO Processed request! Tid: 6 Start 1580615057.798728 End 1580615059.354665 Cold? True Duration 0
+04:44:19,373 INFO Processed request! Tid: 6 Start 1580615057.798853 End 1580615059.373897 Cold? True Duration 0
+04:44:27,899 INFO Process 1 begins url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_1080 with sleep 1080 func 010_sleep_nodejs_128_128_1_2_1080
+04:44:27,899 INFO Process 0 begins url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_1080 with sleep 1080 func 010_sleep_nodejs_128_128_1_2_1080
+04:44:27,901 INFO P 1 T 5 Sleep 1080 F 010_sleep_nodejs_128_128_1_2_1080 Url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_1080
+04:44:27,901 INFO P 0 T 5 Sleep 1080 F 010_sleep_nodejs_128_128_1_2_1080 Url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_1080
+04:44:29,253 INFO Processed request! Tid: 5 Start 1580615067.901319 End 1580615069.253087 Cold? True Duration 0
+04:44:29,437 INFO Processed request! Tid: 5 Start 1580615067.901356 End 1580615069.437855 Cold? True Duration 0
+04:44:38,2 INFO Process 1 begins url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_900 with sleep 900 func 010_sleep_nodejs_128_128_1_2_900
+04:44:38,2 INFO Process 0 begins url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_900 with sleep 900 func 010_sleep_nodejs_128_128_1_2_900
+04:44:38,2 INFO P 1 T 4 Sleep 900 F 010_sleep_nodejs_128_128_1_2_900 Url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_900
+04:44:38,2 INFO P 0 T 4 Sleep 900 F 010_sleep_nodejs_128_128_1_2_900 Url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_900
+04:44:39,344 INFO Processed request! Tid: 4 Start 1580615078.002800 End 1580615079.344255 Cold? True Duration 0
+04:44:39,371 INFO Processed request! Tid: 4 Start 1580615078.002806 End 1580615079.371001 Cold? True Duration 0
+04:44:48,98 INFO Process 1 begins url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_720 with sleep 720 func 010_sleep_nodejs_128_128_1_2_720
+04:44:48,103 INFO Process 0 begins url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_720 with sleep 720 func 010_sleep_nodejs_128_128_1_2_720
+04:44:48,104 INFO P 0 T 3 Sleep 720 F 010_sleep_nodejs_128_128_1_2_720 Url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_720
+04:44:48,111 INFO P 1 T 3 Sleep 720 F 010_sleep_nodejs_128_128_1_2_720 Url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_720
+04:44:49,458 INFO Processed request! Tid: 3 Start 1580615088.111926 End 1580615089.458244 Cold? True Duration 0
+04:44:49,677 INFO Processed request! Tid: 3 Start 1580615088.104250 End 1580615089.677346 Cold? True Duration 0
+04:44:58,205 INFO Process 0 begins url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_600 with sleep 600 func 010_sleep_nodejs_128_128_1_2_600
+04:44:58,205 INFO Process 1 begins url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_600 with sleep 600 func 010_sleep_nodejs_128_128_1_2_600
+04:44:58,206 INFO P 0 T 2 Sleep 600 F 010_sleep_nodejs_128_128_1_2_600 Url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_600
+04:44:58,206 INFO P 1 T 2 Sleep 600 F 010_sleep_nodejs_128_128_1_2_600 Url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_600
+04:44:59,756 INFO Processed request! Tid: 2 Start 1580615098.206422 End 1580615099.756633 Cold? True Duration 0
+04:44:59,779 INFO Processed request! Tid: 2 Start 1580615098.206422 End 1580615099.779313 Cold? True Duration 0
+04:45:08,307 INFO Process 0 begins url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_480 with sleep 480 func 010_sleep_nodejs_128_128_1_2_480
+04:45:08,307 INFO Process 1 begins url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_480 with sleep 480 func 010_sleep_nodejs_128_128_1_2_480
+04:45:08,308 INFO P 1 T 1 Sleep 480 F 010_sleep_nodejs_128_128_1_2_480 Url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_480
+04:45:08,308 INFO P 0 T 1 Sleep 480 F 010_sleep_nodejs_128_128_1_2_480 Url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_480
+04:45:09,852 INFO Processed request! Tid: 1 Start 1580615108.308139 End 1580615109.852188 Cold? True Duration 0
+04:45:09,872 INFO Processed request! Tid: 1 Start 1580615108.308263 End 1580615109.872271 Cold? True Duration 0
+04:45:18,401 INFO Process 1 begins url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_360 with sleep 360 func 010_sleep_nodejs_128_128_1_2_360
+04:45:18,401 INFO P 1 T 0 Sleep 360 F 010_sleep_nodejs_128_128_1_2_360 Url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_360
+04:45:18,409 INFO Process 0 begins url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_360 with sleep 360 func 010_sleep_nodejs_128_128_1_2_360
+04:45:18,409 INFO P 0 T 0 Sleep 360 F 010_sleep_nodejs_128_128_1_2_360 Url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_360
+04:45:19,945 INFO Processed request! Tid: 0 Start 1580615118.402025 End 1580615119.945085 Cold? True Duration 0
+04:45:19,963 INFO Processed request! Tid: 0 Start 1580615118.409864 End 1580615119.963819 Cold? True Duration 0
+04:51:21,352 INFO Processed request! Tid: 0 Start 1580615479.995831 End 1580615481.352592 Cold? False Duration 0
+04:51:21,400 INFO Processed request! Tid: 0 Start 1580615480.060100 End 1580615481.400146 Cold? False Duration 0
+04:53:11,248 INFO Processed request! Tid: 1 Start 1580615589.888841 End 1580615591.248795 Cold? False Duration 0
+04:53:11,513 INFO Processed request! Tid: 1 Start 1580615589.961106 End 1580615591.513503 Cold? True Duration 0
+04:55:01,167 INFO Processed request! Tid: 2 Start 1580615699.801358 End 1580615701.167319 Cold? False Duration 0
+04:55:01,487 INFO Processed request! Tid: 2 Start 1580615699.856647 End 1580615701.487728 Cold? True Duration 0
+04:56:50,903 INFO Processed request! Tid: 3 Start 1580615809.529848 End 1580615810.903605 Cold? False Duration 0
+04:56:51,361 INFO Processed request! Tid: 3 Start 1580615809.765488 End 1580615811.361586 Cold? True Duration 0
+04:59:40,997 INFO Processed request! Tid: 4 Start 1580615979.393355 End 1580615980.997281 Cold? True Duration 0
+04:59:41,22 INFO Processed request! Tid: 4 Start 1580615979.459272 End 1580615981.022761 Cold? True Duration 0
+05:02:30,947 INFO Processed request! Tid: 5 Start 1580616149.311778 End 1580616150.947446 Cold? True Duration 0
+05:02:31,123 INFO Processed request! Tid: 5 Start 1580616149.537914 End 1580616151.123300 Cold? True Duration 0
+05:04:20,974 INFO Processed request! Tid: 6 Start 1580616259.395312 End 1580616260.974342 Cold? True Duration 0
+05:04:21,5 INFO Processed request! Tid: 6 Start 1580616259.442082 End 1580616261.005070 Cold? True Duration 0
+05:04:21,80 INFO Finished iteration 2
+05:04:52,568 INFO Updated 010_sleep_nodejs_128_128_1_2_360 to timeout 853
+05:04:52,705 INFO Updated 010_sleep_nodejs_128_128_1_2_480 to timeout 853
+05:04:52,840 INFO Updated 010_sleep_nodejs_128_128_1_2_600 to timeout 853
+05:04:52,973 INFO Updated 010_sleep_nodejs_128_128_1_2_720 to timeout 853
+05:04:53,106 INFO Updated 010_sleep_nodejs_128_128_1_2_900 to timeout 853
+05:04:53,250 INFO Updated 010_sleep_nodejs_128_128_1_2_1080 to timeout 853
+05:04:53,394 INFO Updated 010_sleep_nodejs_128_128_1_2_1200 to timeout 853
+05:04:53,394 INFO Dumped data
+05:04:53,405 INFO Process 0 begins url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_1200 with sleep 1200 func 010_sleep_nodejs_128_128_1_2_1200
+05:04:53,406 INFO P 0 T 6 Sleep 1200 F 010_sleep_nodejs_128_128_1_2_1200 Url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_1200
+05:04:53,418 INFO Process 1 begins url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_1200 with sleep 1200 func 010_sleep_nodejs_128_128_1_2_1200
+05:04:53,419 INFO P 1 T 6 Sleep 1200 F 010_sleep_nodejs_128_128_1_2_1200 Url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_1200
+05:04:55,11 INFO Processed request! Tid: 6 Start 1580616293.406186 End 1580616295.010991 Cold? True Duration 0
+05:04:55,32 INFO Processed request! Tid: 6 Start 1580616293.419149 End 1580616295.032739 Cold? True Duration 0
+05:05:03,507 INFO Process 0 begins url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_1080 with sleep 1080 func 010_sleep_nodejs_128_128_1_2_1080
+05:05:03,520 INFO Process 1 begins url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_1080 with sleep 1080 func 010_sleep_nodejs_128_128_1_2_1080
+05:05:03,520 INFO P 1 T 5 Sleep 1080 F 010_sleep_nodejs_128_128_1_2_1080 Url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_1080
+05:05:03,520 INFO P 0 T 5 Sleep 1080 F 010_sleep_nodejs_128_128_1_2_1080 Url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_1080
+05:05:05,74 INFO Processed request! Tid: 5 Start 1580616303.520958 End 1580616305.074163 Cold? True Duration 0
+05:05:05,82 INFO Processed request! Tid: 5 Start 1580616303.520419 End 1580616305.081969 Cold? True Duration 0
+05:05:13,609 INFO Process 0 begins url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_900 with sleep 900 func 010_sleep_nodejs_128_128_1_2_900
+05:05:13,609 INFO P 0 T 4 Sleep 900 F 010_sleep_nodejs_128_128_1_2_900 Url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_900
+05:05:13,621 INFO Process 1 begins url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_900 with sleep 900 func 010_sleep_nodejs_128_128_1_2_900
+05:05:13,621 INFO P 1 T 4 Sleep 900 F 010_sleep_nodejs_128_128_1_2_900 Url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_900
+05:05:15,172 INFO Processed request! Tid: 4 Start 1580616313.609879 End 1580616315.172147 Cold? True Duration 0
+05:05:15,204 INFO Processed request! Tid: 4 Start 1580616313.621910 End 1580616315.204889 Cold? True Duration 0
+05:05:23,710 INFO Process 0 begins url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_720 with sleep 720 func 010_sleep_nodejs_128_128_1_2_720
+05:05:23,722 INFO Process 1 begins url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_720 with sleep 720 func 010_sleep_nodejs_128_128_1_2_720
+05:05:23,723 INFO P 1 T 3 Sleep 720 F 010_sleep_nodejs_128_128_1_2_720 Url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_720
+05:05:23,723 INFO P 0 T 3 Sleep 720 F 010_sleep_nodejs_128_128_1_2_720 Url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_720
+05:05:25,66 INFO Processed request! Tid: 3 Start 1580616323.723667 End 1580616325.066182 Cold? True Duration 0
+05:05:25,427 INFO Processed request! Tid: 3 Start 1580616323.723169 End 1580616325.427802 Cold? True Duration 0
+05:05:33,812 INFO Process 0 begins url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_600 with sleep 600 func 010_sleep_nodejs_128_128_1_2_600
+05:05:33,813 INFO P 0 T 2 Sleep 600 F 010_sleep_nodejs_128_128_1_2_600 Url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_600
+05:05:33,823 INFO Process 1 begins url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_600 with sleep 600 func 010_sleep_nodejs_128_128_1_2_600
+05:05:33,824 INFO P 1 T 2 Sleep 600 F 010_sleep_nodejs_128_128_1_2_600 Url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_600
+05:05:35,342 INFO Processed request! Tid: 2 Start 1580616333.813207 End 1580616335.342257 Cold? True Duration 0
+05:05:35,355 INFO Processed request! Tid: 2 Start 1580616333.824176 End 1580616335.355351 Cold? True Duration 0
+05:05:43,914 INFO Process 0 begins url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_480 with sleep 480 func 010_sleep_nodejs_128_128_1_2_480
+05:05:43,914 INFO P 0 T 1 Sleep 480 F 010_sleep_nodejs_128_128_1_2_480 Url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_480
+05:05:43,925 INFO Process 1 begins url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_480 with sleep 480 func 010_sleep_nodejs_128_128_1_2_480
+05:05:43,925 INFO P 1 T 1 Sleep 480 F 010_sleep_nodejs_128_128_1_2_480 Url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_480
+05:05:45,482 INFO Processed request! Tid: 1 Start 1580616343.925492 End 1580616345.482379 Cold? True Duration 0
+05:05:45,487 INFO Processed request! Tid: 1 Start 1580616343.914915 End 1580616345.487207 Cold? True Duration 0
+05:05:54,10 INFO Process 0 begins url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_360 with sleep 360 func 010_sleep_nodejs_128_128_1_2_360
+05:05:54,10 INFO P 0 T 0 Sleep 360 F 010_sleep_nodejs_128_128_1_2_360 Url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_360
+05:05:54,26 INFO Process 1 begins url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_360 with sleep 360 func 010_sleep_nodejs_128_128_1_2_360
+05:05:54,26 INFO P 1 T 0 Sleep 360 F 010_sleep_nodejs_128_128_1_2_360 Url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_360
+05:05:55,418 INFO Processed request! Tid: 0 Start 1580616354.026374 End 1580616355.417920 Cold? True Duration 0
+05:05:55,569 INFO Processed request! Tid: 0 Start 1580616354.010564 End 1580616355.569707 Cold? True Duration 0
+05:11:56,885 INFO Processed request! Tid: 0 Start 1580616715.517969 End 1580616716.885245 Cold? False Duration 0
+05:11:56,969 INFO Processed request! Tid: 0 Start 1580616715.626986 End 1580616716.969371 Cold? False Duration 0
+05:13:46,920 INFO Processed request! Tid: 1 Start 1580616825.553910 End 1580616826.920769 Cold? False Duration 0
+05:13:47,160 INFO Processed request! Tid: 1 Start 1580616825.587244 End 1580616827.160339 Cold? True Duration 0
+05:15:36,763 INFO Processed request! Tid: 2 Start 1580616935.371925 End 1580616936.763399 Cold? False Duration 0
+05:15:36,954 INFO Processed request! Tid: 2 Start 1580616935.396133 End 1580616936.954122 Cold? True Duration 0
+05:17:26,474 INFO Processed request! Tid: 3 Start 1580617045.111123 End 1580617046.474635 Cold? False Duration 0
+05:17:27,135 INFO Processed request! Tid: 3 Start 1580617045.505644 End 1580617047.135019 Cold? True Duration 0
+05:20:16,813 INFO Processed request! Tid: 4 Start 1580617215.238288 End 1580617216.813765 Cold? True Duration 0
+05:20:16,866 INFO Processed request! Tid: 4 Start 1580617215.302100 End 1580617216.866608 Cold? True Duration 0
+05:23:06,701 INFO Processed request! Tid: 5 Start 1580617385.109985 End 1580617386.700978 Cold? True Duration 0
+05:23:06,706 INFO Processed request! Tid: 5 Start 1580617385.111085 End 1580617386.706215 Cold? True Duration 0
+05:24:56,674 INFO Processed request! Tid: 6 Start 1580617495.047000 End 1580617496.674398 Cold? True Duration 0
+05:24:56,706 INFO Processed request! Tid: 6 Start 1580617495.133148 End 1580617496.706322 Cold? True Duration 0
+05:24:56,754 INFO Finished iteration 3
+05:25:28,280 INFO Updated 010_sleep_nodejs_128_128_1_2_360 to timeout 854
+05:25:28,413 INFO Updated 010_sleep_nodejs_128_128_1_2_480 to timeout 854
+05:25:28,549 INFO Updated 010_sleep_nodejs_128_128_1_2_600 to timeout 854
+05:25:28,685 INFO Updated 010_sleep_nodejs_128_128_1_2_720 to timeout 854
+05:25:28,823 INFO Updated 010_sleep_nodejs_128_128_1_2_900 to timeout 854
+05:25:28,974 INFO Updated 010_sleep_nodejs_128_128_1_2_1080 to timeout 854
+05:25:29,118 INFO Updated 010_sleep_nodejs_128_128_1_2_1200 to timeout 854
+05:25:29,118 INFO Dumped data
+05:25:29,132 INFO Process 1 begins url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_1200 with sleep 1200 func 010_sleep_nodejs_128_128_1_2_1200
+05:25:29,132 INFO P 1 T 6 Sleep 1200 F 010_sleep_nodejs_128_128_1_2_1200 Url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_1200
+05:25:29,145 INFO Process 0 begins url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_1200 with sleep 1200 func 010_sleep_nodejs_128_128_1_2_1200
+05:25:29,145 INFO P 0 T 6 Sleep 1200 F 010_sleep_nodejs_128_128_1_2_1200 Url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_1200
+05:25:30,514 INFO Processed request! Tid: 6 Start 1580617529.145627 End 1580617530.514745 Cold? True Duration 0
+05:25:30,684 INFO Processed request! Tid: 6 Start 1580617529.132385 End 1580617530.684587 Cold? True Duration 0
+05:25:39,233 INFO Process 1 begins url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_1080 with sleep 1080 func 010_sleep_nodejs_128_128_1_2_1080
+05:25:39,234 INFO P 1 T 5 Sleep 1080 F 010_sleep_nodejs_128_128_1_2_1080 Url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_1080
+05:25:39,246 INFO Process 0 begins url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_1080 with sleep 1080 func 010_sleep_nodejs_128_128_1_2_1080
+05:25:39,246 INFO P 0 T 5 Sleep 1080 F 010_sleep_nodejs_128_128_1_2_1080 Url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_1080
+05:25:40,786 INFO Processed request! Tid: 5 Start 1580617539.234526 End 1580617540.786686 Cold? True Duration 0
+05:25:40,820 INFO Processed request! Tid: 5 Start 1580617539.246930 End 1580617540.820046 Cold? True Duration 0
+05:25:49,335 INFO Process 1 begins url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_900 with sleep 900 func 010_sleep_nodejs_128_128_1_2_900
+05:25:49,347 INFO Process 0 begins url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_900 with sleep 900 func 010_sleep_nodejs_128_128_1_2_900
+05:25:49,348 INFO P 0 T 4 Sleep 900 F 010_sleep_nodejs_128_128_1_2_900 Url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_900
+05:25:49,336 INFO P 1 T 4 Sleep 900 F 010_sleep_nodejs_128_128_1_2_900 Url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_900
+05:25:50,900 INFO Processed request! Tid: 4 Start 1580617549.348538 End 1580617550.900427 Cold? True Duration 0
+05:25:51,13 INFO Processed request! Tid: 4 Start 1580617549.348256 End 1580617551.012998 Cold? True Duration 0
+05:25:59,437 INFO Process 1 begins url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_720 with sleep 720 func 010_sleep_nodejs_128_128_1_2_720
+05:25:59,437 INFO P 1 T 3 Sleep 720 F 010_sleep_nodejs_128_128_1_2_720 Url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_720
+05:25:59,449 INFO Process 0 begins url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_720 with sleep 720 func 010_sleep_nodejs_128_128_1_2_720
+05:25:59,449 INFO P 0 T 3 Sleep 720 F 010_sleep_nodejs_128_128_1_2_720 Url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_720
+05:26:01,19 INFO Processed request! Tid: 3 Start 1580617559.449763 End 1580617561.019775 Cold? True Duration 0
+05:26:01,29 INFO Processed request! Tid: 3 Start 1580617559.437892 End 1580617561.029107 Cold? True Duration 0
+05:26:09,539 INFO Process 1 begins url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_600 with sleep 600 func 010_sleep_nodejs_128_128_1_2_600
+05:26:09,550 INFO Process 0 begins url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_600 with sleep 600 func 010_sleep_nodejs_128_128_1_2_600
+05:26:09,550 INFO P 0 T 2 Sleep 600 F 010_sleep_nodejs_128_128_1_2_600 Url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_600
+05:26:09,553 INFO P 1 T 2 Sleep 600 F 010_sleep_nodejs_128_128_1_2_600 Url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_600
+05:26:11,80 INFO Processed request! Tid: 2 Start 1580617569.551086 End 1580617571.080137 Cold? True Duration 0
+05:26:11,82 INFO Processed request! Tid: 2 Start 1580617569.553140 End 1580617571.081957 Cold? True Duration 0
+05:26:19,641 INFO Process 1 begins url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_480 with sleep 480 func 010_sleep_nodejs_128_128_1_2_480
+05:26:19,641 INFO P 1 T 1 Sleep 480 F 010_sleep_nodejs_128_128_1_2_480 Url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_480
+05:26:19,651 INFO Process 0 begins url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_480 with sleep 480 func 010_sleep_nodejs_128_128_1_2_480
+05:26:19,652 INFO P 0 T 1 Sleep 480 F 010_sleep_nodejs_128_128_1_2_480 Url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_480
+05:26:21,204 INFO Processed request! Tid: 1 Start 1580617579.641914 End 1580617581.204552 Cold? True Duration 0
+05:26:21,218 INFO Processed request! Tid: 1 Start 1580617579.652352 End 1580617581.218392 Cold? True Duration 0
+05:26:29,743 INFO Process 1 begins url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_360 with sleep 360 func 010_sleep_nodejs_128_128_1_2_360
+05:26:29,743 INFO P 1 T 0 Sleep 360 F 010_sleep_nodejs_128_128_1_2_360 Url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_360
+05:26:29,747 INFO Process 0 begins url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_360 with sleep 360 func 010_sleep_nodejs_128_128_1_2_360
+05:26:29,748 INFO P 0 T 0 Sleep 360 F 010_sleep_nodejs_128_128_1_2_360 Url https://nnjmm2gmzi.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_2_360
+05:26:31,95 INFO Processed request! Tid: 0 Start 1580617589.748230 End 1580617591.095197 Cold? True Duration 0
+05:26:31,326 INFO Processed request! Tid: 0 Start 1580617589.743547 End 1580617591.326676 Cold? True Duration 0
+05:32:32,581 INFO Processed request! Tid: 0 Start 1580617951.195373 End 1580617952.581440 Cold? False Duration 0
+05:32:32,744 INFO Processed request! Tid: 0 Start 1580617951.396067 End 1580617952.744126 Cold? False Duration 0
+05:34:22,404 INFO Processed request! Tid: 1 Start 1580618061.241500 End 1580618062.404430 Cold? False Duration 0
+05:34:22,868 INFO Processed request! Tid: 1 Start 1580618061.291578 End 1580618062.868368 Cold? True Duration 0
+05:36:12,576 INFO Processed request! Tid: 2 Start 1580618171.178018 End 1580618172.576521 Cold? False Duration 0
+05:36:12,763 INFO Processed request! Tid: 2 Start 1580618171.180147 End 1580618172.763765 Cold? True Duration 0
+05:38:02,472 INFO Processed request! Tid: 3 Start 1580618281.119762 End 1580618282.472728 Cold? False Duration 0
+05:38:02,702 INFO Processed request! Tid: 3 Start 1580618281.111129 End 1580618282.702000 Cold? True Duration 0
+05:40:52,455 INFO Processed request! Tid: 4 Start 1580618451.103070 End 1580618452.455608 Cold? True Duration 0
+05:40:52,558 INFO Processed request! Tid: 4 Start 1580618451.000460 End 1580618452.558703 Cold? True Duration 0
+05:43:42,445 INFO Processed request! Tid: 5 Start 1580618620.886740 End 1580618622.445439 Cold? True Duration 0
+05:43:42,455 INFO Processed request! Tid: 5 Start 1580618620.860215 End 1580618622.455391 Cold? True Duration 0
+05:45:32,219 INFO Processed request! Tid: 6 Start 1580618730.594750 End 1580618732.219643 Cold? True Duration 0
+05:45:32,321 INFO Processed request! Tid: 6 Start 1580618730.784647 End 1580618732.321179 Cold? True Duration 0
+05:45:32,407 INFO Finished iteration 4
+05:46:03,980 INFO Updated 010_sleep_nodejs_128_128_1_2_360 to timeout 855
+05:46:04,116 INFO Updated 010_sleep_nodejs_128_128_1_2_480 to timeout 855
+05:46:04,255 INFO Updated 010_sleep_nodejs_128_128_1_2_600 to timeout 855
+05:46:04,405 INFO Updated 010_sleep_nodejs_128_128_1_2_720 to timeout 855
+05:46:04,548 INFO Updated 010_sleep_nodejs_128_128_1_2_900 to timeout 855
+05:46:04,686 INFO Updated 010_sleep_nodejs_128_128_1_2_1080 to timeout 855
+05:46:04,823 INFO Updated 010_sleep_nodejs_128_128_1_2_1200 to timeout 855
+05:46:04,823 INFO Dumped data
+05:46:04,922 INFO Done!

@@ -1,0 +1,111 @@
+Result: 120
+Mean provider memory
+128     1.836573
+256     1.117356
+512     0.680281
+1024    0.530125
+1536    0.453545
+2048    0.702135
+3008    0.486772
+Name: provider_time, dtype: float64
+Median provider  memory
+128     1.643910
+256     0.889100
+512     0.502955
+1024    0.388570
+1536    0.348800
+2048    0.363600
+3008    0.322835
+Name: provider_time, dtype: float64
+Result: 210_python
+Mean provider memory
+128     1.076904
+256     0.555115
+512     0.322027
+1024    0.200876
+2048    0.175392
+3008    0.191381
+Name: provider_time, dtype: float64
+Median provider  memory
+128     1.03531
+256     0.52978
+512     0.30202
+1024    0.18782
+2048    0.15439
+3008    0.17577
+Name: provider_time, dtype: float64
+Result: 210_node
+Mean provider memory
+128     1.775115
+256     0.968412
+512     0.521355
+1024    0.324143
+2048    0.255414
+3008    0.238792
+Name: provider_time, dtype: float64
+Median provider  memory
+128     1.723495
+256     0.943175
+512     0.504700
+1024    0.312830
+2048    0.236720
+3008    0.227480
+Name: provider_time, dtype: float64
+Result: 311
+Mean provider memory
+256     7.873865
+512     4.395658
+1024    3.199358
+1536    3.121564
+2048    2.734934
+3008    2.635499
+Name: provider_time, dtype: float64
+Median provider  memory
+256     7.634805
+512     4.149129
+1024    2.949110
+1536    2.759770
+2048    2.520930
+3008    2.539170
+Name: provider_time, dtype: float64
+Result: 411
+Mean provider memory
+512     1.905392
+1024    0.968299
+1536    0.620045
+2048    0.457229
+3008    0.330341
+Name: provider_time, dtype: float64
+Median provider  memory
+512     1.89427
+1024    0.93884
+1536    0.61573
+2048    0.44644
+3008    0.32145
+Name: provider_time, dtype: float64
+Result: 503
+Mean provider memory
+128     0.954189
+256     0.471709
+512     0.224383
+1024    0.110436
+1536    0.077097
+2048    0.067686
+3008    0.067546
+Name: provider_time, dtype: float64
+Median provider  memory
+128     0.954115
+256     0.472940
+512     0.224300
+1024    0.110750
+1536    0.075050
+2048    0.066385
+3008    0.065845
+Name: provider_time, dtype: float64
+Table data ['120', '210_python', '210_node', '311', '411', '503']
+minio [0.2165095  0.045407   0.16591622 0.8085115  0.203863   0.030183  ]
+s3 [0.3165895  0.130895   0.19129641 2.8034025  0.2351085  0.030729  ]
+faas [0.38857 0.18782 0.23672 2.94911 0.32145 0.07505]
+overhead minio [1.79470185 4.13636664 1.42674419 3.64757953 1.57679422 2.48649902]
+overhead s3 [1.22736225 1.43489056 1.23745134 1.05197523 1.36724108 2.44231833]
+memory [1024, 1024, 2048, 1024, 3008, 1536]

@@ -1,0 +1,44 @@
+{
+  "input": {
+    "object": {
+      "url": "https://github.com/STEllAR-GROUP/hpx/archive/1.4.0.zip"
+    },
+    "bucket": {
+      "output": "120.uploader-0-output-55af4420-cc2a-4e"
+    }
+  },
+  "app": {
+    "name": "120.uploader",
+    "size": 3080,
+    "hash": "1f0b4aa991573fed114d22786bc5a88c"
+  },
+  "benchmark": {
+    "disable_gc": false,
+    "drop_pagecache": false,
+    "update_code": false,
+    "deployment": {
+      "name": "local",
+      "config": {
+        "runtime": {
+          "python": 3.6,
+          "nodejs": 13.6
+        }
+      }
+    },
+    "language": "python",
+    "runtime": 3.6,
+    "repetitions": 200,
+    "storage": {
+      "address": "172.17.0.2:9000",
+      "secret_key": "f7a3fd44e2a6c065fdb770953092ff4638ad3d032ea22929d0cd72585c403d14",
+      "access_key": "MKwqh9OQKYWFN60YH2-VfR-mgsDux_ey21gHPi5n5n8",
+      "input": [],
+      "output": [
+        "120.uploader-0-output-55af4420-cc2a-4e"
+      ]
+    },
+    "name": "time_cold",
+    "type": "time",
+    "experiment_options": "cold"
+  }
+}

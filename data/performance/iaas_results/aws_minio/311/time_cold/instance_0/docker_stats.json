@@ -1,0 +1,208 @@
+{
+  "read": "2020-11-11T00:46:09.585618446Z",
+  "preread": "2020-11-11T00:46:08.548941575Z",
+  "pids_stats": {
+    "current": 1
+  },
+  "blkio_stats": {
+    "io_service_bytes_recursive": [
+      {
+        "major": 202,
+        "minor": 0,
+        "op": "Read",
+        "value": 19116032
+      },
+      {
+        "major": 202,
+        "minor": 0,
+        "op": "Write",
+        "value": 0
+      },
+      {
+        "major": 202,
+        "minor": 0,
+        "op": "Sync",
+        "value": 19116032
+      },
+      {
+        "major": 202,
+        "minor": 0,
+        "op": "Async",
+        "value": 0
+      },
+      {
+        "major": 202,
+        "minor": 0,
+        "op": "Discard",
+        "value": 0
+      },
+      {
+        "major": 202,
+        "minor": 0,
+        "op": "Total",
+        "value": 19116032
+      }
+    ],
+    "io_serviced_recursive": [
+      {
+        "major": 202,
+        "minor": 0,
+        "op": "Read",
+        "value": 1339
+      },
+      {
+        "major": 202,
+        "minor": 0,
+        "op": "Write",
+        "value": 0
+      },
+      {
+        "major": 202,
+        "minor": 0,
+        "op": "Sync",
+        "value": 1339
+      },
+      {
+        "major": 202,
+        "minor": 0,
+        "op": "Async",
+        "value": 0
+      },
+      {
+        "major": 202,
+        "minor": 0,
+        "op": "Discard",
+        "value": 0
+      },
+      {
+        "major": 202,
+        "minor": 0,
+        "op": "Total",
+        "value": 1339
+      }
+    ],
+    "io_queue_recursive": [],
+    "io_service_time_recursive": [],
+    "io_wait_time_recursive": [],
+    "io_merged_recursive": [],
+    "io_time_recursive": [],
+    "sectors_recursive": []
+  },
+  "num_procs": 0,
+  "storage_stats": {},
+  "cpu_stats": {
+    "cpu_usage": {
+      "total_usage": 159302074270,
+      "percpu_usage": [
+        159302074270,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "usage_in_kernelmode": 16610000000,
+      "usage_in_usermode": 145700000000
+    },
+    "system_cpu_usage": 7008470000000,
+    "online_cpus": 1,
+    "throttling_data": {
+      "periods": 0,
+      "throttled_periods": 0,
+      "throttled_time": 0
+    }
+  },
+  "precpu_stats": {
+    "cpu_usage": {
+      "total_usage": 159302074270,
+      "percpu_usage": [
+        159302074270,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "usage_in_kernelmode": 16610000000,
+      "usage_in_usermode": 145700000000
+    },
+    "system_cpu_usage": 7007460000000,
+    "online_cpus": 1,
+    "throttling_data": {
+      "periods": 0,
+      "throttled_periods": 0,
+      "throttled_time": 0
+    }
+  },
+  "memory_stats": {
+    "usage": 458276864,
+    "max_usage": 540168192,
+    "stats": {
+      "active_anon": 540672,
+      "active_file": 14991360,
+      "cache": 436314112,
+      "dirty": 19464192,
+      "hierarchical_memory_limit": 9223372036854771712,
+      "hierarchical_memsw_limit": 0,
+      "inactive_anon": 0,
+      "inactive_file": 421089280,
+      "mapped_file": 540672,
+      "pgfault": 2664090,
+      "pgmajfault": 330,
+      "pgpgin": 2721213,
+      "pgpgout": 2614626,
+      "rss": 614400,
+      "rss_huge": 0,
+      "total_active_anon": 540672,
+      "total_active_file": 14991360,
+      "total_cache": 436314112,
+      "total_dirty": 19464192,
+      "total_inactive_anon": 0,
+      "total_inactive_file": 421089280,
+      "total_mapped_file": 540672,
+      "total_pgfault": 2664090,
+      "total_pgmajfault": 330,
+      "total_pgpgin": 2721213,
+      "total_pgpgout": 2614626,
+      "total_rss": 614400,
+      "total_rss_huge": 0,
+      "total_unevictable": 0,
+      "total_writeback": 0,
+      "unevictable": 0,
+      "writeback": 0
+    },
+    "limit": 1026154496
+  },
+  "name": "/epic_lumiere",
+  "id": "777d41ab0377a4a15523faea707a2d84ecbe547f41ceeb2652d5df54f79f0dd6",
+  "networks": {
+    "eth0": {
+      "rx_bytes": 2030366850,
+      "rx_packets": 126345,
+      "rx_errors": 0,
+      "rx_dropped": 0,
+      "tx_bytes": 1883890779,
+      "tx_packets": 135804,
+      "tx_errors": 0,
+      "tx_dropped": 0
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "region": "us-east-1",
+  "credentials": {
+    "access_key": "AKIATZYQRAQS5QAWACH6",
+    "secret_key": "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"
+  },
+  "resources": {
+    "lambda-role": "arn:aws:iam::261490803749:role/sebs-lambda-role",
+    "http-apis": {
+      "210_thumbnailer_python_256-http-api": {
+        "arn": "arn:aws:execute-api:us-east-1:261490803749:2v8owrkl10",
+        "endpoint": "https://2v8owrkl10.execute-api.us-east-1.amazonaws.com"
+      },
+      "210_thumbnailer_nodejs_256-http-api": {
+        "arn": "arn:aws:execute-api:us-east-1:261490803749:8ng50l9iye",
+        "endpoint": "https://8ng50l9iye.execute-api.us-east-1.amazonaws.com"
+      },
+      "311_compression_python_256-http-api": {
+        "arn": "arn:aws:execute-api:us-east-1:261490803749:0543umbpf5",
+        "endpoint": "https://0543umbpf5.execute-api.us-east-1.amazonaws.com"
+      }
+    }
+  }
+}

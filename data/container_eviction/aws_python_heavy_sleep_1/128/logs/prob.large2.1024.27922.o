@@ -1,0 +1,689 @@
+04:02:28,472 INFO Created experiment output at /users/mcopik/projects/serverless-benchmarks/experiments/prob_first_attempt_python_heavy/128/3_LARGE2
+04:02:29,150 INFO Using cached storage input buckets ['010.sleep.heavy-0-input-2f859cc5-ba65-47']
+04:02:29,150 INFO Using cached storage output buckets []
+04:02:29,153 INFO Work on times [420, 540, 660, 780, 840, 960, 1020, 1140, 1260, 1320]
+04:02:29,153 INFO Work on urls ['https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_420', 'https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_540', 'https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_660', 'https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_780', 'https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_840', 'https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_960', 'https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1020', 'https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1140', 'https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1260', 'https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1320']
+04:02:29,153 INFO Running functions ['010_sleep_nodejs_128_128_1_3_420', '010_sleep_nodejs_128_128_1_3_540', '010_sleep_nodejs_128_128_1_3_660', '010_sleep_nodejs_128_128_1_3_780', '010_sleep_nodejs_128_128_1_3_840', '010_sleep_nodejs_128_128_1_3_960', '010_sleep_nodejs_128_128_1_3_1020', '010_sleep_nodejs_128_128_1_3_1140', '010_sleep_nodejs_128_128_1_3_1260', '010_sleep_nodejs_128_128_1_3_1320']
+04:02:29,153 INFO Using urls ['https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_420', 'https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_540', 'https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_660', 'https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_780', 'https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_840', 'https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_960', 'https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1020', 'https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1140', 'https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1260', 'https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1320']
+04:02:29,660 INFO Updated 010_sleep_nodejs_128_128_1_3_420 to timeout 850
+04:02:29,806 INFO Updated 010_sleep_nodejs_128_128_1_3_540 to timeout 850
+04:02:29,949 INFO Updated 010_sleep_nodejs_128_128_1_3_660 to timeout 850
+04:02:30,95 INFO Updated 010_sleep_nodejs_128_128_1_3_780 to timeout 850
+04:02:30,244 INFO Updated 010_sleep_nodejs_128_128_1_3_840 to timeout 850
+04:02:30,389 INFO Updated 010_sleep_nodejs_128_128_1_3_960 to timeout 850
+04:02:34,546 INFO Updated 010_sleep_nodejs_128_128_1_3_1020 to timeout 850
+04:02:34,688 INFO Updated 010_sleep_nodejs_128_128_1_3_1140 to timeout 850
+04:02:34,833 INFO Updated 010_sleep_nodejs_128_128_1_3_1260 to timeout 850
+04:02:36,727 INFO Updated 010_sleep_nodejs_128_128_1_3_1320 to timeout 850
+04:03:06,895 INFO Updated 010_sleep_nodejs_128_128_1_3_420 to timeout 850
+04:03:07,61 INFO Updated 010_sleep_nodejs_128_128_1_3_540 to timeout 850
+04:03:07,201 INFO Updated 010_sleep_nodejs_128_128_1_3_660 to timeout 850
+04:03:07,339 INFO Updated 010_sleep_nodejs_128_128_1_3_780 to timeout 850
+04:03:07,480 INFO Updated 010_sleep_nodejs_128_128_1_3_840 to timeout 850
+04:03:07,629 INFO Updated 010_sleep_nodejs_128_128_1_3_960 to timeout 850
+04:03:07,766 INFO Updated 010_sleep_nodejs_128_128_1_3_1020 to timeout 850
+04:03:07,907 INFO Updated 010_sleep_nodejs_128_128_1_3_1140 to timeout 850
+04:03:11,877 INFO Updated 010_sleep_nodejs_128_128_1_3_1260 to timeout 850
+04:03:13,373 INFO Updated 010_sleep_nodejs_128_128_1_3_1320 to timeout 850
+04:03:13,373 INFO Start 3 invocations with 10 times
+04:03:28,398 INFO Process 2 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1320 with sleep 1320 func 010_sleep_nodejs_128_128_1_3_1320
+04:03:28,399 INFO Process 0 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1320 with sleep 1320 func 010_sleep_nodejs_128_128_1_3_1320
+04:03:28,399 INFO Process 1 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1320 with sleep 1320 func 010_sleep_nodejs_128_128_1_3_1320
+04:03:28,399 INFO P 0 T 9 Sleep 1320 F 010_sleep_nodejs_128_128_1_3_1320 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1320
+04:03:28,399 INFO P 1 T 9 Sleep 1320 F 010_sleep_nodejs_128_128_1_3_1320 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1320
+04:03:28,399 INFO P 2 T 9 Sleep 1320 F 010_sleep_nodejs_128_128_1_3_1320 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1320
+04:03:29,757 INFO Processed request! Tid: 9 Start 1580612608.399647 End 1580612609.756977 Cold? True Duration 0
+04:03:29,765 INFO Processed request! Tid: 9 Start 1580612608.399644 End 1580612609.765591 Cold? True Duration 0
+04:03:29,767 INFO Processed request! Tid: 9 Start 1580612608.399621 End 1580612609.767562 Cold? True Duration 0
+04:03:38,500 INFO Process 0 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1260 with sleep 1260 func 010_sleep_nodejs_128_128_1_3_1260
+04:03:38,500 INFO Process 2 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1260 with sleep 1260 func 010_sleep_nodejs_128_128_1_3_1260
+04:03:38,500 INFO Process 1 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1260 with sleep 1260 func 010_sleep_nodejs_128_128_1_3_1260
+04:03:38,501 INFO P 0 T 8 Sleep 1260 F 010_sleep_nodejs_128_128_1_3_1260 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1260
+04:03:38,501 INFO P 2 T 8 Sleep 1260 F 010_sleep_nodejs_128_128_1_3_1260 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1260
+04:03:38,501 INFO P 1 T 8 Sleep 1260 F 010_sleep_nodejs_128_128_1_3_1260 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1260
+04:03:40,35 INFO Processed request! Tid: 8 Start 1580612618.501457 End 1580612620.034925 Cold? True Duration 0
+04:03:40,35 INFO Processed request! Tid: 8 Start 1580612618.501427 End 1580612620.035709 Cold? True Duration 0
+04:03:40,62 INFO Processed request! Tid: 8 Start 1580612618.501442 End 1580612620.062501 Cold? True Duration 0
+04:03:48,602 INFO Process 0 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1140 with sleep 1140 func 010_sleep_nodejs_128_128_1_3_1140
+04:03:48,602 INFO Process 1 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1140 with sleep 1140 func 010_sleep_nodejs_128_128_1_3_1140
+04:03:48,602 INFO Process 2 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1140 with sleep 1140 func 010_sleep_nodejs_128_128_1_3_1140
+04:03:48,603 INFO P 0 T 7 Sleep 1140 F 010_sleep_nodejs_128_128_1_3_1140 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1140
+04:03:48,603 INFO P 2 T 7 Sleep 1140 F 010_sleep_nodejs_128_128_1_3_1140 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1140
+04:03:48,603 INFO P 1 T 7 Sleep 1140 F 010_sleep_nodejs_128_128_1_3_1140 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1140
+04:03:50,145 INFO Processed request! Tid: 7 Start 1580612628.603284 End 1580612630.144991 Cold? True Duration 0
+04:03:50,150 INFO Processed request! Tid: 7 Start 1580612628.603169 End 1580612630.150376 Cold? True Duration 0
+04:03:50,159 INFO Processed request! Tid: 7 Start 1580612628.603291 End 1580612630.159911 Cold? True Duration 0
+04:03:58,704 INFO Process 0 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1020 with sleep 1020 func 010_sleep_nodejs_128_128_1_3_1020
+04:03:58,704 INFO Process 1 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1020 with sleep 1020 func 010_sleep_nodejs_128_128_1_3_1020
+04:03:58,704 INFO Process 2 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1020 with sleep 1020 func 010_sleep_nodejs_128_128_1_3_1020
+04:03:58,704 INFO P 0 T 6 Sleep 1020 F 010_sleep_nodejs_128_128_1_3_1020 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1020
+04:03:58,704 INFO P 1 T 6 Sleep 1020 F 010_sleep_nodejs_128_128_1_3_1020 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1020
+04:03:58,704 INFO P 2 T 6 Sleep 1020 F 010_sleep_nodejs_128_128_1_3_1020 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1020
+04:04:00,78 INFO Processed request! Tid: 6 Start 1580612638.704788 End 1580612640.078846 Cold? True Duration 0
+04:04:00,153 INFO Processed request! Tid: 6 Start 1580612638.704724 End 1580612640.152933 Cold? True Duration 0
+04:04:00,257 INFO Processed request! Tid: 6 Start 1580612638.704653 End 1580612640.257015 Cold? True Duration 0
+04:04:08,805 INFO Process 0 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_960 with sleep 960 func 010_sleep_nodejs_128_128_1_3_960
+04:04:08,805 INFO Process 2 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_960 with sleep 960 func 010_sleep_nodejs_128_128_1_3_960
+04:04:08,805 INFO Process 1 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_960 with sleep 960 func 010_sleep_nodejs_128_128_1_3_960
+04:04:08,806 INFO P 2 T 5 Sleep 960 F 010_sleep_nodejs_128_128_1_3_960 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_960
+04:04:08,806 INFO P 0 T 5 Sleep 960 F 010_sleep_nodejs_128_128_1_3_960 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_960
+04:04:08,806 INFO P 1 T 5 Sleep 960 F 010_sleep_nodejs_128_128_1_3_960 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_960
+04:04:10,151 INFO Processed request! Tid: 5 Start 1580612648.806266 End 1580612650.151103 Cold? True Duration 0
+04:04:10,163 INFO Processed request! Tid: 5 Start 1580612648.806265 End 1580612650.162942 Cold? True Duration 0
+04:04:10,185 INFO Processed request! Tid: 5 Start 1580612648.806575 End 1580612650.185792 Cold? True Duration 0
+04:04:18,907 INFO Process 0 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_840 with sleep 840 func 010_sleep_nodejs_128_128_1_3_840
+04:04:18,907 INFO Process 2 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_840 with sleep 840 func 010_sleep_nodejs_128_128_1_3_840
+04:04:18,907 INFO Process 1 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_840 with sleep 840 func 010_sleep_nodejs_128_128_1_3_840
+04:04:18,907 INFO P 1 T 4 Sleep 840 F 010_sleep_nodejs_128_128_1_3_840 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_840
+04:04:18,907 INFO P 0 T 4 Sleep 840 F 010_sleep_nodejs_128_128_1_3_840 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_840
+04:04:18,907 INFO P 2 T 4 Sleep 840 F 010_sleep_nodejs_128_128_1_3_840 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_840
+04:04:20,479 INFO Processed request! Tid: 4 Start 1580612658.908147 End 1580612660.479150 Cold? True Duration 0
+04:04:20,480 INFO Processed request! Tid: 4 Start 1580612658.908148 End 1580612660.480804 Cold? True Duration 0
+04:04:20,487 INFO Processed request! Tid: 4 Start 1580612658.908088 End 1580612660.487234 Cold? True Duration 0
+04:04:29,9 INFO Process 1 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_780 with sleep 780 func 010_sleep_nodejs_128_128_1_3_780
+04:04:29,9 INFO Process 2 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_780 with sleep 780 func 010_sleep_nodejs_128_128_1_3_780
+04:04:29,9 INFO Process 0 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_780 with sleep 780 func 010_sleep_nodejs_128_128_1_3_780
+04:04:29,9 INFO P 2 T 3 Sleep 780 F 010_sleep_nodejs_128_128_1_3_780 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_780
+04:04:29,9 INFO P 1 T 3 Sleep 780 F 010_sleep_nodejs_128_128_1_3_780 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_780
+04:04:29,9 INFO P 0 T 3 Sleep 780 F 010_sleep_nodejs_128_128_1_3_780 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_780
+04:04:30,556 INFO Processed request! Tid: 3 Start 1580612669.009327 End 1580612670.556374 Cold? True Duration 0
+04:04:30,584 INFO Processed request! Tid: 3 Start 1580612669.009504 End 1580612670.584887 Cold? True Duration 0
+04:04:30,620 INFO Processed request! Tid: 3 Start 1580612669.009490 End 1580612670.620284 Cold? True Duration 0
+04:04:39,110 INFO Process 0 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_660 with sleep 660 func 010_sleep_nodejs_128_128_1_3_660
+04:04:39,110 INFO Process 1 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_660 with sleep 660 func 010_sleep_nodejs_128_128_1_3_660
+04:04:39,110 INFO Process 2 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_660 with sleep 660 func 010_sleep_nodejs_128_128_1_3_660
+04:04:39,111 INFO P 0 T 2 Sleep 660 F 010_sleep_nodejs_128_128_1_3_660 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_660
+04:04:39,111 INFO P 2 T 2 Sleep 660 F 010_sleep_nodejs_128_128_1_3_660 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_660
+04:04:39,111 INFO P 1 T 2 Sleep 660 F 010_sleep_nodejs_128_128_1_3_660 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_660
+04:04:40,469 INFO Processed request! Tid: 2 Start 1580612679.111310 End 1580612680.469500 Cold? True Duration 0
+04:04:40,479 INFO Processed request! Tid: 2 Start 1580612679.111217 End 1580612680.479314 Cold? True Duration 0
+04:04:40,659 INFO Processed request! Tid: 2 Start 1580612679.111310 End 1580612680.659368 Cold? True Duration 0
+04:04:49,212 INFO Process 0 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_540 with sleep 540 func 010_sleep_nodejs_128_128_1_3_540
+04:04:49,212 INFO Process 1 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_540 with sleep 540 func 010_sleep_nodejs_128_128_1_3_540
+04:04:49,212 INFO Process 2 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_540 with sleep 540 func 010_sleep_nodejs_128_128_1_3_540
+04:04:49,213 INFO P 1 T 1 Sleep 540 F 010_sleep_nodejs_128_128_1_3_540 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_540
+04:04:49,213 INFO P 0 T 1 Sleep 540 F 010_sleep_nodejs_128_128_1_3_540 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_540
+04:04:49,213 INFO P 2 T 1 Sleep 540 F 010_sleep_nodejs_128_128_1_3_540 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_540
+04:04:50,573 INFO Processed request! Tid: 1 Start 1580612689.213430 End 1580612690.573580 Cold? True Duration 0
+04:04:50,575 INFO Processed request! Tid: 1 Start 1580612689.213134 End 1580612690.575337 Cold? True Duration 0
+04:04:50,747 INFO Processed request! Tid: 1 Start 1580612689.213132 End 1580612690.747754 Cold? True Duration 0
+04:04:59,310 INFO Process 0 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_420 with sleep 420 func 010_sleep_nodejs_128_128_1_3_420
+04:04:59,310 INFO P 0 T 0 Sleep 420 F 010_sleep_nodejs_128_128_1_3_420 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_420
+04:04:59,313 INFO Process 2 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_420 with sleep 420 func 010_sleep_nodejs_128_128_1_3_420
+04:04:59,313 INFO P 2 T 0 Sleep 420 F 010_sleep_nodejs_128_128_1_3_420 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_420
+04:04:59,314 INFO Process 1 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_420 with sleep 420 func 010_sleep_nodejs_128_128_1_3_420
+04:04:59,314 INFO P 1 T 0 Sleep 420 F 010_sleep_nodejs_128_128_1_3_420 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_420
+04:05:00,676 INFO Processed request! Tid: 0 Start 1580612699.314076 End 1580612700.676550 Cold? True Duration 0
+04:05:00,845 INFO Processed request! Tid: 0 Start 1580612699.314349 End 1580612700.845527 Cold? True Duration 0
+04:05:00,851 INFO Processed request! Tid: 0 Start 1580612699.310778 End 1580612700.851256 Cold? True Duration 0
+04:12:01,925 INFO Processed request! Tid: 0 Start 1580613120.776710 End 1580613121.924922 Cold? False Duration 0
+04:12:02,265 INFO Processed request! Tid: 0 Start 1580613120.924743 End 1580613122.265038 Cold? False Duration 0
+04:12:02,457 INFO Processed request! Tid: 0 Start 1580613120.925398 End 1580613122.457684 Cold? True Duration 0
+04:13:51,732 INFO Processed request! Tid: 1 Start 1580613230.584661 End 1580613231.732420 Cold? False Duration 0
+04:13:51,788 INFO Processed request! Tid: 1 Start 1580613230.644667 End 1580613231.788650 Cold? False Duration 0
+04:13:52,395 INFO Processed request! Tid: 1 Start 1580613230.847811 End 1580613232.395864 Cold? True Duration 0
+04:15:41,866 INFO Processed request! Tid: 2 Start 1580613340.516672 End 1580613341.866282 Cold? False Duration 0
+04:15:41,894 INFO Processed request! Tid: 2 Start 1580613340.549172 End 1580613341.894167 Cold? False Duration 0
+04:15:42,96 INFO Processed request! Tid: 2 Start 1580613340.749691 End 1580613342.096432 Cold? True Duration 0
+04:17:31,814 INFO Processed request! Tid: 3 Start 1580613450.658082 End 1580613451.814485 Cold? False Duration 0
+04:17:32,34 INFO Processed request! Tid: 3 Start 1580613450.684931 End 1580613452.034256 Cold? True Duration 0
+04:17:32,151 INFO Processed request! Tid: 3 Start 1580613450.612920 End 1580613452.151246 Cold? True Duration 0
+04:18:21,930 INFO Processed request! Tid: 4 Start 1580613500.577624 End 1580613501.930838 Cold? False Duration 0
+04:18:22,119 INFO Processed request! Tid: 4 Start 1580613500.577700 End 1580613502.119074 Cold? True Duration 0
+04:18:22,141 INFO Processed request! Tid: 4 Start 1580613500.526087 End 1580613502.140932 Cold? True Duration 0
+04:20:11,319 INFO Processed request! Tid: 5 Start 1580613610.152379 End 1580613611.319072 Cold? False Duration 0
+04:20:11,527 INFO Processed request! Tid: 5 Start 1580613610.186603 End 1580613611.527178 Cold? True Duration 0
+04:20:11,626 INFO Processed request! Tid: 5 Start 1580613610.252654 End 1580613611.626230 Cold? True Duration 0
+04:21:01,411 INFO Processed request! Tid: 6 Start 1580613660.253087 End 1580613661.411318 Cold? False Duration 0
+04:21:01,843 INFO Processed request! Tid: 6 Start 1580613660.103565 End 1580613661.843806 Cold? True Duration 0
+04:21:01,852 INFO Processed request! Tid: 6 Start 1580613660.313762 End 1580613661.852571 Cold? True Duration 0
+04:22:51,734 INFO Processed request! Tid: 7 Start 1580613770.155746 End 1580613771.734452 Cold? True Duration 0
+04:22:51,788 INFO Processed request! Tid: 7 Start 1580613770.245139 End 1580613771.788823 Cold? True Duration 0
+04:22:51,799 INFO Processed request! Tid: 7 Start 1580613770.259630 End 1580613771.799444 Cold? True Duration 0
+04:24:41,509 INFO Processed request! Tid: 8 Start 1580613880.126453 End 1580613881.508961 Cold? True Duration 0
+04:24:41,676 INFO Processed request! Tid: 8 Start 1580613880.126498 End 1580613881.676624 Cold? True Duration 0
+04:24:41,696 INFO Processed request! Tid: 8 Start 1580613880.134626 End 1580613881.696042 Cold? True Duration 0
+04:25:31,222 INFO Processed request! Tid: 9 Start 1580613929.843397 End 1580613931.222605 Cold? True Duration 0
+04:25:31,372 INFO Processed request! Tid: 9 Start 1580613929.843443 End 1580613931.372482 Cold? True Duration 0
+04:25:31,435 INFO Processed request! Tid: 9 Start 1580613929.844662 End 1580613931.435320 Cold? True Duration 0
+04:25:31,449 INFO Finished iteration 0
+04:26:03,496 INFO Updated 010_sleep_nodejs_128_128_1_3_420 to timeout 851
+04:26:03,638 INFO Updated 010_sleep_nodejs_128_128_1_3_540 to timeout 851
+04:26:03,780 INFO Updated 010_sleep_nodejs_128_128_1_3_660 to timeout 851
+04:26:03,919 INFO Updated 010_sleep_nodejs_128_128_1_3_780 to timeout 851
+04:26:04,58 INFO Updated 010_sleep_nodejs_128_128_1_3_840 to timeout 851
+04:26:04,202 INFO Updated 010_sleep_nodejs_128_128_1_3_960 to timeout 851
+04:26:04,339 INFO Updated 010_sleep_nodejs_128_128_1_3_1020 to timeout 851
+04:26:04,479 INFO Updated 010_sleep_nodejs_128_128_1_3_1140 to timeout 851
+04:26:04,617 INFO Updated 010_sleep_nodejs_128_128_1_3_1260 to timeout 851
+04:26:04,757 INFO Updated 010_sleep_nodejs_128_128_1_3_1320 to timeout 851
+04:26:04,757 INFO Dumped data
+04:26:04,768 INFO Process 0 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1320 with sleep 1320 func 010_sleep_nodejs_128_128_1_3_1320
+04:26:04,768 INFO P 0 T 9 Sleep 1320 F 010_sleep_nodejs_128_128_1_3_1320 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1320
+04:26:04,768 INFO Process 2 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1320 with sleep 1320 func 010_sleep_nodejs_128_128_1_3_1320
+04:26:04,769 INFO Process 1 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1320 with sleep 1320 func 010_sleep_nodejs_128_128_1_3_1320
+04:26:04,769 INFO P 2 T 9 Sleep 1320 F 010_sleep_nodejs_128_128_1_3_1320 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1320
+04:26:04,769 INFO P 1 T 9 Sleep 1320 F 010_sleep_nodejs_128_128_1_3_1320 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1320
+04:26:06,127 INFO Processed request! Tid: 9 Start 1580613964.769008 End 1580613966.127559 Cold? True Duration 0
+04:26:06,311 INFO Processed request! Tid: 9 Start 1580613964.769320 End 1580613966.311648 Cold? True Duration 0
+04:26:06,321 INFO Processed request! Tid: 9 Start 1580613964.769242 End 1580613966.320948 Cold? True Duration 0
+04:26:14,870 INFO Process 0 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1260 with sleep 1260 func 010_sleep_nodejs_128_128_1_3_1260
+04:26:14,870 INFO Process 2 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1260 with sleep 1260 func 010_sleep_nodejs_128_128_1_3_1260
+04:26:14,870 INFO Process 1 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1260 with sleep 1260 func 010_sleep_nodejs_128_128_1_3_1260
+04:26:14,870 INFO P 2 T 8 Sleep 1260 F 010_sleep_nodejs_128_128_1_3_1260 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1260
+04:26:14,870 INFO P 0 T 8 Sleep 1260 F 010_sleep_nodejs_128_128_1_3_1260 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1260
+04:26:14,871 INFO P 1 T 8 Sleep 1260 F 010_sleep_nodejs_128_128_1_3_1260 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1260
+04:26:16,199 INFO Processed request! Tid: 8 Start 1580613974.870979 End 1580613976.199876 Cold? True Duration 0
+04:26:16,225 INFO Processed request! Tid: 8 Start 1580613974.871462 End 1580613976.225046 Cold? True Duration 0
+04:26:16,440 INFO Processed request! Tid: 8 Start 1580613974.870979 End 1580613976.440298 Cold? True Duration 0
+04:26:24,971 INFO Process 1 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1140 with sleep 1140 func 010_sleep_nodejs_128_128_1_3_1140
+04:26:24,971 INFO Process 0 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1140 with sleep 1140 func 010_sleep_nodejs_128_128_1_3_1140
+04:26:24,971 INFO Process 2 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1140 with sleep 1140 func 010_sleep_nodejs_128_128_1_3_1140
+04:26:24,972 INFO P 1 T 7 Sleep 1140 F 010_sleep_nodejs_128_128_1_3_1140 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1140
+04:26:24,972 INFO P 2 T 7 Sleep 1140 F 010_sleep_nodejs_128_128_1_3_1140 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1140
+04:26:24,972 INFO P 0 T 7 Sleep 1140 F 010_sleep_nodejs_128_128_1_3_1140 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1140
+04:26:26,513 INFO Processed request! Tid: 7 Start 1580613984.972668 End 1580613986.512936 Cold? True Duration 0
+04:26:26,523 INFO Processed request! Tid: 7 Start 1580613984.972659 End 1580613986.523899 Cold? True Duration 0
+04:26:26,962 INFO Processed request! Tid: 7 Start 1580613984.972643 End 1580613986.962074 Cold? True Duration 0
+04:26:35,73 INFO Process 1 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1020 with sleep 1020 func 010_sleep_nodejs_128_128_1_3_1020
+04:26:35,73 INFO Process 0 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1020 with sleep 1020 func 010_sleep_nodejs_128_128_1_3_1020
+04:26:35,73 INFO Process 2 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1020 with sleep 1020 func 010_sleep_nodejs_128_128_1_3_1020
+04:26:35,74 INFO P 1 T 6 Sleep 1020 F 010_sleep_nodejs_128_128_1_3_1020 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1020
+04:26:35,74 INFO P 0 T 6 Sleep 1020 F 010_sleep_nodejs_128_128_1_3_1020 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1020
+04:26:35,74 INFO P 2 T 6 Sleep 1020 F 010_sleep_nodejs_128_128_1_3_1020 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1020
+04:26:36,420 INFO Processed request! Tid: 6 Start 1580613995.074267 End 1580613996.420206 Cold? True Duration 0
+04:26:36,442 INFO Processed request! Tid: 6 Start 1580613995.074638 End 1580613996.442892 Cold? True Duration 0
+04:26:36,610 INFO Processed request! Tid: 6 Start 1580613995.074288 End 1580613996.610416 Cold? True Duration 0
+04:26:45,175 INFO Process 1 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_960 with sleep 960 func 010_sleep_nodejs_128_128_1_3_960
+04:26:45,175 INFO Process 2 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_960 with sleep 960 func 010_sleep_nodejs_128_128_1_3_960
+04:26:45,175 INFO Process 0 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_960 with sleep 960 func 010_sleep_nodejs_128_128_1_3_960
+04:26:45,175 INFO P 1 T 5 Sleep 960 F 010_sleep_nodejs_128_128_1_3_960 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_960
+04:26:45,175 INFO P 2 T 5 Sleep 960 F 010_sleep_nodejs_128_128_1_3_960 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_960
+04:26:45,176 INFO P 0 T 5 Sleep 960 F 010_sleep_nodejs_128_128_1_3_960 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_960
+04:26:46,712 INFO Processed request! Tid: 5 Start 1580614005.175879 End 1580614006.712227 Cold? True Duration 0
+04:26:46,716 INFO Processed request! Tid: 5 Start 1580614005.175930 End 1580614006.716172 Cold? True Duration 0
+04:26:46,720 INFO Processed request! Tid: 5 Start 1580614005.176295 End 1580614006.720877 Cold? True Duration 0
+04:26:55,276 INFO Process 1 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_840 with sleep 840 func 010_sleep_nodejs_128_128_1_3_840
+04:26:55,276 INFO Process 0 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_840 with sleep 840 func 010_sleep_nodejs_128_128_1_3_840
+04:26:55,276 INFO Process 2 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_840 with sleep 840 func 010_sleep_nodejs_128_128_1_3_840
+04:26:55,277 INFO P 0 T 4 Sleep 840 F 010_sleep_nodejs_128_128_1_3_840 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_840
+04:26:55,277 INFO P 1 T 4 Sleep 840 F 010_sleep_nodejs_128_128_1_3_840 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_840
+04:26:55,277 INFO P 2 T 4 Sleep 840 F 010_sleep_nodejs_128_128_1_3_840 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_840
+04:26:56,665 INFO Processed request! Tid: 4 Start 1580614015.277591 End 1580614016.665078 Cold? True Duration 0
+04:26:56,801 INFO Processed request! Tid: 4 Start 1580614015.277560 End 1580614016.801508 Cold? True Duration 0
+04:26:56,833 INFO Processed request! Tid: 4 Start 1580614015.277540 End 1580614016.833056 Cold? True Duration 0
+04:27:05,378 INFO Process 0 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_780 with sleep 780 func 010_sleep_nodejs_128_128_1_3_780
+04:27:05,378 INFO Process 1 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_780 with sleep 780 func 010_sleep_nodejs_128_128_1_3_780
+04:27:05,378 INFO Process 2 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_780 with sleep 780 func 010_sleep_nodejs_128_128_1_3_780
+04:27:05,379 INFO P 2 T 3 Sleep 780 F 010_sleep_nodejs_128_128_1_3_780 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_780
+04:27:05,379 INFO P 1 T 3 Sleep 780 F 010_sleep_nodejs_128_128_1_3_780 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_780
+04:27:05,379 INFO P 0 T 3 Sleep 780 F 010_sleep_nodejs_128_128_1_3_780 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_780
+04:27:06,748 INFO Processed request! Tid: 3 Start 1580614025.379397 End 1580614026.748550 Cold? True Duration 0
+04:27:06,917 INFO Processed request! Tid: 3 Start 1580614025.379410 End 1580614026.917600 Cold? True Duration 0
+04:27:08,595 INFO Processed request! Tid: 3 Start 1580614025.379828 End 1580614028.595579 Cold? True Duration 0
+04:27:15,480 INFO Process 0 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_660 with sleep 660 func 010_sleep_nodejs_128_128_1_3_660
+04:27:15,480 INFO Process 1 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_660 with sleep 660 func 010_sleep_nodejs_128_128_1_3_660
+04:27:15,480 INFO Process 2 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_660 with sleep 660 func 010_sleep_nodejs_128_128_1_3_660
+04:27:15,480 INFO P 0 T 2 Sleep 660 F 010_sleep_nodejs_128_128_1_3_660 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_660
+04:27:15,480 INFO P 1 T 2 Sleep 660 F 010_sleep_nodejs_128_128_1_3_660 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_660
+04:27:15,480 INFO P 2 T 2 Sleep 660 F 010_sleep_nodejs_128_128_1_3_660 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_660
+04:27:16,876 INFO Processed request! Tid: 2 Start 1580614035.480892 End 1580614036.876663 Cold? True Duration 0
+04:27:17,18 INFO Processed request! Tid: 2 Start 1580614035.480857 End 1580614037.018756 Cold? True Duration 0
+04:27:17,26 INFO Processed request! Tid: 2 Start 1580614035.480924 End 1580614037.026642 Cold? True Duration 0
+04:27:25,581 INFO Process 0 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_540 with sleep 540 func 010_sleep_nodejs_128_128_1_3_540
+04:27:25,581 INFO Process 1 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_540 with sleep 540 func 010_sleep_nodejs_128_128_1_3_540
+04:27:25,581 INFO Process 2 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_540 with sleep 540 func 010_sleep_nodejs_128_128_1_3_540
+04:27:25,582 INFO P 0 T 1 Sleep 540 F 010_sleep_nodejs_128_128_1_3_540 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_540
+04:27:25,582 INFO P 1 T 1 Sleep 540 F 010_sleep_nodejs_128_128_1_3_540 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_540
+04:27:25,582 INFO P 2 T 1 Sleep 540 F 010_sleep_nodejs_128_128_1_3_540 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_540
+04:27:27,133 INFO Processed request! Tid: 1 Start 1580614045.582772 End 1580614047.133400 Cold? True Duration 0
+04:27:27,134 INFO Processed request! Tid: 1 Start 1580614045.582857 End 1580614047.134514 Cold? True Duration 0
+04:27:27,164 INFO Processed request! Tid: 1 Start 1580614045.582772 End 1580614047.164499 Cold? True Duration 0
+04:27:35,680 INFO Process 2 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_420 with sleep 420 func 010_sleep_nodejs_128_128_1_3_420
+04:27:35,680 INFO Process 1 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_420 with sleep 420 func 010_sleep_nodejs_128_128_1_3_420
+04:27:35,681 INFO P 1 T 0 Sleep 420 F 010_sleep_nodejs_128_128_1_3_420 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_420
+04:27:35,681 INFO P 2 T 0 Sleep 420 F 010_sleep_nodejs_128_128_1_3_420 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_420
+04:27:35,683 INFO Process 0 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_420 with sleep 420 func 010_sleep_nodejs_128_128_1_3_420
+04:27:35,683 INFO P 0 T 0 Sleep 420 F 010_sleep_nodejs_128_128_1_3_420 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_420
+04:27:37,225 INFO Processed request! Tid: 0 Start 1580614055.683997 End 1580614057.224967 Cold? True Duration 0
+04:27:37,229 INFO Processed request! Tid: 0 Start 1580614055.681246 End 1580614057.229632 Cold? True Duration 0
+04:27:37,249 INFO Processed request! Tid: 0 Start 1580614055.681246 End 1580614057.249144 Cold? True Duration 0
+04:34:38,452 INFO Processed request! Tid: 0 Start 1580614477.295933 End 1580614478.452843 Cold? False Duration 0
+04:34:38,661 INFO Processed request! Tid: 0 Start 1580614477.314423 End 1580614478.660979 Cold? False Duration 0
+04:34:38,890 INFO Processed request! Tid: 0 Start 1580614477.329689 End 1580614478.890872 Cold? True Duration 0
+04:36:28,331 INFO Processed request! Tid: 1 Start 1580614587.180277 End 1580614588.331460 Cold? False Duration 0
+04:36:28,528 INFO Processed request! Tid: 1 Start 1580614587.179861 End 1580614588.528083 Cold? False Duration 0
+04:36:28,743 INFO Processed request! Tid: 1 Start 1580614587.180225 End 1580614588.743340 Cold? True Duration 0
+04:38:18,212 INFO Processed request! Tid: 2 Start 1580614697.053111 End 1580614698.212196 Cold? False Duration 0
+04:38:18,219 INFO Processed request! Tid: 2 Start 1580614697.053883 End 1580614698.219312 Cold? False Duration 0
+04:38:18,544 INFO Processed request! Tid: 2 Start 1580614696.953651 End 1580614698.544785 Cold? True Duration 0
+04:40:08,201 INFO Processed request! Tid: 3 Start 1580614806.826586 End 1580614808.201531 Cold? False Duration 0
+04:40:08,457 INFO Processed request! Tid: 3 Start 1580614806.926049 End 1580614808.457843 Cold? True Duration 0
+04:40:09,974 INFO Processed request! Tid: 3 Start 1580614808.630895 End 1580614809.974095 Cold? False Duration 0
+04:40:57,998 INFO Processed request! Tid: 4 Start 1580614856.849750 End 1580614857.998338 Cold? False Duration 0
+04:40:58,289 INFO Processed request! Tid: 4 Start 1580614856.749352 End 1580614858.289077 Cold? True Duration 0
+04:40:58,441 INFO Processed request! Tid: 4 Start 1580614856.881639 End 1580614858.441248 Cold? True Duration 0
+04:42:47,883 INFO Processed request! Tid: 5 Start 1580614966.724006 End 1580614967.883323 Cold? False Duration 0
+04:42:48,277 INFO Processed request! Tid: 5 Start 1580614966.723944 End 1580614968.277184 Cold? True Duration 0
+04:42:48,293 INFO Processed request! Tid: 5 Start 1580614966.724009 End 1580614968.293073 Cold? True Duration 0
+04:43:37,790 INFO Processed request! Tid: 6 Start 1580615016.638291 End 1580615017.790515 Cold? False Duration 0
+04:43:38,97 INFO Processed request! Tid: 6 Start 1580615016.538172 End 1580615018.096919 Cold? True Duration 0
+04:43:38,101 INFO Processed request! Tid: 6 Start 1580615016.516670 End 1580615018.100954 Cold? True Duration 0
+04:45:27,958 INFO Processed request! Tid: 7 Start 1580615126.614980 End 1580615127.958029 Cold? True Duration 0
+04:45:28,74 INFO Processed request! Tid: 7 Start 1580615126.514949 End 1580615128.074859 Cold? True Duration 0
+04:45:28,407 INFO Processed request! Tid: 7 Start 1580615127.015959 End 1580615128.407042 Cold? True Duration 0
+04:47:17,672 INFO Processed request! Tid: 8 Start 1580615236.267366 End 1580615237.672069 Cold? True Duration 0
+04:47:17,848 INFO Processed request! Tid: 8 Start 1580615236.267203 End 1580615237.848027 Cold? True Duration 0
+04:47:17,893 INFO Processed request! Tid: 8 Start 1580615236.540455 End 1580615237.892967 Cold? True Duration 0
+04:48:07,732 INFO Processed request! Tid: 9 Start 1580615286.178917 End 1580615287.732848 Cold? True Duration 0
+04:48:07,753 INFO Processed request! Tid: 9 Start 1580615286.379363 End 1580615287.753691 Cold? True Duration 0
+04:48:07,912 INFO Processed request! Tid: 9 Start 1580615286.379363 End 1580615287.912775 Cold? True Duration 0
+04:48:07,983 INFO Finished iteration 1
+04:48:39,964 INFO Updated 010_sleep_nodejs_128_128_1_3_420 to timeout 852
+04:48:40,99 INFO Updated 010_sleep_nodejs_128_128_1_3_540 to timeout 852
+04:48:40,234 INFO Updated 010_sleep_nodejs_128_128_1_3_660 to timeout 852
+04:48:40,369 INFO Updated 010_sleep_nodejs_128_128_1_3_780 to timeout 852
+04:48:40,501 INFO Updated 010_sleep_nodejs_128_128_1_3_840 to timeout 852
+04:48:40,641 INFO Updated 010_sleep_nodejs_128_128_1_3_960 to timeout 852
+04:48:40,775 INFO Updated 010_sleep_nodejs_128_128_1_3_1020 to timeout 852
+04:48:40,907 INFO Updated 010_sleep_nodejs_128_128_1_3_1140 to timeout 852
+04:48:41,40 INFO Updated 010_sleep_nodejs_128_128_1_3_1260 to timeout 852
+04:48:41,330 INFO Updated 010_sleep_nodejs_128_128_1_3_1320 to timeout 852
+04:48:41,330 INFO Dumped data
+04:48:41,344 INFO Process 0 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1320 with sleep 1320 func 010_sleep_nodejs_128_128_1_3_1320
+04:48:41,344 INFO P 0 T 9 Sleep 1320 F 010_sleep_nodejs_128_128_1_3_1320 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1320
+04:48:41,344 INFO Process 1 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1320 with sleep 1320 func 010_sleep_nodejs_128_128_1_3_1320
+04:48:41,344 INFO P 1 T 9 Sleep 1320 F 010_sleep_nodejs_128_128_1_3_1320 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1320
+04:48:41,344 INFO Process 2 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1320 with sleep 1320 func 010_sleep_nodejs_128_128_1_3_1320
+04:48:41,344 INFO P 2 T 9 Sleep 1320 F 010_sleep_nodejs_128_128_1_3_1320 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1320
+04:48:42,738 INFO Processed request! Tid: 9 Start 1580615321.344328 End 1580615322.738783 Cold? True Duration 0
+04:48:42,906 INFO Processed request! Tid: 9 Start 1580615321.344795 End 1580615322.906190 Cold? True Duration 0
+04:48:42,917 INFO Processed request! Tid: 9 Start 1580615321.344914 End 1580615322.917856 Cold? True Duration 0
+04:48:51,445 INFO Process 0 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1260 with sleep 1260 func 010_sleep_nodejs_128_128_1_3_1260
+04:48:51,445 INFO Process 2 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1260 with sleep 1260 func 010_sleep_nodejs_128_128_1_3_1260
+04:48:51,445 INFO P 0 T 8 Sleep 1260 F 010_sleep_nodejs_128_128_1_3_1260 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1260
+04:48:51,445 INFO Process 1 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1260 with sleep 1260 func 010_sleep_nodejs_128_128_1_3_1260
+04:48:51,446 INFO P 2 T 8 Sleep 1260 F 010_sleep_nodejs_128_128_1_3_1260 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1260
+04:48:51,446 INFO P 1 T 8 Sleep 1260 F 010_sleep_nodejs_128_128_1_3_1260 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1260
+04:48:52,826 INFO Processed request! Tid: 8 Start 1580615331.445975 End 1580615332.826220 Cold? True Duration 0
+04:48:53,14 INFO Processed request! Tid: 8 Start 1580615331.446230 End 1580615333.014273 Cold? True Duration 0
+04:48:53,27 INFO Processed request! Tid: 8 Start 1580615331.446210 End 1580615333.027373 Cold? True Duration 0
+04:49:01,547 INFO Process 0 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1140 with sleep 1140 func 010_sleep_nodejs_128_128_1_3_1140
+04:49:01,547 INFO Process 2 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1140 with sleep 1140 func 010_sleep_nodejs_128_128_1_3_1140
+04:49:01,547 INFO Process 1 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1140 with sleep 1140 func 010_sleep_nodejs_128_128_1_3_1140
+04:49:01,547 INFO P 2 T 7 Sleep 1140 F 010_sleep_nodejs_128_128_1_3_1140 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1140
+04:49:01,547 INFO P 1 T 7 Sleep 1140 F 010_sleep_nodejs_128_128_1_3_1140 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1140
+04:49:01,547 INFO P 0 T 7 Sleep 1140 F 010_sleep_nodejs_128_128_1_3_1140 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1140
+04:49:03,90 INFO Processed request! Tid: 7 Start 1580615341.547700 End 1580615343.090257 Cold? True Duration 0
+04:49:03,107 INFO Processed request! Tid: 7 Start 1580615341.547946 End 1580615343.107341 Cold? True Duration 0
+04:49:03,120 INFO Processed request! Tid: 7 Start 1580615341.547700 End 1580615343.120345 Cold? True Duration 0
+04:49:11,648 INFO Process 0 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1020 with sleep 1020 func 010_sleep_nodejs_128_128_1_3_1020
+04:49:11,648 INFO Process 1 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1020 with sleep 1020 func 010_sleep_nodejs_128_128_1_3_1020
+04:49:11,648 INFO Process 2 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1020 with sleep 1020 func 010_sleep_nodejs_128_128_1_3_1020
+04:49:11,649 INFO P 0 T 6 Sleep 1020 F 010_sleep_nodejs_128_128_1_3_1020 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1020
+04:49:11,649 INFO P 2 T 6 Sleep 1020 F 010_sleep_nodejs_128_128_1_3_1020 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1020
+04:49:11,649 INFO P 1 T 6 Sleep 1020 F 010_sleep_nodejs_128_128_1_3_1020 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1020
+04:49:13,234 INFO Processed request! Tid: 6 Start 1580615351.649367 End 1580615353.234348 Cold? True Duration 0
+04:49:13,238 INFO Processed request! Tid: 6 Start 1580615351.649720 End 1580615353.238153 Cold? True Duration 0
+04:49:13,258 INFO Processed request! Tid: 6 Start 1580615351.649230 End 1580615353.258303 Cold? True Duration 0
+04:49:21,750 INFO Process 0 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_960 with sleep 960 func 010_sleep_nodejs_128_128_1_3_960
+04:49:21,750 INFO Process 1 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_960 with sleep 960 func 010_sleep_nodejs_128_128_1_3_960
+04:49:21,750 INFO Process 2 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_960 with sleep 960 func 010_sleep_nodejs_128_128_1_3_960
+04:49:21,750 INFO P 0 T 5 Sleep 960 F 010_sleep_nodejs_128_128_1_3_960 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_960
+04:49:21,750 INFO P 1 T 5 Sleep 960 F 010_sleep_nodejs_128_128_1_3_960 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_960
+04:49:21,750 INFO P 2 T 5 Sleep 960 F 010_sleep_nodejs_128_128_1_3_960 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_960
+04:49:23,318 INFO Processed request! Tid: 5 Start 1580615361.750725 End 1580615363.318188 Cold? True Duration 0
+04:49:23,339 INFO Processed request! Tid: 5 Start 1580615361.750820 End 1580615363.339223 Cold? True Duration 0
+04:49:23,363 INFO Processed request! Tid: 5 Start 1580615361.750792 End 1580615363.363408 Cold? True Duration 0
+04:49:31,851 INFO Process 0 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_840 with sleep 840 func 010_sleep_nodejs_128_128_1_3_840
+04:49:31,851 INFO Process 2 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_840 with sleep 840 func 010_sleep_nodejs_128_128_1_3_840
+04:49:31,851 INFO Process 1 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_840 with sleep 840 func 010_sleep_nodejs_128_128_1_3_840
+04:49:31,852 INFO P 1 T 4 Sleep 840 F 010_sleep_nodejs_128_128_1_3_840 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_840
+04:49:31,852 INFO P 0 T 4 Sleep 840 F 010_sleep_nodejs_128_128_1_3_840 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_840
+04:49:31,852 INFO P 2 T 4 Sleep 840 F 010_sleep_nodejs_128_128_1_3_840 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_840
+04:49:33,227 INFO Processed request! Tid: 4 Start 1580615371.852175 End 1580615373.227789 Cold? True Duration 0
+04:49:33,369 INFO Processed request! Tid: 4 Start 1580615371.852274 End 1580615373.369632 Cold? True Duration 0
+04:49:33,417 INFO Processed request! Tid: 4 Start 1580615371.852218 End 1580615373.417424 Cold? True Duration 0
+04:49:41,953 INFO Process 0 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_780 with sleep 780 func 010_sleep_nodejs_128_128_1_3_780
+04:49:41,953 INFO Process 1 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_780 with sleep 780 func 010_sleep_nodejs_128_128_1_3_780
+04:49:41,953 INFO Process 2 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_780 with sleep 780 func 010_sleep_nodejs_128_128_1_3_780
+04:49:41,954 INFO P 2 T 3 Sleep 780 F 010_sleep_nodejs_128_128_1_3_780 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_780
+04:49:41,954 INFO P 1 T 3 Sleep 780 F 010_sleep_nodejs_128_128_1_3_780 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_780
+04:49:41,954 INFO P 0 T 3 Sleep 780 F 010_sleep_nodejs_128_128_1_3_780 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_780
+04:49:43,525 INFO Processed request! Tid: 3 Start 1580615381.954174 End 1580615383.525808 Cold? True Duration 0
+04:49:43,566 INFO Processed request! Tid: 3 Start 1580615381.954131 End 1580615383.566598 Cold? True Duration 0
+04:49:43,581 INFO Processed request! Tid: 3 Start 1580615381.954174 End 1580615383.581749 Cold? True Duration 0
+04:49:52,55 INFO Process 0 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_660 with sleep 660 func 010_sleep_nodejs_128_128_1_3_660
+04:49:52,55 INFO Process 1 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_660 with sleep 660 func 010_sleep_nodejs_128_128_1_3_660
+04:49:52,55 INFO Process 2 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_660 with sleep 660 func 010_sleep_nodejs_128_128_1_3_660
+04:49:52,55 INFO P 0 T 2 Sleep 660 F 010_sleep_nodejs_128_128_1_3_660 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_660
+04:49:52,55 INFO P 2 T 2 Sleep 660 F 010_sleep_nodejs_128_128_1_3_660 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_660
+04:49:52,55 INFO P 1 T 2 Sleep 660 F 010_sleep_nodejs_128_128_1_3_660 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_660
+04:49:53,613 INFO Processed request! Tid: 2 Start 1580615392.055568 End 1580615393.613656 Cold? True Duration 0
+04:49:53,623 INFO Processed request! Tid: 2 Start 1580615392.055844 End 1580615393.623825 Cold? True Duration 0
+04:49:53,626 INFO Processed request! Tid: 2 Start 1580615392.055578 End 1580615393.626276 Cold? True Duration 0
+04:50:02,156 INFO Process 0 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_540 with sleep 540 func 010_sleep_nodejs_128_128_1_3_540
+04:50:02,156 INFO Process 1 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_540 with sleep 540 func 010_sleep_nodejs_128_128_1_3_540
+04:50:02,156 INFO Process 2 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_540 with sleep 540 func 010_sleep_nodejs_128_128_1_3_540
+04:50:02,157 INFO P 0 T 1 Sleep 540 F 010_sleep_nodejs_128_128_1_3_540 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_540
+04:50:02,157 INFO P 2 T 1 Sleep 540 F 010_sleep_nodejs_128_128_1_3_540 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_540
+04:50:02,157 INFO P 1 T 1 Sleep 540 F 010_sleep_nodejs_128_128_1_3_540 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_540
+04:50:03,703 INFO Processed request! Tid: 1 Start 1580615402.157527 End 1580615403.703089 Cold? True Duration 0
+04:50:03,710 INFO Processed request! Tid: 1 Start 1580615402.157268 End 1580615403.710898 Cold? True Duration 0
+04:50:03,717 INFO Processed request! Tid: 1 Start 1580615402.157263 End 1580615403.717641 Cold? True Duration 0
+04:50:12,251 INFO Process 1 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_420 with sleep 420 func 010_sleep_nodejs_128_128_1_3_420
+04:50:12,252 INFO Process 2 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_420 with sleep 420 func 010_sleep_nodejs_128_128_1_3_420
+04:50:12,252 INFO P 2 T 0 Sleep 420 F 010_sleep_nodejs_128_128_1_3_420 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_420
+04:50:12,252 INFO P 1 T 0 Sleep 420 F 010_sleep_nodejs_128_128_1_3_420 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_420
+04:50:12,257 INFO Process 0 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_420 with sleep 420 func 010_sleep_nodejs_128_128_1_3_420
+04:50:12,257 INFO P 0 T 0 Sleep 420 F 010_sleep_nodejs_128_128_1_3_420 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_420
+04:50:13,595 INFO Processed request! Tid: 0 Start 1580615412.252807 End 1580615413.595896 Cold? True Duration 0
+04:50:13,619 INFO Processed request! Tid: 0 Start 1580615412.252807 End 1580615413.619107 Cold? True Duration 0
+04:50:13,781 INFO Processed request! Tid: 0 Start 1580615412.257930 End 1580615413.781039 Cold? True Duration 0
+04:57:14,811 INFO Processed request! Tid: 0 Start 1580615833.638030 End 1580615834.811141 Cold? False Duration 0
+04:57:15,24 INFO Processed request! Tid: 0 Start 1580615833.684779 End 1580615835.024318 Cold? False Duration 0
+04:57:15,394 INFO Processed request! Tid: 0 Start 1580615833.838401 End 1580615835.394145 Cold? True Duration 0
+04:59:04,891 INFO Processed request! Tid: 1 Start 1580615943.719636 End 1580615944.891279 Cold? False Duration 0
+04:59:05,80 INFO Processed request! Tid: 1 Start 1580615943.705191 End 1580615945.080677 Cold? False Duration 0
+04:59:05,378 INFO Processed request! Tid: 1 Start 1580615943.805512 End 1580615945.378877 Cold? True Duration 0
+05:00:55,45 INFO Processed request! Tid: 2 Start 1580616053.666797 End 1580616055.045069 Cold? False Duration 0
+05:00:55,47 INFO Processed request! Tid: 2 Start 1580616053.684778 End 1580616055.047867 Cold? False Duration 0
+05:00:55,305 INFO Processed request! Tid: 2 Start 1580616053.723658 End 1580616055.305748 Cold? True Duration 0
+05:02:44,895 INFO Processed request! Tid: 3 Start 1580616163.547140 End 1580616164.895513 Cold? False Duration 0
+05:02:45,119 INFO Processed request! Tid: 3 Start 1580616163.579759 End 1580616165.119678 Cold? True Duration 0
+05:02:45,175 INFO Processed request! Tid: 3 Start 1580616163.647367 End 1580616165.175481 Cold? True Duration 0
+05:03:34,620 INFO Processed request! Tid: 4 Start 1580616213.462839 End 1580616214.620471 Cold? False Duration 0
+05:03:34,807 INFO Processed request! Tid: 4 Start 1580616213.462839 End 1580616214.807197 Cold? True Duration 0
+05:03:34,881 INFO Processed request! Tid: 4 Start 1580616213.319766 End 1580616214.881713 Cold? True Duration 0
+05:05:24,503 INFO Processed request! Tid: 5 Start 1580616323.349962 End 1580616324.503408 Cold? False Duration 0
+05:05:24,799 INFO Processed request! Tid: 5 Start 1580616323.463551 End 1580616324.799131 Cold? True Duration 0
+05:05:24,968 INFO Processed request! Tid: 5 Start 1580616323.398182 End 1580616324.968114 Cold? True Duration 0
+05:06:14,451 INFO Processed request! Tid: 6 Start 1580616373.273525 End 1580616374.451868 Cold? True Duration 0
+05:06:14,661 INFO Processed request! Tid: 6 Start 1580616373.313588 End 1580616374.661321 Cold? True Duration 0
+05:06:14,909 INFO Processed request! Tid: 6 Start 1580616373.358332 End 1580616374.909903 Cold? True Duration 0
+05:08:04,573 INFO Processed request! Tid: 7 Start 1580616483.190414 End 1580616484.573844 Cold? True Duration 0
+05:08:04,736 INFO Processed request! Tid: 7 Start 1580616483.171348 End 1580616484.736473 Cold? True Duration 0
+05:08:04,757 INFO Processed request! Tid: 7 Start 1580616483.207367 End 1580616484.757111 Cold? True Duration 0
+05:09:54,375 INFO Processed request! Tid: 8 Start 1580616593.039663 End 1580616594.375392 Cold? True Duration 0
+05:09:54,429 INFO Processed request! Tid: 8 Start 1580616592.829493 End 1580616594.429365 Cold? True Duration 0
+05:09:54,567 INFO Processed request! Tid: 8 Start 1580616593.029944 End 1580616594.567434 Cold? True Duration 0
+05:10:44,390 INFO Processed request! Tid: 9 Start 1580616642.838840 End 1580616644.390763 Cold? True Duration 0
+05:10:44,489 INFO Processed request! Tid: 9 Start 1580616642.951306 End 1580616644.489049 Cold? True Duration 0
+05:10:44,511 INFO Processed request! Tid: 9 Start 1580616642.951238 End 1580616644.511817 Cold? True Duration 0
+05:10:44,555 INFO Finished iteration 2
+05:11:16,502 INFO Updated 010_sleep_nodejs_128_128_1_3_420 to timeout 853
+05:11:16,636 INFO Updated 010_sleep_nodejs_128_128_1_3_540 to timeout 853
+05:11:16,781 INFO Updated 010_sleep_nodejs_128_128_1_3_660 to timeout 853
+05:11:16,917 INFO Updated 010_sleep_nodejs_128_128_1_3_780 to timeout 853
+05:11:17,54 INFO Updated 010_sleep_nodejs_128_128_1_3_840 to timeout 853
+05:11:17,190 INFO Updated 010_sleep_nodejs_128_128_1_3_960 to timeout 853
+05:11:17,326 INFO Updated 010_sleep_nodejs_128_128_1_3_1020 to timeout 853
+05:11:17,461 INFO Updated 010_sleep_nodejs_128_128_1_3_1140 to timeout 853
+05:11:17,597 INFO Updated 010_sleep_nodejs_128_128_1_3_1260 to timeout 853
+05:11:17,732 INFO Updated 010_sleep_nodejs_128_128_1_3_1320 to timeout 853
+05:11:17,732 INFO Dumped data
+05:11:17,750 INFO Process 0 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1320 with sleep 1320 func 010_sleep_nodejs_128_128_1_3_1320
+05:11:17,750 INFO P 0 T 9 Sleep 1320 F 010_sleep_nodejs_128_128_1_3_1320 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1320
+05:11:17,750 INFO Process 2 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1320 with sleep 1320 func 010_sleep_nodejs_128_128_1_3_1320
+05:11:17,750 INFO Process 1 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1320 with sleep 1320 func 010_sleep_nodejs_128_128_1_3_1320
+05:11:17,750 INFO P 1 T 9 Sleep 1320 F 010_sleep_nodejs_128_128_1_3_1320 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1320
+05:11:17,750 INFO P 2 T 9 Sleep 1320 F 010_sleep_nodejs_128_128_1_3_1320 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1320
+05:11:19,119 INFO Processed request! Tid: 9 Start 1580616677.750583 End 1580616679.119388 Cold? True Duration 0
+05:11:19,143 INFO Processed request! Tid: 9 Start 1580616677.750609 End 1580616679.142993 Cold? True Duration 0
+05:11:19,323 INFO Processed request! Tid: 9 Start 1580616677.750333 End 1580616679.323035 Cold? True Duration 0
+05:11:27,851 INFO Process 0 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1260 with sleep 1260 func 010_sleep_nodejs_128_128_1_3_1260
+05:11:27,851 INFO Process 2 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1260 with sleep 1260 func 010_sleep_nodejs_128_128_1_3_1260
+05:11:27,851 INFO Process 1 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1260 with sleep 1260 func 010_sleep_nodejs_128_128_1_3_1260
+05:11:27,851 INFO P 1 T 8 Sleep 1260 F 010_sleep_nodejs_128_128_1_3_1260 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1260
+05:11:27,851 INFO P 2 T 8 Sleep 1260 F 010_sleep_nodejs_128_128_1_3_1260 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1260
+05:11:27,852 INFO P 0 T 8 Sleep 1260 F 010_sleep_nodejs_128_128_1_3_1260 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1260
+05:11:29,237 INFO Processed request! Tid: 8 Start 1580616687.852009 End 1580616689.237474 Cold? True Duration 0
+05:11:29,394 INFO Processed request! Tid: 8 Start 1580616687.852277 End 1580616689.394251 Cold? True Duration 0
+05:11:29,411 INFO Processed request! Tid: 8 Start 1580616687.852052 End 1580616689.411363 Cold? True Duration 0
+05:11:37,953 INFO Process 0 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1140 with sleep 1140 func 010_sleep_nodejs_128_128_1_3_1140
+05:11:37,953 INFO Process 1 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1140 with sleep 1140 func 010_sleep_nodejs_128_128_1_3_1140
+05:11:37,953 INFO Process 2 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1140 with sleep 1140 func 010_sleep_nodejs_128_128_1_3_1140
+05:11:37,953 INFO P 0 T 7 Sleep 1140 F 010_sleep_nodejs_128_128_1_3_1140 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1140
+05:11:37,953 INFO P 2 T 7 Sleep 1140 F 010_sleep_nodejs_128_128_1_3_1140 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1140
+05:11:37,953 INFO P 1 T 7 Sleep 1140 F 010_sleep_nodejs_128_128_1_3_1140 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1140
+05:11:39,503 INFO Processed request! Tid: 7 Start 1580616697.953803 End 1580616699.503757 Cold? True Duration 0
+05:11:39,503 INFO Processed request! Tid: 7 Start 1580616697.953805 End 1580616699.503757 Cold? True Duration 0
+05:11:39,520 INFO Processed request! Tid: 7 Start 1580616697.953831 End 1580616699.520071 Cold? True Duration 0
+05:11:48,54 INFO Process 0 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1020 with sleep 1020 func 010_sleep_nodejs_128_128_1_3_1020
+05:11:48,54 INFO Process 2 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1020 with sleep 1020 func 010_sleep_nodejs_128_128_1_3_1020
+05:11:48,54 INFO Process 1 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1020 with sleep 1020 func 010_sleep_nodejs_128_128_1_3_1020
+05:11:48,55 INFO P 0 T 6 Sleep 1020 F 010_sleep_nodejs_128_128_1_3_1020 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1020
+05:11:48,55 INFO P 2 T 6 Sleep 1020 F 010_sleep_nodejs_128_128_1_3_1020 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1020
+05:11:48,55 INFO P 1 T 6 Sleep 1020 F 010_sleep_nodejs_128_128_1_3_1020 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1020
+05:11:49,421 INFO Processed request! Tid: 6 Start 1580616708.055699 End 1580616709.421645 Cold? True Duration 0
+05:11:49,597 INFO Processed request! Tid: 6 Start 1580616708.055699 End 1580616709.597426 Cold? True Duration 0
+05:11:49,605 INFO Processed request! Tid: 6 Start 1580616708.055659 End 1580616709.605416 Cold? True Duration 0
+05:11:58,156 INFO Process 2 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_960 with sleep 960 func 010_sleep_nodejs_128_128_1_3_960
+05:11:58,156 INFO Process 1 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_960 with sleep 960 func 010_sleep_nodejs_128_128_1_3_960
+05:11:58,156 INFO Process 0 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_960 with sleep 960 func 010_sleep_nodejs_128_128_1_3_960
+05:11:58,156 INFO P 2 T 5 Sleep 960 F 010_sleep_nodejs_128_128_1_3_960 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_960
+05:11:58,156 INFO P 0 T 5 Sleep 960 F 010_sleep_nodejs_128_128_1_3_960 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_960
+05:11:58,156 INFO P 1 T 5 Sleep 960 F 010_sleep_nodejs_128_128_1_3_960 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_960
+05:11:59,704 INFO Processed request! Tid: 5 Start 1580616718.157025 End 1580616719.704408 Cold? True Duration 0
+05:11:59,716 INFO Processed request! Tid: 5 Start 1580616718.156867 End 1580616719.716388 Cold? True Duration 0
+05:11:59,723 INFO Processed request! Tid: 5 Start 1580616718.156991 End 1580616719.723494 Cold? True Duration 0
+05:12:08,249 INFO Process 1 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_840 with sleep 840 func 010_sleep_nodejs_128_128_1_3_840
+05:12:08,250 INFO P 1 T 4 Sleep 840 F 010_sleep_nodejs_128_128_1_3_840 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_840
+05:12:08,257 INFO Process 2 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_840 with sleep 840 func 010_sleep_nodejs_128_128_1_3_840
+05:12:08,257 INFO P 2 T 4 Sleep 840 F 010_sleep_nodejs_128_128_1_3_840 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_840
+05:12:08,257 INFO Process 0 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_840 with sleep 840 func 010_sleep_nodejs_128_128_1_3_840
+05:12:08,258 INFO P 0 T 4 Sleep 840 F 010_sleep_nodejs_128_128_1_3_840 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_840
+05:12:09,600 INFO Processed request! Tid: 4 Start 1580616728.258409 End 1580616729.600910 Cold? True Duration 0
+05:12:09,774 INFO Processed request! Tid: 4 Start 1580616728.250490 End 1580616729.773918 Cold? True Duration 0
+05:12:09,798 INFO Processed request! Tid: 4 Start 1580616728.258034 End 1580616729.798464 Cold? True Duration 0
+05:12:18,351 INFO Process 1 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_780 with sleep 780 func 010_sleep_nodejs_128_128_1_3_780
+05:12:18,351 INFO Process 0 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_780 with sleep 780 func 010_sleep_nodejs_128_128_1_3_780
+05:12:18,352 INFO P 0 T 3 Sleep 780 F 010_sleep_nodejs_128_128_1_3_780 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_780
+05:12:18,352 INFO P 1 T 3 Sleep 780 F 010_sleep_nodejs_128_128_1_3_780 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_780
+05:12:18,358 INFO Process 2 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_780 with sleep 780 func 010_sleep_nodejs_128_128_1_3_780
+05:12:18,358 INFO P 2 T 3 Sleep 780 F 010_sleep_nodejs_128_128_1_3_780 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_780
+05:12:19,895 INFO Processed request! Tid: 3 Start 1580616738.352160 End 1580616739.895722 Cold? True Duration 0
+05:12:19,910 INFO Processed request! Tid: 3 Start 1580616738.358914 End 1580616739.909951 Cold? True Duration 0
+05:12:19,933 INFO Processed request! Tid: 3 Start 1580616738.352187 End 1580616739.932957 Cold? True Duration 0
+05:12:28,453 INFO Process 1 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_660 with sleep 660 func 010_sleep_nodejs_128_128_1_3_660
+05:12:28,453 INFO Process 2 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_660 with sleep 660 func 010_sleep_nodejs_128_128_1_3_660
+05:12:28,453 INFO Process 0 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_660 with sleep 660 func 010_sleep_nodejs_128_128_1_3_660
+05:12:28,453 INFO P 1 T 2 Sleep 660 F 010_sleep_nodejs_128_128_1_3_660 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_660
+05:12:28,453 INFO P 0 T 2 Sleep 660 F 010_sleep_nodejs_128_128_1_3_660 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_660
+05:12:28,453 INFO P 2 T 2 Sleep 660 F 010_sleep_nodejs_128_128_1_3_660 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_660
+05:12:29,991 INFO Processed request! Tid: 2 Start 1580616748.453720 End 1580616749.991908 Cold? True Duration 0
+05:12:29,993 INFO Processed request! Tid: 2 Start 1580616748.453713 End 1580616749.993851 Cold? True Duration 0
+05:12:30,18 INFO Processed request! Tid: 2 Start 1580616748.453681 End 1580616750.018890 Cold? True Duration 0
+05:12:38,554 INFO Process 1 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_540 with sleep 540 func 010_sleep_nodejs_128_128_1_3_540
+05:12:38,554 INFO Process 0 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_540 with sleep 540 func 010_sleep_nodejs_128_128_1_3_540
+05:12:38,554 INFO Process 2 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_540 with sleep 540 func 010_sleep_nodejs_128_128_1_3_540
+05:12:38,555 INFO P 1 T 1 Sleep 540 F 010_sleep_nodejs_128_128_1_3_540 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_540
+05:12:38,555 INFO P 0 T 1 Sleep 540 F 010_sleep_nodejs_128_128_1_3_540 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_540
+05:12:38,555 INFO P 2 T 1 Sleep 540 F 010_sleep_nodejs_128_128_1_3_540 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_540
+05:12:40,132 INFO Processed request! Tid: 1 Start 1580616758.555637 End 1580616760.132198 Cold? True Duration 0
+05:12:40,134 INFO Processed request! Tid: 1 Start 1580616758.555636 End 1580616760.134719 Cold? True Duration 0
+05:12:40,192 INFO Processed request! Tid: 1 Start 1580616758.555582 End 1580616760.192799 Cold? True Duration 0
+05:12:48,650 INFO Process 2 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_420 with sleep 420 func 010_sleep_nodejs_128_128_1_3_420
+05:12:48,650 INFO Process 1 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_420 with sleep 420 func 010_sleep_nodejs_128_128_1_3_420
+05:12:48,651 INFO P 2 T 0 Sleep 420 F 010_sleep_nodejs_128_128_1_3_420 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_420
+05:12:48,651 INFO P 1 T 0 Sleep 420 F 010_sleep_nodejs_128_128_1_3_420 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_420
+05:12:48,655 INFO Process 0 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_420 with sleep 420 func 010_sleep_nodejs_128_128_1_3_420
+05:12:48,655 INFO P 0 T 0 Sleep 420 F 010_sleep_nodejs_128_128_1_3_420 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_420
+05:12:50,188 INFO Processed request! Tid: 0 Start 1580616768.655983 End 1580616770.188025 Cold? True Duration 0
+05:12:50,197 INFO Processed request! Tid: 0 Start 1580616768.651714 End 1580616770.197915 Cold? True Duration 0
+05:12:50,221 INFO Processed request! Tid: 0 Start 1580616768.651714 End 1580616770.221339 Cold? True Duration 0
+05:19:51,430 INFO Processed request! Tid: 0 Start 1580617190.242758 End 1580617191.430464 Cold? False Duration 0
+05:19:51,615 INFO Processed request! Tid: 0 Start 1580617190.241838 End 1580617191.615572 Cold? False Duration 0
+05:19:51,836 INFO Processed request! Tid: 0 Start 1580617190.254629 End 1580617191.836556 Cold? True Duration 0
+05:21:41,381 INFO Processed request! Tid: 1 Start 1580617300.199334 End 1580617301.380994 Cold? False Duration 0
+05:21:41,383 INFO Processed request! Tid: 1 Start 1580617300.211638 End 1580617301.383102 Cold? False Duration 0
+05:21:41,851 INFO Processed request! Tid: 1 Start 1580617300.260777 End 1580617301.851847 Cold? True Duration 0
+05:23:31,209 INFO Processed request! Tid: 2 Start 1580617410.051857 End 1580617411.208909 Cold? False Duration 0
+05:23:31,401 INFO Processed request! Tid: 2 Start 1580617410.051856 End 1580617411.401545 Cold? False Duration 0
+05:23:31,582 INFO Processed request! Tid: 2 Start 1580617410.051928 End 1580617411.582088 Cold? True Duration 0
+05:25:21,199 INFO Processed request! Tid: 3 Start 1580617520.018179 End 1580617521.199152 Cold? True Duration 0
+05:25:21,459 INFO Processed request! Tid: 3 Start 1580617519.917081 End 1580617521.459009 Cold? True Duration 0
+05:25:21,490 INFO Processed request! Tid: 3 Start 1580617519.917990 End 1580617521.490116 Cold? True Duration 0
+05:26:10,986 INFO Processed request! Tid: 4 Start 1580617569.633277 End 1580617570.985883 Cold? False Duration 0
+05:26:11,201 INFO Processed request! Tid: 4 Start 1580617569.835677 End 1580617571.201316 Cold? True Duration 0
+05:26:11,210 INFO Processed request! Tid: 4 Start 1580617569.833661 End 1580617571.210237 Cold? True Duration 0
+05:28:00,969 INFO Processed request! Tid: 5 Start 1580617679.811683 End 1580617680.969860 Cold? False Duration 0
+05:28:01,350 INFO Processed request! Tid: 5 Start 1580617679.793410 End 1580617681.350692 Cold? True Duration 0
+05:28:01,384 INFO Processed request! Tid: 5 Start 1580617679.794295 End 1580617681.383954 Cold? True Duration 0
+05:28:50,770 INFO Processed request! Tid: 6 Start 1580617729.422086 End 1580617730.770074 Cold? False Duration 0
+05:28:51,263 INFO Processed request! Tid: 6 Start 1580617729.622079 End 1580617731.263293 Cold? True Duration 0
+05:28:51,263 INFO Processed request! Tid: 6 Start 1580617729.622031 End 1580617731.263520 Cold? True Duration 0
+05:30:41,155 INFO Processed request! Tid: 7 Start 1580617839.582751 End 1580617841.155598 Cold? True Duration 0
+05:30:41,172 INFO Processed request! Tid: 7 Start 1580617839.582699 End 1580617841.172249 Cold? True Duration 0
+05:30:41,180 INFO Processed request! Tid: 7 Start 1580617839.584014 End 1580617841.180230 Cold? True Duration 0
+05:32:30,826 INFO Processed request! Tid: 8 Start 1580617949.440474 End 1580617950.826690 Cold? True Duration 0
+05:32:30,839 INFO Processed request! Tid: 8 Start 1580617949.480519 End 1580617950.839539 Cold? True Duration 0
+05:32:30,904 INFO Processed request! Tid: 8 Start 1580617949.319668 End 1580617950.904558 Cold? True Duration 0
+05:33:20,543 INFO Processed request! Tid: 9 Start 1580617999.152937 End 1580618000.543150 Cold? True Duration 0
+05:33:20,733 INFO Processed request! Tid: 9 Start 1580617999.212663 End 1580618000.732915 Cold? True Duration 0
+05:33:20,763 INFO Processed request! Tid: 9 Start 1580617999.407967 End 1580618000.763748 Cold? True Duration 0
+05:33:20,811 INFO Finished iteration 3
+05:33:52,812 INFO Updated 010_sleep_nodejs_128_128_1_3_420 to timeout 854
+05:33:52,952 INFO Updated 010_sleep_nodejs_128_128_1_3_540 to timeout 854
+05:33:53,93 INFO Updated 010_sleep_nodejs_128_128_1_3_660 to timeout 854
+05:33:53,231 INFO Updated 010_sleep_nodejs_128_128_1_3_780 to timeout 854
+05:33:53,368 INFO Updated 010_sleep_nodejs_128_128_1_3_840 to timeout 854
+05:33:53,509 INFO Updated 010_sleep_nodejs_128_128_1_3_960 to timeout 854
+05:33:53,654 INFO Updated 010_sleep_nodejs_128_128_1_3_1020 to timeout 854
+05:33:53,834 INFO Updated 010_sleep_nodejs_128_128_1_3_1140 to timeout 854
+05:33:53,975 INFO Updated 010_sleep_nodejs_128_128_1_3_1260 to timeout 854
+05:33:54,113 INFO Updated 010_sleep_nodejs_128_128_1_3_1320 to timeout 854
+05:33:54,113 INFO Dumped data
+05:33:54,130 INFO Process 1 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1320 with sleep 1320 func 010_sleep_nodejs_128_128_1_3_1320
+05:33:54,130 INFO Process 2 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1320 with sleep 1320 func 010_sleep_nodejs_128_128_1_3_1320
+05:33:54,130 INFO Process 0 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1320 with sleep 1320 func 010_sleep_nodejs_128_128_1_3_1320
+05:33:54,131 INFO P 2 T 9 Sleep 1320 F 010_sleep_nodejs_128_128_1_3_1320 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1320
+05:33:54,131 INFO P 1 T 9 Sleep 1320 F 010_sleep_nodejs_128_128_1_3_1320 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1320
+05:33:54,131 INFO P 0 T 9 Sleep 1320 F 010_sleep_nodejs_128_128_1_3_1320 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1320
+05:33:55,499 INFO Processed request! Tid: 9 Start 1580618034.131115 End 1580618035.499160 Cold? True Duration 0
+05:33:55,681 INFO Processed request! Tid: 9 Start 1580618034.131127 End 1580618035.681571 Cold? True Duration 0
+05:33:55,691 INFO Processed request! Tid: 9 Start 1580618034.131183 End 1580618035.691096 Cold? True Duration 0
+05:34:04,232 INFO Process 1 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1260 with sleep 1260 func 010_sleep_nodejs_128_128_1_3_1260
+05:34:04,232 INFO Process 2 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1260 with sleep 1260 func 010_sleep_nodejs_128_128_1_3_1260
+05:34:04,232 INFO Process 0 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1260 with sleep 1260 func 010_sleep_nodejs_128_128_1_3_1260
+05:34:04,232 INFO P 1 T 8 Sleep 1260 F 010_sleep_nodejs_128_128_1_3_1260 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1260
+05:34:04,232 INFO P 0 T 8 Sleep 1260 F 010_sleep_nodejs_128_128_1_3_1260 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1260
+05:34:04,232 INFO P 2 T 8 Sleep 1260 F 010_sleep_nodejs_128_128_1_3_1260 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1260
+05:34:05,778 INFO Processed request! Tid: 8 Start 1580618044.232953 End 1580618045.778442 Cold? True Duration 0
+05:34:05,781 INFO Processed request! Tid: 8 Start 1580618044.233018 End 1580618045.781653 Cold? True Duration 0
+05:34:05,783 INFO Processed request! Tid: 8 Start 1580618044.233018 End 1580618045.783624 Cold? True Duration 0
+05:34:14,334 INFO Process 1 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1140 with sleep 1140 func 010_sleep_nodejs_128_128_1_3_1140
+05:34:14,334 INFO Process 0 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1140 with sleep 1140 func 010_sleep_nodejs_128_128_1_3_1140
+05:34:14,334 INFO Process 2 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1140 with sleep 1140 func 010_sleep_nodejs_128_128_1_3_1140
+05:34:14,334 INFO P 0 T 7 Sleep 1140 F 010_sleep_nodejs_128_128_1_3_1140 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1140
+05:34:14,334 INFO P 1 T 7 Sleep 1140 F 010_sleep_nodejs_128_128_1_3_1140 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1140
+05:34:14,334 INFO P 2 T 7 Sleep 1140 F 010_sleep_nodejs_128_128_1_3_1140 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1140
+05:34:15,860 INFO Processed request! Tid: 7 Start 1580618054.334967 End 1580618055.860447 Cold? True Duration 0
+05:34:15,884 INFO Processed request! Tid: 7 Start 1580618054.334957 End 1580618055.884731 Cold? True Duration 0
+05:34:15,890 INFO Processed request! Tid: 7 Start 1580618054.334967 End 1580618055.889981 Cold? True Duration 0
+05:34:24,435 INFO Process 1 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1020 with sleep 1020 func 010_sleep_nodejs_128_128_1_3_1020
+05:34:24,435 INFO Process 0 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1020 with sleep 1020 func 010_sleep_nodejs_128_128_1_3_1020
+05:34:24,435 INFO Process 2 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1020 with sleep 1020 func 010_sleep_nodejs_128_128_1_3_1020
+05:34:24,436 INFO P 0 T 6 Sleep 1020 F 010_sleep_nodejs_128_128_1_3_1020 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1020
+05:34:24,436 INFO P 2 T 6 Sleep 1020 F 010_sleep_nodejs_128_128_1_3_1020 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1020
+05:34:24,436 INFO P 1 T 6 Sleep 1020 F 010_sleep_nodejs_128_128_1_3_1020 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_1020
+05:34:25,982 INFO Processed request! Tid: 6 Start 1580618064.436766 End 1580618065.982620 Cold? True Duration 0
+05:34:25,986 INFO Processed request! Tid: 6 Start 1580618064.436772 End 1580618065.986650 Cold? True Duration 0
+05:34:26,0 INFO Processed request! Tid: 6 Start 1580618064.436772 End 1580618066.000383 Cold? True Duration 0
+05:34:34,537 INFO Process 1 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_960 with sleep 960 func 010_sleep_nodejs_128_128_1_3_960
+05:34:34,537 INFO Process 2 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_960 with sleep 960 func 010_sleep_nodejs_128_128_1_3_960
+05:34:34,537 INFO Process 0 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_960 with sleep 960 func 010_sleep_nodejs_128_128_1_3_960
+05:34:34,537 INFO P 1 T 5 Sleep 960 F 010_sleep_nodejs_128_128_1_3_960 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_960
+05:34:34,538 INFO P 0 T 5 Sleep 960 F 010_sleep_nodejs_128_128_1_3_960 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_960
+05:34:34,538 INFO P 2 T 5 Sleep 960 F 010_sleep_nodejs_128_128_1_3_960 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_960
+05:34:35,927 INFO Processed request! Tid: 5 Start 1580618074.538134 End 1580618075.927516 Cold? True Duration 0
+05:34:36,77 INFO Processed request! Tid: 5 Start 1580618074.538138 End 1580618076.076941 Cold? True Duration 0
+05:34:36,101 INFO Processed request! Tid: 5 Start 1580618074.538161 End 1580618076.101676 Cold? True Duration 0
+05:34:44,637 INFO Process 2 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_840 with sleep 840 func 010_sleep_nodejs_128_128_1_3_840
+05:34:44,638 INFO P 2 T 4 Sleep 840 F 010_sleep_nodejs_128_128_1_3_840 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_840
+05:34:44,638 INFO Process 1 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_840 with sleep 840 func 010_sleep_nodejs_128_128_1_3_840
+05:34:44,639 INFO Process 0 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_840 with sleep 840 func 010_sleep_nodejs_128_128_1_3_840
+05:34:44,639 INFO P 1 T 4 Sleep 840 F 010_sleep_nodejs_128_128_1_3_840 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_840
+05:34:44,639 INFO P 0 T 4 Sleep 840 F 010_sleep_nodejs_128_128_1_3_840 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_840
+05:34:45,978 INFO Processed request! Tid: 4 Start 1580618084.639214 End 1580618085.977951 Cold? True Duration 0
+05:34:46,192 INFO Processed request! Tid: 4 Start 1580618084.638271 End 1580618086.192242 Cold? True Duration 0
+05:34:46,247 INFO Processed request! Tid: 4 Start 1580618084.639312 End 1580618086.247546 Cold? True Duration 0
+05:34:54,739 INFO Process 2 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_780 with sleep 780 func 010_sleep_nodejs_128_128_1_3_780
+05:34:54,740 INFO P 2 T 3 Sleep 780 F 010_sleep_nodejs_128_128_1_3_780 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_780
+05:34:54,740 INFO Process 1 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_780 with sleep 780 func 010_sleep_nodejs_128_128_1_3_780
+05:34:54,740 INFO Process 0 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_780 with sleep 780 func 010_sleep_nodejs_128_128_1_3_780
+05:34:54,740 INFO P 1 T 3 Sleep 780 F 010_sleep_nodejs_128_128_1_3_780 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_780
+05:34:54,740 INFO P 0 T 3 Sleep 780 F 010_sleep_nodejs_128_128_1_3_780 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_780
+05:34:56,287 INFO Processed request! Tid: 3 Start 1580618094.740858 End 1580618096.287107 Cold? True Duration 0
+05:34:56,303 INFO Processed request! Tid: 3 Start 1580618094.740190 End 1580618096.303043 Cold? True Duration 0
+05:34:56,312 INFO Processed request! Tid: 3 Start 1580618094.740586 End 1580618096.312067 Cold? True Duration 0
+05:35:04,841 INFO Process 2 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_660 with sleep 660 func 010_sleep_nodejs_128_128_1_3_660
+05:35:04,841 INFO Process 1 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_660 with sleep 660 func 010_sleep_nodejs_128_128_1_3_660
+05:35:04,841 INFO P 2 T 2 Sleep 660 F 010_sleep_nodejs_128_128_1_3_660 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_660
+05:35:04,841 INFO P 1 T 2 Sleep 660 F 010_sleep_nodejs_128_128_1_3_660 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_660
+05:35:04,841 INFO Process 0 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_660 with sleep 660 func 010_sleep_nodejs_128_128_1_3_660
+05:35:04,842 INFO P 0 T 2 Sleep 660 F 010_sleep_nodejs_128_128_1_3_660 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_660
+05:35:06,178 INFO Processed request! Tid: 2 Start 1580618104.842182 End 1580618106.178209 Cold? True Duration 0
+05:35:06,395 INFO Processed request! Tid: 2 Start 1580618104.841882 End 1580618106.395397 Cold? True Duration 0
+05:35:06,409 INFO Processed request! Tid: 2 Start 1580618104.841773 End 1580618106.409210 Cold? True Duration 0
+05:35:14,942 INFO Process 2 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_540 with sleep 540 func 010_sleep_nodejs_128_128_1_3_540
+05:35:14,942 INFO Process 1 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_540 with sleep 540 func 010_sleep_nodejs_128_128_1_3_540
+05:35:14,943 INFO Process 0 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_540 with sleep 540 func 010_sleep_nodejs_128_128_1_3_540
+05:35:14,943 INFO P 1 T 1 Sleep 540 F 010_sleep_nodejs_128_128_1_3_540 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_540
+05:35:14,943 INFO P 2 T 1 Sleep 540 F 010_sleep_nodejs_128_128_1_3_540 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_540
+05:35:14,943 INFO P 0 T 1 Sleep 540 F 010_sleep_nodejs_128_128_1_3_540 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_540
+05:35:16,487 INFO Processed request! Tid: 1 Start 1580618114.943483 End 1580618116.487302 Cold? True Duration 0
+05:35:16,490 INFO Processed request! Tid: 1 Start 1580618114.943514 End 1580618116.490232 Cold? True Duration 0
+05:35:16,496 INFO Processed request! Tid: 1 Start 1580618114.943643 End 1580618116.496183 Cold? True Duration 0
+05:35:25,35 INFO Process 2 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_420 with sleep 420 func 010_sleep_nodejs_128_128_1_3_420
+05:35:25,35 INFO Process 1 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_420 with sleep 420 func 010_sleep_nodejs_128_128_1_3_420
+05:35:25,36 INFO P 1 T 0 Sleep 420 F 010_sleep_nodejs_128_128_1_3_420 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_420
+05:35:25,36 INFO P 2 T 0 Sleep 420 F 010_sleep_nodejs_128_128_1_3_420 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_420
+05:35:25,44 INFO Process 0 begins url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_420 with sleep 420 func 010_sleep_nodejs_128_128_1_3_420
+05:35:25,44 INFO P 0 T 0 Sleep 420 F 010_sleep_nodejs_128_128_1_3_420 Url https://u64l57ikvf.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_3_420
+05:35:26,406 INFO Processed request! Tid: 0 Start 1580618125.036306 End 1580618126.406412 Cold? True Duration 0
+05:35:26,567 INFO Processed request! Tid: 0 Start 1580618125.036349 End 1580618126.567245 Cold? True Duration 0
+05:35:26,603 INFO Processed request! Tid: 0 Start 1580618125.044870 End 1580618126.603302 Cold? True Duration 0
+05:42:27,583 INFO Processed request! Tid: 0 Start 1580618546.422166 End 1580618547.583753 Cold? False Duration 0
+05:42:27,980 INFO Processed request! Tid: 0 Start 1580618546.624376 End 1580618547.979944 Cold? False Duration 0
+05:42:28,181 INFO Processed request! Tid: 0 Start 1580618546.624363 End 1580618548.181011 Cold? True Duration 0
+05:44:17,854 INFO Processed request! Tid: 1 Start 1580618656.501595 End 1580618657.854747 Cold? False Duration 0
+05:44:17,855 INFO Processed request! Tid: 1 Start 1580618656.502062 End 1580618657.855025 Cold? False Duration 0
+05:44:18,68 INFO Processed request! Tid: 1 Start 1580618656.501767 End 1580618658.068008 Cold? True Duration 0
+05:46:07,622 INFO Processed request! Tid: 2 Start 1580618766.467135 End 1580618767.622110 Cold? False Duration 0
+05:46:07,626 INFO Processed request! Tid: 2 Start 1580618766.268876 End 1580618767.626123 Cold? False Duration 0
+05:46:08,56 INFO Processed request! Tid: 2 Start 1580618766.495553 End 1580618768.055967 Cold? True Duration 0
+05:47:57,510 INFO Processed request! Tid: 3 Start 1580618876.325462 End 1580618877.510041 Cold? False Duration 0
+05:47:57,920 INFO Processed request! Tid: 3 Start 1580618876.325462 End 1580618877.920006 Cold? True Duration 0
+05:47:57,930 INFO Processed request! Tid: 3 Start 1580618876.370899 End 1580618877.930766 Cold? True Duration 0
+05:48:47,426 INFO Processed request! Tid: 4 Start 1580618926.078004 End 1580618927.425994 Cold? False Duration 0
+05:48:47,693 INFO Processed request! Tid: 4 Start 1580618926.339580 End 1580618927.693750 Cold? True Duration 0
+05:48:47,796 INFO Processed request! Tid: 4 Start 1580618926.238783 End 1580618927.796010 Cold? True Duration 0
+05:50:37,217 INFO Processed request! Tid: 5 Start 1580619035.992837 End 1580619037.217868 Cold? False Duration 0
+05:50:37,504 INFO Processed request! Tid: 5 Start 1580619036.168548 End 1580619037.504042 Cold? True Duration 0
+05:50:37,707 INFO Processed request! Tid: 5 Start 1580619036.127760 End 1580619037.707914 Cold? True Duration 0
+05:51:27,371 INFO Processed request! Tid: 6 Start 1580619086.004921 End 1580619087.371151 Cold? False Duration 0
+05:51:27,618 INFO Processed request! Tid: 6 Start 1580619086.086799 End 1580619087.618456 Cold? True Duration 0
+05:51:27,637 INFO Processed request! Tid: 6 Start 1580619086.092080 End 1580619087.637718 Cold? True Duration 0
+05:53:17,441 INFO Processed request! Tid: 7 Start 1580619195.863669 End 1580619197.441404 Cold? True Duration 0
+05:53:17,527 INFO Processed request! Tid: 7 Start 1580619195.962321 End 1580619197.527519 Cold? True Duration 0
+05:53:17,541 INFO Processed request! Tid: 7 Start 1580619195.962375 End 1580619197.541719 Cold? True Duration 0
+05:55:07,192 INFO Processed request! Tid: 8 Start 1580619305.829911 End 1580619307.192469 Cold? True Duration 0
+05:55:07,405 INFO Processed request! Tid: 8 Start 1580619305.829911 End 1580619307.405629 Cold? True Duration 0
+05:55:07,434 INFO Processed request! Tid: 8 Start 1580619305.829985 End 1580619307.434015 Cold? True Duration 0
+05:55:56,938 INFO Processed request! Tid: 9 Start 1580619355.545544 End 1580619356.938538 Cold? True Duration 0
+05:55:57,276 INFO Processed request! Tid: 9 Start 1580619355.741975 End 1580619357.276309 Cold? True Duration 0
+05:55:57,312 INFO Processed request! Tid: 9 Start 1580619355.741929 End 1580619357.312324 Cold? True Duration 0
+05:55:57,349 INFO Finished iteration 4
+05:56:29,299 INFO Updated 010_sleep_nodejs_128_128_1_3_420 to timeout 855
+05:56:29,434 INFO Updated 010_sleep_nodejs_128_128_1_3_540 to timeout 855
+05:56:29,570 INFO Updated 010_sleep_nodejs_128_128_1_3_660 to timeout 855
+05:56:29,715 INFO Updated 010_sleep_nodejs_128_128_1_3_780 to timeout 855
+05:56:29,851 INFO Updated 010_sleep_nodejs_128_128_1_3_840 to timeout 855
+05:56:29,985 INFO Updated 010_sleep_nodejs_128_128_1_3_960 to timeout 855
+05:56:30,121 INFO Updated 010_sleep_nodejs_128_128_1_3_1020 to timeout 855
+05:56:30,255 INFO Updated 010_sleep_nodejs_128_128_1_3_1140 to timeout 855
+05:56:30,393 INFO Updated 010_sleep_nodejs_128_128_1_3_1260 to timeout 855
+05:56:30,528 INFO Updated 010_sleep_nodejs_128_128_1_3_1320 to timeout 855
+05:56:30,529 INFO Dumped data
+05:56:30,615 INFO Done!

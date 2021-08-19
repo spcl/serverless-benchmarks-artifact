@@ -1,0 +1,803 @@
+20:55:19,863 INFO Created experiment output at /users/mcopik/projects/serverless-benchmarks/experiments/prob_first_attempt/256/7_LARGE
+20:55:20,157 INFO Using cached storage input buckets []
+20:55:20,157 INFO Using cached storage output buckets []
+20:55:20,164 INFO Work on times [360, 480, 600, 720, 900, 1080, 1200]
+20:55:20,164 INFO Work on urls ['https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_360', 'https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_480', 'https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_600', 'https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_720', 'https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_900', 'https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_1080', 'https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_1200']
+20:55:20,164 INFO Using urls ['https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_360', 'https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_480', 'https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_600', 'https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_720', 'https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_900', 'https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_1080', 'https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_1200']
+20:55:20,737 INFO Updated 010_sleep_python_128_128_1_7_360 to timeout 870
+20:55:20,883 INFO Updated 010_sleep_python_128_128_1_7_360 to timeout 870
+20:55:21,29 INFO Updated 010_sleep_python_128_128_1_7_480 to timeout 870
+20:55:21,165 INFO Updated 010_sleep_python_128_128_1_7_480 to timeout 870
+20:55:21,301 INFO Updated 010_sleep_python_128_128_1_7_600 to timeout 870
+20:55:21,443 INFO Updated 010_sleep_python_128_128_1_7_600 to timeout 870
+20:55:25,723 INFO Repeat update...
+20:55:25,724 INFO An error occurred (TooManyRequestsException) when calling the UpdateFunctionConfiguration operation (reached max retries: 4): Rate exceeded
+20:55:25,871 INFO Updated 010_sleep_python_128_128_1_7_720 to timeout 870
+20:55:26,8 INFO Updated 010_sleep_python_128_128_1_7_720 to timeout 870
+20:55:26,147 INFO Updated 010_sleep_python_128_128_1_7_900 to timeout 870
+20:55:26,282 INFO Updated 010_sleep_python_128_128_1_7_900 to timeout 870
+20:55:26,423 INFO Updated 010_sleep_python_128_128_1_7_1080 to timeout 870
+20:55:28,660 INFO Updated 010_sleep_python_128_128_1_7_1080 to timeout 870
+20:55:28,806 INFO Updated 010_sleep_python_128_128_1_7_1200 to timeout 870
+20:55:39,305 INFO Updated 010_sleep_python_128_128_1_7_1200 to timeout 870
+20:55:39,305 INFO Start 7 invocations with 7 times
+20:55:39,329 INFO P 1 T 0 Sleep 360 F 010_sleep_python_128_128_1_7_360 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_360
+20:55:39,335 INFO P 3 T 0 Sleep 360 F 010_sleep_python_128_128_1_7_360 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_360
+20:55:39,337 INFO P 0 T 0 Sleep 360 F 010_sleep_python_128_128_1_7_360 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_360
+20:55:39,339 INFO P 4 T 0 Sleep 360 F 010_sleep_python_128_128_1_7_360 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_360
+20:55:39,341 INFO P 6 T 0 Sleep 360 F 010_sleep_python_128_128_1_7_360 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_360
+20:55:39,341 INFO P 5 T 0 Sleep 360 F 010_sleep_python_128_128_1_7_360 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_360
+20:55:39,343 INFO P 2 T 0 Sleep 360 F 010_sleep_python_128_128_1_7_360 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_360
+20:55:39,427 INFO P 1 T 1 Sleep 480 F 010_sleep_python_128_128_1_7_480 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_480
+20:55:39,427 INFO P 3 T 1 Sleep 480 F 010_sleep_python_128_128_1_7_480 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_480
+20:55:39,428 INFO P 0 T 1 Sleep 480 F 010_sleep_python_128_128_1_7_480 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_480
+20:55:39,430 INFO P 4 T 1 Sleep 480 F 010_sleep_python_128_128_1_7_480 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_480
+20:55:39,434 INFO P 2 T 1 Sleep 480 F 010_sleep_python_128_128_1_7_480 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_480
+20:55:39,437 INFO P 6 T 1 Sleep 480 F 010_sleep_python_128_128_1_7_480 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_480
+20:55:39,438 INFO P 5 T 1 Sleep 480 F 010_sleep_python_128_128_1_7_480 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_480
+20:55:39,518 INFO P 1 T 2 Sleep 600 F 010_sleep_python_128_128_1_7_600 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_600
+20:55:39,518 INFO P 3 T 2 Sleep 600 F 010_sleep_python_128_128_1_7_600 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_600
+20:55:39,519 INFO P 0 T 2 Sleep 600 F 010_sleep_python_128_128_1_7_600 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_600
+20:55:39,521 INFO P 4 T 2 Sleep 600 F 010_sleep_python_128_128_1_7_600 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_600
+20:55:39,525 INFO P 6 T 2 Sleep 600 F 010_sleep_python_128_128_1_7_600 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_600
+20:55:39,525 INFO P 2 T 2 Sleep 600 F 010_sleep_python_128_128_1_7_600 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_600
+20:55:39,537 INFO P 5 T 2 Sleep 600 F 010_sleep_python_128_128_1_7_600 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_600
+20:55:39,609 INFO P 1 T 3 Sleep 720 F 010_sleep_python_128_128_1_7_720 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_720
+20:55:39,609 INFO P 3 T 3 Sleep 720 F 010_sleep_python_128_128_1_7_720 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_720
+20:55:39,610 INFO P 0 T 3 Sleep 720 F 010_sleep_python_128_128_1_7_720 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_720
+20:55:39,612 INFO P 4 T 3 Sleep 720 F 010_sleep_python_128_128_1_7_720 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_720
+20:55:39,616 INFO P 6 T 3 Sleep 720 F 010_sleep_python_128_128_1_7_720 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_720
+20:55:39,617 INFO P 2 T 3 Sleep 720 F 010_sleep_python_128_128_1_7_720 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_720
+20:55:39,630 INFO P 5 T 3 Sleep 720 F 010_sleep_python_128_128_1_7_720 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_720
+20:55:39,700 INFO P 1 T 4 Sleep 900 F 010_sleep_python_128_128_1_7_900 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_900
+20:55:39,700 INFO P 3 T 4 Sleep 900 F 010_sleep_python_128_128_1_7_900 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_900
+20:55:39,702 INFO P 0 T 4 Sleep 900 F 010_sleep_python_128_128_1_7_900 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_900
+20:55:39,703 INFO P 4 T 4 Sleep 900 F 010_sleep_python_128_128_1_7_900 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_900
+20:55:39,707 INFO P 6 T 4 Sleep 900 F 010_sleep_python_128_128_1_7_900 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_900
+20:55:39,708 INFO P 2 T 4 Sleep 900 F 010_sleep_python_128_128_1_7_900 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_900
+20:55:39,721 INFO P 5 T 4 Sleep 900 F 010_sleep_python_128_128_1_7_900 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_900
+20:55:39,792 INFO P 1 T 5 Sleep 1080 F 010_sleep_python_128_128_1_7_1080 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_1080
+20:55:39,792 INFO P 3 T 5 Sleep 1080 F 010_sleep_python_128_128_1_7_1080 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_1080
+20:55:39,793 INFO P 0 T 5 Sleep 1080 F 010_sleep_python_128_128_1_7_1080 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_1080
+20:55:39,794 INFO P 4 T 5 Sleep 1080 F 010_sleep_python_128_128_1_7_1080 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_1080
+20:55:39,799 INFO P 2 T 5 Sleep 1080 F 010_sleep_python_128_128_1_7_1080 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_1080
+20:55:39,800 INFO P 6 T 5 Sleep 1080 F 010_sleep_python_128_128_1_7_1080 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_1080
+20:55:39,819 INFO P 5 T 5 Sleep 1080 F 010_sleep_python_128_128_1_7_1080 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_1080
+20:55:39,883 INFO P 1 T 6 Sleep 1200 F 010_sleep_python_128_128_1_7_1200 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_1200
+20:55:39,883 INFO P 3 T 6 Sleep 1200 F 010_sleep_python_128_128_1_7_1200 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_1200
+20:55:39,884 INFO P 0 T 6 Sleep 1200 F 010_sleep_python_128_128_1_7_1200 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_1200
+20:55:39,886 INFO P 4 T 6 Sleep 1200 F 010_sleep_python_128_128_1_7_1200 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_1200
+20:55:39,890 INFO P 2 T 6 Sleep 1200 F 010_sleep_python_128_128_1_7_1200 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_1200
+20:55:39,891 INFO P 6 T 6 Sleep 1200 F 010_sleep_python_128_128_1_7_1200 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_1200
+20:55:39,906 INFO P 5 T 6 Sleep 1200 F 010_sleep_python_128_128_1_7_1200 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_1200
+20:55:40,842 INFO Processed request! Tid: 0 Start 1580500539.335603 End 1580500540.842530 Cold? True Duration 0
+20:55:40,876 INFO Processed request! Tid: 1 Start 1580500539.430468 End 1580500540.876821 Cold? True Duration 0
+20:55:40,898 INFO Processed request! Tid: 2 Start 1580500539.521583 End 1580500540.898705 Cold? True Duration 0
+20:55:40,974 INFO Processed request! Tid: 0 Start 1580500539.337373 End 1580500540.974119 Cold? True Duration 0
+20:55:40,974 INFO Processed request! Tid: 0 Start 1580500539.341535 End 1580500540.974119 Cold? True Duration 0
+20:55:40,991 INFO Processed request! Tid: 0 Start 1580500539.343713 End 1580500540.991137 Cold? True Duration 0
+20:55:40,992 INFO Processed request! Tid: 0 Start 1580500539.342264 End 1580500540.992334 Cold? True Duration 0
+20:55:41,5 INFO Processed request! Tid: 0 Start 1580500539.339601 End 1580500541.005739 Cold? True Duration 0
+20:55:41,34 INFO Processed request! Tid: 1 Start 1580500539.428081 End 1580500541.034689 Cold? True Duration 0
+20:55:41,36 INFO Processed request! Tid: 1 Start 1580500539.428780 End 1580500541.036698 Cold? True Duration 0
+20:55:41,36 INFO Processed request! Tid: 1 Start 1580500539.434668 End 1580500541.036796 Cold? True Duration 0
+20:55:41,39 INFO Processed request! Tid: 1 Start 1580500539.437863 End 1580500541.039258 Cold? True Duration 0
+20:55:41,43 INFO Processed request! Tid: 1 Start 1580500539.427717 End 1580500541.043683 Cold? True Duration 0
+20:55:41,55 INFO Processed request! Tid: 0 Start 1580500539.329403 End 1580500541.055492 Cold? True Duration 0
+20:55:41,57 INFO Processed request! Tid: 1 Start 1580500539.438944 End 1580500541.057324 Cold? True Duration 0
+20:55:41,103 INFO Processed request! Tid: 2 Start 1580500539.518728 End 1580500541.103534 Cold? True Duration 0
+20:55:41,116 INFO Processed request! Tid: 2 Start 1580500539.525180 End 1580500541.116904 Cold? True Duration 0
+20:55:41,119 INFO Processed request! Tid: 2 Start 1580500539.519881 End 1580500541.119020 Cold? True Duration 0
+20:55:41,123 INFO Processed request! Tid: 2 Start 1580500539.518728 End 1580500541.122973 Cold? True Duration 0
+20:55:41,131 INFO Processed request! Tid: 2 Start 1580500539.525843 End 1580500541.131039 Cold? True Duration 0
+20:55:41,133 INFO Processed request! Tid: 2 Start 1580500539.537962 End 1580500541.133469 Cold? True Duration 0
+20:55:41,181 INFO Processed request! Tid: 5 Start 1580500539.792198 End 1580500541.181020 Cold? True Duration 0
+20:55:41,188 INFO Processed request! Tid: 3 Start 1580500539.612717 End 1580500541.188558 Cold? True Duration 0
+20:55:41,190 INFO Processed request! Tid: 5 Start 1580500539.800081 End 1580500541.190628 Cold? True Duration 0
+20:55:41,209 INFO Processed request! Tid: 3 Start 1580500539.611024 End 1580500541.209253 Cold? True Duration 0
+20:55:41,214 INFO Processed request! Tid: 3 Start 1580500539.609872 End 1580500541.214546 Cold? True Duration 0
+20:55:41,219 INFO Processed request! Tid: 3 Start 1580500539.617641 End 1580500541.219572 Cold? True Duration 0
+20:55:41,241 INFO Processed request! Tid: 3 Start 1580500539.609872 End 1580500541.241280 Cold? True Duration 0
+20:55:41,248 INFO Processed request! Tid: 3 Start 1580500539.630217 End 1580500541.248677 Cold? True Duration 0
+20:55:41,260 INFO Processed request! Tid: 3 Start 1580500539.616331 End 1580500541.260689 Cold? True Duration 0
+20:55:41,278 INFO Processed request! Tid: 6 Start 1580500539.883343 End 1580500541.278349 Cold? True Duration 0
+20:55:41,281 INFO Processed request! Tid: 4 Start 1580500539.708107 End 1580500541.281506 Cold? True Duration 0
+20:55:41,296 INFO Processed request! Tid: 4 Start 1580500539.701025 End 1580500541.296496 Cold? True Duration 0
+20:55:41,301 INFO Processed request! Tid: 4 Start 1580500539.702163 End 1580500541.301074 Cold? True Duration 0
+20:55:41,301 INFO Processed request! Tid: 4 Start 1580500539.701025 End 1580500541.301617 Cold? True Duration 0
+20:55:41,312 INFO Processed request! Tid: 4 Start 1580500539.722084 End 1580500541.312505 Cold? True Duration 0
+20:55:41,327 INFO Processed request! Tid: 4 Start 1580500539.703859 End 1580500541.326946 Cold? True Duration 0
+20:55:41,347 INFO Processed request! Tid: 4 Start 1580500539.707414 End 1580500541.347598 Cold? True Duration 0
+20:55:41,380 INFO Processed request! Tid: 5 Start 1580500539.793300 End 1580500541.380296 Cold? True Duration 0
+20:55:41,381 INFO Processed request! Tid: 5 Start 1580500539.792198 End 1580500541.381445 Cold? True Duration 0
+20:55:41,390 INFO Processed request! Tid: 5 Start 1580500539.800367 End 1580500541.390068 Cold? True Duration 0
+20:55:41,395 INFO Processed request! Tid: 5 Start 1580500539.819799 End 1580500541.395410 Cold? True Duration 0
+20:55:41,428 INFO Processed request! Tid: 5 Start 1580500539.795015 End 1580500541.428126 Cold? True Duration 0
+20:55:41,471 INFO Processed request! Tid: 6 Start 1580500539.884443 End 1580500541.471718 Cold? True Duration 0
+20:55:41,479 INFO Processed request! Tid: 6 Start 1580500539.883343 End 1580500541.479161 Cold? True Duration 0
+20:55:41,484 INFO Processed request! Tid: 6 Start 1580500539.906259 End 1580500541.484426 Cold? True Duration 0
+20:55:41,485 INFO Processed request! Tid: 6 Start 1580500539.891006 End 1580500541.485268 Cold? True Duration 0
+20:55:41,504 INFO Processed request! Tid: 6 Start 1580500539.891523 End 1580500541.504306 Cold? True Duration 0
+20:55:41,542 INFO Processed request! Tid: 6 Start 1580500539.886167 End 1580500541.542269 Cold? True Duration 0
+21:01:42,243 INFO Processed request! Tid: 0 Start 1580500900.876139 End 1580500902.243380 Cold? False Duration 0
+21:01:42,314 INFO Processed request! Tid: 0 Start 1580500900.976510 End 1580500902.314710 Cold? False Duration 0
+21:01:42,349 INFO Processed request! Tid: 0 Start 1580500901.006963 End 1580500902.349687 Cold? False Duration 0
+21:01:42,374 INFO Processed request! Tid: 0 Start 1580500901.006963 End 1580500902.374547 Cold? False Duration 0
+21:01:42,386 INFO Processed request! Tid: 0 Start 1580500901.042957 End 1580500902.386695 Cold? False Duration 0
+21:01:42,415 INFO Processed request! Tid: 0 Start 1580500901.073021 End 1580500902.415873 Cold? False Duration 0
+21:01:42,433 INFO Processed request! Tid: 0 Start 1580500901.092412 End 1580500902.433902 Cold? False Duration 0
+21:03:42,242 INFO Processed request! Tid: 1 Start 1580501020.892939 End 1580501022.242459 Cold? False Duration 0
+21:03:42,269 INFO Processed request! Tid: 1 Start 1580501021.094137 End 1580501022.269519 Cold? False Duration 0
+21:03:42,458 INFO Processed request! Tid: 1 Start 1580501021.093675 End 1580501022.458318 Cold? False Duration 0
+21:03:42,461 INFO Processed request! Tid: 1 Start 1580501021.093917 End 1580501022.461113 Cold? False Duration 0
+21:03:42,641 INFO Processed request! Tid: 1 Start 1580501021.093675 End 1580501022.641086 Cold? True Duration 0
+21:03:42,688 INFO Processed request! Tid: 1 Start 1580501021.093924 End 1580501022.688574 Cold? True Duration 0
+21:03:42,754 INFO Processed request! Tid: 1 Start 1580501021.094194 End 1580501022.754490 Cold? True Duration 0
+21:05:42,255 INFO Processed request! Tid: 2 Start 1580501140.905235 End 1580501142.255466 Cold? False Duration 0
+21:05:42,360 INFO Processed request! Tid: 2 Start 1580501141.206112 End 1580501142.360760 Cold? False Duration 0
+21:05:42,368 INFO Processed request! Tid: 2 Start 1580501141.206344 End 1580501142.368641 Cold? False Duration 0
+21:05:42,424 INFO Processed request! Tid: 2 Start 1580501141.235404 End 1580501142.424648 Cold? False Duration 0
+21:05:42,711 INFO Processed request! Tid: 2 Start 1580501141.130994 End 1580501142.711102 Cold? True Duration 0
+21:05:42,781 INFO Processed request! Tid: 2 Start 1580501141.206002 End 1580501142.781493 Cold? True Duration 0
+21:05:42,831 INFO Processed request! Tid: 2 Start 1580501141.206251 End 1580501142.831743 Cold? True Duration 0
+21:07:42,373 INFO Processed request! Tid: 3 Start 1580501261.211599 End 1580501262.373824 Cold? False Duration 0
+21:07:42,558 INFO Processed request! Tid: 3 Start 1580501261.211599 End 1580501262.558315 Cold? False Duration 0
+21:07:42,668 INFO Processed request! Tid: 3 Start 1580501261.312610 End 1580501262.668748 Cold? False Duration 0
+21:07:42,760 INFO Processed request! Tid: 3 Start 1580501261.312067 End 1580501262.760809 Cold? False Duration 0
+21:07:42,894 INFO Processed request! Tid: 3 Start 1580501261.312415 End 1580501262.894316 Cold? True Duration 0
+21:07:42,903 INFO Processed request! Tid: 3 Start 1580501261.312310 End 1580501262.902976 Cold? True Duration 0
+21:07:42,917 INFO Processed request! Tid: 3 Start 1580501261.312067 End 1580501262.916914 Cold? True Duration 0
+21:10:42,522 INFO Processed request! Tid: 4 Start 1580501441.341004 End 1580501442.522690 Cold? False Duration 0
+21:10:42,524 INFO Processed request! Tid: 4 Start 1580501441.341004 End 1580501442.524170 Cold? False Duration 0
+21:10:42,820 INFO Processed request! Tid: 4 Start 1580501441.441965 End 1580501442.820573 Cold? True Duration 0
+21:10:42,927 INFO Processed request! Tid: 4 Start 1580501441.341262 End 1580501442.927508 Cold? True Duration 0
+21:10:42,936 INFO Processed request! Tid: 4 Start 1580501441.341588 End 1580501442.936813 Cold? True Duration 0
+21:10:42,944 INFO Processed request! Tid: 4 Start 1580501441.341260 End 1580501442.944514 Cold? True Duration 0
+21:10:43,120 INFO Processed request! Tid: 4 Start 1580501441.341480 End 1580501443.120611 Cold? True Duration 0
+21:13:42,436 INFO Processed request! Tid: 5 Start 1580501621.267964 End 1580501622.436731 Cold? False Duration 0
+21:13:42,533 INFO Processed request! Tid: 5 Start 1580501621.267964 End 1580501622.533816 Cold? False Duration 0
+21:13:42,851 INFO Processed request! Tid: 5 Start 1580501621.468803 End 1580501622.850913 Cold? True Duration 0
+21:13:42,872 INFO Processed request! Tid: 5 Start 1580501621.468803 End 1580501622.872886 Cold? True Duration 0
+21:13:43,54 INFO Processed request! Tid: 5 Start 1580501621.469257 End 1580501623.053934 Cold? True Duration 0
+21:13:43,67 INFO Processed request! Tid: 5 Start 1580501621.469047 End 1580501623.067415 Cold? True Duration 0
+21:13:43,69 INFO Processed request! Tid: 5 Start 1580501621.469047 End 1580501623.069288 Cold? True Duration 0
+21:15:42,448 INFO Processed request! Tid: 6 Start 1580501741.295865 End 1580501742.448057 Cold? False Duration 0
+21:15:42,907 INFO Processed request! Tid: 6 Start 1580501741.506457 End 1580501742.907426 Cold? True Duration 0
+21:15:43,58 INFO Processed request! Tid: 6 Start 1580501741.496580 End 1580501743.058400 Cold? True Duration 0
+21:15:43,86 INFO Processed request! Tid: 6 Start 1580501741.505967 End 1580501743.086688 Cold? True Duration 0
+21:15:43,89 INFO Processed request! Tid: 6 Start 1580501741.506223 End 1580501743.089616 Cold? True Duration 0
+21:15:43,168 INFO Processed request! Tid: 6 Start 1580501741.596767 End 1580501743.168255 Cold? True Duration 0
+21:15:43,175 INFO Processed request! Tid: 6 Start 1580501741.596739 End 1580501743.174903 Cold? True Duration 0
+21:15:43,202 INFO Finished iteration 0
+21:15:43,828 INFO Updated 010_sleep_python_128_128_1_7_360 to timeout 871
+21:15:44,101 INFO Updated 010_sleep_python_128_128_1_7_480 to timeout 871
+21:15:44,376 INFO Updated 010_sleep_python_128_128_1_7_600 to timeout 871
+21:15:44,667 INFO Updated 010_sleep_python_128_128_1_7_720 to timeout 871
+21:15:44,951 INFO Updated 010_sleep_python_128_128_1_7_900 to timeout 871
+21:15:45,218 INFO Updated 010_sleep_python_128_128_1_7_1080 to timeout 871
+21:15:45,495 INFO Updated 010_sleep_python_128_128_1_7_1200 to timeout 871
+21:15:45,495 INFO Dumped data
+21:15:45,509 INFO P 0 T 0 Sleep 360 F 010_sleep_python_128_128_1_7_360 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_360
+21:15:45,511 INFO P 3 T 0 Sleep 360 F 010_sleep_python_128_128_1_7_360 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_360
+21:15:45,511 INFO P 1 T 0 Sleep 360 F 010_sleep_python_128_128_1_7_360 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_360
+21:15:45,511 INFO P 4 T 0 Sleep 360 F 010_sleep_python_128_128_1_7_360 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_360
+21:15:45,512 INFO P 6 T 0 Sleep 360 F 010_sleep_python_128_128_1_7_360 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_360
+21:15:45,512 INFO P 5 T 0 Sleep 360 F 010_sleep_python_128_128_1_7_360 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_360
+21:15:45,512 INFO P 2 T 0 Sleep 360 F 010_sleep_python_128_128_1_7_360 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_360
+21:15:45,600 INFO P 0 T 1 Sleep 480 F 010_sleep_python_128_128_1_7_480 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_480
+21:15:45,602 INFO P 1 T 1 Sleep 480 F 010_sleep_python_128_128_1_7_480 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_480
+21:15:45,602 INFO P 3 T 1 Sleep 480 F 010_sleep_python_128_128_1_7_480 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_480
+21:15:45,603 INFO P 4 T 1 Sleep 480 F 010_sleep_python_128_128_1_7_480 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_480
+21:15:45,603 INFO P 6 T 1 Sleep 480 F 010_sleep_python_128_128_1_7_480 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_480
+21:15:45,603 INFO P 5 T 1 Sleep 480 F 010_sleep_python_128_128_1_7_480 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_480
+21:15:45,604 INFO P 2 T 1 Sleep 480 F 010_sleep_python_128_128_1_7_480 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_480
+21:15:45,692 INFO P 0 T 2 Sleep 600 F 010_sleep_python_128_128_1_7_600 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_600
+21:15:45,693 INFO P 3 T 2 Sleep 600 F 010_sleep_python_128_128_1_7_600 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_600
+21:15:45,693 INFO P 1 T 2 Sleep 600 F 010_sleep_python_128_128_1_7_600 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_600
+21:15:45,694 INFO P 4 T 2 Sleep 600 F 010_sleep_python_128_128_1_7_600 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_600
+21:15:45,694 INFO P 6 T 2 Sleep 600 F 010_sleep_python_128_128_1_7_600 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_600
+21:15:45,694 INFO P 5 T 2 Sleep 600 F 010_sleep_python_128_128_1_7_600 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_600
+21:15:45,696 INFO P 2 T 2 Sleep 600 F 010_sleep_python_128_128_1_7_600 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_600
+21:15:45,783 INFO P 0 T 3 Sleep 720 F 010_sleep_python_128_128_1_7_720 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_720
+21:15:45,784 INFO P 3 T 3 Sleep 720 F 010_sleep_python_128_128_1_7_720 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_720
+21:15:45,784 INFO P 1 T 3 Sleep 720 F 010_sleep_python_128_128_1_7_720 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_720
+21:15:45,785 INFO P 4 T 3 Sleep 720 F 010_sleep_python_128_128_1_7_720 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_720
+21:15:45,785 INFO P 6 T 3 Sleep 720 F 010_sleep_python_128_128_1_7_720 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_720
+21:15:45,785 INFO P 5 T 3 Sleep 720 F 010_sleep_python_128_128_1_7_720 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_720
+21:15:45,786 INFO P 2 T 3 Sleep 720 F 010_sleep_python_128_128_1_7_720 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_720
+21:15:45,874 INFO P 0 T 4 Sleep 900 F 010_sleep_python_128_128_1_7_900 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_900
+21:15:45,875 INFO P 1 T 4 Sleep 900 F 010_sleep_python_128_128_1_7_900 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_900
+21:15:45,876 INFO P 3 T 4 Sleep 900 F 010_sleep_python_128_128_1_7_900 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_900
+21:15:45,878 INFO P 4 T 4 Sleep 900 F 010_sleep_python_128_128_1_7_900 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_900
+21:15:45,878 INFO P 5 T 4 Sleep 900 F 010_sleep_python_128_128_1_7_900 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_900
+21:15:45,880 INFO P 2 T 4 Sleep 900 F 010_sleep_python_128_128_1_7_900 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_900
+21:15:45,881 INFO P 6 T 4 Sleep 900 F 010_sleep_python_128_128_1_7_900 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_900
+21:15:45,965 INFO P 0 T 5 Sleep 1080 F 010_sleep_python_128_128_1_7_1080 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_1080
+21:15:45,966 INFO P 1 T 5 Sleep 1080 F 010_sleep_python_128_128_1_7_1080 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_1080
+21:15:45,966 INFO P 3 T 5 Sleep 1080 F 010_sleep_python_128_128_1_7_1080 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_1080
+21:15:45,969 INFO P 4 T 5 Sleep 1080 F 010_sleep_python_128_128_1_7_1080 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_1080
+21:15:45,969 INFO P 5 T 5 Sleep 1080 F 010_sleep_python_128_128_1_7_1080 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_1080
+21:15:45,969 INFO P 6 T 5 Sleep 1080 F 010_sleep_python_128_128_1_7_1080 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_1080
+21:15:45,971 INFO P 2 T 5 Sleep 1080 F 010_sleep_python_128_128_1_7_1080 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_1080
+21:15:46,56 INFO P 0 T 6 Sleep 1200 F 010_sleep_python_128_128_1_7_1200 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_1200
+21:15:46,58 INFO P 1 T 6 Sleep 1200 F 010_sleep_python_128_128_1_7_1200 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_1200
+21:15:46,58 INFO P 3 T 6 Sleep 1200 F 010_sleep_python_128_128_1_7_1200 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_1200
+21:15:46,60 INFO P 5 T 6 Sleep 1200 F 010_sleep_python_128_128_1_7_1200 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_1200
+21:15:46,60 INFO P 4 T 6 Sleep 1200 F 010_sleep_python_128_128_1_7_1200 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_1200
+21:15:46,61 INFO P 2 T 6 Sleep 1200 F 010_sleep_python_128_128_1_7_1200 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_1200
+21:15:46,61 INFO P 6 T 6 Sleep 1200 F 010_sleep_python_128_128_1_7_1200 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_1200
+21:15:46,918 INFO Processed request! Tid: 0 Start 1580501745.512598 End 1580501746.918262 Cold? True Duration 0
+21:15:46,927 INFO Processed request! Tid: 0 Start 1580501745.511426 End 1580501746.927450 Cold? True Duration 0
+21:15:47,4 INFO Processed request! Tid: 1 Start 1580501745.601011 End 1580501747.004297 Cold? True Duration 0
+21:15:47,5 INFO Processed request! Tid: 1 Start 1580501745.602500 End 1580501747.005488 Cold? True Duration 0
+21:15:47,80 INFO Processed request! Tid: 0 Start 1580501745.509867 End 1580501747.080064 Cold? True Duration 0
+21:15:47,95 INFO Processed request! Tid: 0 Start 1580501745.512071 End 1580501747.095153 Cold? True Duration 0
+21:15:47,96 INFO Processed request! Tid: 0 Start 1580501745.511372 End 1580501747.096865 Cold? True Duration 0
+21:15:47,109 INFO Processed request! Tid: 0 Start 1580501745.513032 End 1580501747.109471 Cold? True Duration 0
+21:15:47,129 INFO Processed request! Tid: 0 Start 1580501745.512205 End 1580501747.129740 Cold? True Duration 0
+21:15:47,156 INFO Processed request! Tid: 1 Start 1580501745.603716 End 1580501747.156642 Cold? True Duration 0
+21:15:47,183 INFO Processed request! Tid: 1 Start 1580501745.603102 End 1580501747.183787 Cold? True Duration 0
+21:15:47,191 INFO Processed request! Tid: 3 Start 1580501745.785373 End 1580501747.191009 Cold? True Duration 0
+21:15:47,195 INFO Processed request! Tid: 1 Start 1580501745.602500 End 1580501747.195227 Cold? True Duration 0
+21:15:47,200 INFO Processed request! Tid: 1 Start 1580501745.604150 End 1580501747.200318 Cold? True Duration 0
+21:15:47,222 INFO Processed request! Tid: 1 Start 1580501745.603319 End 1580501747.222539 Cold? True Duration 0
+21:15:47,274 INFO Processed request! Tid: 2 Start 1580501745.692141 End 1580501747.274810 Cold? True Duration 0
+21:15:47,279 INFO Processed request! Tid: 2 Start 1580501745.693609 End 1580501747.279421 Cold? True Duration 0
+21:15:47,280 INFO Processed request! Tid: 2 Start 1580501745.694447 End 1580501747.280853 Cold? True Duration 0
+21:15:47,287 INFO Processed request! Tid: 2 Start 1580501745.694234 End 1580501747.287909 Cold? True Duration 0
+21:15:47,301 INFO Processed request! Tid: 2 Start 1580501745.694876 End 1580501747.301011 Cold? True Duration 0
+21:15:47,301 INFO Processed request! Tid: 2 Start 1580501745.693608 End 1580501747.301689 Cold? True Duration 0
+21:15:47,310 INFO Processed request! Tid: 2 Start 1580501745.696453 End 1580501747.310127 Cold? True Duration 0
+21:15:47,350 INFO Processed request! Tid: 4 Start 1580501745.878968 End 1580501747.350599 Cold? True Duration 0
+21:15:47,374 INFO Processed request! Tid: 3 Start 1580501745.784751 End 1580501747.374660 Cold? True Duration 0
+21:15:47,383 INFO Processed request! Tid: 3 Start 1580501745.786011 End 1580501747.383544 Cold? True Duration 0
+21:15:47,385 INFO Processed request! Tid: 3 Start 1580501745.786429 End 1580501747.385697 Cold? True Duration 0
+21:15:47,398 INFO Processed request! Tid: 3 Start 1580501745.785584 End 1580501747.397972 Cold? True Duration 0
+21:15:47,400 INFO Processed request! Tid: 3 Start 1580501745.784751 End 1580501747.400230 Cold? True Duration 0
+21:15:47,402 INFO Processed request! Tid: 3 Start 1580501745.783276 End 1580501747.402392 Cold? True Duration 0
+21:15:47,434 INFO Processed request! Tid: 5 Start 1580501745.969465 End 1580501747.434611 Cold? True Duration 0
+21:15:47,438 INFO Processed request! Tid: 6 Start 1580501746.058186 End 1580501747.438838 Cold? True Duration 0
+21:15:47,474 INFO Processed request! Tid: 4 Start 1580501745.876649 End 1580501747.474252 Cold? True Duration 0
+21:15:47,475 INFO Processed request! Tid: 4 Start 1580501745.878425 End 1580501747.475636 Cold? True Duration 0
+21:15:47,478 INFO Processed request! Tid: 4 Start 1580501745.881275 End 1580501747.478591 Cold? True Duration 0
+21:15:47,484 INFO Processed request! Tid: 4 Start 1580501745.874414 End 1580501747.484453 Cold? True Duration 0
+21:15:47,486 INFO Processed request! Tid: 4 Start 1580501745.875950 End 1580501747.486032 Cold? True Duration 0
+21:15:47,507 INFO Processed request! Tid: 4 Start 1580501745.880727 End 1580501747.507283 Cold? True Duration 0
+21:15:47,538 INFO Processed request! Tid: 5 Start 1580501745.970081 End 1580501747.538822 Cold? True Duration 0
+21:15:47,564 INFO Processed request! Tid: 5 Start 1580501745.971161 End 1580501747.564546 Cold? True Duration 0
+21:15:47,565 INFO Processed request! Tid: 5 Start 1580501745.965623 End 1580501747.565502 Cold? True Duration 0
+21:15:47,568 INFO Processed request! Tid: 5 Start 1580501745.969465 End 1580501747.568771 Cold? True Duration 0
+21:15:47,633 INFO Processed request! Tid: 6 Start 1580501746.058186 End 1580501747.633292 Cold? True Duration 0
+21:15:47,636 INFO Processed request! Tid: 5 Start 1580501745.967052 End 1580501747.636067 Cold? True Duration 0
+21:15:47,644 INFO Processed request! Tid: 6 Start 1580501746.056753 End 1580501747.644825 Cold? True Duration 0
+21:15:47,649 INFO Processed request! Tid: 6 Start 1580501746.060604 End 1580501747.649328 Cold? True Duration 0
+21:15:47,650 INFO Processed request! Tid: 6 Start 1580501746.061161 End 1580501747.650710 Cold? True Duration 0
+21:15:47,654 INFO Processed request! Tid: 6 Start 1580501746.060587 End 1580501747.654569 Cold? True Duration 0
+21:15:47,665 INFO Processed request! Tid: 5 Start 1580501745.967052 End 1580501747.665571 Cold? True Duration 0
+21:15:47,972 INFO Processed request! Tid: 6 Start 1580501746.061504 End 1580501747.972247 Cold? True Duration 0
+21:21:48,120 INFO Processed request! Tid: 0 Start 1580502106.956996 End 1580502108.120457 Cold? False Duration 0
+21:21:48,134 INFO Processed request! Tid: 0 Start 1580502106.956996 End 1580502108.134491 Cold? False Duration 0
+21:21:48,341 INFO Processed request! Tid: 0 Start 1580502107.180620 End 1580502108.341615 Cold? False Duration 0
+21:21:48,531 INFO Processed request! Tid: 0 Start 1580502107.180150 End 1580502108.531150 Cold? False Duration 0
+21:21:48,537 INFO Processed request! Tid: 0 Start 1580502107.180399 End 1580502108.536984 Cold? False Duration 0
+21:21:48,541 INFO Processed request! Tid: 0 Start 1580502107.180400 End 1580502108.541070 Cold? False Duration 0
+21:21:48,548 INFO Processed request! Tid: 0 Start 1580502107.180152 End 1580502108.548015 Cold? False Duration 0
+21:23:48,276 INFO Processed request! Tid: 1 Start 1580502227.085825 End 1580502228.275992 Cold? False Duration 0
+21:23:48,276 INFO Processed request! Tid: 1 Start 1580502227.085824 End 1580502228.276645 Cold? False Duration 0
+21:23:48,335 INFO Processed request! Tid: 1 Start 1580502227.186229 End 1580502228.335363 Cold? False Duration 0
+21:23:48,438 INFO Processed request! Tid: 1 Start 1580502227.286450 End 1580502228.438091 Cold? False Duration 0
+21:23:48,791 INFO Processed request! Tid: 1 Start 1580502227.186339 End 1580502228.791206 Cold? True Duration 0
+21:23:48,866 INFO Processed request! Tid: 1 Start 1580502227.286697 End 1580502228.866548 Cold? True Duration 0
+21:23:48,882 INFO Processed request! Tid: 1 Start 1580502227.286724 End 1580502228.882061 Cold? True Duration 0
+21:25:48,527 INFO Processed request! Tid: 2 Start 1580502347.375959 End 1580502348.527795 Cold? False Duration 0
+21:25:48,560 INFO Processed request! Tid: 2 Start 1580502347.407942 End 1580502348.560481 Cold? False Duration 0
+21:25:48,678 INFO Processed request! Tid: 2 Start 1580502347.315633 End 1580502348.678871 Cold? False Duration 0
+21:25:48,680 INFO Processed request! Tid: 2 Start 1580502347.315360 End 1580502348.680497 Cold? False Duration 0
+21:25:48,920 INFO Processed request! Tid: 2 Start 1580502347.315930 End 1580502348.920601 Cold? True Duration 0
+21:25:48,935 INFO Processed request! Tid: 2 Start 1580502347.315442 End 1580502348.935598 Cold? True Duration 0
+21:25:48,945 INFO Processed request! Tid: 2 Start 1580502347.315669 End 1580502348.945450 Cold? True Duration 0
+21:27:48,598 INFO Processed request! Tid: 3 Start 1580502467.241583 End 1580502468.598258 Cold? False Duration 0
+21:27:48,601 INFO Processed request! Tid: 3 Start 1580502467.442171 End 1580502468.601563 Cold? False Duration 0
+21:27:48,645 INFO Processed request! Tid: 3 Start 1580502467.501939 End 1580502468.645101 Cold? False Duration 0
+21:27:48,791 INFO Processed request! Tid: 3 Start 1580502467.442191 End 1580502468.791519 Cold? False Duration 0
+21:27:49,33 INFO Processed request! Tid: 3 Start 1580502467.442575 End 1580502469.033794 Cold? True Duration 0
+21:27:49,76 INFO Processed request! Tid: 3 Start 1580502467.442414 End 1580502469.076418 Cold? True Duration 0
+21:27:49,80 INFO Processed request! Tid: 3 Start 1580502467.484938 End 1580502469.080163 Cold? True Duration 0
+21:30:48,650 INFO Processed request! Tid: 4 Start 1580502647.485102 End 1580502648.650139 Cold? False Duration 0
+21:30:48,673 INFO Processed request! Tid: 4 Start 1580502647.523963 End 1580502648.673231 Cold? False Duration 0
+21:30:48,971 INFO Processed request! Tid: 4 Start 1580502647.589948 End 1580502648.971105 Cold? True Duration 0
+21:30:49,47 INFO Processed request! Tid: 4 Start 1580502647.407989 End 1580502649.047148 Cold? True Duration 0
+21:30:49,73 INFO Processed request! Tid: 4 Start 1580502647.523963 End 1580502649.073832 Cold? True Duration 0
+21:30:49,124 INFO Processed request! Tid: 4 Start 1580502647.485127 End 1580502649.124349 Cold? True Duration 0
+21:30:49,189 INFO Processed request! Tid: 4 Start 1580502647.585522 End 1580502649.189292 Cold? True Duration 0
+21:33:48,712 INFO Processed request! Tid: 5 Start 1580502827.539942 End 1580502828.712066 Cold? False Duration 0
+21:33:48,739 INFO Processed request! Tid: 5 Start 1580502827.589965 End 1580502828.739412 Cold? False Duration 0
+21:33:49,132 INFO Processed request! Tid: 5 Start 1580502827.527476 End 1580502829.132156 Cold? True Duration 0
+21:33:49,169 INFO Processed request! Tid: 5 Start 1580502827.589964 End 1580502829.169579 Cold? True Duration 0
+21:33:49,286 INFO Processed request! Tid: 5 Start 1580502827.657002 End 1580502829.286494 Cold? True Duration 0
+21:33:49,306 INFO Processed request! Tid: 5 Start 1580502827.727916 End 1580502829.306566 Cold? True Duration 0
+21:33:49,310 INFO Processed request! Tid: 5 Start 1580502827.728145 End 1580502829.310434 Cold? True Duration 0
+21:35:48,814 INFO Processed request! Tid: 6 Start 1580502947.455053 End 1580502948.814130 Cold? False Duration 0
+21:35:49,109 INFO Processed request! Tid: 6 Start 1580502947.722266 End 1580502949.109854 Cold? True Duration 0
+21:35:49,226 INFO Processed request! Tid: 6 Start 1580502947.655602 End 1580502949.226104 Cold? True Duration 0
+21:35:49,228 INFO Processed request! Tid: 6 Start 1580502947.655623 End 1580502949.228510 Cold? True Duration 0
+21:35:49,295 INFO Processed request! Tid: 6 Start 1580502947.722017 End 1580502949.295013 Cold? True Duration 0
+21:35:49,309 INFO Processed request! Tid: 6 Start 1580502947.722017 End 1580502949.309179 Cold? True Duration 0
+21:35:49,453 INFO Processed request! Tid: 6 Start 1580502948.056658 End 1580502949.453671 Cold? True Duration 0
+21:35:49,461 INFO Finished iteration 1
+21:35:50,74 INFO Updated 010_sleep_python_128_128_1_7_360 to timeout 872
+21:35:50,345 INFO Updated 010_sleep_python_128_128_1_7_480 to timeout 872
+21:35:50,618 INFO Updated 010_sleep_python_128_128_1_7_600 to timeout 872
+21:35:50,894 INFO Updated 010_sleep_python_128_128_1_7_720 to timeout 872
+21:35:51,168 INFO Updated 010_sleep_python_128_128_1_7_900 to timeout 872
+21:35:51,439 INFO Updated 010_sleep_python_128_128_1_7_1080 to timeout 872
+21:35:51,707 INFO Updated 010_sleep_python_128_128_1_7_1200 to timeout 872
+21:35:51,707 INFO Dumped data
+21:35:51,728 INFO P 6 T 0 Sleep 360 F 010_sleep_python_128_128_1_7_360 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_360
+21:35:51,728 INFO P 5 T 0 Sleep 360 F 010_sleep_python_128_128_1_7_360 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_360
+21:35:51,729 INFO P 0 T 0 Sleep 360 F 010_sleep_python_128_128_1_7_360 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_360
+21:35:51,731 INFO P 1 T 0 Sleep 360 F 010_sleep_python_128_128_1_7_360 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_360
+21:35:51,732 INFO P 3 T 0 Sleep 360 F 010_sleep_python_128_128_1_7_360 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_360
+21:35:51,732 INFO P 4 T 0 Sleep 360 F 010_sleep_python_128_128_1_7_360 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_360
+21:35:51,732 INFO P 2 T 0 Sleep 360 F 010_sleep_python_128_128_1_7_360 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_360
+21:35:51,819 INFO P 6 T 1 Sleep 480 F 010_sleep_python_128_128_1_7_480 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_480
+21:35:51,819 INFO P 5 T 1 Sleep 480 F 010_sleep_python_128_128_1_7_480 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_480
+21:35:51,820 INFO P 0 T 1 Sleep 480 F 010_sleep_python_128_128_1_7_480 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_480
+21:35:51,822 INFO P 1 T 1 Sleep 480 F 010_sleep_python_128_128_1_7_480 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_480
+21:35:51,823 INFO P 3 T 1 Sleep 480 F 010_sleep_python_128_128_1_7_480 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_480
+21:35:51,823 INFO P 4 T 1 Sleep 480 F 010_sleep_python_128_128_1_7_480 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_480
+21:35:51,825 INFO P 2 T 1 Sleep 480 F 010_sleep_python_128_128_1_7_480 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_480
+21:35:51,910 INFO P 5 T 2 Sleep 600 F 010_sleep_python_128_128_1_7_600 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_600
+21:35:51,910 INFO P 6 T 2 Sleep 600 F 010_sleep_python_128_128_1_7_600 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_600
+21:35:51,911 INFO P 0 T 2 Sleep 600 F 010_sleep_python_128_128_1_7_600 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_600
+21:35:51,913 INFO P 1 T 2 Sleep 600 F 010_sleep_python_128_128_1_7_600 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_600
+21:35:51,914 INFO P 3 T 2 Sleep 600 F 010_sleep_python_128_128_1_7_600 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_600
+21:35:51,914 INFO P 4 T 2 Sleep 600 F 010_sleep_python_128_128_1_7_600 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_600
+21:35:51,915 INFO P 2 T 2 Sleep 600 F 010_sleep_python_128_128_1_7_600 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_600
+21:35:52,2 INFO P 6 T 3 Sleep 720 F 010_sleep_python_128_128_1_7_720 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_720
+21:35:52,2 INFO P 5 T 3 Sleep 720 F 010_sleep_python_128_128_1_7_720 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_720
+21:35:52,3 INFO P 0 T 3 Sleep 720 F 010_sleep_python_128_128_1_7_720 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_720
+21:35:52,4 INFO P 1 T 3 Sleep 720 F 010_sleep_python_128_128_1_7_720 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_720
+21:35:52,5 INFO P 3 T 3 Sleep 720 F 010_sleep_python_128_128_1_7_720 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_720
+21:35:52,7 INFO P 4 T 3 Sleep 720 F 010_sleep_python_128_128_1_7_720 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_720
+21:35:52,8 INFO P 2 T 3 Sleep 720 F 010_sleep_python_128_128_1_7_720 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_720
+21:35:52,93 INFO P 5 T 4 Sleep 900 F 010_sleep_python_128_128_1_7_900 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_900
+21:35:52,93 INFO P 6 T 4 Sleep 900 F 010_sleep_python_128_128_1_7_900 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_900
+21:35:52,94 INFO P 0 T 4 Sleep 900 F 010_sleep_python_128_128_1_7_900 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_900
+21:35:52,95 INFO P 1 T 4 Sleep 900 F 010_sleep_python_128_128_1_7_900 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_900
+21:35:52,96 INFO P 3 T 4 Sleep 900 F 010_sleep_python_128_128_1_7_900 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_900
+21:35:52,97 INFO P 4 T 4 Sleep 900 F 010_sleep_python_128_128_1_7_900 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_900
+21:35:52,100 INFO P 2 T 4 Sleep 900 F 010_sleep_python_128_128_1_7_900 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_900
+21:35:52,184 INFO P 6 T 5 Sleep 1080 F 010_sleep_python_128_128_1_7_1080 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_1080
+21:35:52,184 INFO P 5 T 5 Sleep 1080 F 010_sleep_python_128_128_1_7_1080 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_1080
+21:35:52,185 INFO P 0 T 5 Sleep 1080 F 010_sleep_python_128_128_1_7_1080 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_1080
+21:35:52,187 INFO P 1 T 5 Sleep 1080 F 010_sleep_python_128_128_1_7_1080 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_1080
+21:35:52,187 INFO P 3 T 5 Sleep 1080 F 010_sleep_python_128_128_1_7_1080 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_1080
+21:35:52,188 INFO P 4 T 5 Sleep 1080 F 010_sleep_python_128_128_1_7_1080 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_1080
+21:35:52,191 INFO P 2 T 5 Sleep 1080 F 010_sleep_python_128_128_1_7_1080 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_1080
+21:35:52,275 INFO P 6 T 6 Sleep 1200 F 010_sleep_python_128_128_1_7_1200 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_1200
+21:35:52,275 INFO P 5 T 6 Sleep 1200 F 010_sleep_python_128_128_1_7_1200 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_1200
+21:35:52,276 INFO P 0 T 6 Sleep 1200 F 010_sleep_python_128_128_1_7_1200 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_1200
+21:35:52,278 INFO P 1 T 6 Sleep 1200 F 010_sleep_python_128_128_1_7_1200 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_1200
+21:35:52,279 INFO P 3 T 6 Sleep 1200 F 010_sleep_python_128_128_1_7_1200 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_1200
+21:35:52,281 INFO P 4 T 6 Sleep 1200 F 010_sleep_python_128_128_1_7_1200 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_1200
+21:35:52,282 INFO P 2 T 6 Sleep 1200 F 010_sleep_python_128_128_1_7_1200 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_1200
+21:35:53,129 INFO Processed request! Tid: 0 Start 1580502951.731569 End 1580502953.129132 Cold? True Duration 0
+21:35:53,132 INFO Processed request! Tid: 0 Start 1580502951.728818 End 1580502953.132702 Cold? True Duration 0
+21:35:53,137 INFO Processed request! Tid: 0 Start 1580502951.729815 End 1580502953.137859 Cold? True Duration 0
+21:35:53,226 INFO Processed request! Tid: 1 Start 1580502951.823727 End 1580502953.226408 Cold? True Duration 0
+21:35:53,227 INFO Processed request! Tid: 1 Start 1580502951.819951 End 1580502953.227485 Cold? True Duration 0
+21:35:53,322 INFO Processed request! Tid: 2 Start 1580502951.914535 End 1580502953.322333 Cold? True Duration 0
+21:35:53,329 INFO Processed request! Tid: 0 Start 1580502951.732338 End 1580502953.329881 Cold? True Duration 0
+21:35:53,331 INFO Processed request! Tid: 0 Start 1580502951.728818 End 1580502953.331766 Cold? True Duration 0
+21:35:53,332 INFO Processed request! Tid: 0 Start 1580502951.732559 End 1580502953.332204 Cold? True Duration 0
+21:35:53,333 INFO Processed request! Tid: 2 Start 1580502951.913733 End 1580502953.333620 Cold? True Duration 0
+21:35:53,339 INFO Processed request! Tid: 0 Start 1580502951.732958 End 1580502953.339670 Cold? True Duration 0
+21:35:53,339 INFO Processed request! Tid: 2 Start 1580502951.912048 End 1580502953.339670 Cold? True Duration 0
+21:35:53,343 INFO Processed request! Tid: 2 Start 1580502951.914806 End 1580502953.343464 Cold? True Duration 0
+21:35:53,355 INFO Processed request! Tid: 2 Start 1580502951.915244 End 1580502953.355464 Cold? True Duration 0
+21:35:53,383 INFO Processed request! Tid: 3 Start 1580502952.003175 End 1580502953.383792 Cold? True Duration 0
+21:35:53,417 INFO Processed request! Tid: 1 Start 1580502951.823414 End 1580502953.417901 Cold? True Duration 0
+21:35:53,435 INFO Processed request! Tid: 1 Start 1580502951.819951 End 1580502953.435634 Cold? True Duration 0
+21:35:53,436 INFO Processed request! Tid: 1 Start 1580502951.820912 End 1580502953.436504 Cold? True Duration 0
+21:35:53,443 INFO Processed request! Tid: 1 Start 1580502951.826050 End 1580502953.443281 Cold? True Duration 0
+21:35:53,480 INFO Processed request! Tid: 2 Start 1580502951.911096 End 1580502953.480424 Cold? True Duration 0
+21:35:53,517 INFO Processed request! Tid: 4 Start 1580502952.096810 End 1580502953.517622 Cold? True Duration 0
+21:35:53,529 INFO Processed request! Tid: 4 Start 1580502952.100759 End 1580502953.528959 Cold? True Duration 0
+21:35:53,543 INFO Processed request! Tid: 2 Start 1580502951.911094 End 1580502953.543323 Cold? True Duration 0
+21:35:53,570 INFO Processed request! Tid: 3 Start 1580502952.008302 End 1580502953.570393 Cold? True Duration 0
+21:35:53,580 INFO Processed request! Tid: 1 Start 1580502951.822628 End 1580502953.580366 Cold? True Duration 0
+21:35:53,588 INFO Processed request! Tid: 3 Start 1580502952.002175 End 1580502953.588499 Cold? True Duration 0
+21:35:53,595 INFO Processed request! Tid: 3 Start 1580502952.002200 End 1580502953.595417 Cold? True Duration 0
+21:35:53,595 INFO Processed request! Tid: 3 Start 1580502952.004883 End 1580502953.595846 Cold? True Duration 0
+21:35:53,597 INFO Processed request! Tid: 3 Start 1580502952.005665 End 1580502953.597034 Cold? True Duration 0
+21:35:53,617 INFO Processed request! Tid: 3 Start 1580502952.007931 End 1580502953.617620 Cold? True Duration 0
+21:35:53,668 INFO Processed request! Tid: 6 Start 1580502952.278232 End 1580502953.667954 Cold? True Duration 0
+21:35:53,688 INFO Processed request! Tid: 6 Start 1580502952.275626 End 1580502953.688594 Cold? True Duration 0
+21:35:53,700 INFO Processed request! Tid: 4 Start 1580502952.093304 End 1580502953.700531 Cold? True Duration 0
+21:35:53,701 INFO Processed request! Tid: 4 Start 1580502952.097097 End 1580502953.701910 Cold? True Duration 0
+21:35:53,710 INFO Processed request! Tid: 4 Start 1580502952.094312 End 1580502953.710695 Cold? True Duration 0
+21:35:53,723 INFO Processed request! Tid: 4 Start 1580502952.096018 End 1580502953.723356 Cold? True Duration 0
+21:35:53,728 INFO Processed request! Tid: 4 Start 1580502952.093304 End 1580502953.728586 Cold? True Duration 0
+21:35:53,738 INFO Processed request! Tid: 6 Start 1580502952.279075 End 1580502953.738273 Cold? True Duration 0
+21:35:53,773 INFO Processed request! Tid: 5 Start 1580502952.184452 End 1580502953.773137 Cold? True Duration 0
+21:35:53,774 INFO Processed request! Tid: 5 Start 1580502952.184452 End 1580502953.774392 Cold? True Duration 0
+21:35:53,778 INFO Processed request! Tid: 5 Start 1580502952.187089 End 1580502953.778889 Cold? True Duration 0
+21:35:53,781 INFO Processed request! Tid: 5 Start 1580502952.188217 End 1580502953.781020 Cold? True Duration 0
+21:35:53,791 INFO Processed request! Tid: 5 Start 1580502952.191889 End 1580502953.791284 Cold? True Duration 0
+21:35:53,798 INFO Processed request! Tid: 5 Start 1580502952.187944 End 1580502953.798420 Cold? True Duration 0
+21:35:53,816 INFO Processed request! Tid: 5 Start 1580502952.185433 End 1580502953.816883 Cold? True Duration 0
+21:35:53,873 INFO Processed request! Tid: 6 Start 1580502952.275611 End 1580502953.873737 Cold? True Duration 0
+21:35:53,884 INFO Processed request! Tid: 6 Start 1580502952.283021 End 1580502953.884562 Cold? True Duration 0
+21:35:53,889 INFO Processed request! Tid: 6 Start 1580502952.276580 End 1580502953.889457 Cold? True Duration 0
+21:35:53,890 INFO Processed request! Tid: 6 Start 1580502952.281256 End 1580502953.890054 Cold? True Duration 0
+21:41:54,564 INFO Processed request! Tid: 0 Start 1580503313.408175 End 1580503314.564858 Cold? False Duration 0
+21:41:54,567 INFO Processed request! Tid: 0 Start 1580503313.407912 End 1580503314.567548 Cold? False Duration 0
+21:41:54,585 INFO Processed request! Tid: 0 Start 1580503313.207433 End 1580503314.585572 Cold? False Duration 0
+21:41:54,590 INFO Processed request! Tid: 0 Start 1580503313.207141 End 1580503314.590508 Cold? False Duration 0
+21:41:54,592 INFO Processed request! Tid: 0 Start 1580503313.207141 End 1580503314.592650 Cold? False Duration 0
+21:41:54,757 INFO Processed request! Tid: 0 Start 1580503313.408008 End 1580503314.756940 Cold? False Duration 0
+21:41:54,770 INFO Processed request! Tid: 0 Start 1580503313.431994 End 1580503314.770271 Cold? False Duration 0
+21:43:54,416 INFO Processed request! Tid: 1 Start 1580503433.236754 End 1580503434.416439 Cold? False Duration 0
+21:43:54,607 INFO Processed request! Tid: 1 Start 1580503433.236754 End 1580503434.607323 Cold? False Duration 0
+21:43:54,789 INFO Processed request! Tid: 1 Start 1580503433.437782 End 1580503434.789098 Cold? False Duration 0
+21:43:54,790 INFO Processed request! Tid: 1 Start 1580503433.437546 End 1580503434.790186 Cold? False Duration 0
+21:43:55,24 INFO Processed request! Tid: 1 Start 1580503433.437546 End 1580503435.024646 Cold? True Duration 0
+21:43:55,181 INFO Processed request! Tid: 1 Start 1580503433.538150 End 1580503435.180963 Cold? True Duration 0
+21:43:55,244 INFO Processed request! Tid: 1 Start 1580503433.668004 End 1580503435.244369 Cold? True Duration 0
+21:45:54,543 INFO Processed request! Tid: 2 Start 1580503553.366595 End 1580503554.542997 Cold? False Duration 0
+21:45:54,547 INFO Processed request! Tid: 2 Start 1580503553.366595 End 1580503554.547103 Cold? False Duration 0
+21:45:54,716 INFO Processed request! Tid: 2 Start 1580503553.567622 End 1580503554.716578 Cold? False Duration 0
+21:45:54,735 INFO Processed request! Tid: 2 Start 1580503553.367070 End 1580503554.735589 Cold? False Duration 0
+21:45:54,979 INFO Processed request! Tid: 2 Start 1580503553.366848 End 1580503554.979652 Cold? True Duration 0
+21:45:54,989 INFO Processed request! Tid: 2 Start 1580503553.366850 End 1580503554.988955 Cold? True Duration 0
+21:45:55,152 INFO Processed request! Tid: 2 Start 1580503553.567874 End 1580503555.152286 Cold? True Duration 0
+21:47:54,773 INFO Processed request! Tid: 3 Start 1580503673.598598 End 1580503674.772913 Cold? False Duration 0
+21:47:54,808 INFO Processed request! Tid: 3 Start 1580503673.397330 End 1580503674.808146 Cold? False Duration 0
+21:47:54,955 INFO Processed request! Tid: 3 Start 1580503673.598071 End 1580503674.955648 Cold? False Duration 0
+21:47:54,957 INFO Processed request! Tid: 3 Start 1580503673.598070 End 1580503674.957780 Cold? False Duration 0
+21:47:55,158 INFO Processed request! Tid: 3 Start 1580503673.598309 End 1580503675.158136 Cold? True Duration 0
+21:47:55,180 INFO Processed request! Tid: 3 Start 1580503673.598399 End 1580503675.179983 Cold? True Duration 0
+21:47:55,260 INFO Processed request! Tid: 3 Start 1580503673.698806 End 1580503675.260814 Cold? True Duration 0
+21:50:54,911 INFO Processed request! Tid: 4 Start 1580503853.739530 End 1580503854.911859 Cold? False Duration 0
+21:50:54,914 INFO Processed request! Tid: 4 Start 1580503853.538859 End 1580503854.914328 Cold? False Duration 0
+21:50:55,142 INFO Processed request! Tid: 4 Start 1580503853.538767 End 1580503855.142786 Cold? True Duration 0
+21:50:55,341 INFO Processed request! Tid: 4 Start 1580503853.739747 End 1580503855.341256 Cold? True Duration 0
+21:50:55,343 INFO Processed request! Tid: 4 Start 1580503853.739287 End 1580503855.343222 Cold? True Duration 0
+21:50:55,343 INFO Processed request! Tid: 4 Start 1580503853.739532 End 1580503855.343844 Cold? True Duration 0
+21:50:55,393 INFO Processed request! Tid: 4 Start 1580503853.739287 End 1580503855.393561 Cold? True Duration 0
+21:53:54,941 INFO Processed request! Tid: 5 Start 1580504033.778318 End 1580504034.941367 Cold? False Duration 0
+21:53:55,35 INFO Processed request! Tid: 5 Start 1580504033.878779 End 1580504035.035349 Cold? False Duration 0
+21:53:55,278 INFO Processed request! Tid: 5 Start 1580504033.879373 End 1580504035.278487 Cold? True Duration 0
+21:53:55,354 INFO Processed request! Tid: 5 Start 1580504033.778319 End 1580504035.354628 Cold? True Duration 0
+21:53:55,465 INFO Processed request! Tid: 5 Start 1580504033.879217 End 1580504035.465547 Cold? True Duration 0
+21:53:55,472 INFO Processed request! Tid: 5 Start 1580504033.878778 End 1580504035.472645 Cold? True Duration 0
+21:53:55,511 INFO Processed request! Tid: 5 Start 1580504033.879025 End 1580504035.511719 Cold? True Duration 0
+21:55:55,94 INFO Processed request! Tid: 6 Start 1580504153.704051 End 1580504155.094312 Cold? True Duration 0
+21:55:55,97 INFO Processed request! Tid: 6 Start 1580504153.704024 End 1580504155.097108 Cold? False Duration 0
+21:55:55,392 INFO Processed request! Tid: 6 Start 1580504153.804433 End 1580504155.391987 Cold? True Duration 0
+21:55:55,487 INFO Processed request! Tid: 6 Start 1580504153.904358 End 1580504155.487132 Cold? True Duration 0
+21:55:55,488 INFO Processed request! Tid: 6 Start 1580504153.904625 End 1580504155.488784 Cold? True Duration 0
+21:55:55,494 INFO Processed request! Tid: 6 Start 1580504153.904327 End 1580504155.494465 Cold? True Duration 0
+21:55:55,572 INFO Processed request! Tid: 6 Start 1580504153.931945 End 1580504155.572576 Cold? True Duration 0
+21:55:55,609 INFO Finished iteration 2
+21:55:56,303 INFO Updated 010_sleep_python_128_128_1_7_360 to timeout 873
+21:55:56,586 INFO Updated 010_sleep_python_128_128_1_7_480 to timeout 873
+21:55:56,942 INFO Updated 010_sleep_python_128_128_1_7_600 to timeout 873
+21:55:57,239 INFO Updated 010_sleep_python_128_128_1_7_720 to timeout 873
+21:55:57,520 INFO Updated 010_sleep_python_128_128_1_7_900 to timeout 873
+21:55:57,789 INFO Updated 010_sleep_python_128_128_1_7_1080 to timeout 873
+21:55:58,102 INFO Updated 010_sleep_python_128_128_1_7_1200 to timeout 873
+21:55:58,102 INFO Dumped data
+21:55:58,123 INFO P 5 T 0 Sleep 360 F 010_sleep_python_128_128_1_7_360 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_360
+21:55:58,124 INFO P 1 T 0 Sleep 360 F 010_sleep_python_128_128_1_7_360 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_360
+21:55:58,124 INFO P 6 T 0 Sleep 360 F 010_sleep_python_128_128_1_7_360 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_360
+21:55:58,125 INFO P 4 T 0 Sleep 360 F 010_sleep_python_128_128_1_7_360 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_360
+21:55:58,125 INFO P 0 T 0 Sleep 360 F 010_sleep_python_128_128_1_7_360 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_360
+21:55:58,125 INFO P 2 T 0 Sleep 360 F 010_sleep_python_128_128_1_7_360 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_360
+21:55:58,126 INFO P 3 T 0 Sleep 360 F 010_sleep_python_128_128_1_7_360 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_360
+21:55:58,214 INFO P 5 T 1 Sleep 480 F 010_sleep_python_128_128_1_7_480 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_480
+21:55:58,215 INFO P 1 T 1 Sleep 480 F 010_sleep_python_128_128_1_7_480 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_480
+21:55:58,215 INFO P 6 T 1 Sleep 480 F 010_sleep_python_128_128_1_7_480 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_480
+21:55:58,216 INFO P 4 T 1 Sleep 480 F 010_sleep_python_128_128_1_7_480 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_480
+21:55:58,216 INFO P 0 T 1 Sleep 480 F 010_sleep_python_128_128_1_7_480 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_480
+21:55:58,217 INFO P 3 T 1 Sleep 480 F 010_sleep_python_128_128_1_7_480 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_480
+21:55:58,217 INFO P 2 T 1 Sleep 480 F 010_sleep_python_128_128_1_7_480 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_480
+21:55:58,305 INFO P 5 T 2 Sleep 600 F 010_sleep_python_128_128_1_7_600 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_600
+21:55:58,306 INFO P 1 T 2 Sleep 600 F 010_sleep_python_128_128_1_7_600 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_600
+21:55:58,306 INFO P 6 T 2 Sleep 600 F 010_sleep_python_128_128_1_7_600 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_600
+21:55:58,307 INFO P 4 T 2 Sleep 600 F 010_sleep_python_128_128_1_7_600 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_600
+21:55:58,307 INFO P 3 T 2 Sleep 600 F 010_sleep_python_128_128_1_7_600 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_600
+21:55:58,308 INFO P 0 T 2 Sleep 600 F 010_sleep_python_128_128_1_7_600 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_600
+21:55:58,308 INFO P 2 T 2 Sleep 600 F 010_sleep_python_128_128_1_7_600 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_600
+21:55:58,396 INFO P 5 T 3 Sleep 720 F 010_sleep_python_128_128_1_7_720 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_720
+21:55:58,397 INFO P 1 T 3 Sleep 720 F 010_sleep_python_128_128_1_7_720 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_720
+21:55:58,397 INFO P 6 T 3 Sleep 720 F 010_sleep_python_128_128_1_7_720 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_720
+21:55:58,398 INFO P 4 T 3 Sleep 720 F 010_sleep_python_128_128_1_7_720 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_720
+21:55:58,398 INFO P 3 T 3 Sleep 720 F 010_sleep_python_128_128_1_7_720 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_720
+21:55:58,399 INFO P 0 T 3 Sleep 720 F 010_sleep_python_128_128_1_7_720 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_720
+21:55:58,399 INFO P 2 T 3 Sleep 720 F 010_sleep_python_128_128_1_7_720 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_720
+21:55:58,488 INFO P 5 T 4 Sleep 900 F 010_sleep_python_128_128_1_7_900 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_900
+21:55:58,488 INFO P 1 T 4 Sleep 900 F 010_sleep_python_128_128_1_7_900 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_900
+21:55:58,488 INFO P 6 T 4 Sleep 900 F 010_sleep_python_128_128_1_7_900 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_900
+21:55:58,490 INFO P 4 T 4 Sleep 900 F 010_sleep_python_128_128_1_7_900 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_900
+21:55:58,490 INFO P 0 T 4 Sleep 900 F 010_sleep_python_128_128_1_7_900 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_900
+21:55:58,490 INFO P 3 T 4 Sleep 900 F 010_sleep_python_128_128_1_7_900 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_900
+21:55:58,490 INFO P 2 T 4 Sleep 900 F 010_sleep_python_128_128_1_7_900 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_900
+21:55:58,579 INFO P 5 T 5 Sleep 1080 F 010_sleep_python_128_128_1_7_1080 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_1080
+21:55:58,579 INFO P 1 T 5 Sleep 1080 F 010_sleep_python_128_128_1_7_1080 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_1080
+21:55:58,580 INFO P 6 T 5 Sleep 1080 F 010_sleep_python_128_128_1_7_1080 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_1080
+21:55:58,581 INFO P 4 T 5 Sleep 1080 F 010_sleep_python_128_128_1_7_1080 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_1080
+21:55:58,581 INFO P 3 T 5 Sleep 1080 F 010_sleep_python_128_128_1_7_1080 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_1080
+21:55:58,581 INFO P 0 T 5 Sleep 1080 F 010_sleep_python_128_128_1_7_1080 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_1080
+21:55:58,582 INFO P 2 T 5 Sleep 1080 F 010_sleep_python_128_128_1_7_1080 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_1080
+21:55:58,670 INFO P 5 T 6 Sleep 1200 F 010_sleep_python_128_128_1_7_1200 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_1200
+21:55:58,670 INFO P 1 T 6 Sleep 1200 F 010_sleep_python_128_128_1_7_1200 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_1200
+21:55:58,671 INFO P 6 T 6 Sleep 1200 F 010_sleep_python_128_128_1_7_1200 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_1200
+21:55:58,672 INFO P 4 T 6 Sleep 1200 F 010_sleep_python_128_128_1_7_1200 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_1200
+21:55:58,672 INFO P 3 T 6 Sleep 1200 F 010_sleep_python_128_128_1_7_1200 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_1200
+21:55:58,672 INFO P 0 T 6 Sleep 1200 F 010_sleep_python_128_128_1_7_1200 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_1200
+21:55:58,673 INFO P 2 T 6 Sleep 1200 F 010_sleep_python_128_128_1_7_1200 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_1200
+21:55:59,527 INFO Processed request! Tid: 0 Start 1580504158.126391 End 1580504159.527497 Cold? True Duration 0
+21:55:59,546 INFO Processed request! Tid: 0 Start 1580504158.123658 End 1580504159.546485 Cold? True Duration 0
+21:55:59,609 INFO Processed request! Tid: 1 Start 1580504158.217133 End 1580504159.609079 Cold? True Duration 0
+21:55:59,611 INFO Processed request! Tid: 1 Start 1580504158.215364 End 1580504159.611875 Cold? True Duration 0
+21:55:59,626 INFO Processed request! Tid: 1 Start 1580504158.216726 End 1580504159.626857 Cold? True Duration 0
+21:55:59,711 INFO Processed request! Tid: 2 Start 1580504158.307853 End 1580504159.710936 Cold? True Duration 0
+21:55:59,716 INFO Processed request! Tid: 0 Start 1580504158.124293 End 1580504159.716594 Cold? True Duration 0
+21:55:59,719 INFO Processed request! Tid: 0 Start 1580504158.125615 End 1580504159.719723 Cold? True Duration 0
+21:55:59,720 INFO Processed request! Tid: 0 Start 1580504158.124456 End 1580504159.720449 Cold? True Duration 0
+21:55:59,736 INFO Processed request! Tid: 2 Start 1580504158.308211 End 1580504159.736026 Cold? True Duration 0
+21:55:59,748 INFO Processed request! Tid: 0 Start 1580504158.126030 End 1580504159.748119 Cold? True Duration 0
+21:55:59,768 INFO Processed request! Tid: 0 Start 1580504158.126066 End 1580504159.768674 Cold? True Duration 0
+21:55:59,797 INFO Processed request! Tid: 3 Start 1580504158.398968 End 1580504159.797867 Cold? True Duration 0
+21:55:59,805 INFO Processed request! Tid: 1 Start 1580504158.214676 End 1580504159.805707 Cold? True Duration 0
+21:55:59,816 INFO Processed request! Tid: 3 Start 1580504158.399406 End 1580504159.816001 Cold? True Duration 0
+21:55:59,817 INFO Processed request! Tid: 1 Start 1580504158.215595 End 1580504159.817436 Cold? True Duration 0
+21:55:59,825 INFO Processed request! Tid: 1 Start 1580504158.216813 End 1580504159.825063 Cold? True Duration 0
+21:55:59,826 INFO Processed request! Tid: 1 Start 1580504158.217404 End 1580504159.826627 Cold? True Duration 0
+21:55:59,883 INFO Processed request! Tid: 4 Start 1580504158.489057 End 1580504159.883376 Cold? True Duration 0
+21:55:59,887 INFO Processed request! Tid: 2 Start 1580504158.305822 End 1580504159.887309 Cold? True Duration 0
+21:55:59,899 INFO Processed request! Tid: 2 Start 1580504158.307853 End 1580504159.899887 Cold? True Duration 0
+21:55:59,907 INFO Processed request! Tid: 2 Start 1580504158.308313 End 1580504159.907480 Cold? True Duration 0
+21:55:59,916 INFO Processed request! Tid: 2 Start 1580504158.306491 End 1580504159.915949 Cold? True Duration 0
+21:55:59,920 INFO Processed request! Tid: 4 Start 1580504158.490486 End 1580504159.920580 Cold? True Duration 0
+21:55:59,960 INFO Processed request! Tid: 2 Start 1580504158.306736 End 1580504159.960651 Cold? True Duration 0
+21:55:59,971 INFO Processed request! Tid: 5 Start 1580504158.581409 End 1580504159.971491 Cold? True Duration 0
+21:55:59,972 INFO Processed request! Tid: 3 Start 1580504158.397870 End 1580504159.972879 Cold? True Duration 0
+21:55:59,978 INFO Processed request! Tid: 3 Start 1580504158.396968 End 1580504159.978577 Cold? True Duration 0
+21:55:59,988 INFO Processed request! Tid: 5 Start 1580504158.581615 End 1580504159.988122 Cold? True Duration 0
+21:55:59,994 INFO Processed request! Tid: 5 Start 1580504158.580145 End 1580504159.994648 Cold? True Duration 0
+21:55:59,999 INFO Processed request! Tid: 3 Start 1580504158.399088 End 1580504159.999003 Cold? True Duration 0
+21:56:00,3 INFO Processed request! Tid: 3 Start 1580504158.399597 End 1580504160.003820 Cold? True Duration 0
+21:56:00,5 INFO Processed request! Tid: 3 Start 1580504158.397628 End 1580504160.005363 Cold? True Duration 0
+21:56:00,71 INFO Processed request! Tid: 4 Start 1580504158.488110 End 1580504160.071812 Cold? True Duration 0
+21:56:00,74 INFO Processed request! Tid: 4 Start 1580504158.488771 End 1580504160.074395 Cold? True Duration 0
+21:56:00,82 INFO Processed request! Tid: 4 Start 1580504158.490544 End 1580504160.082828 Cold? True Duration 0
+21:56:00,99 INFO Processed request! Tid: 4 Start 1580504158.490112 End 1580504160.099161 Cold? True Duration 0
+21:56:00,101 INFO Processed request! Tid: 4 Start 1580504158.491022 End 1580504160.101594 Cold? True Duration 0
+21:56:00,146 INFO Processed request! Tid: 5 Start 1580504158.581228 End 1580504160.146255 Cold? True Duration 0
+21:56:00,159 INFO Processed request! Tid: 5 Start 1580504158.579256 End 1580504160.159250 Cold? True Duration 0
+21:56:00,172 INFO Processed request! Tid: 5 Start 1580504158.579905 End 1580504160.172277 Cold? True Duration 0
+21:56:00,211 INFO Processed request! Tid: 5 Start 1580504158.582136 End 1580504160.211024 Cold? True Duration 0
+21:56:00,255 INFO Processed request! Tid: 6 Start 1580504158.672416 End 1580504160.255733 Cold? True Duration 0
+21:56:00,259 INFO Processed request! Tid: 6 Start 1580504158.673304 End 1580504160.259609 Cold? True Duration 0
+21:56:00,262 INFO Processed request! Tid: 6 Start 1580504158.671288 End 1580504160.262409 Cold? True Duration 0
+21:56:00,271 INFO Processed request! Tid: 6 Start 1580504158.670404 End 1580504160.271088 Cold? True Duration 0
+21:56:00,272 INFO Processed request! Tid: 6 Start 1580504158.672731 End 1580504160.272333 Cold? True Duration 0
+21:56:00,273 INFO Processed request! Tid: 6 Start 1580504158.671068 End 1580504160.273175 Cold? True Duration 0
+21:56:00,274 INFO Processed request! Tid: 6 Start 1580504158.672399 End 1580504160.274058 Cold? True Duration 0
+22:02:00,769 INFO Processed request! Tid: 0 Start 1580504519.606317 End 1580504520.769520 Cold? False Duration 0
+22:02:00,957 INFO Processed request! Tid: 0 Start 1580504519.606398 End 1580504520.957021 Cold? False Duration 0
+22:02:00,969 INFO Processed request! Tid: 0 Start 1580504519.807133 End 1580504520.969860 Cold? False Duration 0
+22:02:01,166 INFO Processed request! Tid: 0 Start 1580504519.807341 End 1580504521.165995 Cold? False Duration 0
+22:02:01,167 INFO Processed request! Tid: 0 Start 1580504519.807134 End 1580504521.167588 Cold? False Duration 0
+22:02:01,169 INFO Processed request! Tid: 0 Start 1580504519.806887 End 1580504521.169143 Cold? False Duration 0
+22:02:01,184 INFO Processed request! Tid: 0 Start 1580504519.806887 End 1580504521.184249 Cold? False Duration 0
+22:04:00,818 INFO Processed request! Tid: 1 Start 1580504639.633762 End 1580504640.818409 Cold? False Duration 0
+22:04:00,818 INFO Processed request! Tid: 1 Start 1580504639.634026 End 1580504640.818397 Cold? False Duration 0
+22:04:01,8 INFO Processed request! Tid: 1 Start 1580504639.633762 End 1580504641.008845 Cold? False Duration 0
+22:04:01,43 INFO Processed request! Tid: 1 Start 1580504639.892079 End 1580504641.043670 Cold? False Duration 0
+22:04:01,264 INFO Processed request! Tid: 1 Start 1580504639.892077 End 1580504641.263987 Cold? True Duration 0
+22:04:01,321 INFO Processed request! Tid: 1 Start 1580504639.892318 End 1580504641.321423 Cold? True Duration 0
+22:04:01,430 INFO Processed request! Tid: 1 Start 1580504639.834553 End 1580504641.430091 Cold? True Duration 0
+22:06:00,946 INFO Processed request! Tid: 2 Start 1580504759.760323 End 1580504760.946701 Cold? False Duration 0
+22:06:01,136 INFO Processed request! Tid: 2 Start 1580504759.760386 End 1580504761.136434 Cold? False Duration 0
+22:06:01,313 INFO Processed request! Tid: 2 Start 1580504759.960842 End 1580504761.313812 Cold? False Duration 0
+22:06:01,318 INFO Processed request! Tid: 2 Start 1580504759.961091 End 1580504761.318530 Cold? False Duration 0
+22:06:01,541 INFO Processed request! Tid: 2 Start 1580504759.961088 End 1580504761.541111 Cold? True Duration 0
+22:06:01,563 INFO Processed request! Tid: 2 Start 1580504759.960842 End 1580504761.563334 Cold? True Duration 0
+22:06:01,571 INFO Processed request! Tid: 2 Start 1580504759.961298 End 1580504761.571366 Cold? True Duration 0
+22:08:01,81 INFO Processed request! Tid: 3 Start 1580504879.887107 End 1580504881.081689 Cold? False Duration 0
+22:08:01,240 INFO Processed request! Tid: 3 Start 1580504879.887039 End 1580504881.240278 Cold? False Duration 0
+22:08:01,247 INFO Processed request! Tid: 3 Start 1580504880.087700 End 1580504881.247410 Cold? False Duration 0
+22:08:01,334 INFO Processed request! Tid: 3 Start 1580504879.987696 End 1580504881.334680 Cold? False Duration 0
+22:08:01,567 INFO Processed request! Tid: 3 Start 1580504879.987472 End 1580504881.567644 Cold? True Duration 0
+22:08:01,669 INFO Processed request! Tid: 3 Start 1580504880.087449 End 1580504881.669281 Cold? True Duration 0
+22:08:01,694 INFO Processed request! Tid: 3 Start 1580504880.087476 End 1580504881.693967 Cold? True Duration 0
+22:11:01,121 INFO Processed request! Tid: 4 Start 1580505059.929933 End 1580505061.121794 Cold? False Duration 0
+22:11:01,124 INFO Processed request! Tid: 4 Start 1580505059.930009 End 1580505061.124228 Cold? False Duration 0
+22:11:01,499 INFO Processed request! Tid: 4 Start 1580505060.130952 End 1580505061.498984 Cold? True Duration 0
+22:11:01,527 INFO Processed request! Tid: 4 Start 1580505060.130489 End 1580505061.527706 Cold? True Duration 0
+22:11:01,728 INFO Processed request! Tid: 4 Start 1580505060.130489 End 1580505061.728614 Cold? True Duration 0
+22:11:01,747 INFO Processed request! Tid: 4 Start 1580505060.130731 End 1580505061.747688 Cold? True Duration 0
+22:11:01,771 INFO Processed request! Tid: 4 Start 1580505060.130729 End 1580505061.771720 Cold? True Duration 0
+22:14:01,238 INFO Processed request! Tid: 5 Start 1580505240.074067 End 1580505241.238077 Cold? False Duration 0
+22:14:01,325 INFO Processed request! Tid: 5 Start 1580505240.174190 End 1580505241.324993 Cold? False Duration 0
+22:14:01,593 INFO Processed request! Tid: 5 Start 1580505239.973427 End 1580505241.593422 Cold? True Duration 0
+22:14:01,708 INFO Processed request! Tid: 5 Start 1580505240.073805 End 1580505241.708142 Cold? True Duration 0
+22:14:01,777 INFO Processed request! Tid: 5 Start 1580505240.204962 End 1580505241.777519 Cold? True Duration 0
+22:14:01,779 INFO Processed request! Tid: 5 Start 1580505240.204963 End 1580505241.779740 Cold? True Duration 0
+22:14:01,860 INFO Processed request! Tid: 5 Start 1580505240.276939 End 1580505241.860061 Cold? True Duration 0
+22:16:01,517 INFO Processed request! Tid: 6 Start 1580505360.302449 End 1580505361.517252 Cold? False Duration 0
+22:16:01,739 INFO Processed request! Tid: 6 Start 1580505360.303272 End 1580505361.739420 Cold? True Duration 0
+22:16:01,758 INFO Processed request! Tid: 6 Start 1580505360.302715 End 1580505361.758577 Cold? True Duration 0
+22:16:01,938 INFO Processed request! Tid: 6 Start 1580505360.302713 End 1580505361.938678 Cold? True Duration 0
+22:16:01,964 INFO Processed request! Tid: 6 Start 1580505360.302946 End 1580505361.964217 Cold? True Duration 0
+22:16:01,978 INFO Processed request! Tid: 6 Start 1580505360.302448 End 1580505361.978430 Cold? True Duration 0
+22:16:02,6 INFO Processed request! Tid: 6 Start 1580505360.303038 End 1580505362.006673 Cold? True Duration 0
+22:16:02,8 INFO Finished iteration 3
+22:16:02,625 INFO Updated 010_sleep_python_128_128_1_7_360 to timeout 874
+22:16:02,901 INFO Updated 010_sleep_python_128_128_1_7_480 to timeout 874
+22:16:03,203 INFO Updated 010_sleep_python_128_128_1_7_600 to timeout 874
+22:16:03,484 INFO Updated 010_sleep_python_128_128_1_7_720 to timeout 874
+22:16:03,749 INFO Updated 010_sleep_python_128_128_1_7_900 to timeout 874
+22:16:04,39 INFO Updated 010_sleep_python_128_128_1_7_1080 to timeout 874
+22:16:04,313 INFO Updated 010_sleep_python_128_128_1_7_1200 to timeout 874
+22:16:04,313 INFO Dumped data
+22:16:04,344 INFO P 2 T 0 Sleep 360 F 010_sleep_python_128_128_1_7_360 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_360
+22:16:04,345 INFO P 0 T 0 Sleep 360 F 010_sleep_python_128_128_1_7_360 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_360
+22:16:04,346 INFO P 6 T 0 Sleep 360 F 010_sleep_python_128_128_1_7_360 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_360
+22:16:04,346 INFO P 5 T 0 Sleep 360 F 010_sleep_python_128_128_1_7_360 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_360
+22:16:04,347 INFO P 4 T 0 Sleep 360 F 010_sleep_python_128_128_1_7_360 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_360
+22:16:04,347 INFO P 3 T 0 Sleep 360 F 010_sleep_python_128_128_1_7_360 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_360
+22:16:04,347 INFO P 1 T 0 Sleep 360 F 010_sleep_python_128_128_1_7_360 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_360
+22:16:04,435 INFO P 2 T 1 Sleep 480 F 010_sleep_python_128_128_1_7_480 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_480
+22:16:04,436 INFO P 0 T 1 Sleep 480 F 010_sleep_python_128_128_1_7_480 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_480
+22:16:04,437 INFO P 5 T 1 Sleep 480 F 010_sleep_python_128_128_1_7_480 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_480
+22:16:04,437 INFO P 6 T 1 Sleep 480 F 010_sleep_python_128_128_1_7_480 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_480
+22:16:04,438 INFO P 4 T 1 Sleep 480 F 010_sleep_python_128_128_1_7_480 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_480
+22:16:04,438 INFO P 1 T 1 Sleep 480 F 010_sleep_python_128_128_1_7_480 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_480
+22:16:04,438 INFO P 3 T 1 Sleep 480 F 010_sleep_python_128_128_1_7_480 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_480
+22:16:04,526 INFO P 2 T 2 Sleep 600 F 010_sleep_python_128_128_1_7_600 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_600
+22:16:04,527 INFO P 0 T 2 Sleep 600 F 010_sleep_python_128_128_1_7_600 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_600
+22:16:04,528 INFO P 6 T 2 Sleep 600 F 010_sleep_python_128_128_1_7_600 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_600
+22:16:04,528 INFO P 5 T 2 Sleep 600 F 010_sleep_python_128_128_1_7_600 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_600
+22:16:04,529 INFO P 4 T 2 Sleep 600 F 010_sleep_python_128_128_1_7_600 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_600
+22:16:04,529 INFO P 1 T 2 Sleep 600 F 010_sleep_python_128_128_1_7_600 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_600
+22:16:04,529 INFO P 3 T 2 Sleep 600 F 010_sleep_python_128_128_1_7_600 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_600
+22:16:04,618 INFO P 2 T 3 Sleep 720 F 010_sleep_python_128_128_1_7_720 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_720
+22:16:04,619 INFO P 0 T 3 Sleep 720 F 010_sleep_python_128_128_1_7_720 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_720
+22:16:04,619 INFO P 6 T 3 Sleep 720 F 010_sleep_python_128_128_1_7_720 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_720
+22:16:04,619 INFO P 5 T 3 Sleep 720 F 010_sleep_python_128_128_1_7_720 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_720
+22:16:04,620 INFO P 4 T 3 Sleep 720 F 010_sleep_python_128_128_1_7_720 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_720
+22:16:04,620 INFO P 1 T 3 Sleep 720 F 010_sleep_python_128_128_1_7_720 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_720
+22:16:04,620 INFO P 3 T 3 Sleep 720 F 010_sleep_python_128_128_1_7_720 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_720
+22:16:04,709 INFO P 2 T 4 Sleep 900 F 010_sleep_python_128_128_1_7_900 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_900
+22:16:04,710 INFO P 0 T 4 Sleep 900 F 010_sleep_python_128_128_1_7_900 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_900
+22:16:04,711 INFO P 6 T 4 Sleep 900 F 010_sleep_python_128_128_1_7_900 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_900
+22:16:04,711 INFO P 5 T 4 Sleep 900 F 010_sleep_python_128_128_1_7_900 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_900
+22:16:04,711 INFO P 4 T 4 Sleep 900 F 010_sleep_python_128_128_1_7_900 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_900
+22:16:04,711 INFO P 3 T 4 Sleep 900 F 010_sleep_python_128_128_1_7_900 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_900
+22:16:04,712 INFO P 1 T 4 Sleep 900 F 010_sleep_python_128_128_1_7_900 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_900
+22:16:04,800 INFO P 2 T 5 Sleep 1080 F 010_sleep_python_128_128_1_7_1080 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_1080
+22:16:04,801 INFO P 0 T 5 Sleep 1080 F 010_sleep_python_128_128_1_7_1080 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_1080
+22:16:04,802 INFO P 6 T 5 Sleep 1080 F 010_sleep_python_128_128_1_7_1080 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_1080
+22:16:04,802 INFO P 5 T 5 Sleep 1080 F 010_sleep_python_128_128_1_7_1080 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_1080
+22:16:04,802 INFO P 4 T 5 Sleep 1080 F 010_sleep_python_128_128_1_7_1080 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_1080
+22:16:04,802 INFO P 1 T 5 Sleep 1080 F 010_sleep_python_128_128_1_7_1080 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_1080
+22:16:04,803 INFO P 3 T 5 Sleep 1080 F 010_sleep_python_128_128_1_7_1080 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_1080
+22:16:04,891 INFO P 2 T 6 Sleep 1200 F 010_sleep_python_128_128_1_7_1200 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_1200
+22:16:04,892 INFO P 0 T 6 Sleep 1200 F 010_sleep_python_128_128_1_7_1200 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_1200
+22:16:04,893 INFO P 5 T 6 Sleep 1200 F 010_sleep_python_128_128_1_7_1200 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_1200
+22:16:04,893 INFO P 6 T 6 Sleep 1200 F 010_sleep_python_128_128_1_7_1200 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_1200
+22:16:04,893 INFO P 4 T 6 Sleep 1200 F 010_sleep_python_128_128_1_7_1200 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_1200
+22:16:04,894 INFO P 1 T 6 Sleep 1200 F 010_sleep_python_128_128_1_7_1200 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_1200
+22:16:04,894 INFO P 3 T 6 Sleep 1200 F 010_sleep_python_128_128_1_7_1200 Url https://hnxuorxoue.execute-api.us-east-1.amazonaws.com/name/010_sleep_python_128_128_1_7_1200
+22:16:05,748 INFO Processed request! Tid: 0 Start 1580505364.347215 End 1580505365.748144 Cold? True Duration 0
+22:16:05,748 INFO Processed request! Tid: 0 Start 1580505364.346620 End 1580505365.748870 Cold? True Duration 0
+22:16:05,788 INFO Processed request! Tid: 0 Start 1580505364.344717 End 1580505365.788854 Cold? True Duration 0
+22:16:05,841 INFO Processed request! Tid: 1 Start 1580505364.437756 End 1580505365.841881 Cold? True Duration 0
+22:16:05,852 INFO Processed request! Tid: 1 Start 1580505364.439052 End 1580505365.852521 Cold? True Duration 0
+22:16:05,926 INFO Processed request! Tid: 0 Start 1580505364.345946 End 1580505365.926807 Cold? True Duration 0
+22:16:05,934 INFO Processed request! Tid: 2 Start 1580505364.529747 End 1580505365.933949 Cold? True Duration 0
+22:16:05,939 INFO Processed request! Tid: 0 Start 1580505364.347611 End 1580505365.939136 Cold? True Duration 0
+22:16:05,939 INFO Processed request! Tid: 0 Start 1580505364.347358 End 1580505365.939523 Cold? True Duration 0
+22:16:05,945 INFO Processed request! Tid: 0 Start 1580505364.346638 End 1580505365.945905 Cold? True Duration 0
+22:16:06,18 INFO Processed request! Tid: 1 Start 1580505364.438311 End 1580505366.018307 Cold? True Duration 0
+22:16:06,28 INFO Processed request! Tid: 3 Start 1580505364.620005 End 1580505366.028406 Cold? True Duration 0
+22:16:06,30 INFO Processed request! Tid: 1 Start 1580505364.438011 End 1580505366.030671 Cold? True Duration 0
+22:16:06,43 INFO Processed request! Tid: 1 Start 1580505364.435777 End 1580505366.043604 Cold? True Duration 0
+22:16:06,50 INFO Processed request! Tid: 1 Start 1580505364.438670 End 1580505366.050681 Cold? True Duration 0
+22:16:06,99 INFO Processed request! Tid: 2 Start 1580505364.528062 End 1580505366.099126 Cold? True Duration 0
+22:16:06,103 INFO Processed request! Tid: 1 Start 1580505364.436935 End 1580505366.103145 Cold? True Duration 0
+22:16:06,129 INFO Processed request! Tid: 2 Start 1580505364.528877 End 1580505366.128953 Cold? True Duration 0
+22:16:06,130 INFO Processed request! Tid: 2 Start 1580505364.529459 End 1580505366.130703 Cold? True Duration 0
+22:16:06,131 INFO Processed request! Tid: 2 Start 1580505364.526945 End 1580505366.131407 Cold? True Duration 0
+22:16:06,144 INFO Processed request! Tid: 2 Start 1580505364.529446 End 1580505366.144838 Cold? True Duration 0
+22:16:06,174 INFO Processed request! Tid: 2 Start 1580505364.528903 End 1580505366.174892 Cold? True Duration 0
+22:16:06,212 INFO Processed request! Tid: 3 Start 1580505364.620599 End 1580505366.212573 Cold? True Duration 0
+22:16:06,221 INFO Processed request! Tid: 3 Start 1580505364.619207 End 1580505366.221031 Cold? True Duration 0
+22:16:06,224 INFO Processed request! Tid: 3 Start 1580505364.620005 End 1580505366.224641 Cold? True Duration 0
+22:16:06,226 INFO Processed request! Tid: 3 Start 1580505364.620904 End 1580505366.226258 Cold? True Duration 0
+22:16:06,293 INFO Processed request! Tid: 3 Start 1580505364.620595 End 1580505366.293230 Cold? True Duration 0
+22:16:06,293 INFO Processed request! Tid: 3 Start 1580505364.618091 End 1580505366.293650 Cold? True Duration 0
+22:16:06,295 INFO Processed request! Tid: 4 Start 1580505364.712115 End 1580505366.295534 Cold? True Duration 0
+22:16:06,297 INFO Processed request! Tid: 4 Start 1580505364.709235 End 1580505366.297780 Cold? True Duration 0
+22:16:06,302 INFO Processed request! Tid: 4 Start 1580505364.710332 End 1580505366.301991 Cold? True Duration 0
+22:16:06,303 INFO Processed request! Tid: 6 Start 1580505364.893989 End 1580505366.303435 Cold? True Duration 0
+22:16:06,309 INFO Processed request! Tid: 4 Start 1580505364.712087 End 1580505366.309863 Cold? True Duration 0
+22:16:06,311 INFO Processed request! Tid: 4 Start 1580505364.711142 End 1580505366.311475 Cold? True Duration 0
+22:16:06,318 INFO Processed request! Tid: 4 Start 1580505364.711713 End 1580505366.318140 Cold? True Duration 0
+22:16:06,358 INFO Processed request! Tid: 4 Start 1580505364.711142 End 1580505366.358881 Cold? True Duration 0
+22:16:06,383 INFO Processed request! Tid: 5 Start 1580505364.803205 End 1580505366.383556 Cold? True Duration 0
+22:16:06,395 INFO Processed request! Tid: 5 Start 1580505364.801484 End 1580505366.395699 Cold? True Duration 0
+22:16:06,399 INFO Processed request! Tid: 5 Start 1580505364.802875 End 1580505366.399084 Cold? True Duration 0
+22:16:06,400 INFO Processed request! Tid: 5 Start 1580505364.802274 End 1580505366.400905 Cold? True Duration 0
+22:16:06,458 INFO Processed request! Tid: 5 Start 1580505364.802274 End 1580505366.458459 Cold? True Duration 0
+22:16:06,460 INFO Processed request! Tid: 6 Start 1580505364.891514 End 1580505366.460093 Cold? True Duration 0
+22:16:06,484 INFO Processed request! Tid: 6 Start 1580505364.892607 End 1580505366.484230 Cold? True Duration 0
+22:16:06,489 INFO Processed request! Tid: 6 Start 1580505364.893419 End 1580505366.489742 Cold? True Duration 0
+22:16:06,499 INFO Processed request! Tid: 6 Start 1580505364.893421 End 1580505366.499342 Cold? True Duration 0
+22:16:06,505 INFO Processed request! Tid: 6 Start 1580505364.894414 End 1580505366.505193 Cold? True Duration 0
+22:16:06,520 INFO Processed request! Tid: 6 Start 1580505364.894223 End 1580505366.520844 Cold? True Duration 0
+22:16:06,540 INFO Processed request! Tid: 5 Start 1580505364.800372 End 1580505366.540912 Cold? True Duration 0
+22:16:06,554 INFO Processed request! Tid: 5 Start 1580505364.802884 End 1580505366.554899 Cold? True Duration 0
+22:22:06,970 INFO Processed request! Tid: 0 Start 1580505725.795161 End 1580505726.969967 Cold? False Duration 0
+22:22:07,148 INFO Processed request! Tid: 0 Start 1580505725.795161 End 1580505727.147948 Cold? False Duration 0
+22:22:07,151 INFO Processed request! Tid: 0 Start 1580505725.996302 End 1580505727.151580 Cold? False Duration 0
+22:22:07,152 INFO Processed request! Tid: 0 Start 1580505725.795419 End 1580505727.152709 Cold? False Duration 0
+22:22:07,352 INFO Processed request! Tid: 0 Start 1580505725.995979 End 1580505727.352037 Cold? False Duration 0
+22:22:07,353 INFO Processed request! Tid: 0 Start 1580505725.996220 End 1580505727.353637 Cold? False Duration 0
+22:22:07,356 INFO Processed request! Tid: 0 Start 1580505725.995978 End 1580505727.356131 Cold? False Duration 0
+22:24:07,103 INFO Processed request! Tid: 1 Start 1580505845.925888 End 1580505847.103784 Cold? False Duration 0
+22:24:07,175 INFO Processed request! Tid: 1 Start 1580505846.026309 End 1580505847.175040 Cold? False Duration 0
+22:24:07,298 INFO Processed request! Tid: 1 Start 1580505845.925888 End 1580505847.298050 Cold? False Duration 0
+22:24:07,446 INFO Processed request! Tid: 1 Start 1580505846.087023 End 1580505847.446441 Cold? False Duration 0
+22:24:07,679 INFO Processed request! Tid: 1 Start 1580505846.087023 End 1580505847.679597 Cold? True Duration 0
+22:24:07,710 INFO Processed request! Tid: 1 Start 1580505846.126687 End 1580505847.710671 Cold? True Duration 0
+22:24:07,744 INFO Processed request! Tid: 1 Start 1580505846.122958 End 1580505847.744866 Cold? True Duration 0
+22:26:07,129 INFO Processed request! Tid: 2 Start 1580505965.955581 End 1580505967.129794 Cold? False Duration 0
+22:26:07,316 INFO Processed request! Tid: 2 Start 1580505966.156660 End 1580505967.315908 Cold? False Duration 0
+22:26:07,317 INFO Processed request! Tid: 2 Start 1580505966.156321 End 1580505967.317327 Cold? False Duration 0
+22:26:07,333 INFO Processed request! Tid: 2 Start 1580505966.156886 End 1580505967.332945 Cold? False Duration 0
+22:26:07,668 INFO Processed request! Tid: 2 Start 1580505966.256735 End 1580505967.668835 Cold? True Duration 0
+22:26:07,759 INFO Processed request! Tid: 2 Start 1580505966.156319 End 1580505967.759628 Cold? True Duration 0
+22:26:07,762 INFO Processed request! Tid: 2 Start 1580505966.156561 End 1580505967.762249 Cold? True Duration 0
+22:28:07,455 INFO Processed request! Tid: 3 Start 1580506086.085290 End 1580506087.455734 Cold? False Duration 0
+22:28:07,456 INFO Processed request! Tid: 3 Start 1580506086.286268 End 1580506087.456261 Cold? False Duration 0
+22:28:07,637 INFO Processed request! Tid: 3 Start 1580506086.286031 End 1580506087.637281 Cold? False Duration 0
+22:28:07,641 INFO Processed request! Tid: 3 Start 1580506086.286031 End 1580506087.641710 Cold? False Duration 0
+22:28:07,850 INFO Processed request! Tid: 3 Start 1580506086.286422 End 1580506087.850516 Cold? True Duration 0
+22:28:07,955 INFO Processed request! Tid: 3 Start 1580506086.392935 End 1580506087.955505 Cold? True Duration 0
+22:28:08,7 INFO Processed request! Tid: 3 Start 1580506086.386696 End 1580506088.007377 Cold? True Duration 0
+22:31:07,546 INFO Processed request! Tid: 4 Start 1580506266.330936 End 1580506267.546095 Cold? False Duration 0
+22:31:07,725 INFO Processed request! Tid: 4 Start 1580506266.331396 End 1580506267.725738 Cold? False Duration 0
+22:31:07,956 INFO Processed request! Tid: 4 Start 1580506266.331186 End 1580506267.956824 Cold? True Duration 0
+22:31:07,961 INFO Processed request! Tid: 4 Start 1580506266.331396 End 1580506267.960979 Cold? True Duration 0
+22:31:07,969 INFO Processed request! Tid: 4 Start 1580506266.331187 End 1580506267.968965 Cold? True Duration 0
+22:31:08,23 INFO Processed request! Tid: 4 Start 1580506266.330936 End 1580506268.023510 Cold? True Duration 0
+22:31:08,25 INFO Processed request! Tid: 4 Start 1580506266.443963 End 1580506268.025042 Cold? True Duration 0
+22:34:07,666 INFO Processed request! Tid: 5 Start 1580506446.475027 End 1580506447.666672 Cold? False Duration 0
+22:34:07,857 INFO Processed request! Tid: 5 Start 1580506446.475027 End 1580506447.857529 Cold? False Duration 0
+22:34:08,92 INFO Processed request! Tid: 5 Start 1580506446.475284 End 1580506448.092436 Cold? True Duration 0
+22:34:08,99 INFO Processed request! Tid: 5 Start 1580506446.475501 End 1580506448.099702 Cold? True Duration 0
+22:34:08,122 INFO Processed request! Tid: 5 Start 1580506446.578945 End 1580506448.122836 Cold? True Duration 0
+22:34:08,143 INFO Processed request! Tid: 5 Start 1580506446.559960 End 1580506448.143456 Cold? True Duration 0
+22:34:08,144 INFO Processed request! Tid: 5 Start 1580506446.475286 End 1580506448.144593 Cold? True Duration 0
+22:36:07,498 INFO Processed request! Tid: 6 Start 1580506566.303928 End 1580506567.498823 Cold? False Duration 0
+22:36:07,924 INFO Processed request! Tid: 6 Start 1580506566.504415 End 1580506567.924631 Cold? True Duration 0
+22:36:08,71 INFO Processed request! Tid: 6 Start 1580506566.504437 End 1580506568.071343 Cold? True Duration 0
+22:36:08,92 INFO Processed request! Tid: 6 Start 1580506566.506938 End 1580506568.092385 Cold? True Duration 0
+22:36:08,101 INFO Processed request! Tid: 6 Start 1580506566.506938 End 1580506568.101228 Cold? True Duration 0
+22:36:08,191 INFO Processed request! Tid: 6 Start 1580506566.605227 End 1580506568.191428 Cold? True Duration 0
+22:36:08,192 INFO Processed request! Tid: 6 Start 1580506566.605227 End 1580506568.192327 Cold? True Duration 0
+22:36:08,210 INFO Finished iteration 4
+22:36:08,830 INFO Updated 010_sleep_python_128_128_1_7_360 to timeout 875
+22:36:09,120 INFO Updated 010_sleep_python_128_128_1_7_480 to timeout 875
+22:36:09,408 INFO Updated 010_sleep_python_128_128_1_7_600 to timeout 875
+22:36:09,692 INFO Updated 010_sleep_python_128_128_1_7_720 to timeout 875
+22:36:09,970 INFO Updated 010_sleep_python_128_128_1_7_900 to timeout 875
+22:36:10,263 INFO Updated 010_sleep_python_128_128_1_7_1080 to timeout 875
+22:36:10,554 INFO Updated 010_sleep_python_128_128_1_7_1200 to timeout 875
+22:36:10,555 INFO Dumped data

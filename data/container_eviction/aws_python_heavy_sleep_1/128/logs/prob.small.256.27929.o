@@ -1,0 +1,1418 @@
+04:02:00,201 INFO Created experiment output at /users/mcopik/projects/serverless-benchmarks/experiments/prob_first_attempt_python_heavy/128/6
+04:02:00,852 INFO Using cached storage input buckets ['010.sleep.heavy-0-input-2f859cc5-ba65-47']
+04:02:00,852 INFO Using cached storage output buckets []
+04:02:00,855 INFO Work on times [1, 2, 4, 8, 15, 30, 60, 120, 180, 240, 300]
+04:02:00,856 INFO Work on urls ['https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_1', 'https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_2', 'https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_4', 'https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_8', 'https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_15', 'https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_30', 'https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_60', 'https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_120', 'https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_180', 'https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_240', 'https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_300']
+04:02:00,856 INFO Running functions ['010_sleep_nodejs_128_128_1_6_1', '010_sleep_nodejs_128_128_1_6_2', '010_sleep_nodejs_128_128_1_6_4', '010_sleep_nodejs_128_128_1_6_8', '010_sleep_nodejs_128_128_1_6_15', '010_sleep_nodejs_128_128_1_6_30', '010_sleep_nodejs_128_128_1_6_60', '010_sleep_nodejs_128_128_1_6_120', '010_sleep_nodejs_128_128_1_6_180', '010_sleep_nodejs_128_128_1_6_240', '010_sleep_nodejs_128_128_1_6_300']
+04:02:00,856 INFO Using urls ['https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_1', 'https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_2', 'https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_4', 'https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_8', 'https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_15', 'https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_30', 'https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_60', 'https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_120', 'https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_180', 'https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_240', 'https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_300']
+04:02:01,428 INFO Updated 010_sleep_nodejs_128_128_1_6_1 to timeout 850
+04:02:01,590 INFO Updated 010_sleep_nodejs_128_128_1_6_2 to timeout 850
+04:02:01,784 INFO Updated 010_sleep_nodejs_128_128_1_6_4 to timeout 850
+04:02:01,934 INFO Updated 010_sleep_nodejs_128_128_1_6_8 to timeout 850
+04:02:02,89 INFO Updated 010_sleep_nodejs_128_128_1_6_15 to timeout 850
+04:02:02,236 INFO Updated 010_sleep_nodejs_128_128_1_6_30 to timeout 850
+04:02:04,951 INFO Updated 010_sleep_nodejs_128_128_1_6_60 to timeout 850
+04:02:14,899 INFO Repeat update...
+04:02:14,899 INFO An error occurred (TooManyRequestsException) when calling the UpdateFunctionConfiguration operation (reached max retries: 4): Rate exceeded
+04:02:24,435 INFO Updated 010_sleep_nodejs_128_128_1_6_120 to timeout 850
+04:02:24,608 INFO Updated 010_sleep_nodejs_128_128_1_6_180 to timeout 850
+04:02:24,744 INFO Updated 010_sleep_nodejs_128_128_1_6_240 to timeout 850
+04:02:24,886 INFO Updated 010_sleep_nodejs_128_128_1_6_300 to timeout 850
+04:02:59,793 INFO Updated 010_sleep_nodejs_128_128_1_6_1 to timeout 850
+04:02:59,927 INFO Updated 010_sleep_nodejs_128_128_1_6_2 to timeout 850
+04:03:00,71 INFO Updated 010_sleep_nodejs_128_128_1_6_4 to timeout 850
+04:03:02,216 INFO Updated 010_sleep_nodejs_128_128_1_6_8 to timeout 850
+04:03:02,349 INFO Updated 010_sleep_nodejs_128_128_1_6_15 to timeout 850
+04:03:02,487 INFO Updated 010_sleep_nodejs_128_128_1_6_30 to timeout 850
+04:03:02,631 INFO Updated 010_sleep_nodejs_128_128_1_6_60 to timeout 850
+04:03:02,770 INFO Updated 010_sleep_nodejs_128_128_1_6_120 to timeout 850
+04:03:02,910 INFO Updated 010_sleep_nodejs_128_128_1_6_180 to timeout 850
+04:03:03,46 INFO Updated 010_sleep_nodejs_128_128_1_6_240 to timeout 850
+04:03:03,191 INFO Updated 010_sleep_nodejs_128_128_1_6_300 to timeout 850
+04:03:03,192 INFO Start 6 invocations with 11 times
+04:03:18,228 INFO Process 1 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_300 with sleep 300 func 010_sleep_nodejs_128_128_1_6_300
+04:03:18,228 INFO P 1 T 10 Sleep 300 F 010_sleep_nodejs_128_128_1_6_300 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_300
+04:03:18,232 INFO Process 0 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_300 with sleep 300 func 010_sleep_nodejs_128_128_1_6_300
+04:03:18,232 INFO P 0 T 10 Sleep 300 F 010_sleep_nodejs_128_128_1_6_300 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_300
+04:03:18,233 INFO Process 2 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_300 with sleep 300 func 010_sleep_nodejs_128_128_1_6_300
+04:03:18,233 INFO Process 4 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_300 with sleep 300 func 010_sleep_nodejs_128_128_1_6_300
+04:03:18,234 INFO P 2 T 10 Sleep 300 F 010_sleep_nodejs_128_128_1_6_300 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_300
+04:03:18,234 INFO Process 5 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_300 with sleep 300 func 010_sleep_nodejs_128_128_1_6_300
+04:03:18,234 INFO P 5 T 10 Sleep 300 F 010_sleep_nodejs_128_128_1_6_300 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_300
+04:03:18,236 INFO Process 3 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_300 with sleep 300 func 010_sleep_nodejs_128_128_1_6_300
+04:03:18,236 INFO P 3 T 10 Sleep 300 F 010_sleep_nodejs_128_128_1_6_300 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_300
+04:03:18,238 INFO P 4 T 10 Sleep 300 F 010_sleep_nodejs_128_128_1_6_300 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_300
+04:03:19,587 INFO Processed request! Tid: 10 Start 1580612598.229098 End 1580612599.587072 Cold? True Duration 0
+04:03:19,608 INFO Processed request! Tid: 10 Start 1580612598.234334 End 1580612599.607877 Cold? True Duration 0
+04:03:19,609 INFO Processed request! Tid: 10 Start 1580612598.236949 End 1580612599.608855 Cold? True Duration 0
+04:03:19,619 INFO Processed request! Tid: 10 Start 1580612598.233153 End 1580612599.618866 Cold? True Duration 0
+04:03:19,785 INFO Processed request! Tid: 10 Start 1580612598.234788 End 1580612599.785793 Cold? True Duration 0
+04:03:19,797 INFO Processed request! Tid: 10 Start 1580612598.238370 End 1580612599.796933 Cold? True Duration 0
+04:03:28,330 INFO Process 1 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_240 with sleep 240 func 010_sleep_nodejs_128_128_1_6_240
+04:03:28,330 INFO P 1 T 9 Sleep 240 F 010_sleep_nodejs_128_128_1_6_240 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_240
+04:03:28,333 INFO Process 0 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_240 with sleep 240 func 010_sleep_nodejs_128_128_1_6_240
+04:03:28,334 INFO P 0 T 9 Sleep 240 F 010_sleep_nodejs_128_128_1_6_240 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_240
+04:03:28,335 INFO Process 3 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_240 with sleep 240 func 010_sleep_nodejs_128_128_1_6_240
+04:03:28,335 INFO Process 2 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_240 with sleep 240 func 010_sleep_nodejs_128_128_1_6_240
+04:03:28,335 INFO P 2 T 9 Sleep 240 F 010_sleep_nodejs_128_128_1_6_240 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_240
+04:03:28,335 INFO P 3 T 9 Sleep 240 F 010_sleep_nodejs_128_128_1_6_240 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_240
+04:03:28,335 INFO Process 4 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_240 with sleep 240 func 010_sleep_nodejs_128_128_1_6_240
+04:03:28,335 INFO Process 5 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_240 with sleep 240 func 010_sleep_nodejs_128_128_1_6_240
+04:03:28,335 INFO P 4 T 9 Sleep 240 F 010_sleep_nodejs_128_128_1_6_240 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_240
+04:03:28,335 INFO P 5 T 9 Sleep 240 F 010_sleep_nodejs_128_128_1_6_240 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_240
+04:03:29,720 INFO Processed request! Tid: 9 Start 1580612608.335467 End 1580612609.720324 Cold? True Duration 0
+04:03:29,747 INFO Processed request! Tid: 9 Start 1580612608.335900 End 1580612609.747561 Cold? True Duration 0
+04:03:29,853 INFO Processed request! Tid: 9 Start 1580612608.334233 End 1580612609.853728 Cold? True Duration 0
+04:03:29,867 INFO Processed request! Tid: 9 Start 1580612608.330608 End 1580612609.867251 Cold? True Duration 0
+04:03:29,874 INFO Processed request! Tid: 9 Start 1580612608.335431 End 1580612609.874749 Cold? True Duration 0
+04:03:29,895 INFO Processed request! Tid: 9 Start 1580612608.335751 End 1580612609.895657 Cold? True Duration 0
+04:03:38,431 INFO Process 1 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_180 with sleep 180 func 010_sleep_nodejs_128_128_1_6_180
+04:03:38,432 INFO P 1 T 8 Sleep 180 F 010_sleep_nodejs_128_128_1_6_180 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_180
+04:03:38,435 INFO Process 3 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_180 with sleep 180 func 010_sleep_nodejs_128_128_1_6_180
+04:03:38,435 INFO Process 0 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_180 with sleep 180 func 010_sleep_nodejs_128_128_1_6_180
+04:03:38,435 INFO P 3 T 8 Sleep 180 F 010_sleep_nodejs_128_128_1_6_180 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_180
+04:03:38,435 INFO P 0 T 8 Sleep 180 F 010_sleep_nodejs_128_128_1_6_180 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_180
+04:03:38,436 INFO Process 2 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_180 with sleep 180 func 010_sleep_nodejs_128_128_1_6_180
+04:03:38,436 INFO P 2 T 8 Sleep 180 F 010_sleep_nodejs_128_128_1_6_180 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_180
+04:03:38,436 INFO Process 5 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_180 with sleep 180 func 010_sleep_nodejs_128_128_1_6_180
+04:03:38,436 INFO Process 4 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_180 with sleep 180 func 010_sleep_nodejs_128_128_1_6_180
+04:03:38,436 INFO P 5 T 8 Sleep 180 F 010_sleep_nodejs_128_128_1_6_180 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_180
+04:03:38,437 INFO P 4 T 8 Sleep 180 F 010_sleep_nodejs_128_128_1_6_180 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_180
+04:03:39,771 INFO Processed request! Tid: 8 Start 1580612618.437095 End 1580612619.771498 Cold? True Duration 0
+04:03:39,776 INFO Processed request! Tid: 8 Start 1580612618.437088 End 1580612619.776414 Cold? True Duration 0
+04:03:39,790 INFO Processed request! Tid: 8 Start 1580612618.435670 End 1580612619.790771 Cold? True Duration 0
+04:03:39,801 INFO Processed request! Tid: 8 Start 1580612618.432158 End 1580612619.801016 Cold? True Duration 0
+04:03:39,833 INFO Processed request! Tid: 8 Start 1580612618.435689 End 1580612619.832942 Cold? True Duration 0
+04:03:40,8 INFO Processed request! Tid: 8 Start 1580612618.436752 End 1580612620.008329 Cold? True Duration 0
+04:03:48,523 INFO Process 1 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_120 with sleep 120 func 010_sleep_nodejs_128_128_1_6_120
+04:03:48,523 INFO P 1 T 7 Sleep 120 F 010_sleep_nodejs_128_128_1_6_120 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_120
+04:03:48,535 INFO Process 0 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_120 with sleep 120 func 010_sleep_nodejs_128_128_1_6_120
+04:03:48,536 INFO P 0 T 7 Sleep 120 F 010_sleep_nodejs_128_128_1_6_120 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_120
+04:03:48,536 INFO Process 3 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_120 with sleep 120 func 010_sleep_nodejs_128_128_1_6_120
+04:03:48,536 INFO Process 4 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_120 with sleep 120 func 010_sleep_nodejs_128_128_1_6_120
+04:03:48,536 INFO P 3 T 7 Sleep 120 F 010_sleep_nodejs_128_128_1_6_120 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_120
+04:03:48,537 INFO P 4 T 7 Sleep 120 F 010_sleep_nodejs_128_128_1_6_120 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_120
+04:03:48,537 INFO Process 2 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_120 with sleep 120 func 010_sleep_nodejs_128_128_1_6_120
+04:03:48,537 INFO Process 5 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_120 with sleep 120 func 010_sleep_nodejs_128_128_1_6_120
+04:03:48,537 INFO P 2 T 7 Sleep 120 F 010_sleep_nodejs_128_128_1_6_120 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_120
+04:03:48,538 INFO P 5 T 7 Sleep 120 F 010_sleep_nodejs_128_128_1_6_120 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_120
+04:03:49,893 INFO Processed request! Tid: 7 Start 1580612628.536968 End 1580612629.893248 Cold? True Duration 0
+04:03:49,902 INFO Processed request! Tid: 7 Start 1580612628.536225 End 1580612629.902803 Cold? True Duration 0
+04:03:49,911 INFO Processed request! Tid: 7 Start 1580612628.537229 End 1580612629.911806 Cold? True Duration 0
+04:03:49,919 INFO Processed request! Tid: 7 Start 1580612628.538071 End 1580612629.918961 Cold? True Duration 0
+04:03:49,927 INFO Processed request! Tid: 7 Start 1580612628.538240 End 1580612629.926955 Cold? True Duration 0
+04:03:50,54 INFO Processed request! Tid: 7 Start 1580612628.523899 End 1580612630.054753 Cold? True Duration 0
+04:03:58,625 INFO Process 1 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_60 with sleep 60 func 010_sleep_nodejs_128_128_1_6_60
+04:03:58,625 INFO P 1 T 6 Sleep 60 F 010_sleep_nodejs_128_128_1_6_60 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_60
+04:03:58,636 INFO Process 0 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_60 with sleep 60 func 010_sleep_nodejs_128_128_1_6_60
+04:03:58,637 INFO P 0 T 6 Sleep 60 F 010_sleep_nodejs_128_128_1_6_60 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_60
+04:03:58,637 INFO Process 4 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_60 with sleep 60 func 010_sleep_nodejs_128_128_1_6_60
+04:03:58,637 INFO Process 5 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_60 with sleep 60 func 010_sleep_nodejs_128_128_1_6_60
+04:03:58,638 INFO P 4 T 6 Sleep 60 F 010_sleep_nodejs_128_128_1_6_60 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_60
+04:03:58,638 INFO P 5 T 6 Sleep 60 F 010_sleep_nodejs_128_128_1_6_60 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_60
+04:03:58,638 INFO Process 3 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_60 with sleep 60 func 010_sleep_nodejs_128_128_1_6_60
+04:03:58,638 INFO P 3 T 6 Sleep 60 F 010_sleep_nodejs_128_128_1_6_60 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_60
+04:03:58,639 INFO Process 2 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_60 with sleep 60 func 010_sleep_nodejs_128_128_1_6_60
+04:03:58,639 INFO P 2 T 6 Sleep 60 F 010_sleep_nodejs_128_128_1_6_60 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_60
+04:03:59,963 INFO Processed request! Tid: 6 Start 1580612638.637336 End 1580612639.963411 Cold? True Duration 0
+04:03:59,987 INFO Processed request! Tid: 6 Start 1580612638.625545 End 1580612639.987690 Cold? True Duration 0
+04:04:00,10 INFO Processed request! Tid: 6 Start 1580612638.638520 End 1580612640.009893 Cold? True Duration 0
+04:04:00,184 INFO Processed request! Tid: 6 Start 1580612638.638257 End 1580612640.184696 Cold? True Duration 0
+04:04:00,207 INFO Processed request! Tid: 6 Start 1580612638.638225 End 1580612640.207577 Cold? True Duration 0
+04:04:00,214 INFO Processed request! Tid: 6 Start 1580612638.639331 End 1580612640.214217 Cold? True Duration 0
+04:04:08,726 INFO Process 1 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_30 with sleep 30 func 010_sleep_nodejs_128_128_1_6_30
+04:04:08,726 INFO P 1 T 5 Sleep 30 F 010_sleep_nodejs_128_128_1_6_30 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_30
+04:04:08,738 INFO Process 4 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_30 with sleep 30 func 010_sleep_nodejs_128_128_1_6_30
+04:04:08,738 INFO Process 0 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_30 with sleep 30 func 010_sleep_nodejs_128_128_1_6_30
+04:04:08,738 INFO P 4 T 5 Sleep 30 F 010_sleep_nodejs_128_128_1_6_30 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_30
+04:04:08,738 INFO P 0 T 5 Sleep 30 F 010_sleep_nodejs_128_128_1_6_30 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_30
+04:04:08,739 INFO Process 5 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_30 with sleep 30 func 010_sleep_nodejs_128_128_1_6_30
+04:04:08,739 INFO P 5 T 5 Sleep 30 F 010_sleep_nodejs_128_128_1_6_30 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_30
+04:04:08,739 INFO Process 3 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_30 with sleep 30 func 010_sleep_nodejs_128_128_1_6_30
+04:04:08,739 INFO P 3 T 5 Sleep 30 F 010_sleep_nodejs_128_128_1_6_30 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_30
+04:04:08,739 INFO Process 2 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_30 with sleep 30 func 010_sleep_nodejs_128_128_1_6_30
+04:04:08,740 INFO P 2 T 5 Sleep 30 F 010_sleep_nodejs_128_128_1_6_30 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_30
+04:04:10,71 INFO Processed request! Tid: 5 Start 1580612648.738585 End 1580612650.071853 Cold? True Duration 0
+04:04:10,83 INFO Processed request! Tid: 5 Start 1580612648.739817 End 1580612650.083668 Cold? True Duration 0
+04:04:10,95 INFO Processed request! Tid: 5 Start 1580612648.740254 End 1580612650.094970 Cold? True Duration 0
+04:04:10,95 INFO Processed request! Tid: 5 Start 1580612648.738701 End 1580612650.095104 Cold? True Duration 0
+04:04:10,119 INFO Processed request! Tid: 5 Start 1580612648.727059 End 1580612650.119356 Cold? True Duration 0
+04:04:10,122 INFO Processed request! Tid: 5 Start 1580612648.739558 End 1580612650.122173 Cold? True Duration 0
+04:04:18,823 INFO Process 1 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_15 with sleep 15 func 010_sleep_nodejs_128_128_1_6_15
+04:04:18,824 INFO P 1 T 4 Sleep 15 F 010_sleep_nodejs_128_128_1_6_15 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_15
+04:04:18,836 INFO Process 5 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_15 with sleep 15 func 010_sleep_nodejs_128_128_1_6_15
+04:04:18,836 INFO Process 4 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_15 with sleep 15 func 010_sleep_nodejs_128_128_1_6_15
+04:04:18,837 INFO P 5 T 4 Sleep 15 F 010_sleep_nodejs_128_128_1_6_15 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_15
+04:04:18,837 INFO P 4 T 4 Sleep 15 F 010_sleep_nodejs_128_128_1_6_15 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_15
+04:04:18,839 INFO Process 0 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_15 with sleep 15 func 010_sleep_nodejs_128_128_1_6_15
+04:04:18,839 INFO P 0 T 4 Sleep 15 F 010_sleep_nodejs_128_128_1_6_15 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_15
+04:04:18,840 INFO Process 3 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_15 with sleep 15 func 010_sleep_nodejs_128_128_1_6_15
+04:04:18,841 INFO P 3 T 4 Sleep 15 F 010_sleep_nodejs_128_128_1_6_15 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_15
+04:04:18,840 INFO Process 2 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_15 with sleep 15 func 010_sleep_nodejs_128_128_1_6_15
+04:04:18,841 INFO P 2 T 4 Sleep 15 F 010_sleep_nodejs_128_128_1_6_15 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_15
+04:04:20,181 INFO Processed request! Tid: 4 Start 1580612658.824297 End 1580612660.181621 Cold? True Duration 0
+04:04:20,201 INFO Processed request! Tid: 4 Start 1580612658.841110 End 1580612660.201402 Cold? True Duration 0
+04:04:20,216 INFO Processed request! Tid: 4 Start 1580612658.837310 End 1580612660.216475 Cold? True Duration 0
+04:04:20,220 INFO Processed request! Tid: 4 Start 1580612658.841321 End 1580612660.220461 Cold? True Duration 0
+04:04:20,389 INFO Processed request! Tid: 4 Start 1580612658.839930 End 1580612660.389444 Cold? True Duration 0
+04:04:20,434 INFO Processed request! Tid: 4 Start 1580612658.837292 End 1580612660.434718 Cold? True Duration 0
+04:04:28,925 INFO Process 1 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_8 with sleep 8 func 010_sleep_nodejs_128_128_1_6_8
+04:04:28,925 INFO P 1 T 3 Sleep 8 F 010_sleep_nodejs_128_128_1_6_8 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_8
+04:04:28,937 INFO Process 4 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_8 with sleep 8 func 010_sleep_nodejs_128_128_1_6_8
+04:04:28,938 INFO P 4 T 3 Sleep 8 F 010_sleep_nodejs_128_128_1_6_8 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_8
+04:04:28,938 INFO Process 0 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_8 with sleep 8 func 010_sleep_nodejs_128_128_1_6_8
+04:04:28,938 INFO Process 5 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_8 with sleep 8 func 010_sleep_nodejs_128_128_1_6_8
+04:04:28,938 INFO P 0 T 3 Sleep 8 F 010_sleep_nodejs_128_128_1_6_8 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_8
+04:04:28,938 INFO P 5 T 3 Sleep 8 F 010_sleep_nodejs_128_128_1_6_8 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_8
+04:04:28,942 INFO Process 3 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_8 with sleep 8 func 010_sleep_nodejs_128_128_1_6_8
+04:04:28,942 INFO Process 2 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_8 with sleep 8 func 010_sleep_nodejs_128_128_1_6_8
+04:04:28,942 INFO P 2 T 3 Sleep 8 F 010_sleep_nodejs_128_128_1_6_8 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_8
+04:04:28,942 INFO P 3 T 3 Sleep 8 F 010_sleep_nodejs_128_128_1_6_8 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_8
+04:04:30,290 INFO Processed request! Tid: 3 Start 1580612668.925735 End 1580612670.290563 Cold? True Duration 0
+04:04:30,313 INFO Processed request! Tid: 3 Start 1580612668.938587 End 1580612670.313337 Cold? True Duration 0
+04:04:30,383 INFO Processed request! Tid: 3 Start 1580612668.942376 End 1580612670.383720 Cold? True Duration 0
+04:04:30,495 INFO Processed request! Tid: 3 Start 1580612668.938314 End 1580612670.495005 Cold? True Duration 0
+04:04:30,495 INFO Processed request! Tid: 3 Start 1580612668.938721 End 1580612670.495005 Cold? True Duration 0
+04:04:30,499 INFO Processed request! Tid: 3 Start 1580612668.942480 End 1580612670.499412 Cold? True Duration 0
+04:04:36,334 INFO Processed request! Tid: 4 Start 1580612675.196694 End 1580612676.334048 Cold? False Duration 0
+04:04:36,357 INFO Processed request! Tid: 4 Start 1580612675.216518 End 1580612676.357051 Cold? False Duration 0
+04:04:36,374 INFO Processed request! Tid: 4 Start 1580612675.231530 End 1580612676.374513 Cold? False Duration 0
+04:04:36,379 INFO Processed request! Tid: 4 Start 1580612675.235626 End 1580612676.379199 Cold? False Duration 0
+04:04:36,546 INFO Processed request! Tid: 4 Start 1580612675.404535 End 1580612676.546455 Cold? False Duration 0
+04:04:36,591 INFO Processed request! Tid: 4 Start 1580612675.449906 End 1580612676.591065 Cold? False Duration 0
+04:04:39,26 INFO Process 1 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_4 with sleep 4 func 010_sleep_nodejs_128_128_1_6_4
+04:04:39,27 INFO P 1 T 2 Sleep 4 F 010_sleep_nodejs_128_128_1_6_4 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_4
+04:04:39,38 INFO Process 4 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_4 with sleep 4 func 010_sleep_nodejs_128_128_1_6_4
+04:04:39,38 INFO Process 0 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_4 with sleep 4 func 010_sleep_nodejs_128_128_1_6_4
+04:04:39,39 INFO Process 2 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_4 with sleep 4 func 010_sleep_nodejs_128_128_1_6_4
+04:04:39,39 INFO P 4 T 2 Sleep 4 F 010_sleep_nodejs_128_128_1_6_4 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_4
+04:04:39,39 INFO P 0 T 2 Sleep 4 F 010_sleep_nodejs_128_128_1_6_4 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_4
+04:04:39,39 INFO P 2 T 2 Sleep 4 F 010_sleep_nodejs_128_128_1_6_4 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_4
+04:04:39,39 INFO Process 5 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_4 with sleep 4 func 010_sleep_nodejs_128_128_1_6_4
+04:04:39,39 INFO P 5 T 2 Sleep 4 F 010_sleep_nodejs_128_128_1_6_4 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_4
+04:04:39,43 INFO Process 3 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_4 with sleep 4 func 010_sleep_nodejs_128_128_1_6_4
+04:04:39,43 INFO P 3 T 2 Sleep 4 F 010_sleep_nodejs_128_128_1_6_4 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_4
+04:04:39,440 INFO Processed request! Tid: 3 Start 1580612678.298615 End 1580612679.440596 Cold? False Duration 0
+04:04:39,643 INFO Processed request! Tid: 3 Start 1580612678.503076 End 1580612679.643440 Cold? False Duration 0
+04:04:39,652 INFO Processed request! Tid: 3 Start 1580612678.507482 End 1580612679.652363 Cold? False Duration 0
+04:04:39,655 INFO Processed request! Tid: 3 Start 1580612678.503076 End 1580612679.655144 Cold? False Duration 0
+04:04:39,665 INFO Processed request! Tid: 3 Start 1580612678.321442 End 1580612679.665384 Cold? False Duration 0
+04:04:39,770 INFO Processed request! Tid: 3 Start 1580612678.388972 End 1580612679.770485 Cold? False Duration 0
+04:04:40,397 INFO Processed request! Tid: 2 Start 1580612679.039654 End 1580612680.396906 Cold? True Duration 0
+04:04:40,399 INFO Processed request! Tid: 2 Start 1580612679.040011 End 1580612680.399844 Cold? True Duration 0
+04:04:40,406 INFO Processed request! Tid: 2 Start 1580612679.043651 End 1580612680.406283 Cold? True Duration 0
+04:04:40,408 INFO Processed request! Tid: 2 Start 1580612679.039347 End 1580612680.408725 Cold? True Duration 0
+04:04:40,424 INFO Processed request! Tid: 2 Start 1580612679.039547 End 1580612680.424711 Cold? True Duration 0
+04:04:40,576 INFO Processed request! Tid: 2 Start 1580612679.027115 End 1580612680.575981 Cold? True Duration 0
+04:04:41,236 INFO Processed request! Tid: 5 Start 1580612680.093447 End 1580612681.235997 Cold? False Duration 0
+04:04:41,266 INFO Processed request! Tid: 5 Start 1580612680.122959 End 1580612681.266731 Cold? False Duration 0
+04:04:41,271 INFO Processed request! Tid: 5 Start 1580612680.125134 End 1580612681.271469 Cold? False Duration 0
+04:04:41,294 INFO Processed request! Tid: 5 Start 1580612680.152217 End 1580612681.294525 Cold? False Duration 0
+04:04:41,443 INFO Processed request! Tid: 5 Start 1580612680.101900 End 1580612681.443878 Cold? False Duration 0
+04:04:41,466 INFO Processed request! Tid: 5 Start 1580612680.122958 End 1580612681.466737 Cold? False Duration 0
+04:04:45,550 INFO Processed request! Tid: 2 Start 1580612684.404106 End 1580612685.550238 Cold? False Duration 0
+04:04:45,551 INFO Processed request! Tid: 2 Start 1580612684.406408 End 1580612685.551778 Cold? False Duration 0
+04:04:45,571 INFO Processed request! Tid: 2 Start 1580612684.427936 End 1580612685.571397 Cold? False Duration 0
+04:04:45,740 INFO Processed request! Tid: 2 Start 1580612684.401155 End 1580612685.740752 Cold? False Duration 0
+04:04:45,759 INFO Processed request! Tid: 2 Start 1580612684.411934 End 1580612685.759231 Cold? False Duration 0
+04:04:45,918 INFO Processed request! Tid: 2 Start 1580612684.580181 End 1580612685.917901 Cold? False Duration 0
+04:04:49,121 INFO Process 1 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_2 with sleep 2 func 010_sleep_nodejs_128_128_1_6_2
+04:04:49,121 INFO P 1 T 1 Sleep 2 F 010_sleep_nodejs_128_128_1_6_2 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_2
+04:04:49,132 INFO Process 2 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_2 with sleep 2 func 010_sleep_nodejs_128_128_1_6_2
+04:04:49,132 INFO Process 4 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_2 with sleep 2 func 010_sleep_nodejs_128_128_1_6_2
+04:04:49,133 INFO P 4 T 1 Sleep 2 F 010_sleep_nodejs_128_128_1_6_2 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_2
+04:04:49,133 INFO P 2 T 1 Sleep 2 F 010_sleep_nodejs_128_128_1_6_2 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_2
+04:04:49,139 INFO Process 0 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_2 with sleep 2 func 010_sleep_nodejs_128_128_1_6_2
+04:04:49,140 INFO P 0 T 1 Sleep 2 F 010_sleep_nodejs_128_128_1_6_2 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_2
+04:04:49,140 INFO Process 5 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_2 with sleep 2 func 010_sleep_nodejs_128_128_1_6_2
+04:04:49,141 INFO P 5 T 1 Sleep 2 F 010_sleep_nodejs_128_128_1_6_2 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_2
+04:04:49,150 INFO Process 3 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_2 with sleep 2 func 010_sleep_nodejs_128_128_1_6_2
+04:04:49,151 INFO P 3 T 1 Sleep 2 F 010_sleep_nodejs_128_128_1_6_2 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_2
+04:04:50,478 INFO Processed request! Tid: 1 Start 1580612689.121531 End 1580612690.478640 Cold? True Duration 0
+04:04:50,483 INFO Processed request! Tid: 1 Start 1580612689.133360 End 1580612690.483399 Cold? True Duration 0
+04:04:50,486 INFO Processed request! Tid: 1 Start 1580612689.151383 End 1580612690.485928 Cold? True Duration 0
+04:04:50,510 INFO Processed request! Tid: 1 Start 1580612689.133331 End 1580612690.510146 Cold? True Duration 0
+04:04:50,616 INFO Processed request! Tid: 1 Start 1580612689.141287 End 1580612690.616234 Cold? True Duration 0
+04:04:50,675 INFO Processed request! Tid: 1 Start 1580612689.140248 End 1580612690.675384 Cold? True Duration 0
+04:04:53,628 INFO Processed request! Tid: 1 Start 1580612692.485553 End 1580612693.628764 Cold? False Duration 0
+04:04:53,631 INFO Processed request! Tid: 1 Start 1580612692.487933 End 1580612693.631450 Cold? False Duration 0
+04:04:53,775 INFO Processed request! Tid: 1 Start 1580612692.618345 End 1580612693.775815 Cold? False Duration 0
+04:04:53,823 INFO Processed request! Tid: 1 Start 1580612692.480782 End 1580612693.823289 Cold? False Duration 0
+04:04:53,851 INFO Processed request! Tid: 1 Start 1580612692.512181 End 1580612693.851290 Cold? False Duration 0
+04:04:54,16 INFO Processed request! Tid: 1 Start 1580612692.677524 End 1580612694.016509 Cold? False Duration 0
+04:04:59,222 INFO Process 1 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_1 with sleep 1 func 010_sleep_nodejs_128_128_1_6_1
+04:04:59,223 INFO P 1 T 0 Sleep 1 F 010_sleep_nodejs_128_128_1_6_1 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_1
+04:04:59,234 INFO Process 4 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_1 with sleep 1 func 010_sleep_nodejs_128_128_1_6_1
+04:04:59,234 INFO P 4 T 0 Sleep 1 F 010_sleep_nodejs_128_128_1_6_1 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_1
+04:04:59,234 INFO Process 2 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_1 with sleep 1 func 010_sleep_nodejs_128_128_1_6_1
+04:04:59,234 INFO P 2 T 0 Sleep 1 F 010_sleep_nodejs_128_128_1_6_1 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_1
+04:04:59,241 INFO Process 0 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_1 with sleep 1 func 010_sleep_nodejs_128_128_1_6_1
+04:04:59,241 INFO P 0 T 0 Sleep 1 F 010_sleep_nodejs_128_128_1_6_1 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_1
+04:04:59,241 INFO Process 5 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_1 with sleep 1 func 010_sleep_nodejs_128_128_1_6_1
+04:04:59,242 INFO P 5 T 0 Sleep 1 F 010_sleep_nodejs_128_128_1_6_1 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_1
+04:04:59,251 INFO Process 3 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_1 with sleep 1 func 010_sleep_nodejs_128_128_1_6_1
+04:04:59,252 INFO P 3 T 0 Sleep 1 F 010_sleep_nodejs_128_128_1_6_1 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_1
+04:05:00,582 INFO Processed request! Tid: 0 Start 1580612699.234811 End 1580612700.582473 Cold? True Duration 0
+04:05:00,582 INFO Processed request! Tid: 0 Start 1580612699.241524 End 1580612700.582825 Cold? True Duration 0
+04:05:00,598 INFO Processed request! Tid: 0 Start 1580612699.234629 End 1580612700.598587 Cold? True Duration 0
+04:05:00,605 INFO Processed request! Tid: 0 Start 1580612699.223117 End 1580612700.604994 Cold? True Duration 0
+04:05:00,773 INFO Processed request! Tid: 0 Start 1580612699.242216 End 1580612700.773690 Cold? True Duration 0
+04:05:00,784 INFO Processed request! Tid: 0 Start 1580612699.252316 End 1580612700.783945 Cold? True Duration 0
+04:05:01,163 INFO Processed request! Tid: 6 Start 1580612700.023596 End 1580612701.163801 Cold? False Duration 0
+04:05:01,192 INFO Processed request! Tid: 6 Start 1580612700.047931 End 1580612701.192649 Cold? False Duration 0
+04:05:01,393 INFO Processed request! Tid: 6 Start 1580612700.058034 End 1580612701.393237 Cold? False Duration 0
+04:05:01,584 INFO Processed request! Tid: 6 Start 1580612700.244936 End 1580612701.584345 Cold? False Duration 0
+04:05:01,593 INFO Processed request! Tid: 6 Start 1580612700.255750 End 1580612701.592896 Cold? False Duration 0
+04:05:01,604 INFO Processed request! Tid: 6 Start 1580612700.258222 End 1580612701.604085 Cold? False Duration 0
+04:05:02,741 INFO Processed request! Tid: 0 Start 1580612701.583569 End 1580612702.741532 Cold? False Duration 0
+04:05:02,744 INFO Processed request! Tid: 0 Start 1580612701.598934 End 1580612702.744459 Cold? False Duration 0
+04:05:02,753 INFO Processed request! Tid: 0 Start 1580612701.606036 End 1580612702.753476 Cold? False Duration 0
+04:05:02,927 INFO Processed request! Tid: 0 Start 1580612701.784981 End 1580612702.927256 Cold? False Duration 0
+04:05:03,37 INFO Processed request! Tid: 0 Start 1580612701.582933 End 1580612703.037392 Cold? False Duration 0
+04:05:03,114 INFO Processed request! Tid: 0 Start 1580612701.774748 End 1580612703.114351 Cold? False Duration 0
+04:05:51,73 INFO Processed request! Tid: 7 Start 1580612749.923533 End 1580612751.073202 Cold? False Duration 0
+04:05:51,75 INFO Processed request! Tid: 7 Start 1580612749.923669 End 1580612751.075062 Cold? False Duration 0
+04:05:51,272 INFO Processed request! Tid: 7 Start 1580612749.923681 End 1580612751.272647 Cold? False Duration 0
+04:05:51,279 INFO Processed request! Tid: 7 Start 1580612749.923472 End 1580612751.279095 Cold? False Duration 0
+04:05:51,332 INFO Processed request! Tid: 7 Start 1580612749.992022 End 1580612751.332509 Cold? False Duration 0
+04:05:51,496 INFO Processed request! Tid: 7 Start 1580612750.154855 End 1580612751.495942 Cold? False Duration 0
+04:06:40,960 INFO Processed request! Tid: 8 Start 1580612799.791178 End 1580612800.959948 Cold? False Duration 0
+04:06:40,987 INFO Processed request! Tid: 8 Start 1580612799.843962 End 1580612800.986898 Cold? False Duration 0
+04:06:41,45 INFO Processed request! Tid: 8 Start 1580612799.902961 End 1580612801.045276 Cold? False Duration 0
+04:06:41,152 INFO Processed request! Tid: 8 Start 1580612799.790951 End 1580612801.152342 Cold? False Duration 0
+04:06:41,232 INFO Processed request! Tid: 8 Start 1580612799.891326 End 1580612801.232156 Cold? False Duration 0
+04:06:41,252 INFO Processed request! Tid: 8 Start 1580612800.108397 End 1580612801.252385 Cold? False Duration 0
+04:07:30,916 INFO Processed request! Tid: 9 Start 1580612849.771948 End 1580612850.916544 Cold? False Duration 0
+04:07:31,34 INFO Processed request! Tid: 9 Start 1580612849.890962 End 1580612851.034044 Cold? False Duration 0
+04:07:31,98 INFO Processed request! Tid: 9 Start 1580612849.760152 End 1580612851.098101 Cold? False Duration 0
+04:07:31,104 INFO Processed request! Tid: 9 Start 1580612849.960754 End 1580612851.104464 Cold? False Duration 0
+04:07:31,204 INFO Processed request! Tid: 9 Start 1580612849.860526 End 1580612851.203962 Cold? False Duration 0
+04:07:31,298 INFO Processed request! Tid: 9 Start 1580612849.960904 End 1580612851.298864 Cold? False Duration 0
+04:08:20,983 INFO Processed request! Tid: 10 Start 1580612899.829078 End 1580612900.983496 Cold? False Duration 0
+04:08:20,997 INFO Processed request! Tid: 10 Start 1580612899.628645 End 1580612900.997371 Cold? False Duration 0
+04:08:20,998 INFO Processed request! Tid: 10 Start 1580612899.641942 End 1580612900.998818 Cold? False Duration 0
+04:08:21,29 INFO Processed request! Tid: 10 Start 1580612899.686960 End 1580612901.029590 Cold? False Duration 0
+04:08:21,60 INFO Processed request! Tid: 10 Start 1580612899.719118 End 1580612901.060046 Cold? False Duration 0
+04:08:21,172 INFO Processed request! Tid: 10 Start 1580612899.829104 End 1580612901.172463 Cold? False Duration 0
+04:08:21,233 INFO Finished iteration 0
+04:08:53,225 INFO Updated 010_sleep_nodejs_128_128_1_6_1 to timeout 851
+04:08:53,359 INFO Updated 010_sleep_nodejs_128_128_1_6_2 to timeout 851
+04:08:53,494 INFO Updated 010_sleep_nodejs_128_128_1_6_4 to timeout 851
+04:08:53,627 INFO Updated 010_sleep_nodejs_128_128_1_6_8 to timeout 851
+04:08:53,773 INFO Updated 010_sleep_nodejs_128_128_1_6_15 to timeout 851
+04:08:53,907 INFO Updated 010_sleep_nodejs_128_128_1_6_30 to timeout 851
+04:08:54,41 INFO Updated 010_sleep_nodejs_128_128_1_6_60 to timeout 851
+04:08:54,178 INFO Updated 010_sleep_nodejs_128_128_1_6_120 to timeout 851
+04:08:54,317 INFO Updated 010_sleep_nodejs_128_128_1_6_180 to timeout 851
+04:08:54,450 INFO Updated 010_sleep_nodejs_128_128_1_6_240 to timeout 851
+04:08:54,588 INFO Updated 010_sleep_nodejs_128_128_1_6_300 to timeout 851
+04:08:54,588 INFO Dumped data
+04:08:54,603 INFO Process 1 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_300 with sleep 300 func 010_sleep_nodejs_128_128_1_6_300
+04:08:54,603 INFO P 1 T 10 Sleep 300 F 010_sleep_nodejs_128_128_1_6_300 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_300
+04:08:54,605 INFO Process 3 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_300 with sleep 300 func 010_sleep_nodejs_128_128_1_6_300
+04:08:54,605 INFO Process 2 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_300 with sleep 300 func 010_sleep_nodejs_128_128_1_6_300
+04:08:54,605 INFO P 3 T 10 Sleep 300 F 010_sleep_nodejs_128_128_1_6_300 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_300
+04:08:54,605 INFO Process 4 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_300 with sleep 300 func 010_sleep_nodejs_128_128_1_6_300
+04:08:54,605 INFO P 2 T 10 Sleep 300 F 010_sleep_nodejs_128_128_1_6_300 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_300
+04:08:54,605 INFO P 4 T 10 Sleep 300 F 010_sleep_nodejs_128_128_1_6_300 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_300
+04:08:54,605 INFO Process 0 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_300 with sleep 300 func 010_sleep_nodejs_128_128_1_6_300
+04:08:54,605 INFO P 0 T 10 Sleep 300 F 010_sleep_nodejs_128_128_1_6_300 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_300
+04:08:54,605 INFO Process 5 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_300 with sleep 300 func 010_sleep_nodejs_128_128_1_6_300
+04:08:54,606 INFO P 5 T 10 Sleep 300 F 010_sleep_nodejs_128_128_1_6_300 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_300
+04:08:55,973 INFO Processed request! Tid: 10 Start 1580612934.605398 End 1580612935.973182 Cold? True Duration 0
+04:08:56,143 INFO Processed request! Tid: 10 Start 1580612934.606245 End 1580612936.142918 Cold? True Duration 0
+04:08:56,150 INFO Processed request! Tid: 10 Start 1580612934.605650 End 1580612936.150787 Cold? True Duration 0
+04:08:56,166 INFO Processed request! Tid: 10 Start 1580612934.605987 End 1580612936.166413 Cold? True Duration 0
+04:08:56,167 INFO Processed request! Tid: 10 Start 1580612934.603954 End 1580612936.167832 Cold? True Duration 0
+04:08:56,198 INFO Processed request! Tid: 10 Start 1580612934.605702 End 1580612936.198614 Cold? True Duration 0
+04:09:04,705 INFO Process 1 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_240 with sleep 240 func 010_sleep_nodejs_128_128_1_6_240
+04:09:04,705 INFO Process 3 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_240 with sleep 240 func 010_sleep_nodejs_128_128_1_6_240
+04:09:04,705 INFO P 1 T 9 Sleep 240 F 010_sleep_nodejs_128_128_1_6_240 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_240
+04:09:04,705 INFO P 3 T 9 Sleep 240 F 010_sleep_nodejs_128_128_1_6_240 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_240
+04:09:04,706 INFO Process 2 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_240 with sleep 240 func 010_sleep_nodejs_128_128_1_6_240
+04:09:04,706 INFO Process 4 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_240 with sleep 240 func 010_sleep_nodejs_128_128_1_6_240
+04:09:04,706 INFO P 2 T 9 Sleep 240 F 010_sleep_nodejs_128_128_1_6_240 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_240
+04:09:04,706 INFO P 4 T 9 Sleep 240 F 010_sleep_nodejs_128_128_1_6_240 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_240
+04:09:04,706 INFO Process 0 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_240 with sleep 240 func 010_sleep_nodejs_128_128_1_6_240
+04:09:04,706 INFO Process 5 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_240 with sleep 240 func 010_sleep_nodejs_128_128_1_6_240
+04:09:04,707 INFO P 0 T 9 Sleep 240 F 010_sleep_nodejs_128_128_1_6_240 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_240
+04:09:04,707 INFO P 5 T 9 Sleep 240 F 010_sleep_nodejs_128_128_1_6_240 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_240
+04:09:06,79 INFO Processed request! Tid: 9 Start 1580612944.706767 End 1580612946.078958 Cold? True Duration 0
+04:09:06,111 INFO Processed request! Tid: 9 Start 1580612944.705606 End 1580612946.111191 Cold? True Duration 0
+04:09:06,267 INFO Processed request! Tid: 9 Start 1580612944.707234 End 1580612946.267530 Cold? True Duration 0
+04:09:06,281 INFO Processed request! Tid: 9 Start 1580612944.707243 End 1580612946.281858 Cold? True Duration 0
+04:09:06,285 INFO Processed request! Tid: 9 Start 1580612944.705607 End 1580612946.285160 Cold? True Duration 0
+04:09:06,307 INFO Processed request! Tid: 9 Start 1580612944.706752 End 1580612946.307557 Cold? True Duration 0
+04:09:14,806 INFO Process 3 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_180 with sleep 180 func 010_sleep_nodejs_128_128_1_6_180
+04:09:14,806 INFO Process 2 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_180 with sleep 180 func 010_sleep_nodejs_128_128_1_6_180
+04:09:14,806 INFO Process 1 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_180 with sleep 180 func 010_sleep_nodejs_128_128_1_6_180
+04:09:14,807 INFO P 3 T 8 Sleep 180 F 010_sleep_nodejs_128_128_1_6_180 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_180
+04:09:14,807 INFO P 1 T 8 Sleep 180 F 010_sleep_nodejs_128_128_1_6_180 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_180
+04:09:14,807 INFO P 2 T 8 Sleep 180 F 010_sleep_nodejs_128_128_1_6_180 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_180
+04:09:14,807 INFO Process 5 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_180 with sleep 180 func 010_sleep_nodejs_128_128_1_6_180
+04:09:14,807 INFO Process 4 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_180 with sleep 180 func 010_sleep_nodejs_128_128_1_6_180
+04:09:14,808 INFO P 5 T 8 Sleep 180 F 010_sleep_nodejs_128_128_1_6_180 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_180
+04:09:14,807 INFO Process 0 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_180 with sleep 180 func 010_sleep_nodejs_128_128_1_6_180
+04:09:14,808 INFO P 4 T 8 Sleep 180 F 010_sleep_nodejs_128_128_1_6_180 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_180
+04:09:14,808 INFO P 0 T 8 Sleep 180 F 010_sleep_nodejs_128_128_1_6_180 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_180
+04:09:16,162 INFO Processed request! Tid: 8 Start 1580612954.808082 End 1580612956.162704 Cold? True Duration 0
+04:09:16,168 INFO Processed request! Tid: 8 Start 1580612954.807147 End 1580612956.167971 Cold? True Duration 0
+04:09:16,172 INFO Processed request! Tid: 8 Start 1580612954.807169 End 1580612956.172874 Cold? True Duration 0
+04:09:16,186 INFO Processed request! Tid: 8 Start 1580612954.807134 End 1580612956.186129 Cold? True Duration 0
+04:09:16,216 INFO Processed request! Tid: 8 Start 1580612954.808123 End 1580612956.216387 Cold? True Duration 0
+04:09:16,367 INFO Processed request! Tid: 8 Start 1580612954.808354 End 1580612956.367479 Cold? True Duration 0
+04:09:24,902 INFO Process 3 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_120 with sleep 120 func 010_sleep_nodejs_128_128_1_6_120
+04:09:24,902 INFO Process 5 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_120 with sleep 120 func 010_sleep_nodejs_128_128_1_6_120
+04:09:24,902 INFO Process 0 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_120 with sleep 120 func 010_sleep_nodejs_128_128_1_6_120
+04:09:24,902 INFO P 0 T 7 Sleep 120 F 010_sleep_nodejs_128_128_1_6_120 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_120
+04:09:24,902 INFO P 3 T 7 Sleep 120 F 010_sleep_nodejs_128_128_1_6_120 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_120
+04:09:24,902 INFO P 5 T 7 Sleep 120 F 010_sleep_nodejs_128_128_1_6_120 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_120
+04:09:24,908 INFO Process 4 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_120 with sleep 120 func 010_sleep_nodejs_128_128_1_6_120
+04:09:24,908 INFO Process 2 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_120 with sleep 120 func 010_sleep_nodejs_128_128_1_6_120
+04:09:24,908 INFO Process 1 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_120 with sleep 120 func 010_sleep_nodejs_128_128_1_6_120
+04:09:24,908 INFO P 4 T 7 Sleep 120 F 010_sleep_nodejs_128_128_1_6_120 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_120
+04:09:24,908 INFO P 1 T 7 Sleep 120 F 010_sleep_nodejs_128_128_1_6_120 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_120
+04:09:24,908 INFO P 2 T 7 Sleep 120 F 010_sleep_nodejs_128_128_1_6_120 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_120
+04:09:26,280 INFO Processed request! Tid: 7 Start 1580612964.902980 End 1580612966.280572 Cold? True Duration 0
+04:09:26,294 INFO Processed request! Tid: 7 Start 1580612964.902682 End 1580612966.294700 Cold? True Duration 0
+04:09:26,334 INFO Processed request! Tid: 7 Start 1580612964.908724 End 1580612966.334096 Cold? True Duration 0
+04:09:26,490 INFO Processed request! Tid: 7 Start 1580612964.908430 End 1580612966.490754 Cold? True Duration 0
+04:09:26,502 INFO Processed request! Tid: 7 Start 1580612964.902694 End 1580612966.502809 Cold? True Duration 0
+04:09:26,507 INFO Processed request! Tid: 7 Start 1580612964.908469 End 1580612966.507758 Cold? True Duration 0
+04:09:35,3 INFO Process 3 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_60 with sleep 60 func 010_sleep_nodejs_128_128_1_6_60
+04:09:35,3 INFO Process 2 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_60 with sleep 60 func 010_sleep_nodejs_128_128_1_6_60
+04:09:35,3 INFO Process 0 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_60 with sleep 60 func 010_sleep_nodejs_128_128_1_6_60
+04:09:35,3 INFO Process 5 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_60 with sleep 60 func 010_sleep_nodejs_128_128_1_6_60
+04:09:35,4 INFO P 5 T 6 Sleep 60 F 010_sleep_nodejs_128_128_1_6_60 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_60
+04:09:35,4 INFO P 2 T 6 Sleep 60 F 010_sleep_nodejs_128_128_1_6_60 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_60
+04:09:35,4 INFO P 3 T 6 Sleep 60 F 010_sleep_nodejs_128_128_1_6_60 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_60
+04:09:35,4 INFO P 0 T 6 Sleep 60 F 010_sleep_nodejs_128_128_1_6_60 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_60
+04:09:35,9 INFO Process 4 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_60 with sleep 60 func 010_sleep_nodejs_128_128_1_6_60
+04:09:35,9 INFO Process 1 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_60 with sleep 60 func 010_sleep_nodejs_128_128_1_6_60
+04:09:35,9 INFO P 4 T 6 Sleep 60 F 010_sleep_nodejs_128_128_1_6_60 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_60
+04:09:35,9 INFO P 1 T 6 Sleep 60 F 010_sleep_nodejs_128_128_1_6_60 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_60
+04:09:36,376 INFO Processed request! Tid: 6 Start 1580612975.009742 End 1580612976.376121 Cold? True Duration 0
+04:09:36,385 INFO Processed request! Tid: 6 Start 1580612975.004373 End 1580612976.385010 Cold? True Duration 0
+04:09:36,388 INFO Processed request! Tid: 6 Start 1580612975.004624 End 1580612976.388661 Cold? True Duration 0
+04:09:36,395 INFO Processed request! Tid: 6 Start 1580612975.009681 End 1580612976.395454 Cold? True Duration 0
+04:09:36,540 INFO Processed request! Tid: 6 Start 1580612975.004371 End 1580612976.540749 Cold? True Duration 0
+04:09:36,564 INFO Processed request! Tid: 6 Start 1580612975.004334 End 1580612976.564702 Cold? True Duration 0
+04:09:45,105 INFO Process 0 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_30 with sleep 30 func 010_sleep_nodejs_128_128_1_6_30
+04:09:45,105 INFO Process 3 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_30 with sleep 30 func 010_sleep_nodejs_128_128_1_6_30
+04:09:45,105 INFO Process 1 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_30 with sleep 30 func 010_sleep_nodejs_128_128_1_6_30
+04:09:45,105 INFO Process 2 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_30 with sleep 30 func 010_sleep_nodejs_128_128_1_6_30
+04:09:45,105 INFO Process 4 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_30 with sleep 30 func 010_sleep_nodejs_128_128_1_6_30
+04:09:45,105 INFO P 1 T 5 Sleep 30 F 010_sleep_nodejs_128_128_1_6_30 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_30
+04:09:45,105 INFO P 3 T 5 Sleep 30 F 010_sleep_nodejs_128_128_1_6_30 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_30
+04:09:45,106 INFO P 0 T 5 Sleep 30 F 010_sleep_nodejs_128_128_1_6_30 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_30
+04:09:45,106 INFO P 4 T 5 Sleep 30 F 010_sleep_nodejs_128_128_1_6_30 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_30
+04:09:45,105 INFO Process 5 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_30 with sleep 30 func 010_sleep_nodejs_128_128_1_6_30
+04:09:45,106 INFO P 2 T 5 Sleep 30 F 010_sleep_nodejs_128_128_1_6_30 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_30
+04:09:45,106 INFO P 5 T 5 Sleep 30 F 010_sleep_nodejs_128_128_1_6_30 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_30
+04:09:46,453 INFO Processed request! Tid: 5 Start 1580612985.106100 End 1580612986.452968 Cold? True Duration 0
+04:09:46,460 INFO Processed request! Tid: 5 Start 1580612985.106020 End 1580612986.460180 Cold? True Duration 0
+04:09:46,473 INFO Processed request! Tid: 5 Start 1580612985.106084 End 1580612986.472994 Cold? True Duration 0
+04:09:46,663 INFO Processed request! Tid: 5 Start 1580612985.106146 End 1580612986.662930 Cold? True Duration 0
+04:09:46,663 INFO Processed request! Tid: 5 Start 1580612985.106493 End 1580612986.663427 Cold? True Duration 0
+04:09:46,671 INFO Processed request! Tid: 5 Start 1580612985.106438 End 1580612986.671654 Cold? True Duration 0
+04:09:55,207 INFO Process 3 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_15 with sleep 15 func 010_sleep_nodejs_128_128_1_6_15
+04:09:55,207 INFO Process 1 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_15 with sleep 15 func 010_sleep_nodejs_128_128_1_6_15
+04:09:55,207 INFO Process 4 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_15 with sleep 15 func 010_sleep_nodejs_128_128_1_6_15
+04:09:55,207 INFO Process 0 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_15 with sleep 15 func 010_sleep_nodejs_128_128_1_6_15
+04:09:55,207 INFO Process 5 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_15 with sleep 15 func 010_sleep_nodejs_128_128_1_6_15
+04:09:55,207 INFO Process 2 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_15 with sleep 15 func 010_sleep_nodejs_128_128_1_6_15
+04:09:55,207 INFO P 0 T 4 Sleep 15 F 010_sleep_nodejs_128_128_1_6_15 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_15
+04:09:55,207 INFO P 1 T 4 Sleep 15 F 010_sleep_nodejs_128_128_1_6_15 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_15
+04:09:55,207 INFO P 2 T 4 Sleep 15 F 010_sleep_nodejs_128_128_1_6_15 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_15
+04:09:55,207 INFO P 4 T 4 Sleep 15 F 010_sleep_nodejs_128_128_1_6_15 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_15
+04:09:55,207 INFO P 3 T 4 Sleep 15 F 010_sleep_nodejs_128_128_1_6_15 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_15
+04:09:55,207 INFO P 5 T 4 Sleep 15 F 010_sleep_nodejs_128_128_1_6_15 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_15
+04:09:56,586 INFO Processed request! Tid: 4 Start 1580612995.208037 End 1580612996.586415 Cold? True Duration 0
+04:09:56,596 INFO Processed request! Tid: 4 Start 1580612995.207664 End 1580612996.596191 Cold? True Duration 0
+04:09:56,765 INFO Processed request! Tid: 4 Start 1580612995.207391 End 1580612996.765214 Cold? True Duration 0
+04:09:56,776 INFO Processed request! Tid: 4 Start 1580612995.207696 End 1580612996.776061 Cold? True Duration 0
+04:09:56,782 INFO Processed request! Tid: 4 Start 1580612995.207975 End 1580612996.782680 Cold? True Duration 0
+04:09:56,804 INFO Processed request! Tid: 4 Start 1580612995.207599 End 1580612996.803943 Cold? True Duration 0
+04:10:05,308 INFO Process 3 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_8 with sleep 8 func 010_sleep_nodejs_128_128_1_6_8
+04:10:05,308 INFO Process 1 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_8 with sleep 8 func 010_sleep_nodejs_128_128_1_6_8
+04:10:05,308 INFO Process 0 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_8 with sleep 8 func 010_sleep_nodejs_128_128_1_6_8
+04:10:05,308 INFO Process 4 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_8 with sleep 8 func 010_sleep_nodejs_128_128_1_6_8
+04:10:05,308 INFO Process 2 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_8 with sleep 8 func 010_sleep_nodejs_128_128_1_6_8
+04:10:05,309 INFO P 0 T 3 Sleep 8 F 010_sleep_nodejs_128_128_1_6_8 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_8
+04:10:05,309 INFO P 3 T 3 Sleep 8 F 010_sleep_nodejs_128_128_1_6_8 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_8
+04:10:05,309 INFO P 1 T 3 Sleep 8 F 010_sleep_nodejs_128_128_1_6_8 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_8
+04:10:05,308 INFO Process 5 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_8 with sleep 8 func 010_sleep_nodejs_128_128_1_6_8
+04:10:05,309 INFO P 4 T 3 Sleep 8 F 010_sleep_nodejs_128_128_1_6_8 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_8
+04:10:05,309 INFO P 2 T 3 Sleep 8 F 010_sleep_nodejs_128_128_1_6_8 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_8
+04:10:05,309 INFO P 5 T 3 Sleep 8 F 010_sleep_nodejs_128_128_1_6_8 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_8
+04:10:06,677 INFO Processed request! Tid: 3 Start 1580613005.309720 End 1580613006.677807 Cold? True Duration 0
+04:10:06,698 INFO Processed request! Tid: 3 Start 1580613005.309637 End 1580613006.698245 Cold? True Duration 0
+04:10:06,709 INFO Processed request! Tid: 3 Start 1580613005.309267 End 1580613006.709500 Cold? True Duration 0
+04:10:06,860 INFO Processed request! Tid: 3 Start 1580613005.309267 End 1580613006.860447 Cold? True Duration 0
+04:10:06,874 INFO Processed request! Tid: 3 Start 1580613005.309701 End 1580613006.874178 Cold? True Duration 0
+04:10:06,880 INFO Processed request! Tid: 3 Start 1580613005.309202 End 1580613006.880115 Cold? True Duration 0
+04:10:12,742 INFO Processed request! Tid: 4 Start 1580613011.601595 End 1580613012.742374 Cold? False Duration 0
+04:10:12,744 INFO Processed request! Tid: 4 Start 1580613011.601594 End 1580613012.744179 Cold? False Duration 0
+04:10:12,929 INFO Processed request! Tid: 4 Start 1580613011.780342 End 1580613012.929500 Cold? False Duration 0
+04:10:12,945 INFO Processed request! Tid: 4 Start 1580613011.791217 End 1580613012.945687 Cold? False Duration 0
+04:10:12,953 INFO Processed request! Tid: 4 Start 1580613011.812016 End 1580613012.953846 Cold? False Duration 0
+04:10:13,141 INFO Processed request! Tid: 4 Start 1580613011.797854 End 1580613013.141730 Cold? False Duration 0
+04:10:15,410 INFO Process 1 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_4 with sleep 4 func 010_sleep_nodejs_128_128_1_6_4
+04:10:15,410 INFO Process 0 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_4 with sleep 4 func 010_sleep_nodejs_128_128_1_6_4
+04:10:15,410 INFO Process 2 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_4 with sleep 4 func 010_sleep_nodejs_128_128_1_6_4
+04:10:15,410 INFO Process 3 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_4 with sleep 4 func 010_sleep_nodejs_128_128_1_6_4
+04:10:15,410 INFO Process 5 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_4 with sleep 4 func 010_sleep_nodejs_128_128_1_6_4
+04:10:15,410 INFO Process 4 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_4 with sleep 4 func 010_sleep_nodejs_128_128_1_6_4
+04:10:15,410 INFO P 1 T 2 Sleep 4 F 010_sleep_nodejs_128_128_1_6_4 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_4
+04:10:15,410 INFO P 0 T 2 Sleep 4 F 010_sleep_nodejs_128_128_1_6_4 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_4
+04:10:15,410 INFO P 2 T 2 Sleep 4 F 010_sleep_nodejs_128_128_1_6_4 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_4
+04:10:15,410 INFO P 3 T 2 Sleep 4 F 010_sleep_nodejs_128_128_1_6_4 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_4
+04:10:15,410 INFO P 5 T 2 Sleep 4 F 010_sleep_nodejs_128_128_1_6_4 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_4
+04:10:15,411 INFO P 4 T 2 Sleep 4 F 010_sleep_nodejs_128_128_1_6_4 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_4
+04:10:16,9 INFO Processed request! Tid: 3 Start 1580613014.868527 End 1580613016.009750 Cold? False Duration 0
+04:10:16,25 INFO Processed request! Tid: 3 Start 1580613014.882289 End 1580613016.025599 Cold? False Duration 0
+04:10:16,31 INFO Processed request! Tid: 3 Start 1580613014.685931 End 1580613016.031504 Cold? False Duration 0
+04:10:16,48 INFO Processed request! Tid: 3 Start 1580613014.706413 End 1580613016.048166 Cold? False Duration 0
+04:10:16,62 INFO Processed request! Tid: 3 Start 1580613014.717697 End 1580613016.062142 Cold? False Duration 0
+04:10:16,108 INFO Processed request! Tid: 3 Start 1580613014.887938 End 1580613016.108718 Cold? False Duration 0
+04:10:16,781 INFO Processed request! Tid: 2 Start 1580613015.410991 End 1580613016.781844 Cold? True Duration 0
+04:10:16,782 INFO Processed request! Tid: 2 Start 1580613015.410663 End 1580613016.781891 Cold? True Duration 0
+04:10:16,831 INFO Processed request! Tid: 2 Start 1580613015.410752 End 1580613016.831403 Cold? True Duration 0
+04:10:16,969 INFO Processed request! Tid: 2 Start 1580613015.410596 End 1580613016.969357 Cold? True Duration 0
+04:10:16,973 INFO Processed request! Tid: 2 Start 1580613015.410831 End 1580613016.973625 Cold? True Duration 0
+04:10:16,993 INFO Processed request! Tid: 2 Start 1580613015.411104 End 1580613016.993512 Cold? True Duration 0
+04:10:17,624 INFO Processed request! Tid: 5 Start 1580613016.483075 End 1580613017.624840 Cold? False Duration 0
+04:10:17,632 INFO Processed request! Tid: 5 Start 1580613016.483078 End 1580613017.631931 Cold? False Duration 0
+04:10:17,632 INFO Processed request! Tid: 5 Start 1580613016.483078 End 1580613017.632200 Cold? False Duration 0
+04:10:17,839 INFO Processed request! Tid: 5 Start 1580613016.693055 End 1580613017.839897 Cold? False Duration 0
+04:10:17,849 INFO Processed request! Tid: 5 Start 1580613016.701804 End 1580613017.848942 Cold? False Duration 0
+04:10:18,34 INFO Processed request! Tid: 5 Start 1580613016.693554 End 1580613018.034468 Cold? False Duration 0
+04:10:21,931 INFO Processed request! Tid: 2 Start 1580613020.785930 End 1580613021.931792 Cold? False Duration 0
+04:10:21,933 INFO Processed request! Tid: 2 Start 1580613020.785967 End 1580613021.933203 Cold? False Duration 0
+04:10:22,118 INFO Processed request! Tid: 2 Start 1580613020.973401 End 1580613022.118117 Cold? False Duration 0
+04:10:22,179 INFO Processed request! Tid: 2 Start 1580613020.835470 End 1580613022.179354 Cold? False Duration 0
+04:10:22,320 INFO Processed request! Tid: 2 Start 1580613020.977682 End 1580613022.320188 Cold? False Duration 0
+04:10:22,337 INFO Processed request! Tid: 2 Start 1580613020.997547 End 1580613022.337221 Cold? False Duration 0
+04:10:25,511 INFO Process 1 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_2 with sleep 2 func 010_sleep_nodejs_128_128_1_6_2
+04:10:25,511 INFO Process 0 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_2 with sleep 2 func 010_sleep_nodejs_128_128_1_6_2
+04:10:25,511 INFO Process 5 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_2 with sleep 2 func 010_sleep_nodejs_128_128_1_6_2
+04:10:25,511 INFO Process 2 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_2 with sleep 2 func 010_sleep_nodejs_128_128_1_6_2
+04:10:25,511 INFO Process 4 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_2 with sleep 2 func 010_sleep_nodejs_128_128_1_6_2
+04:10:25,512 INFO P 5 T 1 Sleep 2 F 010_sleep_nodejs_128_128_1_6_2 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_2
+04:10:25,512 INFO P 0 T 1 Sleep 2 F 010_sleep_nodejs_128_128_1_6_2 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_2
+04:10:25,512 INFO P 2 T 1 Sleep 2 F 010_sleep_nodejs_128_128_1_6_2 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_2
+04:10:25,511 INFO Process 3 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_2 with sleep 2 func 010_sleep_nodejs_128_128_1_6_2
+04:10:25,512 INFO P 4 T 1 Sleep 2 F 010_sleep_nodejs_128_128_1_6_2 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_2
+04:10:25,512 INFO P 1 T 1 Sleep 2 F 010_sleep_nodejs_128_128_1_6_2 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_2
+04:10:25,512 INFO P 3 T 1 Sleep 2 F 010_sleep_nodejs_128_128_1_6_2 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_2
+04:10:26,881 INFO Processed request! Tid: 1 Start 1580613025.512171 End 1580613026.881771 Cold? True Duration 0
+04:10:26,889 INFO Processed request! Tid: 1 Start 1580613025.512575 End 1580613026.889797 Cold? True Duration 0
+04:10:26,891 INFO Processed request! Tid: 1 Start 1580613025.512242 End 1580613026.891411 Cold? True Duration 0
+04:10:26,895 INFO Processed request! Tid: 1 Start 1580613025.512207 End 1580613026.895589 Cold? True Duration 0
+04:10:27,69 INFO Processed request! Tid: 1 Start 1580613025.512744 End 1580613027.069607 Cold? True Duration 0
+04:10:27,97 INFO Processed request! Tid: 1 Start 1580613025.512598 End 1580613027.097202 Cold? True Duration 0
+04:10:30,27 INFO Processed request! Tid: 1 Start 1580613028.883888 End 1580613030.026981 Cold? False Duration 0
+04:10:30,41 INFO Processed request! Tid: 1 Start 1580613028.897635 End 1580613030.041528 Cold? False Duration 0
+04:10:30,229 INFO Processed request! Tid: 1 Start 1580613028.891827 End 1580613030.229500 Cold? False Duration 0
+04:10:30,236 INFO Processed request! Tid: 1 Start 1580613028.893450 End 1580613030.236833 Cold? False Duration 0
+04:10:30,248 INFO Processed request! Tid: 1 Start 1580613029.099246 End 1580613030.248774 Cold? False Duration 0
+04:10:30,409 INFO Processed request! Tid: 1 Start 1580613029.071825 End 1580613030.409628 Cold? False Duration 0
+04:10:35,610 INFO Process 0 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_1 with sleep 1 func 010_sleep_nodejs_128_128_1_6_1
+04:10:35,610 INFO Process 4 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_1 with sleep 1 func 010_sleep_nodejs_128_128_1_6_1
+04:10:35,610 INFO Process 3 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_1 with sleep 1 func 010_sleep_nodejs_128_128_1_6_1
+04:10:35,610 INFO Process 1 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_1 with sleep 1 func 010_sleep_nodejs_128_128_1_6_1
+04:10:35,610 INFO P 0 T 0 Sleep 1 F 010_sleep_nodejs_128_128_1_6_1 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_1
+04:10:35,610 INFO P 4 T 0 Sleep 1 F 010_sleep_nodejs_128_128_1_6_1 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_1
+04:10:35,611 INFO P 3 T 0 Sleep 1 F 010_sleep_nodejs_128_128_1_6_1 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_1
+04:10:35,611 INFO P 1 T 0 Sleep 1 F 010_sleep_nodejs_128_128_1_6_1 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_1
+04:10:35,613 INFO Process 5 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_1 with sleep 1 func 010_sleep_nodejs_128_128_1_6_1
+04:10:35,613 INFO Process 2 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_1 with sleep 1 func 010_sleep_nodejs_128_128_1_6_1
+04:10:35,613 INFO P 5 T 0 Sleep 1 F 010_sleep_nodejs_128_128_1_6_1 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_1
+04:10:35,613 INFO P 2 T 0 Sleep 1 F 010_sleep_nodejs_128_128_1_6_1 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_1
+04:10:36,951 INFO Processed request! Tid: 0 Start 1580613035.611143 End 1580613036.950978 Cold? True Duration 0
+04:10:36,951 INFO Processed request! Tid: 0 Start 1580613035.611092 End 1580613036.951019 Cold? True Duration 0
+04:10:37,177 INFO Processed request! Tid: 0 Start 1580613035.610931 End 1580613037.177615 Cold? True Duration 0
+04:10:37,179 INFO Processed request! Tid: 0 Start 1580613035.613384 End 1580613037.179371 Cold? True Duration 0
+04:10:37,184 INFO Processed request! Tid: 0 Start 1580613035.613386 End 1580613037.184692 Cold? True Duration 0
+04:10:37,197 INFO Processed request! Tid: 0 Start 1580613035.611109 End 1580613037.197770 Cold? True Duration 0
+04:10:37,558 INFO Processed request! Tid: 6 Start 1580613036.412627 End 1580613037.557988 Cold? False Duration 0
+04:10:37,638 INFO Processed request! Tid: 6 Start 1580613036.412693 End 1580613037.638533 Cold? False Duration 0
+04:10:37,766 INFO Processed request! Tid: 6 Start 1580613036.624741 End 1580613037.766184 Cold? False Duration 0
+04:10:37,790 INFO Processed request! Tid: 6 Start 1580613036.447956 End 1580613037.790455 Cold? False Duration 0
+04:10:37,809 INFO Processed request! Tid: 6 Start 1580613036.425945 End 1580613037.809454 Cold? False Duration 0
+04:10:37,941 INFO Processed request! Tid: 6 Start 1580613036.600985 End 1580613037.941753 Cold? False Duration 0
+04:10:39,96 INFO Processed request! Tid: 0 Start 1580613037.952128 End 1580613039.096002 Cold? False Duration 0
+04:10:39,96 INFO Processed request! Tid: 0 Start 1580613037.952018 End 1580613039.096181 Cold? False Duration 0
+04:10:39,324 INFO Processed request! Tid: 0 Start 1580613038.180547 End 1580613039.324712 Cold? False Duration 0
+04:10:39,327 INFO Processed request! Tid: 0 Start 1580613038.178783 End 1580613039.327264 Cold? False Duration 0
+04:10:39,334 INFO Processed request! Tid: 0 Start 1580613038.184933 End 1580613039.334243 Cold? False Duration 0
+04:10:39,349 INFO Processed request! Tid: 0 Start 1580613038.198987 End 1580613039.349007 Cold? False Duration 0
+04:11:27,546 INFO Processed request! Tid: 7 Start 1580613086.375895 End 1580613087.546387 Cold? False Duration 0
+04:11:27,548 INFO Processed request! Tid: 7 Start 1580613086.375934 End 1580613087.548114 Cold? False Duration 0
+04:11:27,552 INFO Processed request! Tid: 7 Start 1580613086.375908 End 1580613087.552576 Cold? False Duration 0
+04:11:27,724 INFO Processed request! Tid: 7 Start 1580613086.576657 End 1580613087.724521 Cold? False Duration 0
+04:11:27,734 INFO Processed request! Tid: 7 Start 1580613086.576405 End 1580613087.734391 Cold? False Duration 0
+04:11:27,942 INFO Processed request! Tid: 7 Start 1580613086.602904 End 1580613087.942313 Cold? False Duration 0
+04:12:17,402 INFO Processed request! Tid: 8 Start 1580613136.255944 End 1580613137.402637 Cold? False Duration 0
+04:12:17,403 INFO Processed request! Tid: 8 Start 1580613136.255943 End 1580613137.403720 Cold? False Duration 0
+04:12:17,585 INFO Processed request! Tid: 8 Start 1580613136.238843 End 1580613137.585154 Cold? False Duration 0
+04:12:17,586 INFO Processed request! Tid: 8 Start 1580613136.238756 End 1580613137.586750 Cold? False Duration 0
+04:12:17,609 INFO Processed request! Tid: 8 Start 1580613136.467006 End 1580613137.609153 Cold? False Duration 0
+04:12:17,627 INFO Processed request! Tid: 8 Start 1580613136.286961 End 1580613137.627779 Cold? False Duration 0
+04:13:07,359 INFO Processed request! Tid: 9 Start 1580613186.206664 End 1580613187.359073 Cold? False Duration 0
+04:13:07,550 INFO Processed request! Tid: 9 Start 1580613186.407220 End 1580613187.550368 Cold? False Duration 0
+04:13:07,551 INFO Processed request! Tid: 9 Start 1580613186.179160 End 1580613187.551411 Cold? False Duration 0
+04:13:07,648 INFO Processed request! Tid: 9 Start 1580613186.307037 End 1580613187.648105 Cold? False Duration 0
+04:13:07,656 INFO Processed request! Tid: 9 Start 1580613186.306774 End 1580613187.655931 Cold? False Duration 0
+04:13:07,660 INFO Processed request! Tid: 9 Start 1580613186.306892 End 1580613187.660526 Cold? False Duration 0
+04:13:57,331 INFO Processed request! Tid: 10 Start 1580613236.175551 End 1580613237.331189 Cold? False Duration 0
+04:13:57,335 INFO Processed request! Tid: 10 Start 1580613236.175570 End 1580613237.335146 Cold? False Duration 0
+04:13:57,335 INFO Processed request! Tid: 10 Start 1580613236.175570 End 1580613237.335585 Cold? False Duration 0
+04:13:57,415 INFO Processed request! Tid: 10 Start 1580613236.073446 End 1580613237.414890 Cold? False Duration 0
+04:13:57,556 INFO Processed request! Tid: 10 Start 1580613236.212960 End 1580613237.556450 Cold? False Duration 0
+04:13:57,620 INFO Processed request! Tid: 10 Start 1580613236.275888 End 1580613237.620539 Cold? False Duration 0
+04:13:57,680 INFO Finished iteration 1
+04:14:29,402 INFO Updated 010_sleep_nodejs_128_128_1_6_1 to timeout 852
+04:14:29,536 INFO Updated 010_sleep_nodejs_128_128_1_6_2 to timeout 852
+04:14:29,670 INFO Updated 010_sleep_nodejs_128_128_1_6_4 to timeout 852
+04:14:29,806 INFO Updated 010_sleep_nodejs_128_128_1_6_8 to timeout 852
+04:14:29,939 INFO Updated 010_sleep_nodejs_128_128_1_6_15 to timeout 852
+04:14:30,73 INFO Updated 010_sleep_nodejs_128_128_1_6_30 to timeout 852
+04:14:30,207 INFO Updated 010_sleep_nodejs_128_128_1_6_60 to timeout 852
+04:14:30,341 INFO Updated 010_sleep_nodejs_128_128_1_6_120 to timeout 852
+04:14:30,479 INFO Updated 010_sleep_nodejs_128_128_1_6_180 to timeout 852
+04:14:30,616 INFO Updated 010_sleep_nodejs_128_128_1_6_240 to timeout 852
+04:14:30,753 INFO Updated 010_sleep_nodejs_128_128_1_6_300 to timeout 852
+04:14:30,753 INFO Dumped data
+04:14:30,776 INFO Process 3 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_300 with sleep 300 func 010_sleep_nodejs_128_128_1_6_300
+04:14:30,776 INFO Process 0 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_300 with sleep 300 func 010_sleep_nodejs_128_128_1_6_300
+04:14:30,776 INFO Process 4 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_300 with sleep 300 func 010_sleep_nodejs_128_128_1_6_300
+04:14:30,776 INFO P 3 T 10 Sleep 300 F 010_sleep_nodejs_128_128_1_6_300 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_300
+04:14:30,776 INFO P 4 T 10 Sleep 300 F 010_sleep_nodejs_128_128_1_6_300 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_300
+04:14:30,777 INFO P 0 T 10 Sleep 300 F 010_sleep_nodejs_128_128_1_6_300 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_300
+04:14:30,777 INFO Process 2 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_300 with sleep 300 func 010_sleep_nodejs_128_128_1_6_300
+04:14:30,778 INFO P 2 T 10 Sleep 300 F 010_sleep_nodejs_128_128_1_6_300 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_300
+04:14:30,778 INFO Process 5 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_300 with sleep 300 func 010_sleep_nodejs_128_128_1_6_300
+04:14:30,778 INFO P 5 T 10 Sleep 300 F 010_sleep_nodejs_128_128_1_6_300 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_300
+04:14:30,778 INFO Process 1 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_300 with sleep 300 func 010_sleep_nodejs_128_128_1_6_300
+04:14:30,778 INFO P 1 T 10 Sleep 300 F 010_sleep_nodejs_128_128_1_6_300 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_300
+04:14:32,151 INFO Processed request! Tid: 10 Start 1580613270.778362 End 1580613272.151423 Cold? True Duration 0
+04:14:32,184 INFO Processed request! Tid: 10 Start 1580613270.776827 End 1580613272.184316 Cold? True Duration 0
+04:14:32,200 INFO Processed request! Tid: 10 Start 1580613270.778781 End 1580613272.199963 Cold? True Duration 0
+04:14:32,202 INFO Processed request! Tid: 10 Start 1580613270.778172 End 1580613272.202334 Cold? True Duration 0
+04:14:32,354 INFO Processed request! Tid: 10 Start 1580613270.776579 End 1580613272.354698 Cold? True Duration 0
+04:14:32,355 INFO Processed request! Tid: 10 Start 1580613270.777355 End 1580613272.355263 Cold? True Duration 0
+04:14:40,877 INFO Process 0 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_240 with sleep 240 func 010_sleep_nodejs_128_128_1_6_240
+04:14:40,877 INFO Process 3 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_240 with sleep 240 func 010_sleep_nodejs_128_128_1_6_240
+04:14:40,877 INFO Process 4 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_240 with sleep 240 func 010_sleep_nodejs_128_128_1_6_240
+04:14:40,877 INFO P 0 T 9 Sleep 240 F 010_sleep_nodejs_128_128_1_6_240 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_240
+04:14:40,877 INFO P 3 T 9 Sleep 240 F 010_sleep_nodejs_128_128_1_6_240 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_240
+04:14:40,878 INFO P 4 T 9 Sleep 240 F 010_sleep_nodejs_128_128_1_6_240 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_240
+04:14:40,879 INFO Process 1 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_240 with sleep 240 func 010_sleep_nodejs_128_128_1_6_240
+04:14:40,879 INFO Process 2 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_240 with sleep 240 func 010_sleep_nodejs_128_128_1_6_240
+04:14:40,879 INFO P 1 T 9 Sleep 240 F 010_sleep_nodejs_128_128_1_6_240 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_240
+04:14:40,879 INFO P 2 T 9 Sleep 240 F 010_sleep_nodejs_128_128_1_6_240 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_240
+04:14:40,879 INFO Process 5 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_240 with sleep 240 func 010_sleep_nodejs_128_128_1_6_240
+04:14:40,879 INFO P 5 T 9 Sleep 240 F 010_sleep_nodejs_128_128_1_6_240 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_240
+04:14:42,221 INFO Processed request! Tid: 9 Start 1580613280.878087 End 1580613282.221658 Cold? True Duration 0
+04:14:42,261 INFO Processed request! Tid: 9 Start 1580613280.879375 End 1580613282.261117 Cold? True Duration 0
+04:14:42,481 INFO Processed request! Tid: 9 Start 1580613280.878034 End 1580613282.481766 Cold? True Duration 0
+04:14:42,489 INFO Processed request! Tid: 9 Start 1580613280.878132 End 1580613282.489433 Cold? True Duration 0
+04:14:42,495 INFO Processed request! Tid: 9 Start 1580613280.879693 End 1580613282.495332 Cold? True Duration 0
+04:14:42,515 INFO Processed request! Tid: 9 Start 1580613280.879405 End 1580613282.515214 Cold? True Duration 0
+04:14:50,979 INFO Process 0 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_180 with sleep 180 func 010_sleep_nodejs_128_128_1_6_180
+04:14:50,979 INFO Process 1 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_180 with sleep 180 func 010_sleep_nodejs_128_128_1_6_180
+04:14:50,979 INFO Process 3 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_180 with sleep 180 func 010_sleep_nodejs_128_128_1_6_180
+04:14:50,979 INFO Process 4 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_180 with sleep 180 func 010_sleep_nodejs_128_128_1_6_180
+04:14:50,979 INFO P 1 T 8 Sleep 180 F 010_sleep_nodejs_128_128_1_6_180 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_180
+04:14:50,979 INFO P 3 T 8 Sleep 180 F 010_sleep_nodejs_128_128_1_6_180 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_180
+04:14:50,979 INFO P 0 T 8 Sleep 180 F 010_sleep_nodejs_128_128_1_6_180 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_180
+04:14:50,979 INFO P 4 T 8 Sleep 180 F 010_sleep_nodejs_128_128_1_6_180 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_180
+04:14:50,980 INFO Process 2 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_180 with sleep 180 func 010_sleep_nodejs_128_128_1_6_180
+04:14:50,980 INFO Process 5 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_180 with sleep 180 func 010_sleep_nodejs_128_128_1_6_180
+04:14:50,980 INFO P 2 T 8 Sleep 180 F 010_sleep_nodejs_128_128_1_6_180 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_180
+04:14:50,980 INFO P 5 T 8 Sleep 180 F 010_sleep_nodejs_128_128_1_6_180 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_180
+04:14:52,320 INFO Processed request! Tid: 8 Start 1580613290.979588 End 1580613292.320647 Cold? True Duration 0
+04:14:52,338 INFO Processed request! Tid: 8 Start 1580613290.979582 End 1580613292.337919 Cold? True Duration 0
+04:14:52,524 INFO Processed request! Tid: 8 Start 1580613290.979930 End 1580613292.524493 Cold? True Duration 0
+04:14:52,530 INFO Processed request! Tid: 8 Start 1580613290.980670 End 1580613292.530411 Cold? True Duration 0
+04:14:52,579 INFO Processed request! Tid: 8 Start 1580613290.979582 End 1580613292.578977 Cold? True Duration 0
+04:14:52,694 INFO Processed request! Tid: 8 Start 1580613290.980678 End 1580613292.693906 Cold? True Duration 0
+04:15:01,79 INFO Process 3 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_120 with sleep 120 func 010_sleep_nodejs_128_128_1_6_120
+04:15:01,79 INFO Process 5 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_120 with sleep 120 func 010_sleep_nodejs_128_128_1_6_120
+04:15:01,79 INFO P 5 T 7 Sleep 120 F 010_sleep_nodejs_128_128_1_6_120 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_120
+04:15:01,79 INFO P 3 T 7 Sleep 120 F 010_sleep_nodejs_128_128_1_6_120 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_120
+04:15:01,79 INFO Process 1 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_120 with sleep 120 func 010_sleep_nodejs_128_128_1_6_120
+04:15:01,80 INFO P 1 T 7 Sleep 120 F 010_sleep_nodejs_128_128_1_6_120 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_120
+04:15:01,80 INFO Process 0 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_120 with sleep 120 func 010_sleep_nodejs_128_128_1_6_120
+04:15:01,80 INFO Process 2 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_120 with sleep 120 func 010_sleep_nodejs_128_128_1_6_120
+04:15:01,80 INFO Process 4 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_120 with sleep 120 func 010_sleep_nodejs_128_128_1_6_120
+04:15:01,80 INFO P 0 T 7 Sleep 120 F 010_sleep_nodejs_128_128_1_6_120 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_120
+04:15:01,80 INFO P 4 T 7 Sleep 120 F 010_sleep_nodejs_128_128_1_6_120 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_120
+04:15:01,80 INFO P 2 T 7 Sleep 120 F 010_sleep_nodejs_128_128_1_6_120 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_120
+04:15:02,426 INFO Processed request! Tid: 7 Start 1580613301.080268 End 1580613302.426589 Cold? True Duration 0
+04:15:02,429 INFO Processed request! Tid: 7 Start 1580613301.079805 End 1580613302.429541 Cold? True Duration 0
+04:15:02,446 INFO Processed request! Tid: 7 Start 1580613301.080964 End 1580613302.446598 Cold? True Duration 0
+04:15:02,606 INFO Processed request! Tid: 7 Start 1580613301.080929 End 1580613302.606283 Cold? True Duration 0
+04:15:02,620 INFO Processed request! Tid: 7 Start 1580613301.080914 End 1580613302.620237 Cold? True Duration 0
+04:15:02,672 INFO Processed request! Tid: 7 Start 1580613301.079805 End 1580613302.672142 Cold? True Duration 0
+04:15:11,180 INFO Process 5 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_60 with sleep 60 func 010_sleep_nodejs_128_128_1_6_60
+04:15:11,180 INFO Process 3 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_60 with sleep 60 func 010_sleep_nodejs_128_128_1_6_60
+04:15:11,180 INFO Process 1 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_60 with sleep 60 func 010_sleep_nodejs_128_128_1_6_60
+04:15:11,180 INFO Process 2 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_60 with sleep 60 func 010_sleep_nodejs_128_128_1_6_60
+04:15:11,181 INFO Process 0 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_60 with sleep 60 func 010_sleep_nodejs_128_128_1_6_60
+04:15:11,181 INFO P 3 T 6 Sleep 60 F 010_sleep_nodejs_128_128_1_6_60 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_60
+04:15:11,181 INFO P 2 T 6 Sleep 60 F 010_sleep_nodejs_128_128_1_6_60 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_60
+04:15:11,181 INFO P 0 T 6 Sleep 60 F 010_sleep_nodejs_128_128_1_6_60 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_60
+04:15:11,181 INFO P 5 T 6 Sleep 60 F 010_sleep_nodejs_128_128_1_6_60 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_60
+04:15:11,181 INFO P 1 T 6 Sleep 60 F 010_sleep_nodejs_128_128_1_6_60 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_60
+04:15:11,182 INFO Process 4 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_60 with sleep 60 func 010_sleep_nodejs_128_128_1_6_60
+04:15:11,182 INFO P 4 T 6 Sleep 60 F 010_sleep_nodejs_128_128_1_6_60 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_60
+04:15:12,529 INFO Processed request! Tid: 6 Start 1580613311.181596 End 1580613312.529031 Cold? True Duration 0
+04:15:12,541 INFO Processed request! Tid: 6 Start 1580613311.181596 End 1580613312.541664 Cold? True Duration 0
+04:15:12,712 INFO Processed request! Tid: 6 Start 1580613311.181538 End 1580613312.712719 Cold? True Duration 0
+04:15:12,735 INFO Processed request! Tid: 6 Start 1580613311.181603 End 1580613312.735704 Cold? True Duration 0
+04:15:12,745 INFO Processed request! Tid: 6 Start 1580613311.181902 End 1580613312.745843 Cold? True Duration 0
+04:15:12,759 INFO Processed request! Tid: 6 Start 1580613311.182307 End 1580613312.759368 Cold? True Duration 0
+04:15:21,282 INFO Process 5 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_30 with sleep 30 func 010_sleep_nodejs_128_128_1_6_30
+04:15:21,282 INFO Process 3 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_30 with sleep 30 func 010_sleep_nodejs_128_128_1_6_30
+04:15:21,282 INFO Process 0 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_30 with sleep 30 func 010_sleep_nodejs_128_128_1_6_30
+04:15:21,282 INFO Process 4 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_30 with sleep 30 func 010_sleep_nodejs_128_128_1_6_30
+04:15:21,282 INFO Process 2 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_30 with sleep 30 func 010_sleep_nodejs_128_128_1_6_30
+04:15:21,282 INFO Process 1 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_30 with sleep 30 func 010_sleep_nodejs_128_128_1_6_30
+04:15:21,283 INFO P 0 T 5 Sleep 30 F 010_sleep_nodejs_128_128_1_6_30 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_30
+04:15:21,283 INFO P 3 T 5 Sleep 30 F 010_sleep_nodejs_128_128_1_6_30 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_30
+04:15:21,283 INFO P 1 T 5 Sleep 30 F 010_sleep_nodejs_128_128_1_6_30 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_30
+04:15:21,283 INFO P 2 T 5 Sleep 30 F 010_sleep_nodejs_128_128_1_6_30 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_30
+04:15:21,283 INFO P 5 T 5 Sleep 30 F 010_sleep_nodejs_128_128_1_6_30 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_30
+04:15:21,283 INFO P 4 T 5 Sleep 30 F 010_sleep_nodejs_128_128_1_6_30 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_30
+04:15:22,820 INFO Processed request! Tid: 5 Start 1580613321.283275 End 1580613322.820017 Cold? True Duration 0
+04:15:22,826 INFO Processed request! Tid: 5 Start 1580613321.283506 End 1580613322.826856 Cold? True Duration 0
+04:15:22,830 INFO Processed request! Tid: 5 Start 1580613321.283275 End 1580613322.830626 Cold? True Duration 0
+04:15:22,847 INFO Processed request! Tid: 5 Start 1580613321.283120 End 1580613322.847365 Cold? True Duration 0
+04:15:22,858 INFO Processed request! Tid: 5 Start 1580613321.283120 End 1580613322.858419 Cold? True Duration 0
+04:15:22,868 INFO Processed request! Tid: 5 Start 1580613321.283506 End 1580613322.868773 Cold? True Duration 0
+04:15:31,384 INFO Process 5 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_15 with sleep 15 func 010_sleep_nodejs_128_128_1_6_15
+04:15:31,384 INFO Process 2 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_15 with sleep 15 func 010_sleep_nodejs_128_128_1_6_15
+04:15:31,384 INFO Process 0 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_15 with sleep 15 func 010_sleep_nodejs_128_128_1_6_15
+04:15:31,384 INFO Process 3 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_15 with sleep 15 func 010_sleep_nodejs_128_128_1_6_15
+04:15:31,384 INFO Process 4 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_15 with sleep 15 func 010_sleep_nodejs_128_128_1_6_15
+04:15:31,384 INFO P 0 T 4 Sleep 15 F 010_sleep_nodejs_128_128_1_6_15 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_15
+04:15:31,384 INFO P 2 T 4 Sleep 15 F 010_sleep_nodejs_128_128_1_6_15 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_15
+04:15:31,384 INFO P 3 T 4 Sleep 15 F 010_sleep_nodejs_128_128_1_6_15 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_15
+04:15:31,384 INFO P 4 T 4 Sleep 15 F 010_sleep_nodejs_128_128_1_6_15 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_15
+04:15:31,385 INFO Process 1 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_15 with sleep 15 func 010_sleep_nodejs_128_128_1_6_15
+04:15:31,385 INFO P 5 T 4 Sleep 15 F 010_sleep_nodejs_128_128_1_6_15 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_15
+04:15:31,385 INFO P 1 T 4 Sleep 15 F 010_sleep_nodejs_128_128_1_6_15 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_15
+04:15:32,773 INFO Processed request! Tid: 4 Start 1580613331.384833 End 1580613332.773168 Cold? True Duration 0
+04:15:32,924 INFO Processed request! Tid: 4 Start 1580613331.385337 End 1580613332.924806 Cold? True Duration 0
+04:15:32,950 INFO Processed request! Tid: 4 Start 1580613331.384912 End 1580613332.950162 Cold? True Duration 0
+04:15:32,954 INFO Processed request! Tid: 4 Start 1580613331.384707 End 1580613332.954047 Cold? True Duration 0
+04:15:33,5 INFO Processed request! Tid: 4 Start 1580613331.385496 End 1580613333.005635 Cold? True Duration 0
+04:15:33,210 INFO Processed request! Tid: 4 Start 1580613331.384930 End 1580613333.210790 Cold? True Duration 0
+04:15:41,485 INFO Process 5 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_8 with sleep 8 func 010_sleep_nodejs_128_128_1_6_8
+04:15:41,485 INFO Process 0 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_8 with sleep 8 func 010_sleep_nodejs_128_128_1_6_8
+04:15:41,485 INFO Process 4 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_8 with sleep 8 func 010_sleep_nodejs_128_128_1_6_8
+04:15:41,485 INFO Process 1 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_8 with sleep 8 func 010_sleep_nodejs_128_128_1_6_8
+04:15:41,485 INFO Process 2 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_8 with sleep 8 func 010_sleep_nodejs_128_128_1_6_8
+04:15:41,485 INFO Process 3 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_8 with sleep 8 func 010_sleep_nodejs_128_128_1_6_8
+04:15:41,486 INFO P 5 T 3 Sleep 8 F 010_sleep_nodejs_128_128_1_6_8 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_8
+04:15:41,486 INFO P 3 T 3 Sleep 8 F 010_sleep_nodejs_128_128_1_6_8 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_8
+04:15:41,486 INFO P 1 T 3 Sleep 8 F 010_sleep_nodejs_128_128_1_6_8 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_8
+04:15:41,486 INFO P 0 T 3 Sleep 8 F 010_sleep_nodejs_128_128_1_6_8 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_8
+04:15:41,486 INFO P 4 T 3 Sleep 8 F 010_sleep_nodejs_128_128_1_6_8 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_8
+04:15:41,486 INFO P 2 T 3 Sleep 8 F 010_sleep_nodejs_128_128_1_6_8 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_8
+04:15:42,824 INFO Processed request! Tid: 3 Start 1580613341.486249 End 1580613342.824438 Cold? True Duration 0
+04:15:42,827 INFO Processed request! Tid: 3 Start 1580613341.486800 End 1580613342.827161 Cold? True Duration 0
+04:15:42,839 INFO Processed request! Tid: 3 Start 1580613341.486641 End 1580613342.839795 Cold? True Duration 0
+04:15:43,26 INFO Processed request! Tid: 3 Start 1580613341.486401 End 1580613343.026394 Cold? True Duration 0
+04:15:43,43 INFO Processed request! Tid: 3 Start 1580613341.486670 End 1580613343.043427 Cold? True Duration 0
+04:15:43,56 INFO Processed request! Tid: 3 Start 1580613341.486439 End 1580613343.056627 Cold? True Duration 0
+04:15:49,84 INFO Processed request! Tid: 4 Start 1580613347.940073 End 1580613349.084771 Cold? False Duration 0
+04:15:49,111 INFO Processed request! Tid: 4 Start 1580613347.965255 End 1580613349.111189 Cold? False Duration 0
+04:15:49,111 INFO Processed request! Tid: 4 Start 1580613347.965252 End 1580613349.111753 Cold? False Duration 0
+04:15:49,125 INFO Processed request! Tid: 4 Start 1580613347.788315 End 1580613349.125401 Cold? False Duration 0
+04:15:49,167 INFO Processed request! Tid: 4 Start 1580613348.020742 End 1580613349.167047 Cold? False Duration 0
+04:15:49,368 INFO Processed request! Tid: 4 Start 1580613348.225968 End 1580613349.368073 Cold? False Duration 0
+04:15:51,587 INFO Process 5 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_4 with sleep 4 func 010_sleep_nodejs_128_128_1_6_4
+04:15:51,587 INFO Process 3 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_4 with sleep 4 func 010_sleep_nodejs_128_128_1_6_4
+04:15:51,587 INFO Process 4 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_4 with sleep 4 func 010_sleep_nodejs_128_128_1_6_4
+04:15:51,587 INFO Process 1 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_4 with sleep 4 func 010_sleep_nodejs_128_128_1_6_4
+04:15:51,587 INFO Process 0 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_4 with sleep 4 func 010_sleep_nodejs_128_128_1_6_4
+04:15:51,587 INFO P 3 T 2 Sleep 4 F 010_sleep_nodejs_128_128_1_6_4 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_4
+04:15:51,587 INFO P 4 T 2 Sleep 4 F 010_sleep_nodejs_128_128_1_6_4 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_4
+04:15:51,587 INFO P 5 T 2 Sleep 4 F 010_sleep_nodejs_128_128_1_6_4 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_4
+04:15:51,587 INFO Process 2 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_4 with sleep 4 func 010_sleep_nodejs_128_128_1_6_4
+04:15:51,588 INFO P 1 T 2 Sleep 4 F 010_sleep_nodejs_128_128_1_6_4 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_4
+04:15:51,588 INFO P 2 T 2 Sleep 4 F 010_sleep_nodejs_128_128_1_6_4 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_4
+04:15:51,588 INFO P 0 T 2 Sleep 4 F 010_sleep_nodejs_128_128_1_6_4 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_4
+04:15:51,978 INFO Processed request! Tid: 3 Start 1580613350.832664 End 1580613351.978677 Cold? False Duration 0
+04:15:51,990 INFO Processed request! Tid: 3 Start 1580613350.848058 End 1580613351.990160 Cold? False Duration 0
+04:15:52,172 INFO Processed request! Tid: 3 Start 1580613350.832665 End 1580613352.172544 Cold? False Duration 0
+04:15:52,195 INFO Processed request! Tid: 3 Start 1580613351.050935 End 1580613352.195838 Cold? False Duration 0
+04:15:52,396 INFO Processed request! Tid: 3 Start 1580613351.056936 End 1580613352.396005 Cold? False Duration 0
+04:15:52,430 INFO Processed request! Tid: 3 Start 1580613351.034617 End 1580613352.430599 Cold? False Duration 0
+04:15:52,948 INFO Processed request! Tid: 2 Start 1580613351.587846 End 1580613352.948329 Cold? True Duration 0
+04:15:52,955 INFO Processed request! Tid: 2 Start 1580613351.588215 End 1580613352.955280 Cold? True Duration 0
+04:15:53,4 INFO Processed request! Tid: 2 Start 1580613351.587728 End 1580613353.004046 Cold? True Duration 0
+04:15:53,136 INFO Processed request! Tid: 2 Start 1580613351.587728 End 1580613353.136791 Cold? True Duration 0
+04:15:53,141 INFO Processed request! Tid: 2 Start 1580613351.588136 End 1580613353.141163 Cold? True Duration 0
+04:15:53,147 INFO Processed request! Tid: 2 Start 1580613351.588125 End 1580613353.147077 Cold? True Duration 0
+04:15:53,994 INFO Processed request! Tid: 5 Start 1580613352.850267 End 1580613353.994005 Cold? False Duration 0
+04:15:54,3 INFO Processed request! Tid: 5 Start 1580613352.855481 End 1580613354.003312 Cold? False Duration 0
+04:15:54,11 INFO Processed request! Tid: 5 Start 1580613352.856884 End 1580613354.011380 Cold? False Duration 0
+04:15:54,32 INFO Processed request! Tid: 5 Start 1580613352.888479 End 1580613354.032412 Cold? False Duration 0
+04:15:54,203 INFO Processed request! Tid: 5 Start 1580613352.855482 End 1580613354.203676 Cold? False Duration 0
+04:15:54,233 INFO Processed request! Tid: 5 Start 1580613352.888481 End 1580613354.233735 Cold? False Duration 0
+04:15:58,97 INFO Processed request! Tid: 2 Start 1580613356.952554 End 1580613358.097032 Cold? False Duration 0
+04:15:58,104 INFO Processed request! Tid: 2 Start 1580613356.959522 End 1580613358.104099 Cold? False Duration 0
+04:15:58,152 INFO Processed request! Tid: 2 Start 1580613357.008169 End 1580613358.152655 Cold? False Duration 0
+04:15:58,290 INFO Processed request! Tid: 2 Start 1580613357.145371 End 1580613358.290605 Cold? False Duration 0
+04:15:58,296 INFO Processed request! Tid: 2 Start 1580613357.151297 End 1580613358.296042 Cold? False Duration 0
+04:15:58,484 INFO Processed request! Tid: 2 Start 1580613357.140988 End 1580613358.484523 Cold? False Duration 0
+04:16:01,684 INFO Process 2 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_2 with sleep 2 func 010_sleep_nodejs_128_128_1_6_2
+04:16:01,684 INFO Process 5 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_2 with sleep 2 func 010_sleep_nodejs_128_128_1_6_2
+04:16:01,684 INFO Process 4 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_2 with sleep 2 func 010_sleep_nodejs_128_128_1_6_2
+04:16:01,684 INFO Process 0 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_2 with sleep 2 func 010_sleep_nodejs_128_128_1_6_2
+04:16:01,684 INFO P 4 T 1 Sleep 2 F 010_sleep_nodejs_128_128_1_6_2 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_2
+04:16:01,684 INFO P 5 T 1 Sleep 2 F 010_sleep_nodejs_128_128_1_6_2 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_2
+04:16:01,684 INFO P 0 T 1 Sleep 2 F 010_sleep_nodejs_128_128_1_6_2 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_2
+04:16:01,685 INFO P 2 T 1 Sleep 2 F 010_sleep_nodejs_128_128_1_6_2 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_2
+04:16:01,688 INFO Process 1 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_2 with sleep 2 func 010_sleep_nodejs_128_128_1_6_2
+04:16:01,688 INFO Process 3 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_2 with sleep 2 func 010_sleep_nodejs_128_128_1_6_2
+04:16:01,688 INFO P 3 T 1 Sleep 2 F 010_sleep_nodejs_128_128_1_6_2 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_2
+04:16:01,688 INFO P 1 T 1 Sleep 2 F 010_sleep_nodejs_128_128_1_6_2 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_2
+04:16:03,33 INFO Processed request! Tid: 1 Start 1580613361.688998 End 1580613363.033719 Cold? True Duration 0
+04:16:03,35 INFO Processed request! Tid: 1 Start 1580613361.685374 End 1580613363.035214 Cold? True Duration 0
+04:16:03,73 INFO Processed request! Tid: 1 Start 1580613361.684886 End 1580613363.073399 Cold? True Duration 0
+04:16:03,241 INFO Processed request! Tid: 1 Start 1580613361.684883 End 1580613363.241575 Cold? True Duration 0
+04:16:03,249 INFO Processed request! Tid: 1 Start 1580613361.688933 End 1580613363.249379 Cold? True Duration 0
+04:16:03,277 INFO Processed request! Tid: 1 Start 1580613361.685094 End 1580613363.277787 Cold? True Duration 0
+04:16:06,218 INFO Processed request! Tid: 1 Start 1580613365.075617 End 1580613366.218805 Cold? False Duration 0
+04:16:06,380 INFO Processed request! Tid: 1 Start 1580613365.035850 End 1580613366.380273 Cold? False Duration 0
+04:16:06,382 INFO Processed request! Tid: 1 Start 1580613365.037342 End 1580613366.382471 Cold? False Duration 0
+04:16:06,386 INFO Processed request! Tid: 1 Start 1580613365.243718 End 1580613366.386036 Cold? False Duration 0
+04:16:06,396 INFO Processed request! Tid: 1 Start 1580613365.251411 End 1580613366.396061 Cold? False Duration 0
+04:16:06,425 INFO Processed request! Tid: 1 Start 1580613365.279843 End 1580613366.425690 Cold? False Duration 0
+04:16:11,785 INFO Process 0 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_1 with sleep 1 func 010_sleep_nodejs_128_128_1_6_1
+04:16:11,785 INFO Process 1 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_1 with sleep 1 func 010_sleep_nodejs_128_128_1_6_1
+04:16:11,785 INFO Process 2 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_1 with sleep 1 func 010_sleep_nodejs_128_128_1_6_1
+04:16:11,785 INFO Process 4 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_1 with sleep 1 func 010_sleep_nodejs_128_128_1_6_1
+04:16:11,786 INFO P 0 T 0 Sleep 1 F 010_sleep_nodejs_128_128_1_6_1 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_1
+04:16:11,786 INFO Process 5 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_1 with sleep 1 func 010_sleep_nodejs_128_128_1_6_1
+04:16:11,786 INFO P 2 T 0 Sleep 1 F 010_sleep_nodejs_128_128_1_6_1 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_1
+04:16:11,786 INFO P 4 T 0 Sleep 1 F 010_sleep_nodejs_128_128_1_6_1 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_1
+04:16:11,786 INFO P 1 T 0 Sleep 1 F 010_sleep_nodejs_128_128_1_6_1 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_1
+04:16:11,786 INFO P 5 T 0 Sleep 1 F 010_sleep_nodejs_128_128_1_6_1 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_1
+04:16:11,789 INFO Process 3 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_1 with sleep 1 func 010_sleep_nodejs_128_128_1_6_1
+04:16:11,790 INFO P 3 T 0 Sleep 1 F 010_sleep_nodejs_128_128_1_6_1 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_1
+04:16:13,137 INFO Processed request! Tid: 0 Start 1580613371.786599 End 1580613373.137318 Cold? True Duration 0
+04:16:13,168 INFO Processed request! Tid: 0 Start 1580613371.786631 End 1580613373.168519 Cold? True Duration 0
+04:16:13,172 INFO Processed request! Tid: 0 Start 1580613371.790143 End 1580613373.172446 Cold? True Duration 0
+04:16:13,178 INFO Processed request! Tid: 0 Start 1580613371.786278 End 1580613373.178206 Cold? True Duration 0
+04:16:13,323 INFO Processed request! Tid: 0 Start 1580613371.786339 End 1580613373.323541 Cold? True Duration 0
+04:16:13,383 INFO Processed request! Tid: 0 Start 1580613371.786298 End 1580613373.383132 Cold? True Duration 0
+04:16:13,899 INFO Processed request! Tid: 6 Start 1580613372.559025 End 1580613373.899649 Cold? False Duration 0
+04:16:13,929 INFO Processed request! Tid: 6 Start 1580613372.589223 End 1580613373.929858 Cold? False Duration 0
+04:16:13,942 INFO Processed request! Tid: 6 Start 1580613372.795913 End 1580613373.942521 Cold? False Duration 0
+04:16:14,56 INFO Processed request! Tid: 6 Start 1580613372.720401 End 1580613374.056573 Cold? False Duration 0
+04:16:14,136 INFO Processed request! Tid: 6 Start 1580613372.795913 End 1580613374.136826 Cold? False Duration 0
+04:16:14,146 INFO Processed request! Tid: 6 Start 1580613372.806075 End 1580613374.146452 Cold? False Duration 0
+04:16:15,284 INFO Processed request! Tid: 0 Start 1580613374.137936 End 1580613375.284353 Cold? False Duration 0
+04:16:15,315 INFO Processed request! Tid: 0 Start 1580613374.173486 End 1580613375.315728 Cold? False Duration 0
+04:16:15,467 INFO Processed request! Tid: 0 Start 1580613374.324354 End 1580613375.467631 Cold? False Duration 0
+04:16:15,510 INFO Processed request! Tid: 0 Start 1580613374.169603 End 1580613375.510084 Cold? False Duration 0
+04:16:15,516 INFO Processed request! Tid: 0 Start 1580613374.179362 End 1580613375.516828 Cold? False Duration 0
+04:16:15,525 INFO Processed request! Tid: 0 Start 1580613374.384299 End 1580613375.525704 Cold? False Duration 0
+04:17:03,646 INFO Processed request! Tid: 7 Start 1580613422.494069 End 1580613423.646157 Cold? False Duration 0
+04:17:03,678 INFO Processed request! Tid: 7 Start 1580613422.533953 End 1580613423.678455 Cold? False Duration 0
+04:17:03,843 INFO Processed request! Tid: 7 Start 1580613422.494069 End 1580613423.843029 Cold? False Duration 0
+04:17:03,862 INFO Processed request! Tid: 7 Start 1580613422.720330 End 1580613423.862667 Cold? False Duration 0
+04:17:04,38 INFO Processed request! Tid: 7 Start 1580613422.694665 End 1580613424.038533 Cold? False Duration 0
+04:17:04,67 INFO Processed request! Tid: 7 Start 1580613422.720333 End 1580613424.067433 Cold? False Duration 0
+04:17:53,520 INFO Processed request! Tid: 8 Start 1580613472.369813 End 1580613473.520405 Cold? False Duration 0
+04:17:53,714 INFO Processed request! Tid: 8 Start 1580613472.369776 End 1580613473.714075 Cold? False Duration 0
+04:17:53,963 INFO Processed request! Tid: 8 Start 1580613472.624654 End 1580613473.963520 Cold? False Duration 0
+04:17:53,965 INFO Processed request! Tid: 8 Start 1580613472.624653 End 1580613473.965075 Cold? False Duration 0
+04:17:54,10 INFO Processed request! Tid: 8 Start 1580613472.670871 End 1580613474.010697 Cold? False Duration 0
+04:17:54,111 INFO Processed request! Tid: 8 Start 1580613472.770962 End 1580613474.111675 Cold? False Duration 0
+04:18:43,471 INFO Processed request! Tid: 9 Start 1580613522.321872 End 1580613523.471160 Cold? False Duration 0
+04:18:43,489 INFO Processed request! Tid: 9 Start 1580613522.344377 End 1580613523.488949 Cold? False Duration 0
+04:18:43,693 INFO Processed request! Tid: 9 Start 1580613522.545124 End 1580613523.693550 Cold? False Duration 0
+04:18:43,885 INFO Processed request! Tid: 9 Start 1580613522.545111 End 1580613523.885757 Cold? False Duration 0
+04:18:43,891 INFO Processed request! Tid: 9 Start 1580613522.544731 End 1580613523.891431 Cold? False Duration 0
+04:18:43,921 INFO Processed request! Tid: 9 Start 1580613522.578960 End 1580613523.921151 Cold? False Duration 0
+04:19:33,379 INFO Processed request! Tid: 10 Start 1580613572.219725 End 1580613573.379360 Cold? False Duration 0
+04:19:33,390 INFO Processed request! Tid: 10 Start 1580613572.219708 End 1580613573.390357 Cold? False Duration 0
+04:19:33,435 INFO Processed request! Tid: 10 Start 1580613572.288021 End 1580613573.434887 Cold? False Duration 0
+04:19:33,566 INFO Processed request! Tid: 10 Start 1580613572.420238 End 1580613573.565974 Cold? False Duration 0
+04:19:33,645 INFO Processed request! Tid: 10 Start 1580613572.299948 End 1580613573.645683 Cold? False Duration 0
+04:19:33,782 INFO Processed request! Tid: 10 Start 1580613572.431944 End 1580613573.782710 Cold? False Duration 0
+04:19:33,824 INFO Finished iteration 2
+04:20:05,557 INFO Updated 010_sleep_nodejs_128_128_1_6_1 to timeout 853
+04:20:05,692 INFO Updated 010_sleep_nodejs_128_128_1_6_2 to timeout 853
+04:20:05,831 INFO Updated 010_sleep_nodejs_128_128_1_6_4 to timeout 853
+04:20:05,967 INFO Updated 010_sleep_nodejs_128_128_1_6_8 to timeout 853
+04:20:06,101 INFO Updated 010_sleep_nodejs_128_128_1_6_15 to timeout 853
+04:20:06,236 INFO Updated 010_sleep_nodejs_128_128_1_6_30 to timeout 853
+04:20:06,371 INFO Updated 010_sleep_nodejs_128_128_1_6_60 to timeout 853
+04:20:06,505 INFO Updated 010_sleep_nodejs_128_128_1_6_120 to timeout 853
+04:20:06,641 INFO Updated 010_sleep_nodejs_128_128_1_6_180 to timeout 853
+04:20:06,776 INFO Updated 010_sleep_nodejs_128_128_1_6_240 to timeout 853
+04:20:06,924 INFO Updated 010_sleep_nodejs_128_128_1_6_300 to timeout 853
+04:20:06,924 INFO Dumped data
+04:20:06,949 INFO Process 2 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_300 with sleep 300 func 010_sleep_nodejs_128_128_1_6_300
+04:20:06,949 INFO P 2 T 10 Sleep 300 F 010_sleep_nodejs_128_128_1_6_300 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_300
+04:20:06,950 INFO Process 1 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_300 with sleep 300 func 010_sleep_nodejs_128_128_1_6_300
+04:20:06,950 INFO Process 4 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_300 with sleep 300 func 010_sleep_nodejs_128_128_1_6_300
+04:20:06,950 INFO P 1 T 10 Sleep 300 F 010_sleep_nodejs_128_128_1_6_300 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_300
+04:20:06,950 INFO P 4 T 10 Sleep 300 F 010_sleep_nodejs_128_128_1_6_300 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_300
+04:20:06,950 INFO Process 3 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_300 with sleep 300 func 010_sleep_nodejs_128_128_1_6_300
+04:20:06,951 INFO P 3 T 10 Sleep 300 F 010_sleep_nodejs_128_128_1_6_300 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_300
+04:20:06,951 INFO Process 0 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_300 with sleep 300 func 010_sleep_nodejs_128_128_1_6_300
+04:20:06,951 INFO P 0 T 10 Sleep 300 F 010_sleep_nodejs_128_128_1_6_300 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_300
+04:20:06,952 INFO Process 5 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_300 with sleep 300 func 010_sleep_nodejs_128_128_1_6_300
+04:20:06,952 INFO P 5 T 10 Sleep 300 F 010_sleep_nodejs_128_128_1_6_300 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_300
+04:20:08,308 INFO Processed request! Tid: 10 Start 1580613606.951613 End 1580613608.307981 Cold? True Duration 0
+04:20:08,324 INFO Processed request! Tid: 10 Start 1580613606.950745 End 1580613608.323865 Cold? True Duration 0
+04:20:08,325 INFO Processed request! Tid: 10 Start 1580613606.950712 End 1580613608.325198 Cold? True Duration 0
+04:20:08,329 INFO Processed request! Tid: 10 Start 1580613606.951111 End 1580613608.329776 Cold? True Duration 0
+04:20:08,359 INFO Processed request! Tid: 10 Start 1580613606.949810 End 1580613608.358960 Cold? True Duration 0
+04:20:08,359 INFO Processed request! Tid: 10 Start 1580613606.952795 End 1580613608.359719 Cold? True Duration 0
+04:20:17,50 INFO Process 4 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_240 with sleep 240 func 010_sleep_nodejs_128_128_1_6_240
+04:20:17,50 INFO Process 2 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_240 with sleep 240 func 010_sleep_nodejs_128_128_1_6_240
+04:20:17,51 INFO P 2 T 9 Sleep 240 F 010_sleep_nodejs_128_128_1_6_240 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_240
+04:20:17,51 INFO P 4 T 9 Sleep 240 F 010_sleep_nodejs_128_128_1_6_240 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_240
+04:20:17,51 INFO Process 1 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_240 with sleep 240 func 010_sleep_nodejs_128_128_1_6_240
+04:20:17,51 INFO Process 3 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_240 with sleep 240 func 010_sleep_nodejs_128_128_1_6_240
+04:20:17,51 INFO P 3 T 9 Sleep 240 F 010_sleep_nodejs_128_128_1_6_240 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_240
+04:20:17,51 INFO P 1 T 9 Sleep 240 F 010_sleep_nodejs_128_128_1_6_240 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_240
+04:20:17,51 INFO Process 0 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_240 with sleep 240 func 010_sleep_nodejs_128_128_1_6_240
+04:20:17,52 INFO P 0 T 9 Sleep 240 F 010_sleep_nodejs_128_128_1_6_240 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_240
+04:20:17,53 INFO Process 5 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_240 with sleep 240 func 010_sleep_nodejs_128_128_1_6_240
+04:20:17,54 INFO P 5 T 9 Sleep 240 F 010_sleep_nodejs_128_128_1_6_240 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_240
+04:20:18,589 INFO Processed request! Tid: 9 Start 1580613617.052018 End 1580613618.589473 Cold? True Duration 0
+04:20:18,594 INFO Processed request! Tid: 9 Start 1580613617.051200 End 1580613618.594805 Cold? True Duration 0
+04:20:18,609 INFO Processed request! Tid: 9 Start 1580613617.051485 End 1580613618.609106 Cold? True Duration 0
+04:20:18,613 INFO Processed request! Tid: 9 Start 1580613617.054109 End 1580613618.613229 Cold? True Duration 0
+04:20:18,615 INFO Processed request! Tid: 9 Start 1580613617.052015 End 1580613618.615761 Cold? True Duration 0
+04:20:18,639 INFO Processed request! Tid: 9 Start 1580613617.052208 End 1580613618.639667 Cold? True Duration 0
+04:20:27,152 INFO Process 4 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_180 with sleep 180 func 010_sleep_nodejs_128_128_1_6_180
+04:20:27,152 INFO Process 5 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_180 with sleep 180 func 010_sleep_nodejs_128_128_1_6_180
+04:20:27,152 INFO Process 2 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_180 with sleep 180 func 010_sleep_nodejs_128_128_1_6_180
+04:20:27,152 INFO Process 3 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_180 with sleep 180 func 010_sleep_nodejs_128_128_1_6_180
+04:20:27,152 INFO P 4 T 8 Sleep 180 F 010_sleep_nodejs_128_128_1_6_180 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_180
+04:20:27,152 INFO P 2 T 8 Sleep 180 F 010_sleep_nodejs_128_128_1_6_180 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_180
+04:20:27,152 INFO P 5 T 8 Sleep 180 F 010_sleep_nodejs_128_128_1_6_180 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_180
+04:20:27,152 INFO P 3 T 8 Sleep 180 F 010_sleep_nodejs_128_128_1_6_180 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_180
+04:20:27,153 INFO Process 1 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_180 with sleep 180 func 010_sleep_nodejs_128_128_1_6_180
+04:20:27,153 INFO P 1 T 8 Sleep 180 F 010_sleep_nodejs_128_128_1_6_180 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_180
+04:20:27,153 INFO Process 0 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_180 with sleep 180 func 010_sleep_nodejs_128_128_1_6_180
+04:20:27,153 INFO P 0 T 8 Sleep 180 F 010_sleep_nodejs_128_128_1_6_180 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_180
+04:20:28,685 INFO Processed request! Tid: 8 Start 1580613627.153543 End 1580613628.685724 Cold? True Duration 0
+04:20:28,727 INFO Processed request! Tid: 8 Start 1580613627.152709 End 1580613628.727035 Cold? True Duration 0
+04:20:28,727 INFO Processed request! Tid: 8 Start 1580613627.152653 End 1580613628.727316 Cold? True Duration 0
+04:20:28,731 INFO Processed request! Tid: 8 Start 1580613627.152952 End 1580613628.731007 Cold? True Duration 0
+04:20:28,826 INFO Processed request! Tid: 8 Start 1580613627.153322 End 1580613628.826678 Cold? True Duration 0
+04:20:28,831 INFO Processed request! Tid: 8 Start 1580613627.152642 End 1580613628.831879 Cold? True Duration 0
+04:20:37,246 INFO Process 4 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_120 with sleep 120 func 010_sleep_nodejs_128_128_1_6_120
+04:20:37,246 INFO P 4 T 7 Sleep 120 F 010_sleep_nodejs_128_128_1_6_120 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_120
+04:20:37,252 INFO Process 3 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_120 with sleep 120 func 010_sleep_nodejs_128_128_1_6_120
+04:20:37,253 INFO P 3 T 7 Sleep 120 F 010_sleep_nodejs_128_128_1_6_120 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_120
+04:20:37,253 INFO Process 5 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_120 with sleep 120 func 010_sleep_nodejs_128_128_1_6_120
+04:20:37,253 INFO Process 1 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_120 with sleep 120 func 010_sleep_nodejs_128_128_1_6_120
+04:20:37,253 INFO Process 2 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_120 with sleep 120 func 010_sleep_nodejs_128_128_1_6_120
+04:20:37,253 INFO P 5 T 7 Sleep 120 F 010_sleep_nodejs_128_128_1_6_120 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_120
+04:20:37,253 INFO P 2 T 7 Sleep 120 F 010_sleep_nodejs_128_128_1_6_120 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_120
+04:20:37,253 INFO P 1 T 7 Sleep 120 F 010_sleep_nodejs_128_128_1_6_120 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_120
+04:20:37,254 INFO Process 0 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_120 with sleep 120 func 010_sleep_nodejs_128_128_1_6_120
+04:20:37,254 INFO P 0 T 7 Sleep 120 F 010_sleep_nodejs_128_128_1_6_120 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_120
+04:20:38,816 INFO Processed request! Tid: 7 Start 1580613637.246599 End 1580613638.816851 Cold? True Duration 0
+04:20:38,825 INFO Processed request! Tid: 7 Start 1580613637.253910 End 1580613638.824982 Cold? True Duration 0
+04:20:38,831 INFO Processed request! Tid: 7 Start 1580613637.253262 End 1580613638.831043 Cold? True Duration 0
+04:20:38,854 INFO Processed request! Tid: 7 Start 1580613637.253974 End 1580613638.853968 Cold? True Duration 0
+04:20:38,884 INFO Processed request! Tid: 7 Start 1580613637.253974 End 1580613638.883948 Cold? True Duration 0
+04:20:39,440 INFO Processed request! Tid: 7 Start 1580613637.254364 End 1580613639.440783 Cold? True Duration 0
+04:20:47,347 INFO Process 4 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_60 with sleep 60 func 010_sleep_nodejs_128_128_1_6_60
+04:20:47,347 INFO Process 5 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_60 with sleep 60 func 010_sleep_nodejs_128_128_1_6_60
+04:20:47,348 INFO P 4 T 6 Sleep 60 F 010_sleep_nodejs_128_128_1_6_60 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_60
+04:20:47,348 INFO P 5 T 6 Sleep 60 F 010_sleep_nodejs_128_128_1_6_60 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_60
+04:20:47,353 INFO Process 2 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_60 with sleep 60 func 010_sleep_nodejs_128_128_1_6_60
+04:20:47,354 INFO P 2 T 6 Sleep 60 F 010_sleep_nodejs_128_128_1_6_60 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_60
+04:20:47,354 INFO Process 3 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_60 with sleep 60 func 010_sleep_nodejs_128_128_1_6_60
+04:20:47,354 INFO Process 1 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_60 with sleep 60 func 010_sleep_nodejs_128_128_1_6_60
+04:20:47,354 INFO P 3 T 6 Sleep 60 F 010_sleep_nodejs_128_128_1_6_60 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_60
+04:20:47,354 INFO P 1 T 6 Sleep 60 F 010_sleep_nodejs_128_128_1_6_60 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_60
+04:20:47,354 INFO Process 0 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_60 with sleep 60 func 010_sleep_nodejs_128_128_1_6_60
+04:20:47,355 INFO P 0 T 6 Sleep 60 F 010_sleep_nodejs_128_128_1_6_60 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_60
+04:20:48,734 INFO Processed request! Tid: 6 Start 1580613647.354530 End 1580613648.734669 Cold? True Duration 0
+04:20:48,767 INFO Processed request! Tid: 6 Start 1580613647.355244 End 1580613648.766939 Cold? True Duration 0
+04:20:48,903 INFO Processed request! Tid: 6 Start 1580613647.348215 End 1580613648.903681 Cold? True Duration 0
+04:20:48,912 INFO Processed request! Tid: 6 Start 1580613647.348196 End 1580613648.912766 Cold? True Duration 0
+04:20:48,921 INFO Processed request! Tid: 6 Start 1580613647.354246 End 1580613648.921354 Cold? True Duration 0
+04:20:48,942 INFO Processed request! Tid: 6 Start 1580613647.354570 End 1580613648.942819 Cold? True Duration 0
+04:20:57,449 INFO Process 4 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_30 with sleep 30 func 010_sleep_nodejs_128_128_1_6_30
+04:20:57,449 INFO Process 0 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_30 with sleep 30 func 010_sleep_nodejs_128_128_1_6_30
+04:20:57,449 INFO Process 5 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_30 with sleep 30 func 010_sleep_nodejs_128_128_1_6_30
+04:20:57,449 INFO P 5 T 5 Sleep 30 F 010_sleep_nodejs_128_128_1_6_30 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_30
+04:20:57,449 INFO P 4 T 5 Sleep 30 F 010_sleep_nodejs_128_128_1_6_30 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_30
+04:20:57,449 INFO P 0 T 5 Sleep 30 F 010_sleep_nodejs_128_128_1_6_30 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_30
+04:20:57,454 INFO Process 2 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_30 with sleep 30 func 010_sleep_nodejs_128_128_1_6_30
+04:20:57,455 INFO Process 1 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_30 with sleep 30 func 010_sleep_nodejs_128_128_1_6_30
+04:20:57,456 INFO P 1 T 5 Sleep 30 F 010_sleep_nodejs_128_128_1_6_30 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_30
+04:20:57,456 INFO Process 3 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_30 with sleep 30 func 010_sleep_nodejs_128_128_1_6_30
+04:20:57,456 INFO P 3 T 5 Sleep 30 F 010_sleep_nodejs_128_128_1_6_30 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_30
+04:20:57,457 INFO P 2 T 5 Sleep 30 F 010_sleep_nodejs_128_128_1_6_30 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_30
+04:20:58,795 INFO Processed request! Tid: 5 Start 1580613657.449650 End 1580613658.795312 Cold? True Duration 0
+04:20:58,798 INFO Processed request! Tid: 5 Start 1580613657.449656 End 1580613658.798011 Cold? True Duration 0
+04:20:58,803 INFO Processed request! Tid: 5 Start 1580613657.449626 End 1580613658.803626 Cold? True Duration 0
+04:20:58,806 INFO Processed request! Tid: 5 Start 1580613657.457246 End 1580613658.806605 Cold? True Duration 0
+04:20:58,813 INFO Processed request! Tid: 5 Start 1580613657.456967 End 1580613658.812942 Cold? True Duration 0
+04:20:58,822 INFO Processed request! Tid: 5 Start 1580613657.456706 End 1580613658.822627 Cold? True Duration 0
+04:21:07,549 INFO Process 0 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_15 with sleep 15 func 010_sleep_nodejs_128_128_1_6_15
+04:21:07,549 INFO Process 5 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_15 with sleep 15 func 010_sleep_nodejs_128_128_1_6_15
+04:21:07,550 INFO Process 4 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_15 with sleep 15 func 010_sleep_nodejs_128_128_1_6_15
+04:21:07,550 INFO P 5 T 4 Sleep 15 F 010_sleep_nodejs_128_128_1_6_15 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_15
+04:21:07,550 INFO P 0 T 4 Sleep 15 F 010_sleep_nodejs_128_128_1_6_15 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_15
+04:21:07,550 INFO P 4 T 4 Sleep 15 F 010_sleep_nodejs_128_128_1_6_15 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_15
+04:21:07,556 INFO Process 2 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_15 with sleep 15 func 010_sleep_nodejs_128_128_1_6_15
+04:21:07,556 INFO Process 1 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_15 with sleep 15 func 010_sleep_nodejs_128_128_1_6_15
+04:21:07,556 INFO P 2 T 4 Sleep 15 F 010_sleep_nodejs_128_128_1_6_15 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_15
+04:21:07,556 INFO P 1 T 4 Sleep 15 F 010_sleep_nodejs_128_128_1_6_15 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_15
+04:21:07,558 INFO Process 3 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_15 with sleep 15 func 010_sleep_nodejs_128_128_1_6_15
+04:21:07,558 INFO P 3 T 4 Sleep 15 F 010_sleep_nodejs_128_128_1_6_15 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_15
+04:21:08,897 INFO Processed request! Tid: 4 Start 1580613667.556657 End 1580613668.897255 Cold? True Duration 0
+04:21:08,899 INFO Processed request! Tid: 4 Start 1580613667.550532 End 1580613668.899561 Cold? True Duration 0
+04:21:08,921 INFO Processed request! Tid: 4 Start 1580613667.556590 End 1580613668.921353 Cold? True Duration 0
+04:21:09,86 INFO Processed request! Tid: 4 Start 1580613667.558589 End 1580613669.086871 Cold? True Duration 0
+04:21:09,94 INFO Processed request! Tid: 4 Start 1580613667.550812 End 1580613669.094501 Cold? True Duration 0
+04:21:09,99 INFO Processed request! Tid: 4 Start 1580613667.550521 End 1580613669.099311 Cold? True Duration 0
+04:21:17,651 INFO Process 5 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_8 with sleep 8 func 010_sleep_nodejs_128_128_1_6_8
+04:21:17,651 INFO Process 0 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_8 with sleep 8 func 010_sleep_nodejs_128_128_1_6_8
+04:21:17,651 INFO Process 2 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_8 with sleep 8 func 010_sleep_nodejs_128_128_1_6_8
+04:21:17,651 INFO Process 4 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_8 with sleep 8 func 010_sleep_nodejs_128_128_1_6_8
+04:21:17,652 INFO P 5 T 3 Sleep 8 F 010_sleep_nodejs_128_128_1_6_8 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_8
+04:21:17,652 INFO P 0 T 3 Sleep 8 F 010_sleep_nodejs_128_128_1_6_8 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_8
+04:21:17,652 INFO P 2 T 3 Sleep 8 F 010_sleep_nodejs_128_128_1_6_8 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_8
+04:21:17,651 INFO Process 1 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_8 with sleep 8 func 010_sleep_nodejs_128_128_1_6_8
+04:21:17,652 INFO P 4 T 3 Sleep 8 F 010_sleep_nodejs_128_128_1_6_8 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_8
+04:21:17,652 INFO P 1 T 3 Sleep 8 F 010_sleep_nodejs_128_128_1_6_8 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_8
+04:21:17,659 INFO Process 3 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_8 with sleep 8 func 010_sleep_nodejs_128_128_1_6_8
+04:21:17,659 INFO P 3 T 3 Sleep 8 F 010_sleep_nodejs_128_128_1_6_8 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_8
+04:21:19,3 INFO Processed request! Tid: 3 Start 1580613677.659865 End 1580613679.003646 Cold? True Duration 0
+04:21:19,7 INFO Processed request! Tid: 3 Start 1580613677.652187 End 1580613679.007472 Cold? True Duration 0
+04:21:19,7 INFO Processed request! Tid: 3 Start 1580613677.652616 End 1580613679.007635 Cold? True Duration 0
+04:21:19,13 INFO Processed request! Tid: 3 Start 1580613677.652475 End 1580613679.013474 Cold? True Duration 0
+04:21:19,16 INFO Processed request! Tid: 3 Start 1580613677.652187 End 1580613679.016625 Cold? True Duration 0
+04:21:19,68 INFO Processed request! Tid: 3 Start 1580613677.652152 End 1580613679.067966 Cold? True Duration 0
+04:21:25,51 INFO Processed request! Tid: 4 Start 1580613683.906032 End 1580613685.051089 Cold? False Duration 0
+04:21:25,126 INFO Processed request! Tid: 4 Start 1580613683.906082 End 1580613685.126663 Cold? False Duration 0
+04:21:25,139 INFO Processed request! Tid: 4 Start 1580613683.936403 End 1580613685.139794 Cold? False Duration 0
+04:21:25,255 INFO Processed request! Tid: 4 Start 1580613684.106599 End 1580613685.255268 Cold? False Duration 0
+04:21:25,262 INFO Processed request! Tid: 4 Start 1580613684.106625 End 1580613685.262699 Cold? False Duration 0
+04:21:25,298 INFO Processed request! Tid: 4 Start 1580613684.102125 End 1580613685.298369 Cold? False Duration 0
+04:21:27,753 INFO Process 2 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_4 with sleep 4 func 010_sleep_nodejs_128_128_1_6_4
+04:21:27,753 INFO Process 0 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_4 with sleep 4 func 010_sleep_nodejs_128_128_1_6_4
+04:21:27,753 INFO Process 5 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_4 with sleep 4 func 010_sleep_nodejs_128_128_1_6_4
+04:21:27,753 INFO Process 1 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_4 with sleep 4 func 010_sleep_nodejs_128_128_1_6_4
+04:21:27,753 INFO Process 4 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_4 with sleep 4 func 010_sleep_nodejs_128_128_1_6_4
+04:21:27,753 INFO P 1 T 2 Sleep 4 F 010_sleep_nodejs_128_128_1_6_4 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_4
+04:21:27,753 INFO P 5 T 2 Sleep 4 F 010_sleep_nodejs_128_128_1_6_4 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_4
+04:21:27,753 INFO Process 3 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_4 with sleep 4 func 010_sleep_nodejs_128_128_1_6_4
+04:21:27,753 INFO P 0 T 2 Sleep 4 F 010_sleep_nodejs_128_128_1_6_4 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_4
+04:21:27,753 INFO P 4 T 2 Sleep 4 F 010_sleep_nodejs_128_128_1_6_4 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_4
+04:21:27,753 INFO P 2 T 2 Sleep 4 F 010_sleep_nodejs_128_128_1_6_4 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_4
+04:21:27,754 INFO P 3 T 2 Sleep 4 F 010_sleep_nodejs_128_128_1_6_4 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_4
+04:21:28,159 INFO Processed request! Tid: 3 Start 1580613687.011904 End 1580613688.159446 Cold? False Duration 0
+04:21:28,160 INFO Processed request! Tid: 3 Start 1580613687.011907 End 1580613688.160571 Cold? False Duration 0
+04:21:28,164 INFO Processed request! Tid: 3 Start 1580613687.015994 End 1580613688.164833 Cold? False Duration 0
+04:21:28,167 INFO Processed request! Tid: 3 Start 1580613687.015512 End 1580613688.166946 Cold? False Duration 0
+04:21:28,369 INFO Processed request! Tid: 3 Start 1580613687.028312 End 1580613688.369530 Cold? False Duration 0
+04:21:28,415 INFO Processed request! Tid: 3 Start 1580613687.076036 End 1580613688.415642 Cold? False Duration 0
+04:21:29,104 INFO Processed request! Tid: 2 Start 1580613687.754316 End 1580613689.104628 Cold? True Duration 0
+04:21:29,122 INFO Processed request! Tid: 2 Start 1580613687.753942 End 1580613689.122598 Cold? True Duration 0
+04:21:29,134 INFO Processed request! Tid: 2 Start 1580613687.753888 End 1580613689.134647 Cold? True Duration 0
+04:21:29,157 INFO Processed request! Tid: 2 Start 1580613687.754004 End 1580613689.157167 Cold? True Duration 0
+04:21:29,323 INFO Processed request! Tid: 2 Start 1580613687.753583 End 1580613689.323136 Cold? True Duration 0
+04:21:29,327 INFO Processed request! Tid: 2 Start 1580613687.753589 End 1580613689.327256 Cold? True Duration 0
+04:21:29,971 INFO Processed request! Tid: 5 Start 1580613688.821544 End 1580613689.971123 Cold? False Duration 0
+04:21:29,973 INFO Processed request! Tid: 5 Start 1580613688.825557 End 1580613689.973673 Cold? False Duration 0
+04:21:29,977 INFO Processed request! Tid: 5 Start 1580613688.825353 End 1580613689.977204 Cold? False Duration 0
+04:21:29,993 INFO Processed request! Tid: 5 Start 1580613688.851939 End 1580613689.993154 Cold? False Duration 0
+04:21:30,171 INFO Processed request! Tid: 5 Start 1580613688.825352 End 1580613690.171034 Cold? False Duration 0
+04:21:30,174 INFO Processed request! Tid: 5 Start 1580613688.821467 End 1580613690.174537 Cold? False Duration 0
+04:21:34,252 INFO Processed request! Tid: 2 Start 1580613693.108827 End 1580613694.252388 Cold? False Duration 0
+04:21:34,466 INFO Processed request! Tid: 2 Start 1580613693.125937 End 1580613694.466466 Cold? False Duration 0
+04:21:34,471 INFO Processed request! Tid: 2 Start 1580613693.331510 End 1580613694.471735 Cold? False Duration 0
+04:21:34,478 INFO Processed request! Tid: 2 Start 1580613693.135847 End 1580613694.478274 Cold? False Duration 0
+04:21:34,503 INFO Processed request! Tid: 2 Start 1580613693.161211 End 1580613694.503097 Cold? False Duration 0
+04:21:34,670 INFO Processed request! Tid: 2 Start 1580613693.327380 End 1580613694.670303 Cold? False Duration 0
+04:21:37,851 INFO Process 0 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_2 with sleep 2 func 010_sleep_nodejs_128_128_1_6_2
+04:21:37,851 INFO Process 1 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_2 with sleep 2 func 010_sleep_nodejs_128_128_1_6_2
+04:21:37,851 INFO P 0 T 1 Sleep 2 F 010_sleep_nodejs_128_128_1_6_2 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_2
+04:21:37,852 INFO P 1 T 1 Sleep 2 F 010_sleep_nodejs_128_128_1_6_2 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_2
+04:21:37,854 INFO Process 2 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_2 with sleep 2 func 010_sleep_nodejs_128_128_1_6_2
+04:21:37,854 INFO Process 5 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_2 with sleep 2 func 010_sleep_nodejs_128_128_1_6_2
+04:21:37,854 INFO Process 4 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_2 with sleep 2 func 010_sleep_nodejs_128_128_1_6_2
+04:21:37,854 INFO P 5 T 1 Sleep 2 F 010_sleep_nodejs_128_128_1_6_2 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_2
+04:21:37,854 INFO Process 3 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_2 with sleep 2 func 010_sleep_nodejs_128_128_1_6_2
+04:21:37,854 INFO P 4 T 1 Sleep 2 F 010_sleep_nodejs_128_128_1_6_2 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_2
+04:21:37,855 INFO P 2 T 1 Sleep 2 F 010_sleep_nodejs_128_128_1_6_2 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_2
+04:21:37,855 INFO P 3 T 1 Sleep 2 F 010_sleep_nodejs_128_128_1_6_2 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_2
+04:21:39,225 INFO Processed request! Tid: 1 Start 1580613697.854900 End 1580613699.225354 Cold? True Duration 0
+04:21:39,229 INFO Processed request! Tid: 1 Start 1580613697.854911 End 1580613699.229457 Cold? True Duration 0
+04:21:39,249 INFO Processed request! Tid: 1 Start 1580613697.855315 End 1580613699.249282 Cold? True Duration 0
+04:21:39,250 INFO Processed request! Tid: 1 Start 1580613697.852215 End 1580613699.249940 Cold? True Duration 0
+04:21:39,265 INFO Processed request! Tid: 1 Start 1580613697.855167 End 1580613699.265369 Cold? True Duration 0
+04:21:39,420 INFO Processed request! Tid: 1 Start 1580613697.851911 End 1580613699.420269 Cold? True Duration 0
+04:21:42,371 INFO Processed request! Tid: 1 Start 1580613701.227534 End 1580613702.371733 Cold? False Duration 0
+04:21:42,378 INFO Processed request! Tid: 1 Start 1580613701.231652 End 1580613702.378146 Cold? False Duration 0
+04:21:42,399 INFO Processed request! Tid: 1 Start 1580613701.252179 End 1580613702.399266 Cold? False Duration 0
+04:21:42,402 INFO Processed request! Tid: 1 Start 1580613701.251318 End 1580613702.401949 Cold? False Duration 0
+04:21:42,407 INFO Processed request! Tid: 1 Start 1580613701.266938 End 1580613702.407610 Cold? False Duration 0
+04:21:42,759 INFO Processed request! Tid: 1 Start 1580613701.422439 End 1580613702.759890 Cold? False Duration 0
+04:21:47,953 INFO Process 1 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_1 with sleep 1 func 010_sleep_nodejs_128_128_1_6_1
+04:21:47,953 INFO Process 2 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_1 with sleep 1 func 010_sleep_nodejs_128_128_1_6_1
+04:21:47,953 INFO Process 4 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_1 with sleep 1 func 010_sleep_nodejs_128_128_1_6_1
+04:21:47,953 INFO Process 0 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_1 with sleep 1 func 010_sleep_nodejs_128_128_1_6_1
+04:21:47,953 INFO P 0 T 0 Sleep 1 F 010_sleep_nodejs_128_128_1_6_1 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_1
+04:21:47,953 INFO P 2 T 0 Sleep 1 F 010_sleep_nodejs_128_128_1_6_1 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_1
+04:21:47,953 INFO P 4 T 0 Sleep 1 F 010_sleep_nodejs_128_128_1_6_1 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_1
+04:21:47,953 INFO P 1 T 0 Sleep 1 F 010_sleep_nodejs_128_128_1_6_1 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_1
+04:21:47,955 INFO Process 3 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_1 with sleep 1 func 010_sleep_nodejs_128_128_1_6_1
+04:21:47,955 INFO Process 5 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_1 with sleep 1 func 010_sleep_nodejs_128_128_1_6_1
+04:21:47,956 INFO P 3 T 0 Sleep 1 F 010_sleep_nodejs_128_128_1_6_1 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_1
+04:21:47,956 INFO P 5 T 0 Sleep 1 F 010_sleep_nodejs_128_128_1_6_1 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_1
+04:21:49,298 INFO Processed request! Tid: 0 Start 1580613707.956164 End 1580613709.298050 Cold? True Duration 0
+04:21:49,315 INFO Processed request! Tid: 0 Start 1580613707.953559 End 1580613709.315355 Cold? True Duration 0
+04:21:49,494 INFO Processed request! Tid: 0 Start 1580613707.953559 End 1580613709.494700 Cold? True Duration 0
+04:21:49,501 INFO Processed request! Tid: 0 Start 1580613707.953544 End 1580613709.501768 Cold? True Duration 0
+04:21:49,512 INFO Processed request! Tid: 0 Start 1580613707.956135 End 1580613709.512216 Cold? True Duration 0
+04:21:49,519 INFO Processed request! Tid: 0 Start 1580613707.953791 End 1580613709.519762 Cold? True Duration 0
+04:21:50,125 INFO Processed request! Tid: 6 Start 1580613708.787108 End 1580613710.125692 Cold? False Duration 0
+04:21:50,125 INFO Processed request! Tid: 6 Start 1580613708.787149 End 1580613710.125700 Cold? False Duration 0
+04:21:50,303 INFO Processed request! Tid: 6 Start 1580613708.963983 End 1580613710.303577 Cold? False Duration 0
+04:21:50,317 INFO Processed request! Tid: 6 Start 1580613708.975943 End 1580613710.317353 Cold? False Duration 0
+04:21:50,318 INFO Processed request! Tid: 6 Start 1580613708.972818 End 1580613710.318083 Cold? False Duration 0
+04:21:50,354 INFO Processed request! Tid: 6 Start 1580613709.002870 End 1580613710.354402 Cold? False Duration 0
+04:21:51,460 INFO Processed request! Tid: 0 Start 1580613710.316445 End 1580613711.460060 Cold? False Duration 0
+04:21:51,638 INFO Processed request! Tid: 0 Start 1580613710.299090 End 1580613711.638454 Cold? False Duration 0
+04:21:51,646 INFO Processed request! Tid: 0 Start 1580613710.502818 End 1580613711.646022 Cold? False Duration 0
+04:21:51,646 INFO Processed request! Tid: 0 Start 1580613710.495735 End 1580613711.646385 Cold? False Duration 0
+04:21:51,656 INFO Processed request! Tid: 0 Start 1580613710.513295 End 1580613711.656545 Cold? False Duration 0
+04:21:51,931 INFO Processed request! Tid: 0 Start 1580613710.520860 End 1580613711.931059 Cold? False Duration 0
+04:22:40,33 INFO Processed request! Tid: 7 Start 1580613758.857297 End 1580613760.033116 Cold? False Duration 0
+04:22:40,56 INFO Processed request! Tid: 7 Start 1580613758.857534 End 1580613760.056351 Cold? False Duration 0
+04:22:40,227 INFO Processed request! Tid: 7 Start 1580613758.857228 End 1580613760.226988 Cold? False Duration 0
+04:22:40,232 INFO Processed request! Tid: 7 Start 1580613758.857312 End 1580613760.232808 Cold? False Duration 0
+04:22:40,325 INFO Processed request! Tid: 7 Start 1580613758.984040 End 1580613760.325273 Cold? False Duration 0
+04:22:40,797 INFO Processed request! Tid: 7 Start 1580613759.459146 End 1580613760.796931 Cold? False Duration 0
+04:23:29,911 INFO Processed request! Tid: 8 Start 1580613808.760959 End 1580613809.911322 Cold? False Duration 0
+04:23:29,911 INFO Processed request! Tid: 8 Start 1580613808.760964 End 1580613809.911322 Cold? False Duration 0
+04:23:29,929 INFO Processed request! Tid: 8 Start 1580613808.784937 End 1580613809.929082 Cold? False Duration 0
+04:23:29,974 INFO Processed request! Tid: 8 Start 1580613808.830760 End 1580613809.973945 Cold? False Duration 0
+04:23:30,68 INFO Processed request! Tid: 8 Start 1580613808.730394 End 1580613810.068740 Cold? False Duration 0
+04:23:30,73 INFO Processed request! Tid: 8 Start 1580613808.930954 End 1580613810.073774 Cold? False Duration 0
+04:24:19,749 INFO Processed request! Tid: 9 Start 1580613858.604575 End 1580613859.749603 Cold? False Duration 0
+04:24:19,752 INFO Processed request! Tid: 9 Start 1580613858.604639 End 1580613859.752449 Cold? False Duration 0
+04:24:19,852 INFO Processed request! Tid: 9 Start 1580613858.704840 End 1580613859.852204 Cold? False Duration 0
+04:24:20,50 INFO Processed request! Tid: 9 Start 1580613858.704844 End 1580613860.050544 Cold? False Duration 0
+04:24:20,55 INFO Processed request! Tid: 9 Start 1580613858.704845 End 1580613860.055000 Cold? False Duration 0
+04:24:20,55 INFO Processed request! Tid: 9 Start 1580613858.712945 End 1580613860.055719 Cold? False Duration 0
+04:25:09,573 INFO Processed request! Tid: 10 Start 1580613908.408084 End 1580613909.573070 Cold? False Duration 0
+04:25:09,585 INFO Processed request! Tid: 10 Start 1580613908.408087 End 1580613909.585064 Cold? False Duration 0
+04:25:09,757 INFO Processed request! Tid: 10 Start 1580613908.379956 End 1580613909.757037 Cold? False Duration 0
+04:25:09,763 INFO Processed request! Tid: 10 Start 1580613908.408087 End 1580613909.762914 Cold? False Duration 0
+04:25:09,765 INFO Processed request! Tid: 10 Start 1580613908.379957 End 1580613909.764983 Cold? False Duration 0
+04:25:09,765 INFO Processed request! Tid: 10 Start 1580613908.380037 End 1580613909.765558 Cold? False Duration 0
+04:25:09,785 INFO Finished iteration 3
+04:25:41,469 INFO Updated 010_sleep_nodejs_128_128_1_6_1 to timeout 854
+04:25:41,611 INFO Updated 010_sleep_nodejs_128_128_1_6_2 to timeout 854
+04:25:41,747 INFO Updated 010_sleep_nodejs_128_128_1_6_4 to timeout 854
+04:25:41,884 INFO Updated 010_sleep_nodejs_128_128_1_6_8 to timeout 854
+04:25:42,15 INFO Updated 010_sleep_nodejs_128_128_1_6_15 to timeout 854
+04:25:42,149 INFO Updated 010_sleep_nodejs_128_128_1_6_30 to timeout 854
+04:25:42,284 INFO Updated 010_sleep_nodejs_128_128_1_6_60 to timeout 854
+04:25:42,420 INFO Updated 010_sleep_nodejs_128_128_1_6_120 to timeout 854
+04:25:42,554 INFO Updated 010_sleep_nodejs_128_128_1_6_180 to timeout 854
+04:25:42,719 INFO Updated 010_sleep_nodejs_128_128_1_6_240 to timeout 854
+04:25:42,854 INFO Updated 010_sleep_nodejs_128_128_1_6_300 to timeout 854
+04:25:42,854 INFO Dumped data
+04:25:42,888 INFO Process 4 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_300 with sleep 300 func 010_sleep_nodejs_128_128_1_6_300
+04:25:42,889 INFO P 4 T 10 Sleep 300 F 010_sleep_nodejs_128_128_1_6_300 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_300
+04:25:42,889 INFO Process 3 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_300 with sleep 300 func 010_sleep_nodejs_128_128_1_6_300
+04:25:42,889 INFO Process 2 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_300 with sleep 300 func 010_sleep_nodejs_128_128_1_6_300
+04:25:42,889 INFO P 3 T 10 Sleep 300 F 010_sleep_nodejs_128_128_1_6_300 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_300
+04:25:42,889 INFO P 2 T 10 Sleep 300 F 010_sleep_nodejs_128_128_1_6_300 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_300
+04:25:42,890 INFO Process 0 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_300 with sleep 300 func 010_sleep_nodejs_128_128_1_6_300
+04:25:42,890 INFO Process 1 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_300 with sleep 300 func 010_sleep_nodejs_128_128_1_6_300
+04:25:42,890 INFO P 0 T 10 Sleep 300 F 010_sleep_nodejs_128_128_1_6_300 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_300
+04:25:42,890 INFO P 1 T 10 Sleep 300 F 010_sleep_nodejs_128_128_1_6_300 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_300
+04:25:42,890 INFO Process 5 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_300 with sleep 300 func 010_sleep_nodejs_128_128_1_6_300
+04:25:42,890 INFO P 5 T 10 Sleep 300 F 010_sleep_nodejs_128_128_1_6_300 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_300
+04:25:44,231 INFO Processed request! Tid: 10 Start 1580613942.890513 End 1580613944.231311 Cold? True Duration 0
+04:25:44,236 INFO Processed request! Tid: 10 Start 1580613942.889946 End 1580613944.236216 Cold? True Duration 0
+04:25:44,252 INFO Processed request! Tid: 10 Start 1580613942.889183 End 1580613944.252535 Cold? True Duration 0
+04:25:44,269 INFO Processed request! Tid: 10 Start 1580613942.890332 End 1580613944.269185 Cold? True Duration 0
+04:25:44,269 INFO Processed request! Tid: 10 Start 1580613942.889803 End 1580613944.269728 Cold? True Duration 0
+04:25:44,432 INFO Processed request! Tid: 10 Start 1580613942.891039 End 1580613944.432513 Cold? True Duration 0
+04:25:52,990 INFO Process 2 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_240 with sleep 240 func 010_sleep_nodejs_128_128_1_6_240
+04:25:52,990 INFO Process 4 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_240 with sleep 240 func 010_sleep_nodejs_128_128_1_6_240
+04:25:52,990 INFO Process 5 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_240 with sleep 240 func 010_sleep_nodejs_128_128_1_6_240
+04:25:52,990 INFO P 5 T 9 Sleep 240 F 010_sleep_nodejs_128_128_1_6_240 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_240
+04:25:52,990 INFO P 4 T 9 Sleep 240 F 010_sleep_nodejs_128_128_1_6_240 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_240
+04:25:52,990 INFO P 2 T 9 Sleep 240 F 010_sleep_nodejs_128_128_1_6_240 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_240
+04:25:52,990 INFO Process 3 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_240 with sleep 240 func 010_sleep_nodejs_128_128_1_6_240
+04:25:52,991 INFO Process 0 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_240 with sleep 240 func 010_sleep_nodejs_128_128_1_6_240
+04:25:52,991 INFO Process 1 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_240 with sleep 240 func 010_sleep_nodejs_128_128_1_6_240
+04:25:52,991 INFO P 3 T 9 Sleep 240 F 010_sleep_nodejs_128_128_1_6_240 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_240
+04:25:52,991 INFO P 1 T 9 Sleep 240 F 010_sleep_nodejs_128_128_1_6_240 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_240
+04:25:52,991 INFO P 0 T 9 Sleep 240 F 010_sleep_nodejs_128_128_1_6_240 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_240
+04:25:54,338 INFO Processed request! Tid: 9 Start 1580613952.991469 End 1580613954.338089 Cold? True Duration 0
+04:25:54,345 INFO Processed request! Tid: 9 Start 1580613952.991460 End 1580613954.345838 Cold? True Duration 0
+04:25:54,349 INFO Processed request! Tid: 9 Start 1580613952.990901 End 1580613954.349886 Cold? True Duration 0
+04:25:54,359 INFO Processed request! Tid: 9 Start 1580613952.990899 End 1580613954.359553 Cold? True Duration 0
+04:25:54,547 INFO Processed request! Tid: 9 Start 1580613952.990911 End 1580613954.547363 Cold? True Duration 0
+04:25:54,581 INFO Processed request! Tid: 9 Start 1580613952.991344 End 1580613954.581846 Cold? True Duration 0
+04:26:03,91 INFO Process 5 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_180 with sleep 180 func 010_sleep_nodejs_128_128_1_6_180
+04:26:03,91 INFO Process 3 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_180 with sleep 180 func 010_sleep_nodejs_128_128_1_6_180
+04:26:03,91 INFO Process 2 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_180 with sleep 180 func 010_sleep_nodejs_128_128_1_6_180
+04:26:03,91 INFO Process 4 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_180 with sleep 180 func 010_sleep_nodejs_128_128_1_6_180
+04:26:03,92 INFO P 4 T 8 Sleep 180 F 010_sleep_nodejs_128_128_1_6_180 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_180
+04:26:03,92 INFO Process 0 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_180 with sleep 180 func 010_sleep_nodejs_128_128_1_6_180
+04:26:03,92 INFO Process 1 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_180 with sleep 180 func 010_sleep_nodejs_128_128_1_6_180
+04:26:03,92 INFO P 0 T 8 Sleep 180 F 010_sleep_nodejs_128_128_1_6_180 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_180
+04:26:03,92 INFO P 3 T 8 Sleep 180 F 010_sleep_nodejs_128_128_1_6_180 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_180
+04:26:03,92 INFO P 2 T 8 Sleep 180 F 010_sleep_nodejs_128_128_1_6_180 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_180
+04:26:03,92 INFO P 5 T 8 Sleep 180 F 010_sleep_nodejs_128_128_1_6_180 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_180
+04:26:03,92 INFO P 1 T 8 Sleep 180 F 010_sleep_nodejs_128_128_1_6_180 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_180
+04:26:04,450 INFO Processed request! Tid: 8 Start 1580613963.092480 End 1580613964.450219 Cold? True Duration 0
+04:26:04,456 INFO Processed request! Tid: 8 Start 1580613963.092875 End 1580613964.456871 Cold? True Duration 0
+04:26:04,457 INFO Processed request! Tid: 8 Start 1580613963.092228 End 1580613964.457794 Cold? True Duration 0
+04:26:04,482 INFO Processed request! Tid: 8 Start 1580613963.092514 End 1580613964.482427 Cold? True Duration 0
+04:26:04,626 INFO Processed request! Tid: 8 Start 1580613963.092613 End 1580613964.626848 Cold? True Duration 0
+04:26:04,663 INFO Processed request! Tid: 8 Start 1580613963.092476 End 1580613964.663557 Cold? True Duration 0
+04:26:13,192 INFO Process 2 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_120 with sleep 120 func 010_sleep_nodejs_128_128_1_6_120
+04:26:13,192 INFO Process 0 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_120 with sleep 120 func 010_sleep_nodejs_128_128_1_6_120
+04:26:13,192 INFO Process 4 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_120 with sleep 120 func 010_sleep_nodejs_128_128_1_6_120
+04:26:13,192 INFO Process 5 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_120 with sleep 120 func 010_sleep_nodejs_128_128_1_6_120
+04:26:13,193 INFO Process 1 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_120 with sleep 120 func 010_sleep_nodejs_128_128_1_6_120
+04:26:13,193 INFO Process 3 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_120 with sleep 120 func 010_sleep_nodejs_128_128_1_6_120
+04:26:13,193 INFO P 2 T 7 Sleep 120 F 010_sleep_nodejs_128_128_1_6_120 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_120
+04:26:13,193 INFO P 4 T 7 Sleep 120 F 010_sleep_nodejs_128_128_1_6_120 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_120
+04:26:13,193 INFO P 5 T 7 Sleep 120 F 010_sleep_nodejs_128_128_1_6_120 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_120
+04:26:13,193 INFO P 3 T 7 Sleep 120 F 010_sleep_nodejs_128_128_1_6_120 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_120
+04:26:13,193 INFO P 0 T 7 Sleep 120 F 010_sleep_nodejs_128_128_1_6_120 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_120
+04:26:13,193 INFO P 1 T 7 Sleep 120 F 010_sleep_nodejs_128_128_1_6_120 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_120
+04:26:14,545 INFO Processed request! Tid: 7 Start 1580613973.193564 End 1580613974.545875 Cold? True Duration 0
+04:26:14,563 INFO Processed request! Tid: 7 Start 1580613973.193572 End 1580613974.563619 Cold? True Duration 0
+04:26:14,564 INFO Processed request! Tid: 7 Start 1580613973.194018 End 1580613974.564036 Cold? True Duration 0
+04:26:14,722 INFO Processed request! Tid: 7 Start 1580613973.193669 End 1580613974.722423 Cold? True Duration 0
+04:26:14,723 INFO Processed request! Tid: 7 Start 1580613973.193687 End 1580613974.723605 Cold? True Duration 0
+04:26:14,738 INFO Processed request! Tid: 7 Start 1580613973.193963 End 1580613974.738051 Cold? True Duration 0
+04:26:23,294 INFO Process 0 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_60 with sleep 60 func 010_sleep_nodejs_128_128_1_6_60
+04:26:23,294 INFO Process 5 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_60 with sleep 60 func 010_sleep_nodejs_128_128_1_6_60
+04:26:23,294 INFO Process 3 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_60 with sleep 60 func 010_sleep_nodejs_128_128_1_6_60
+04:26:23,294 INFO Process 2 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_60 with sleep 60 func 010_sleep_nodejs_128_128_1_6_60
+04:26:23,294 INFO Process 1 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_60 with sleep 60 func 010_sleep_nodejs_128_128_1_6_60
+04:26:23,294 INFO Process 4 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_60 with sleep 60 func 010_sleep_nodejs_128_128_1_6_60
+04:26:23,295 INFO P 2 T 6 Sleep 60 F 010_sleep_nodejs_128_128_1_6_60 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_60
+04:26:23,295 INFO P 0 T 6 Sleep 60 F 010_sleep_nodejs_128_128_1_6_60 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_60
+04:26:23,295 INFO P 3 T 6 Sleep 60 F 010_sleep_nodejs_128_128_1_6_60 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_60
+04:26:23,295 INFO P 4 T 6 Sleep 60 F 010_sleep_nodejs_128_128_1_6_60 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_60
+04:26:23,295 INFO P 5 T 6 Sleep 60 F 010_sleep_nodejs_128_128_1_6_60 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_60
+04:26:23,295 INFO P 1 T 6 Sleep 60 F 010_sleep_nodejs_128_128_1_6_60 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_60
+04:26:24,667 INFO Processed request! Tid: 6 Start 1580613983.295267 End 1580613984.667771 Cold? True Duration 0
+04:26:24,682 INFO Processed request! Tid: 6 Start 1580613983.295339 End 1580613984.682009 Cold? True Duration 0
+04:26:24,688 INFO Processed request! Tid: 6 Start 1580613983.295297 End 1580613984.688346 Cold? True Duration 0
+04:26:24,825 INFO Processed request! Tid: 6 Start 1580613983.295669 End 1580613984.825714 Cold? True Duration 0
+04:26:24,844 INFO Processed request! Tid: 6 Start 1580613983.295393 End 1580613984.844343 Cold? True Duration 0
+04:26:24,850 INFO Processed request! Tid: 6 Start 1580613983.295673 End 1580613984.850555 Cold? True Duration 0
+04:26:33,396 INFO Process 0 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_30 with sleep 30 func 010_sleep_nodejs_128_128_1_6_30
+04:26:33,396 INFO Process 1 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_30 with sleep 30 func 010_sleep_nodejs_128_128_1_6_30
+04:26:33,396 INFO Process 5 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_30 with sleep 30 func 010_sleep_nodejs_128_128_1_6_30
+04:26:33,396 INFO Process 2 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_30 with sleep 30 func 010_sleep_nodejs_128_128_1_6_30
+04:26:33,396 INFO P 0 T 5 Sleep 30 F 010_sleep_nodejs_128_128_1_6_30 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_30
+04:26:33,396 INFO Process 3 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_30 with sleep 30 func 010_sleep_nodejs_128_128_1_6_30
+04:26:33,396 INFO P 2 T 5 Sleep 30 F 010_sleep_nodejs_128_128_1_6_30 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_30
+04:26:33,396 INFO Process 4 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_30 with sleep 30 func 010_sleep_nodejs_128_128_1_6_30
+04:26:33,396 INFO P 5 T 5 Sleep 30 F 010_sleep_nodejs_128_128_1_6_30 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_30
+04:26:33,397 INFO P 1 T 5 Sleep 30 F 010_sleep_nodejs_128_128_1_6_30 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_30
+04:26:33,397 INFO P 4 T 5 Sleep 30 F 010_sleep_nodejs_128_128_1_6_30 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_30
+04:26:33,397 INFO P 3 T 5 Sleep 30 F 010_sleep_nodejs_128_128_1_6_30 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_30
+04:26:34,746 INFO Processed request! Tid: 5 Start 1580613993.396663 End 1580613994.746026 Cold? True Duration 0
+04:26:34,751 INFO Processed request! Tid: 5 Start 1580613993.396984 End 1580613994.751104 Cold? True Duration 0
+04:26:34,948 INFO Processed request! Tid: 5 Start 1580613993.397119 End 1580613994.948309 Cold? True Duration 0
+04:26:34,969 INFO Processed request! Tid: 5 Start 1580613993.397253 End 1580613994.969631 Cold? True Duration 0
+04:26:34,977 INFO Processed request! Tid: 5 Start 1580613993.396714 End 1580613994.977608 Cold? True Duration 0
+04:26:34,979 INFO Processed request! Tid: 5 Start 1580613993.397124 End 1580613994.979691 Cold? True Duration 0
+04:26:43,495 INFO Process 3 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_15 with sleep 15 func 010_sleep_nodejs_128_128_1_6_15
+04:26:43,495 INFO Process 1 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_15 with sleep 15 func 010_sleep_nodejs_128_128_1_6_15
+04:26:43,495 INFO Process 4 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_15 with sleep 15 func 010_sleep_nodejs_128_128_1_6_15
+04:26:43,496 INFO P 4 T 4 Sleep 15 F 010_sleep_nodejs_128_128_1_6_15 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_15
+04:26:43,496 INFO P 3 T 4 Sleep 15 F 010_sleep_nodejs_128_128_1_6_15 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_15
+04:26:43,496 INFO P 1 T 4 Sleep 15 F 010_sleep_nodejs_128_128_1_6_15 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_15
+04:26:43,497 INFO Process 5 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_15 with sleep 15 func 010_sleep_nodejs_128_128_1_6_15
+04:26:43,497 INFO Process 2 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_15 with sleep 15 func 010_sleep_nodejs_128_128_1_6_15
+04:26:43,497 INFO Process 0 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_15 with sleep 15 func 010_sleep_nodejs_128_128_1_6_15
+04:26:43,497 INFO P 5 T 4 Sleep 15 F 010_sleep_nodejs_128_128_1_6_15 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_15
+04:26:43,497 INFO P 0 T 4 Sleep 15 F 010_sleep_nodejs_128_128_1_6_15 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_15
+04:26:43,497 INFO P 2 T 4 Sleep 15 F 010_sleep_nodejs_128_128_1_6_15 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_15
+04:26:44,855 INFO Processed request! Tid: 4 Start 1580614003.498012 End 1580614004.855643 Cold? True Duration 0
+04:26:44,872 INFO Processed request! Tid: 4 Start 1580614003.497997 End 1580614004.872575 Cold? True Duration 0
+04:26:44,879 INFO Processed request! Tid: 4 Start 1580614003.496347 End 1580614004.879305 Cold? True Duration 0
+04:26:45,34 INFO Processed request! Tid: 4 Start 1580614003.498012 End 1580614005.033975 Cold? True Duration 0
+04:26:45,47 INFO Processed request! Tid: 4 Start 1580614003.496637 End 1580614005.047684 Cold? True Duration 0
+04:26:45,86 INFO Processed request! Tid: 4 Start 1580614003.496334 End 1580614005.085904 Cold? True Duration 0
+04:26:53,597 INFO Process 4 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_8 with sleep 8 func 010_sleep_nodejs_128_128_1_6_8
+04:26:53,597 INFO Process 3 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_8 with sleep 8 func 010_sleep_nodejs_128_128_1_6_8
+04:26:53,597 INFO Process 1 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_8 with sleep 8 func 010_sleep_nodejs_128_128_1_6_8
+04:26:53,597 INFO Process 5 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_8 with sleep 8 func 010_sleep_nodejs_128_128_1_6_8
+04:26:53,597 INFO P 4 T 3 Sleep 8 F 010_sleep_nodejs_128_128_1_6_8 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_8
+04:26:53,597 INFO P 5 T 3 Sleep 8 F 010_sleep_nodejs_128_128_1_6_8 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_8
+04:26:53,597 INFO P 1 T 3 Sleep 8 F 010_sleep_nodejs_128_128_1_6_8 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_8
+04:26:53,597 INFO P 3 T 3 Sleep 8 F 010_sleep_nodejs_128_128_1_6_8 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_8
+04:26:53,598 INFO Process 2 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_8 with sleep 8 func 010_sleep_nodejs_128_128_1_6_8
+04:26:53,598 INFO Process 0 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_8 with sleep 8 func 010_sleep_nodejs_128_128_1_6_8
+04:26:53,598 INFO P 0 T 3 Sleep 8 F 010_sleep_nodejs_128_128_1_6_8 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_8
+04:26:53,598 INFO P 2 T 3 Sleep 8 F 010_sleep_nodejs_128_128_1_6_8 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_8
+04:26:54,943 INFO Processed request! Tid: 3 Start 1580614013.598044 End 1580614014.943470 Cold? True Duration 0
+04:26:54,952 INFO Processed request! Tid: 3 Start 1580614013.598020 End 1580614014.952781 Cold? True Duration 0
+04:26:54,966 INFO Processed request! Tid: 3 Start 1580614013.598659 End 1580614014.966496 Cold? True Duration 0
+04:26:54,969 INFO Processed request! Tid: 3 Start 1580614013.598058 End 1580614014.969729 Cold? True Duration 0
+04:26:54,980 INFO Processed request! Tid: 3 Start 1580614013.598659 End 1580614014.980124 Cold? True Duration 0
+04:26:55,172 INFO Processed request! Tid: 3 Start 1580614013.598036 End 1580614015.172144 Cold? True Duration 0
+04:27:01,12 INFO Processed request! Tid: 4 Start 1580614019.870713 End 1580614021.011939 Cold? False Duration 0
+04:27:01,34 INFO Processed request! Tid: 4 Start 1580614019.893936 End 1580614021.034675 Cold? False Duration 0
+04:27:01,189 INFO Processed request! Tid: 4 Start 1580614020.049232 End 1580614021.189148 Cold? False Duration 0
+04:27:01,194 INFO Processed request! Tid: 4 Start 1580614020.052675 End 1580614021.194215 Cold? False Duration 0
+04:27:01,221 INFO Processed request! Tid: 4 Start 1580614019.882955 End 1580614021.221334 Cold? False Duration 0
+04:27:01,427 INFO Processed request! Tid: 4 Start 1580614020.088946 End 1580614021.427530 Cold? False Duration 0
+04:27:03,699 INFO Process 4 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_4 with sleep 4 func 010_sleep_nodejs_128_128_1_6_4
+04:27:03,699 INFO Process 3 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_4 with sleep 4 func 010_sleep_nodejs_128_128_1_6_4
+04:27:03,699 INFO Process 5 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_4 with sleep 4 func 010_sleep_nodejs_128_128_1_6_4
+04:27:03,699 INFO Process 1 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_4 with sleep 4 func 010_sleep_nodejs_128_128_1_6_4
+04:27:03,699 INFO P 4 T 2 Sleep 4 F 010_sleep_nodejs_128_128_1_6_4 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_4
+04:27:03,699 INFO Process 2 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_4 with sleep 4 func 010_sleep_nodejs_128_128_1_6_4
+04:27:03,699 INFO Process 0 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_4 with sleep 4 func 010_sleep_nodejs_128_128_1_6_4
+04:27:03,699 INFO P 3 T 2 Sleep 4 F 010_sleep_nodejs_128_128_1_6_4 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_4
+04:27:03,699 INFO P 5 T 2 Sleep 4 F 010_sleep_nodejs_128_128_1_6_4 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_4
+04:27:03,699 INFO P 0 T 2 Sleep 4 F 010_sleep_nodejs_128_128_1_6_4 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_4
+04:27:03,699 INFO P 1 T 2 Sleep 4 F 010_sleep_nodejs_128_128_1_6_4 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_4
+04:27:03,699 INFO P 2 T 2 Sleep 4 F 010_sleep_nodejs_128_128_1_6_4 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_4
+04:27:04,95 INFO Processed request! Tid: 3 Start 1580614022.951712 End 1580614024.095789 Cold? False Duration 0
+04:27:04,101 INFO Processed request! Tid: 3 Start 1580614022.959936 End 1580614024.101842 Cold? False Duration 0
+04:27:04,117 INFO Processed request! Tid: 3 Start 1580614022.973937 End 1580614024.117331 Cold? False Duration 0
+04:27:04,120 INFO Processed request! Tid: 3 Start 1580614022.977800 End 1580614024.120818 Cold? False Duration 0
+04:27:04,128 INFO Processed request! Tid: 3 Start 1580614022.988173 End 1580614024.128823 Cold? False Duration 0
+04:27:04,518 INFO Processed request! Tid: 3 Start 1580614023.180216 End 1580614024.518816 Cold? False Duration 0
+04:27:05,35 INFO Processed request! Tid: 2 Start 1580614023.699379 End 1580614025.035558 Cold? True Duration 0
+04:27:05,42 INFO Processed request! Tid: 2 Start 1580614023.699645 End 1580614025.042266 Cold? True Duration 0
+04:27:05,64 INFO Processed request! Tid: 2 Start 1580614023.699685 End 1580614025.064677 Cold? True Duration 0
+04:27:05,88 INFO Processed request! Tid: 2 Start 1580614023.699978 End 1580614025.088698 Cold? True Duration 0
+04:27:05,125 INFO Processed request! Tid: 2 Start 1580614023.699645 End 1580614025.125553 Cold? True Duration 0
+04:27:05,279 INFO Processed request! Tid: 2 Start 1580614023.699977 End 1580614025.279082 Cold? True Duration 0
+04:27:05,912 INFO Processed request! Tid: 5 Start 1580614024.766634 End 1580614025.912001 Cold? False Duration 0
+04:27:06,110 INFO Processed request! Tid: 5 Start 1580614024.766603 End 1580614026.110072 Cold? False Duration 0
+04:27:06,139 INFO Processed request! Tid: 5 Start 1580614024.996956 End 1580614026.139399 Cold? False Duration 0
+04:27:06,143 INFO Processed request! Tid: 5 Start 1580614024.999734 End 1580614026.143585 Cold? False Duration 0
+04:27:06,152 INFO Processed request! Tid: 5 Start 1580614025.009826 End 1580614026.152197 Cold? False Duration 0
+04:27:06,307 INFO Processed request! Tid: 5 Start 1580614024.967220 End 1580614026.307574 Cold? False Duration 0
+04:27:10,182 INFO Processed request! Tid: 2 Start 1580614029.039728 End 1580614030.181905 Cold? False Duration 0
+04:27:10,188 INFO Processed request! Tid: 2 Start 1580614029.046447 End 1580614030.188362 Cold? False Duration 0
+04:27:10,235 INFO Processed request! Tid: 2 Start 1580614029.092733 End 1580614030.235014 Cold? False Duration 0
+04:27:10,273 INFO Processed request! Tid: 2 Start 1580614029.129612 End 1580614030.272935 Cold? False Duration 0
+04:27:10,406 INFO Processed request! Tid: 2 Start 1580614029.068916 End 1580614030.406396 Cold? False Duration 0
+04:27:10,619 INFO Processed request! Tid: 2 Start 1580614029.281013 End 1580614030.619598 Cold? False Duration 0
+04:27:13,795 INFO Process 5 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_2 with sleep 2 func 010_sleep_nodejs_128_128_1_6_2
+04:27:13,795 INFO Process 4 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_2 with sleep 2 func 010_sleep_nodejs_128_128_1_6_2
+04:27:13,795 INFO Process 2 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_2 with sleep 2 func 010_sleep_nodejs_128_128_1_6_2
+04:27:13,796 INFO P 5 T 1 Sleep 2 F 010_sleep_nodejs_128_128_1_6_2 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_2
+04:27:13,796 INFO P 4 T 1 Sleep 2 F 010_sleep_nodejs_128_128_1_6_2 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_2
+04:27:13,796 INFO P 2 T 1 Sleep 2 F 010_sleep_nodejs_128_128_1_6_2 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_2
+04:27:13,800 INFO Process 3 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_2 with sleep 2 func 010_sleep_nodejs_128_128_1_6_2
+04:27:13,800 INFO Process 1 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_2 with sleep 2 func 010_sleep_nodejs_128_128_1_6_2
+04:27:13,800 INFO P 3 T 1 Sleep 2 F 010_sleep_nodejs_128_128_1_6_2 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_2
+04:27:13,800 INFO Process 0 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_2 with sleep 2 func 010_sleep_nodejs_128_128_1_6_2
+04:27:13,801 INFO P 0 T 1 Sleep 2 F 010_sleep_nodejs_128_128_1_6_2 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_2
+04:27:13,801 INFO P 1 T 1 Sleep 2 F 010_sleep_nodejs_128_128_1_6_2 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_2
+04:27:15,150 INFO Processed request! Tid: 1 Start 1580614033.796237 End 1580614035.150037 Cold? True Duration 0
+04:27:15,326 INFO Processed request! Tid: 1 Start 1580614033.801179 End 1580614035.326271 Cold? True Duration 0
+04:27:15,334 INFO Processed request! Tid: 1 Start 1580614033.796289 End 1580614035.334355 Cold? True Duration 0
+04:27:15,340 INFO Processed request! Tid: 1 Start 1580614033.801143 End 1580614035.340669 Cold? True Duration 0
+04:27:15,342 INFO Processed request! Tid: 1 Start 1580614033.796289 End 1580614035.342641 Cold? True Duration 0
+04:27:15,376 INFO Processed request! Tid: 1 Start 1580614033.800726 End 1580614035.376400 Cold? True Duration 0
+04:27:18,471 INFO Processed request! Tid: 1 Start 1580614037.328350 End 1580614038.470903 Cold? False Duration 0
+04:27:18,482 INFO Processed request! Tid: 1 Start 1580614037.335936 End 1580614038.482802 Cold? False Duration 0
+04:27:18,490 INFO Processed request! Tid: 1 Start 1580614037.152172 End 1580614038.490690 Cold? False Duration 0
+04:27:18,520 INFO Processed request! Tid: 1 Start 1580614037.378479 End 1580614038.520413 Cold? False Duration 0
+04:27:18,680 INFO Processed request! Tid: 1 Start 1580614037.342782 End 1580614038.680587 Cold? False Duration 0
+04:27:18,682 INFO Processed request! Tid: 1 Start 1580614037.344759 End 1580614038.682540 Cold? False Duration 0
+04:27:23,897 INFO Process 4 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_1 with sleep 1 func 010_sleep_nodejs_128_128_1_6_1
+04:27:23,897 INFO Process 1 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_1 with sleep 1 func 010_sleep_nodejs_128_128_1_6_1
+04:27:23,897 INFO Process 5 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_1 with sleep 1 func 010_sleep_nodejs_128_128_1_6_1
+04:27:23,897 INFO Process 0 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_1 with sleep 1 func 010_sleep_nodejs_128_128_1_6_1
+04:27:23,897 INFO Process 2 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_1 with sleep 1 func 010_sleep_nodejs_128_128_1_6_1
+04:27:23,897 INFO P 4 T 0 Sleep 1 F 010_sleep_nodejs_128_128_1_6_1 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_1
+04:27:23,897 INFO P 1 T 0 Sleep 1 F 010_sleep_nodejs_128_128_1_6_1 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_1
+04:27:23,897 INFO P 5 T 0 Sleep 1 F 010_sleep_nodejs_128_128_1_6_1 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_1
+04:27:23,897 INFO P 0 T 0 Sleep 1 F 010_sleep_nodejs_128_128_1_6_1 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_1
+04:27:23,898 INFO P 2 T 0 Sleep 1 F 010_sleep_nodejs_128_128_1_6_1 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_1
+04:27:23,901 INFO Process 3 begins url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_1 with sleep 1 func 010_sleep_nodejs_128_128_1_6_1
+04:27:23,901 INFO P 3 T 0 Sleep 1 F 010_sleep_nodejs_128_128_1_6_1 Url https://ophnra3494.execute-api.us-east-1.amazonaws.com/name/010_sleep_nodejs_128_128_1_6_1
+04:27:25,482 INFO Processed request! Tid: 0 Start 1580614043.897731 End 1580614045.482679 Cold? True Duration 0
+04:27:25,486 INFO Processed request! Tid: 0 Start 1580614043.897834 End 1580614045.486639 Cold? True Duration 0
+04:27:25,488 INFO Processed request! Tid: 0 Start 1580614043.897682 End 1580614045.488572 Cold? True Duration 0
+04:27:25,499 INFO Processed request! Tid: 0 Start 1580614043.898008 End 1580614045.499684 Cold? True Duration 0
+04:27:25,518 INFO Processed request! Tid: 0 Start 1580614043.898081 End 1580614045.518485 Cold? True Duration 0
+04:27:25,519 INFO Processed request! Tid: 0 Start 1580614043.901957 End 1580614045.518937 Cold? True Duration 0
+04:27:25,876 INFO Processed request! Tid: 6 Start 1580614044.732016 End 1580614045.876183 Cold? False Duration 0
+04:27:25,876 INFO Processed request! Tid: 6 Start 1580614044.732045 End 1580614045.876779 Cold? False Duration 0
+04:27:26,46 INFO Processed request! Tid: 6 Start 1580614044.904542 End 1580614046.046372 Cold? False Duration 0
+04:27:26,71 INFO Processed request! Tid: 6 Start 1580614044.728028 End 1580614046.071234 Cold? False Duration 0
+04:27:26,207 INFO Processed request! Tid: 6 Start 1580614044.868962 End 1580614046.207130 Cold? False Duration 0
+04:27:26,211 INFO Processed request! Tid: 6 Start 1580614044.832387 End 1580614046.211042 Cold? False Duration 0
+04:27:27,625 INFO Processed request! Tid: 0 Start 1580614046.483816 End 1580614047.624946 Cold? False Duration 0
+04:27:27,629 INFO Processed request! Tid: 0 Start 1580614046.486936 End 1580614047.629532 Cold? False Duration 0
+04:27:27,637 INFO Processed request! Tid: 0 Start 1580614046.489725 End 1580614047.637653 Cold? False Duration 0
+04:27:27,641 INFO Processed request! Tid: 0 Start 1580614046.499939 End 1580614047.640999 Cold? False Duration 0
+04:27:27,665 INFO Processed request! Tid: 0 Start 1580614046.519525 End 1580614047.665411 Cold? False Duration 0
+04:27:27,669 INFO Processed request! Tid: 0 Start 1580614046.519971 End 1580614047.668946 Cold? False Duration 0
+04:28:15,776 INFO Processed request! Tid: 7 Start 1580614094.606689 End 1580614095.776416 Cold? False Duration 0
+04:28:15,778 INFO Processed request! Tid: 7 Start 1580614094.606675 End 1580614095.777982 Cold? False Duration 0
+04:28:15,956 INFO Processed request! Tid: 7 Start 1580614094.807434 End 1580614095.956128 Cold? False Duration 0
+04:28:15,974 INFO Processed request! Tid: 7 Start 1580614094.606678 End 1580614095.974099 Cold? False Duration 0
+04:28:16,154 INFO Processed request! Tid: 7 Start 1580614094.807434 End 1580614096.154127 Cold? False Duration 0
+04:28:16,163 INFO Processed request! Tid: 7 Start 1580614094.822939 End 1580614096.163812 Cold? False Duration 0
+04:29:05,637 INFO Processed request! Tid: 8 Start 1580614144.482227 End 1580614145.637314 Cold? False Duration 0
+04:29:05,660 INFO Processed request! Tid: 8 Start 1580614144.482218 End 1580614145.660573 Cold? False Duration 0
+04:29:05,827 INFO Processed request! Tid: 8 Start 1580614144.482218 End 1580614145.827084 Cold? False Duration 0
+04:29:05,956 INFO Processed request! Tid: 8 Start 1580614144.515960 End 1580614145.956578 Cold? False Duration 0
+04:29:06,28 INFO Processed request! Tid: 8 Start 1580614144.683075 End 1580614146.028479 Cold? False Duration 0
+04:29:06,52 INFO Processed request! Tid: 8 Start 1580614144.712959 End 1580614146.052251 Cold? False Duration 0
+04:29:55,534 INFO Processed request! Tid: 9 Start 1580614194.352971 End 1580614195.534029 Cold? False Duration 0
+04:29:55,539 INFO Processed request! Tid: 9 Start 1580614194.352971 End 1580614195.539090 Cold? False Duration 0
+04:29:55,727 INFO Processed request! Tid: 9 Start 1580614194.352971 End 1580614195.727097 Cold? False Duration 0
+04:29:55,794 INFO Processed request! Tid: 9 Start 1580614194.453340 End 1580614195.794661 Cold? False Duration 0
+04:29:55,895 INFO Processed request! Tid: 9 Start 1580614194.553767 End 1580614195.895864 Cold? False Duration 0
+04:29:55,993 INFO Processed request! Tid: 9 Start 1580614194.653842 End 1580614195.993083 Cold? False Duration 0
+04:30:45,478 INFO Processed request! Tid: 10 Start 1580614244.324209 End 1580614245.477971 Cold? False Duration 0
+04:30:45,490 INFO Processed request! Tid: 10 Start 1580614244.341579 End 1580614245.490414 Cold? False Duration 0
+04:30:45,497 INFO Processed request! Tid: 10 Start 1580614244.351942 End 1580614245.497450 Cold? False Duration 0
+04:30:45,667 INFO Processed request! Tid: 10 Start 1580614244.524744 End 1580614245.667321 Cold? False Duration 0
+04:30:45,669 INFO Processed request! Tid: 10 Start 1580614244.324286 End 1580614245.669400 Cold? False Duration 0
+04:30:45,678 INFO Processed request! Tid: 10 Start 1580614244.324238 End 1580614245.678266 Cold? False Duration 0
+04:30:45,729 INFO Finished iteration 4
+04:31:17,454 INFO Updated 010_sleep_nodejs_128_128_1_6_1 to timeout 855
+04:31:17,590 INFO Updated 010_sleep_nodejs_128_128_1_6_2 to timeout 855
+04:31:17,729 INFO Updated 010_sleep_nodejs_128_128_1_6_4 to timeout 855
+04:31:17,866 INFO Updated 010_sleep_nodejs_128_128_1_6_8 to timeout 855
+04:31:18,12 INFO Updated 010_sleep_nodejs_128_128_1_6_15 to timeout 855
+04:31:18,144 INFO Updated 010_sleep_nodejs_128_128_1_6_30 to timeout 855
+04:31:18,279 INFO Updated 010_sleep_nodejs_128_128_1_6_60 to timeout 855
+04:31:18,423 INFO Updated 010_sleep_nodejs_128_128_1_6_120 to timeout 855
+04:31:18,559 INFO Updated 010_sleep_nodejs_128_128_1_6_180 to timeout 855
+04:31:18,699 INFO Updated 010_sleep_nodejs_128_128_1_6_240 to timeout 855
+04:31:18,831 INFO Updated 010_sleep_nodejs_128_128_1_6_300 to timeout 855
+04:31:18,831 INFO Dumped data
+04:31:18,966 INFO Done!

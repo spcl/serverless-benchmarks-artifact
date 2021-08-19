@@ -1,0 +1,133 @@
+{
+  "experiments": {
+    "time_warm": {
+      "config": {
+        "input": {
+          "object": {
+            "key": "1_adult-adventure-back-view-2819546.jpg",
+            "width": 200,
+            "height": 200
+          },
+          "bucket": {
+            "input": "210.thumbnailer-0-input-8d7eb6d5-8ad6-48",
+            "output": "210.thumbnailer-0-output-63b1c1a8-2d3b-47"
+          }
+        },
+        "app": {
+          "name": "210.thumbnailer",
+          "size": 85129595,
+          "hash": "819b75ea9bcf3afdf9bf4bc82f603036"
+        },
+        "benchmark": {
+          "disable_gc": false,
+          "drop_pagecache": false,
+          "update_code": false,
+          "deployment": {
+            "name": "local",
+            "config": {
+              "runtime": {
+                "python": 3.6,
+                "nodejs": 13.6
+              }
+            }
+          },
+          "language": "nodejs",
+          "runtime": 13.6,
+          "repetitions": 200,
+          "storage": {
+            "address": "172.17.0.2:9000",
+            "secret_key": "d2f0805a8345736842053d8cde095c19d7ee20ea1215816e1614385c44937257",
+            "access_key": "VNHtRqz1sojDQnD2okE7aN_m9M5hyccP2zy8QuqfSqI",
+            "input": [
+              "210.thumbnailer-0-input-8d7eb6d5-8ad6-48"
+            ],
+            "output": [
+              "210.thumbnailer-0-output-63b1c1a8-2d3b-47"
+            ]
+          },
+          "name": "time_warm",
+          "type": "time",
+          "experiment_options": "warm"
+        }
+      },
+      "instances": [
+        {
+          "config": [
+            "time_warm/instance_0/results/time_warm_00.json"
+          ],
+          "results": [
+            "time_warm/instance_0/results/time_warm_00.csv"
+          ]
+        }
+      ]
+    },
+    "time_cold": {
+      "config": {
+        "input": {
+          "object": {
+            "key": "1_adult-adventure-back-view-2819546.jpg",
+            "width": 200,
+            "height": 200
+          },
+          "bucket": {
+            "input": "210.thumbnailer-0-input-8d7eb6d5-8ad6-48",
+            "output": "210.thumbnailer-0-output-63b1c1a8-2d3b-47"
+          }
+        },
+        "app": {
+          "name": "210.thumbnailer",
+          "size": 85129595,
+          "hash": "819b75ea9bcf3afdf9bf4bc82f603036"
+        },
+        "benchmark": {
+          "disable_gc": false,
+          "drop_pagecache": false,
+          "update_code": false,
+          "deployment": {
+            "name": "local",
+            "config": {
+              "runtime": {
+                "python": 3.6,
+                "nodejs": 13.6
+              }
+            }
+          },
+          "language": "nodejs",
+          "runtime": 13.6,
+          "repetitions": 200,
+          "storage": {
+            "address": "172.17.0.2:9000",
+            "secret_key": "d2f0805a8345736842053d8cde095c19d7ee20ea1215816e1614385c44937257",
+            "access_key": "VNHtRqz1sojDQnD2okE7aN_m9M5hyccP2zy8QuqfSqI",
+            "input": [
+              "210.thumbnailer-0-input-8d7eb6d5-8ad6-48"
+            ],
+            "output": [
+              "210.thumbnailer-0-output-63b1c1a8-2d3b-47"
+            ]
+          },
+          "name": "time_cold",
+          "type": "time",
+          "experiment_options": "cold"
+        }
+      },
+      "instances": [
+        {
+          "config": [
+            "time_cold/instance_0/results/time_cold_00.json"
+          ],
+          "results": [
+            "time_cold/instance_0/results/time_cold_00.csv"
+          ]
+        }
+      ]
+    }
+  },
+  "system": {
+    "nodename": "ip-172-31-30-51",
+    "sysname": "Linux",
+    "release": "5.4.0-1029-aws",
+    "version": "#30-Ubuntu SMP Tue Oct 20 10:06:38 UTC 2020",
+    "machine": "x86_64"
+  }
+}

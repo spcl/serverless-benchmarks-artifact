@@ -1,0 +1,251 @@
+20:31:52,402 INFO Created experiment output at /users/mcopik/projects/serverless-benchmarks/experiments/prob_first_attempt_azure/1536/7
+20:31:52,504 INFO Using cached storage input buckets []
+20:31:52,504 INFO Using cached storage output buckets []
+20:31:52,507 INFO Work on times [1, 2, 4, 8, 15, 30, 60, 120, 180, 240, 300]
+20:31:52,508 INFO Work on urls ['https://010-sleep-python-50d9a9d6-128-1-7-1.azurewebsites.net/api/handler?code=Vi0dBqS5LyN2GaA0oSVkAaw5di2dFmo2DpYhFqfVR8FBwCnkpt8dfw==', 'https://010-sleep-python-50d9a9d6-128-1-7-2.azurewebsites.net/api/handler?code=4KNNw170cCUAUWik5STDicO6i9e2Gx6YpqjFqWxsZ0zAv6n8ZGqCyA==', 'https://010-sleep-python-50d9a9d6-128-1-7-4.azurewebsites.net/api/handler?code=3brqGUXIriP9WTKQAVm/fW0r8p33xusk3VNzjaPacFDQp/LSojkESw==', 'https://010-sleep-python-50d9a9d6-128-1-7-8.azurewebsites.net/api/handler?code=cshl32wF0hCwfpKr9PNWTOD2OqS/D/iBb1YDx9iV3v/eYUZqDVg8XQ==', 'https://010-sleep-python-50d9a9d6-128-1-7-15.azurewebsites.net/api/handler?code=aGsCG5Sf7lVColH9ObxWaBn8TMg/Y4xOVCPOII8sacaZqwL2Q8r5Og==', 'https://010-sleep-python-50d9a9d6-128-1-7-30.azurewebsites.net/api/handler?code=9oO1xCOF0lCteiGeqYFTbhyRU0InWVhvJSmcQGkEqJ2/bCXcgQT/sw==', 'https://010-sleep-python-50d9a9d6-128-1-7-60.azurewebsites.net/api/handler?code=pNEE4Utl5iOTb86aqyHIeFGPMyWq8mJEGbDAPEOijhCeA4EnTGuB5Q==', 'https://010-sleep-python-50d9a9d6-128-1-7-120.azurewebsites.net/api/handler?code=mgexuaoUVqzgearygEaCLFCGERvDwOJ5P0MqZ9nuGDPa7mUapJXGaQ==', 'https://010-sleep-python-50d9a9d6-128-1-7-180.azurewebsites.net/api/handler?code=9oCuB1kbmH/CcFekK0GxzZaqZuCJH00B4exS7nLxyQ0wRIJUyw8XYw==', 'https://010-sleep-python-50d9a9d6-128-1-7-240.azurewebsites.net/api/handler?code=FZQPC/lxCTD9FDNvMYPPTLwSo6b59KIg1Xf9sUDFnrOzuo88tDkmHA==', 'https://010-sleep-python-50d9a9d6-128-1-7-300.azurewebsites.net/api/handler?code=3sWf7j4fjibCdLanHttAd7ySIiDmdRlieGfFMNZCPksDyS0s2UMgKA==']
+20:31:52,508 INFO Running functions ['010-sleep-python-50d9a9d6-128-1-7-1', '010-sleep-python-50d9a9d6-128-1-7-2', '010-sleep-python-50d9a9d6-128-1-7-4', '010-sleep-python-50d9a9d6-128-1-7-8', '010-sleep-python-50d9a9d6-128-1-7-15', '010-sleep-python-50d9a9d6-128-1-7-30', '010-sleep-python-50d9a9d6-128-1-7-60', '010-sleep-python-50d9a9d6-128-1-7-120', '010-sleep-python-50d9a9d6-128-1-7-180', '010-sleep-python-50d9a9d6-128-1-7-240', '010-sleep-python-50d9a9d6-128-1-7-300']
+20:31:52,508 INFO Using urls ['https://010-sleep-python-50d9a9d6-128-1-7-1.azurewebsites.net/api/handler?code=Vi0dBqS5LyN2GaA0oSVkAaw5di2dFmo2DpYhFqfVR8FBwCnkpt8dfw==', 'https://010-sleep-python-50d9a9d6-128-1-7-2.azurewebsites.net/api/handler?code=4KNNw170cCUAUWik5STDicO6i9e2Gx6YpqjFqWxsZ0zAv6n8ZGqCyA==', 'https://010-sleep-python-50d9a9d6-128-1-7-4.azurewebsites.net/api/handler?code=3brqGUXIriP9WTKQAVm/fW0r8p33xusk3VNzjaPacFDQp/LSojkESw==', 'https://010-sleep-python-50d9a9d6-128-1-7-8.azurewebsites.net/api/handler?code=cshl32wF0hCwfpKr9PNWTOD2OqS/D/iBb1YDx9iV3v/eYUZqDVg8XQ==', 'https://010-sleep-python-50d9a9d6-128-1-7-15.azurewebsites.net/api/handler?code=aGsCG5Sf7lVColH9ObxWaBn8TMg/Y4xOVCPOII8sacaZqwL2Q8r5Og==', 'https://010-sleep-python-50d9a9d6-128-1-7-30.azurewebsites.net/api/handler?code=9oO1xCOF0lCteiGeqYFTbhyRU0InWVhvJSmcQGkEqJ2/bCXcgQT/sw==', 'https://010-sleep-python-50d9a9d6-128-1-7-60.azurewebsites.net/api/handler?code=pNEE4Utl5iOTb86aqyHIeFGPMyWq8mJEGbDAPEOijhCeA4EnTGuB5Q==', 'https://010-sleep-python-50d9a9d6-128-1-7-120.azurewebsites.net/api/handler?code=mgexuaoUVqzgearygEaCLFCGERvDwOJ5P0MqZ9nuGDPa7mUapJXGaQ==', 'https://010-sleep-python-50d9a9d6-128-1-7-180.azurewebsites.net/api/handler?code=9oCuB1kbmH/CcFekK0GxzZaqZuCJH00B4exS7nLxyQ0wRIJUyw8XYw==', 'https://010-sleep-python-50d9a9d6-128-1-7-240.azurewebsites.net/api/handler?code=FZQPC/lxCTD9FDNvMYPPTLwSo6b59KIg1Xf9sUDFnrOzuo88tDkmHA==', 'https://010-sleep-python-50d9a9d6-128-1-7-300.azurewebsites.net/api/handler?code=3sWf7j4fjibCdLanHttAd7ySIiDmdRlieGfFMNZCPksDyS0s2UMgKA==']
+20:31:52,508 INFO Start 7 invocations with 11 times
+20:32:07,545 INFO Process 0 begins url https://010-sleep-python-50d9a9d6-128-1-7-300.azurewebsites.net/api/handler?code=3sWf7j4fjibCdLanHttAd7ySIiDmdRlieGfFMNZCPksDyS0s2UMgKA== with sleep 300 func 010-sleep-python-50d9a9d6-128-1-7-300
+20:32:07,548 INFO P 0 T 10 Sleep 300 F 010-sleep-python-50d9a9d6-128-1-7-300 Url https://010-sleep-python-50d9a9d6-128-1-7-300.azurewebsites.net/api/handler?code=3sWf7j4fjibCdLanHttAd7ySIiDmdRlieGfFMNZCPksDyS0s2UMgKA==
+20:32:07,562 INFO Process 2 begins url https://010-sleep-python-50d9a9d6-128-1-7-300.azurewebsites.net/api/handler?code=3sWf7j4fjibCdLanHttAd7ySIiDmdRlieGfFMNZCPksDyS0s2UMgKA== with sleep 300 func 010-sleep-python-50d9a9d6-128-1-7-300
+20:32:07,563 INFO P 2 T 10 Sleep 300 F 010-sleep-python-50d9a9d6-128-1-7-300 Url https://010-sleep-python-50d9a9d6-128-1-7-300.azurewebsites.net/api/handler?code=3sWf7j4fjibCdLanHttAd7ySIiDmdRlieGfFMNZCPksDyS0s2UMgKA==
+20:32:07,563 INFO Process 1 begins url https://010-sleep-python-50d9a9d6-128-1-7-300.azurewebsites.net/api/handler?code=3sWf7j4fjibCdLanHttAd7ySIiDmdRlieGfFMNZCPksDyS0s2UMgKA== with sleep 300 func 010-sleep-python-50d9a9d6-128-1-7-300
+20:32:07,563 INFO Process 3 begins url https://010-sleep-python-50d9a9d6-128-1-7-300.azurewebsites.net/api/handler?code=3sWf7j4fjibCdLanHttAd7ySIiDmdRlieGfFMNZCPksDyS0s2UMgKA== with sleep 300 func 010-sleep-python-50d9a9d6-128-1-7-300
+20:32:07,564 INFO P 3 T 10 Sleep 300 F 010-sleep-python-50d9a9d6-128-1-7-300 Url https://010-sleep-python-50d9a9d6-128-1-7-300.azurewebsites.net/api/handler?code=3sWf7j4fjibCdLanHttAd7ySIiDmdRlieGfFMNZCPksDyS0s2UMgKA==
+20:32:07,564 INFO P 1 T 10 Sleep 300 F 010-sleep-python-50d9a9d6-128-1-7-300 Url https://010-sleep-python-50d9a9d6-128-1-7-300.azurewebsites.net/api/handler?code=3sWf7j4fjibCdLanHttAd7ySIiDmdRlieGfFMNZCPksDyS0s2UMgKA==
+20:32:07,566 INFO Process 5 begins url https://010-sleep-python-50d9a9d6-128-1-7-300.azurewebsites.net/api/handler?code=3sWf7j4fjibCdLanHttAd7ySIiDmdRlieGfFMNZCPksDyS0s2UMgKA== with sleep 300 func 010-sleep-python-50d9a9d6-128-1-7-300
+20:32:07,566 INFO P 5 T 10 Sleep 300 F 010-sleep-python-50d9a9d6-128-1-7-300 Url https://010-sleep-python-50d9a9d6-128-1-7-300.azurewebsites.net/api/handler?code=3sWf7j4fjibCdLanHttAd7ySIiDmdRlieGfFMNZCPksDyS0s2UMgKA==
+20:32:07,568 INFO Process 4 begins url https://010-sleep-python-50d9a9d6-128-1-7-300.azurewebsites.net/api/handler?code=3sWf7j4fjibCdLanHttAd7ySIiDmdRlieGfFMNZCPksDyS0s2UMgKA== with sleep 300 func 010-sleep-python-50d9a9d6-128-1-7-300
+20:32:07,568 INFO P 4 T 10 Sleep 300 F 010-sleep-python-50d9a9d6-128-1-7-300 Url https://010-sleep-python-50d9a9d6-128-1-7-300.azurewebsites.net/api/handler?code=3sWf7j4fjibCdLanHttAd7ySIiDmdRlieGfFMNZCPksDyS0s2UMgKA==
+20:32:07,568 INFO Process 6 begins url https://010-sleep-python-50d9a9d6-128-1-7-300.azurewebsites.net/api/handler?code=3sWf7j4fjibCdLanHttAd7ySIiDmdRlieGfFMNZCPksDyS0s2UMgKA== with sleep 300 func 010-sleep-python-50d9a9d6-128-1-7-300
+20:32:07,569 INFO P 6 T 10 Sleep 300 F 010-sleep-python-50d9a9d6-128-1-7-300 Url https://010-sleep-python-50d9a9d6-128-1-7-300.azurewebsites.net/api/handler?code=3sWf7j4fjibCdLanHttAd7ySIiDmdRlieGfFMNZCPksDyS0s2UMgKA==
+20:32:15,593 INFO Processed request! Tid: 10 Start 1580585527.565126 End 1580585535.593271 Cold? True Duration 0
+20:32:16,439 INFO Processed request! Tid: 10 Start 1580585527.563316 End 1580585536.438918 Cold? False Duration 0
+20:32:16,439 ERROR First invocation not cold on time 300 rep 0 pid 2 tid 10
+20:32:17,441 INFO Processed request! Tid: 10 Start 1580585527.569524 End 1580585537.441025 Cold? False Duration 0
+20:32:17,441 ERROR First invocation not cold on time 300 rep 0 pid 6 tid 10
+20:32:17,650 INFO Process 0 begins url https://010-sleep-python-50d9a9d6-128-1-7-240.azurewebsites.net/api/handler?code=FZQPC/lxCTD9FDNvMYPPTLwSo6b59KIg1Xf9sUDFnrOzuo88tDkmHA== with sleep 240 func 010-sleep-python-50d9a9d6-128-1-7-240
+20:32:17,650 INFO P 0 T 9 Sleep 240 F 010-sleep-python-50d9a9d6-128-1-7-240 Url https://010-sleep-python-50d9a9d6-128-1-7-240.azurewebsites.net/api/handler?code=FZQPC/lxCTD9FDNvMYPPTLwSo6b59KIg1Xf9sUDFnrOzuo88tDkmHA==
+20:32:17,664 INFO Process 2 begins url https://010-sleep-python-50d9a9d6-128-1-7-240.azurewebsites.net/api/handler?code=FZQPC/lxCTD9FDNvMYPPTLwSo6b59KIg1Xf9sUDFnrOzuo88tDkmHA== with sleep 240 func 010-sleep-python-50d9a9d6-128-1-7-240
+20:32:17,664 INFO Process 4 begins url https://010-sleep-python-50d9a9d6-128-1-7-240.azurewebsites.net/api/handler?code=FZQPC/lxCTD9FDNvMYPPTLwSo6b59KIg1Xf9sUDFnrOzuo88tDkmHA== with sleep 240 func 010-sleep-python-50d9a9d6-128-1-7-240
+20:32:17,664 INFO P 4 T 9 Sleep 240 F 010-sleep-python-50d9a9d6-128-1-7-240 Url https://010-sleep-python-50d9a9d6-128-1-7-240.azurewebsites.net/api/handler?code=FZQPC/lxCTD9FDNvMYPPTLwSo6b59KIg1Xf9sUDFnrOzuo88tDkmHA==
+20:32:17,664 INFO Process 1 begins url https://010-sleep-python-50d9a9d6-128-1-7-240.azurewebsites.net/api/handler?code=FZQPC/lxCTD9FDNvMYPPTLwSo6b59KIg1Xf9sUDFnrOzuo88tDkmHA== with sleep 240 func 010-sleep-python-50d9a9d6-128-1-7-240
+20:32:17,664 INFO Process 3 begins url https://010-sleep-python-50d9a9d6-128-1-7-240.azurewebsites.net/api/handler?code=FZQPC/lxCTD9FDNvMYPPTLwSo6b59KIg1Xf9sUDFnrOzuo88tDkmHA== with sleep 240 func 010-sleep-python-50d9a9d6-128-1-7-240
+20:32:17,665 INFO P 2 T 9 Sleep 240 F 010-sleep-python-50d9a9d6-128-1-7-240 Url https://010-sleep-python-50d9a9d6-128-1-7-240.azurewebsites.net/api/handler?code=FZQPC/lxCTD9FDNvMYPPTLwSo6b59KIg1Xf9sUDFnrOzuo88tDkmHA==
+20:32:17,665 INFO P 3 T 9 Sleep 240 F 010-sleep-python-50d9a9d6-128-1-7-240 Url https://010-sleep-python-50d9a9d6-128-1-7-240.azurewebsites.net/api/handler?code=FZQPC/lxCTD9FDNvMYPPTLwSo6b59KIg1Xf9sUDFnrOzuo88tDkmHA==
+20:32:17,665 INFO P 1 T 9 Sleep 240 F 010-sleep-python-50d9a9d6-128-1-7-240 Url https://010-sleep-python-50d9a9d6-128-1-7-240.azurewebsites.net/api/handler?code=FZQPC/lxCTD9FDNvMYPPTLwSo6b59KIg1Xf9sUDFnrOzuo88tDkmHA==
+20:32:17,667 INFO Process 6 begins url https://010-sleep-python-50d9a9d6-128-1-7-240.azurewebsites.net/api/handler?code=FZQPC/lxCTD9FDNvMYPPTLwSo6b59KIg1Xf9sUDFnrOzuo88tDkmHA== with sleep 240 func 010-sleep-python-50d9a9d6-128-1-7-240
+20:32:17,667 INFO Process 5 begins url https://010-sleep-python-50d9a9d6-128-1-7-240.azurewebsites.net/api/handler?code=FZQPC/lxCTD9FDNvMYPPTLwSo6b59KIg1Xf9sUDFnrOzuo88tDkmHA== with sleep 240 func 010-sleep-python-50d9a9d6-128-1-7-240
+20:32:17,668 INFO P 6 T 9 Sleep 240 F 010-sleep-python-50d9a9d6-128-1-7-240 Url https://010-sleep-python-50d9a9d6-128-1-7-240.azurewebsites.net/api/handler?code=FZQPC/lxCTD9FDNvMYPPTLwSo6b59KIg1Xf9sUDFnrOzuo88tDkmHA==
+20:32:17,668 INFO P 5 T 9 Sleep 240 F 010-sleep-python-50d9a9d6-128-1-7-240 Url https://010-sleep-python-50d9a9d6-128-1-7-240.azurewebsites.net/api/handler?code=FZQPC/lxCTD9FDNvMYPPTLwSo6b59KIg1Xf9sUDFnrOzuo88tDkmHA==
+20:32:18,441 INFO Processed request! Tid: 10 Start 1580585527.564440 End 1580585538.440817 Cold? False Duration 0
+20:32:18,441 ERROR First invocation not cold on time 300 rep 0 pid 3 tid 10
+20:32:19,450 INFO Processed request! Tid: 10 Start 1580585527.549024 End 1580585539.450494 Cold? False Duration 0
+20:32:19,451 ERROR First invocation not cold on time 300 rep 0 pid 0 tid 10
+20:32:20,447 INFO Processed request! Tid: 10 Start 1580585527.567001 End 1580585540.447085 Cold? False Duration 0
+20:32:20,447 ERROR First invocation not cold on time 300 rep 0 pid 5 tid 10
+20:32:27,751 INFO Process 0 begins url https://010-sleep-python-50d9a9d6-128-1-7-180.azurewebsites.net/api/handler?code=9oCuB1kbmH/CcFekK0GxzZaqZuCJH00B4exS7nLxyQ0wRIJUyw8XYw== with sleep 180 func 010-sleep-python-50d9a9d6-128-1-7-180
+20:32:27,752 INFO P 0 T 8 Sleep 180 F 010-sleep-python-50d9a9d6-128-1-7-180 Url https://010-sleep-python-50d9a9d6-128-1-7-180.azurewebsites.net/api/handler?code=9oCuB1kbmH/CcFekK0GxzZaqZuCJH00B4exS7nLxyQ0wRIJUyw8XYw==
+20:32:27,765 INFO Process 2 begins url https://010-sleep-python-50d9a9d6-128-1-7-180.azurewebsites.net/api/handler?code=9oCuB1kbmH/CcFekK0GxzZaqZuCJH00B4exS7nLxyQ0wRIJUyw8XYw== with sleep 180 func 010-sleep-python-50d9a9d6-128-1-7-180
+20:32:27,765 INFO Process 4 begins url https://010-sleep-python-50d9a9d6-128-1-7-180.azurewebsites.net/api/handler?code=9oCuB1kbmH/CcFekK0GxzZaqZuCJH00B4exS7nLxyQ0wRIJUyw8XYw== with sleep 180 func 010-sleep-python-50d9a9d6-128-1-7-180
+20:32:27,766 INFO P 4 T 8 Sleep 180 F 010-sleep-python-50d9a9d6-128-1-7-180 Url https://010-sleep-python-50d9a9d6-128-1-7-180.azurewebsites.net/api/handler?code=9oCuB1kbmH/CcFekK0GxzZaqZuCJH00B4exS7nLxyQ0wRIJUyw8XYw==
+20:32:27,766 INFO Process 1 begins url https://010-sleep-python-50d9a9d6-128-1-7-180.azurewebsites.net/api/handler?code=9oCuB1kbmH/CcFekK0GxzZaqZuCJH00B4exS7nLxyQ0wRIJUyw8XYw== with sleep 180 func 010-sleep-python-50d9a9d6-128-1-7-180
+20:32:27,766 INFO Process 3 begins url https://010-sleep-python-50d9a9d6-128-1-7-180.azurewebsites.net/api/handler?code=9oCuB1kbmH/CcFekK0GxzZaqZuCJH00B4exS7nLxyQ0wRIJUyw8XYw== with sleep 180 func 010-sleep-python-50d9a9d6-128-1-7-180
+20:32:27,766 INFO Process 5 begins url https://010-sleep-python-50d9a9d6-128-1-7-180.azurewebsites.net/api/handler?code=9oCuB1kbmH/CcFekK0GxzZaqZuCJH00B4exS7nLxyQ0wRIJUyw8XYw== with sleep 180 func 010-sleep-python-50d9a9d6-128-1-7-180
+20:32:27,766 INFO P 2 T 8 Sleep 180 F 010-sleep-python-50d9a9d6-128-1-7-180 Url https://010-sleep-python-50d9a9d6-128-1-7-180.azurewebsites.net/api/handler?code=9oCuB1kbmH/CcFekK0GxzZaqZuCJH00B4exS7nLxyQ0wRIJUyw8XYw==
+20:32:27,767 INFO P 5 T 8 Sleep 180 F 010-sleep-python-50d9a9d6-128-1-7-180 Url https://010-sleep-python-50d9a9d6-128-1-7-180.azurewebsites.net/api/handler?code=9oCuB1kbmH/CcFekK0GxzZaqZuCJH00B4exS7nLxyQ0wRIJUyw8XYw==
+20:32:27,767 INFO P 1 T 8 Sleep 180 F 010-sleep-python-50d9a9d6-128-1-7-180 Url https://010-sleep-python-50d9a9d6-128-1-7-180.azurewebsites.net/api/handler?code=9oCuB1kbmH/CcFekK0GxzZaqZuCJH00B4exS7nLxyQ0wRIJUyw8XYw==
+20:32:27,767 INFO P 3 T 8 Sleep 180 F 010-sleep-python-50d9a9d6-128-1-7-180 Url https://010-sleep-python-50d9a9d6-128-1-7-180.azurewebsites.net/api/handler?code=9oCuB1kbmH/CcFekK0GxzZaqZuCJH00B4exS7nLxyQ0wRIJUyw8XYw==
+20:32:27,769 INFO Process 6 begins url https://010-sleep-python-50d9a9d6-128-1-7-180.azurewebsites.net/api/handler?code=9oCuB1kbmH/CcFekK0GxzZaqZuCJH00B4exS7nLxyQ0wRIJUyw8XYw== with sleep 180 func 010-sleep-python-50d9a9d6-128-1-7-180
+20:32:27,769 INFO P 6 T 8 Sleep 180 F 010-sleep-python-50d9a9d6-128-1-7-180 Url https://010-sleep-python-50d9a9d6-128-1-7-180.azurewebsites.net/api/handler?code=9oCuB1kbmH/CcFekK0GxzZaqZuCJH00B4exS7nLxyQ0wRIJUyw8XYw==
+20:32:28,23 INFO Processed request! Tid: 9 Start 1580585537.650497 End 1580585548.022955 Cold? True Duration 0
+20:32:28,932 INFO Processed request! Tid: 9 Start 1580585537.665115 End 1580585548.932237 Cold? False Duration 0
+20:32:28,932 ERROR First invocation not cold on time 240 rep 0 pid 2 tid 9
+20:32:29,931 INFO Processed request! Tid: 9 Start 1580585537.668488 End 1580585549.930920 Cold? False Duration 0
+20:32:29,931 ERROR First invocation not cold on time 240 rep 0 pid 6 tid 9
+20:32:30,935 INFO Processed request! Tid: 9 Start 1580585537.668562 End 1580585550.934996 Cold? False Duration 0
+20:32:30,935 ERROR First invocation not cold on time 240 rep 0 pid 5 tid 9
+20:32:31,943 INFO Processed request! Tid: 9 Start 1580585537.664715 End 1580585551.942990 Cold? False Duration 0
+20:32:31,943 ERROR First invocation not cold on time 240 rep 0 pid 4 tid 9
+20:32:32,937 INFO Processed request! Tid: 9 Start 1580585537.665213 End 1580585552.937730 Cold? False Duration 0
+20:32:32,937 ERROR First invocation not cold on time 240 rep 0 pid 3 tid 9
+20:32:33,938 INFO Processed request! Tid: 9 Start 1580585537.665489 End 1580585553.938635 Cold? False Duration 0
+20:32:33,939 ERROR First invocation not cold on time 240 rep 0 pid 1 tid 9
+20:32:34,170 INFO Processed request! Tid: 8 Start 1580585547.767441 End 1580585554.170487 Cold? True Duration 0
+20:32:35,90 INFO Processed request! Tid: 8 Start 1580585547.766983 End 1580585555.090665 Cold? False Duration 0
+20:32:35,90 ERROR First invocation not cold on time 180 rep 0 pid 2 tid 8
+20:32:36,91 INFO Processed request! Tid: 8 Start 1580585547.769751 End 1580585556.090936 Cold? False Duration 0
+20:32:36,91 ERROR First invocation not cold on time 180 rep 0 pid 6 tid 8
+20:32:37,92 INFO Processed request! Tid: 8 Start 1580585547.767633 End 1580585557.092854 Cold? False Duration 0
+20:32:37,93 ERROR First invocation not cold on time 180 rep 0 pid 3 tid 8
+20:32:37,848 INFO Process 0 begins url https://010-sleep-python-50d9a9d6-128-1-7-120.azurewebsites.net/api/handler?code=mgexuaoUVqzgearygEaCLFCGERvDwOJ5P0MqZ9nuGDPa7mUapJXGaQ== with sleep 120 func 010-sleep-python-50d9a9d6-128-1-7-120
+20:32:37,849 INFO P 0 T 7 Sleep 120 F 010-sleep-python-50d9a9d6-128-1-7-120 Url https://010-sleep-python-50d9a9d6-128-1-7-120.azurewebsites.net/api/handler?code=mgexuaoUVqzgearygEaCLFCGERvDwOJ5P0MqZ9nuGDPa7mUapJXGaQ==
+20:32:37,859 INFO Process 2 begins url https://010-sleep-python-50d9a9d6-128-1-7-120.azurewebsites.net/api/handler?code=mgexuaoUVqzgearygEaCLFCGERvDwOJ5P0MqZ9nuGDPa7mUapJXGaQ== with sleep 120 func 010-sleep-python-50d9a9d6-128-1-7-120
+20:32:37,860 INFO P 2 T 7 Sleep 120 F 010-sleep-python-50d9a9d6-128-1-7-120 Url https://010-sleep-python-50d9a9d6-128-1-7-120.azurewebsites.net/api/handler?code=mgexuaoUVqzgearygEaCLFCGERvDwOJ5P0MqZ9nuGDPa7mUapJXGaQ==
+20:32:37,867 INFO Process 1 begins url https://010-sleep-python-50d9a9d6-128-1-7-120.azurewebsites.net/api/handler?code=mgexuaoUVqzgearygEaCLFCGERvDwOJ5P0MqZ9nuGDPa7mUapJXGaQ== with sleep 120 func 010-sleep-python-50d9a9d6-128-1-7-120
+20:32:37,867 INFO Process 4 begins url https://010-sleep-python-50d9a9d6-128-1-7-120.azurewebsites.net/api/handler?code=mgexuaoUVqzgearygEaCLFCGERvDwOJ5P0MqZ9nuGDPa7mUapJXGaQ== with sleep 120 func 010-sleep-python-50d9a9d6-128-1-7-120
+20:32:37,867 INFO P 4 T 7 Sleep 120 F 010-sleep-python-50d9a9d6-128-1-7-120 Url https://010-sleep-python-50d9a9d6-128-1-7-120.azurewebsites.net/api/handler?code=mgexuaoUVqzgearygEaCLFCGERvDwOJ5P0MqZ9nuGDPa7mUapJXGaQ==
+20:32:37,867 INFO Process 3 begins url https://010-sleep-python-50d9a9d6-128-1-7-120.azurewebsites.net/api/handler?code=mgexuaoUVqzgearygEaCLFCGERvDwOJ5P0MqZ9nuGDPa7mUapJXGaQ== with sleep 120 func 010-sleep-python-50d9a9d6-128-1-7-120
+20:32:37,867 INFO Process 5 begins url https://010-sleep-python-50d9a9d6-128-1-7-120.azurewebsites.net/api/handler?code=mgexuaoUVqzgearygEaCLFCGERvDwOJ5P0MqZ9nuGDPa7mUapJXGaQ== with sleep 120 func 010-sleep-python-50d9a9d6-128-1-7-120
+20:32:37,868 INFO P 3 T 7 Sleep 120 F 010-sleep-python-50d9a9d6-128-1-7-120 Url https://010-sleep-python-50d9a9d6-128-1-7-120.azurewebsites.net/api/handler?code=mgexuaoUVqzgearygEaCLFCGERvDwOJ5P0MqZ9nuGDPa7mUapJXGaQ==
+20:32:37,868 INFO P 1 T 7 Sleep 120 F 010-sleep-python-50d9a9d6-128-1-7-120 Url https://010-sleep-python-50d9a9d6-128-1-7-120.azurewebsites.net/api/handler?code=mgexuaoUVqzgearygEaCLFCGERvDwOJ5P0MqZ9nuGDPa7mUapJXGaQ==
+20:32:37,868 INFO P 5 T 7 Sleep 120 F 010-sleep-python-50d9a9d6-128-1-7-120 Url https://010-sleep-python-50d9a9d6-128-1-7-120.azurewebsites.net/api/handler?code=mgexuaoUVqzgearygEaCLFCGERvDwOJ5P0MqZ9nuGDPa7mUapJXGaQ==
+20:32:37,870 INFO Process 6 begins url https://010-sleep-python-50d9a9d6-128-1-7-120.azurewebsites.net/api/handler?code=mgexuaoUVqzgearygEaCLFCGERvDwOJ5P0MqZ9nuGDPa7mUapJXGaQ== with sleep 120 func 010-sleep-python-50d9a9d6-128-1-7-120
+20:32:37,871 INFO P 6 T 7 Sleep 120 F 010-sleep-python-50d9a9d6-128-1-7-120 Url https://010-sleep-python-50d9a9d6-128-1-7-120.azurewebsites.net/api/handler?code=mgexuaoUVqzgearygEaCLFCGERvDwOJ5P0MqZ9nuGDPa7mUapJXGaQ==
+20:32:38,103 INFO Processed request! Tid: 8 Start 1580585547.766315 End 1580585558.102908 Cold? False Duration 0
+20:32:38,103 ERROR First invocation not cold on time 180 rep 0 pid 4 tid 8
+20:32:39,103 INFO Processed request! Tid: 8 Start 1580585547.767177 End 1580585559.103791 Cold? False Duration 0
+20:32:39,104 ERROR First invocation not cold on time 180 rep 0 pid 5 tid 8
+20:32:40,99 INFO Processed request! Tid: 8 Start 1580585547.752351 End 1580585560.099785 Cold? False Duration 0
+20:32:40,100 ERROR First invocation not cold on time 180 rep 0 pid 0 tid 8
+20:32:44,212 INFO Processed request! Tid: 7 Start 1580585557.868227 End 1580585564.212396 Cold? True Duration 0
+20:32:45,110 INFO Processed request! Tid: 7 Start 1580585557.871235 End 1580585565.110591 Cold? False Duration 0
+20:32:45,110 ERROR First invocation not cold on time 120 rep 0 pid 6 tid 7
+20:32:46,111 INFO Processed request! Tid: 7 Start 1580585557.849241 End 1580585566.111756 Cold? False Duration 0
+20:32:46,112 ERROR First invocation not cold on time 120 rep 0 pid 0 tid 7
+20:32:47,111 INFO Processed request! Tid: 7 Start 1580585557.860164 End 1580585567.111711 Cold? False Duration 0
+20:32:47,111 ERROR First invocation not cold on time 120 rep 0 pid 2 tid 7
+20:32:47,950 INFO Process 0 begins url https://010-sleep-python-50d9a9d6-128-1-7-60.azurewebsites.net/api/handler?code=pNEE4Utl5iOTb86aqyHIeFGPMyWq8mJEGbDAPEOijhCeA4EnTGuB5Q== with sleep 60 func 010-sleep-python-50d9a9d6-128-1-7-60
+20:32:47,950 INFO P 0 T 6 Sleep 60 F 010-sleep-python-50d9a9d6-128-1-7-60 Url https://010-sleep-python-50d9a9d6-128-1-7-60.azurewebsites.net/api/handler?code=pNEE4Utl5iOTb86aqyHIeFGPMyWq8mJEGbDAPEOijhCeA4EnTGuB5Q==
+20:32:47,952 INFO Process 2 begins url https://010-sleep-python-50d9a9d6-128-1-7-60.azurewebsites.net/api/handler?code=pNEE4Utl5iOTb86aqyHIeFGPMyWq8mJEGbDAPEOijhCeA4EnTGuB5Q== with sleep 60 func 010-sleep-python-50d9a9d6-128-1-7-60
+20:32:47,952 INFO P 2 T 6 Sleep 60 F 010-sleep-python-50d9a9d6-128-1-7-60 Url https://010-sleep-python-50d9a9d6-128-1-7-60.azurewebsites.net/api/handler?code=pNEE4Utl5iOTb86aqyHIeFGPMyWq8mJEGbDAPEOijhCeA4EnTGuB5Q==
+20:32:47,964 INFO Process 3 begins url https://010-sleep-python-50d9a9d6-128-1-7-60.azurewebsites.net/api/handler?code=pNEE4Utl5iOTb86aqyHIeFGPMyWq8mJEGbDAPEOijhCeA4EnTGuB5Q== with sleep 60 func 010-sleep-python-50d9a9d6-128-1-7-60
+20:32:47,964 INFO Process 4 begins url https://010-sleep-python-50d9a9d6-128-1-7-60.azurewebsites.net/api/handler?code=pNEE4Utl5iOTb86aqyHIeFGPMyWq8mJEGbDAPEOijhCeA4EnTGuB5Q== with sleep 60 func 010-sleep-python-50d9a9d6-128-1-7-60
+20:32:47,965 INFO Process 5 begins url https://010-sleep-python-50d9a9d6-128-1-7-60.azurewebsites.net/api/handler?code=pNEE4Utl5iOTb86aqyHIeFGPMyWq8mJEGbDAPEOijhCeA4EnTGuB5Q== with sleep 60 func 010-sleep-python-50d9a9d6-128-1-7-60
+20:32:47,965 INFO P 3 T 6 Sleep 60 F 010-sleep-python-50d9a9d6-128-1-7-60 Url https://010-sleep-python-50d9a9d6-128-1-7-60.azurewebsites.net/api/handler?code=pNEE4Utl5iOTb86aqyHIeFGPMyWq8mJEGbDAPEOijhCeA4EnTGuB5Q==
+20:32:47,965 INFO Process 6 begins url https://010-sleep-python-50d9a9d6-128-1-7-60.azurewebsites.net/api/handler?code=pNEE4Utl5iOTb86aqyHIeFGPMyWq8mJEGbDAPEOijhCeA4EnTGuB5Q== with sleep 60 func 010-sleep-python-50d9a9d6-128-1-7-60
+20:32:47,965 INFO P 4 T 6 Sleep 60 F 010-sleep-python-50d9a9d6-128-1-7-60 Url https://010-sleep-python-50d9a9d6-128-1-7-60.azurewebsites.net/api/handler?code=pNEE4Utl5iOTb86aqyHIeFGPMyWq8mJEGbDAPEOijhCeA4EnTGuB5Q==
+20:32:47,965 INFO P 6 T 6 Sleep 60 F 010-sleep-python-50d9a9d6-128-1-7-60 Url https://010-sleep-python-50d9a9d6-128-1-7-60.azurewebsites.net/api/handler?code=pNEE4Utl5iOTb86aqyHIeFGPMyWq8mJEGbDAPEOijhCeA4EnTGuB5Q==
+20:32:47,966 INFO P 5 T 6 Sleep 60 F 010-sleep-python-50d9a9d6-128-1-7-60 Url https://010-sleep-python-50d9a9d6-128-1-7-60.azurewebsites.net/api/handler?code=pNEE4Utl5iOTb86aqyHIeFGPMyWq8mJEGbDAPEOijhCeA4EnTGuB5Q==
+20:32:47,968 INFO Process 1 begins url https://010-sleep-python-50d9a9d6-128-1-7-60.azurewebsites.net/api/handler?code=pNEE4Utl5iOTb86aqyHIeFGPMyWq8mJEGbDAPEOijhCeA4EnTGuB5Q== with sleep 60 func 010-sleep-python-50d9a9d6-128-1-7-60
+20:32:47,969 INFO P 1 T 6 Sleep 60 F 010-sleep-python-50d9a9d6-128-1-7-60 Url https://010-sleep-python-50d9a9d6-128-1-7-60.azurewebsites.net/api/handler?code=pNEE4Utl5iOTb86aqyHIeFGPMyWq8mJEGbDAPEOijhCeA4EnTGuB5Q==
+20:32:48,115 INFO Processed request! Tid: 7 Start 1580585557.868299 End 1580585568.115158 Cold? False Duration 0
+20:32:48,115 ERROR First invocation not cold on time 120 rep 0 pid 1 tid 7
+20:32:49,111 INFO Processed request! Tid: 7 Start 1580585557.867798 End 1580585569.111871 Cold? False Duration 0
+20:32:49,112 ERROR First invocation not cold on time 120 rep 0 pid 4 tid 7
+20:32:50,115 INFO Processed request! Tid: 7 Start 1580585557.868669 End 1580585570.115273 Cold? False Duration 0
+20:32:50,115 ERROR First invocation not cold on time 120 rep 0 pid 5 tid 7
+20:32:58,51 INFO Process 0 begins url https://010-sleep-python-50d9a9d6-128-1-7-30.azurewebsites.net/api/handler?code=9oO1xCOF0lCteiGeqYFTbhyRU0InWVhvJSmcQGkEqJ2/bCXcgQT/sw== with sleep 30 func 010-sleep-python-50d9a9d6-128-1-7-30
+20:32:58,52 INFO P 0 T 5 Sleep 30 F 010-sleep-python-50d9a9d6-128-1-7-30 Url https://010-sleep-python-50d9a9d6-128-1-7-30.azurewebsites.net/api/handler?code=9oO1xCOF0lCteiGeqYFTbhyRU0InWVhvJSmcQGkEqJ2/bCXcgQT/sw==
+20:32:58,53 INFO Process 2 begins url https://010-sleep-python-50d9a9d6-128-1-7-30.azurewebsites.net/api/handler?code=9oO1xCOF0lCteiGeqYFTbhyRU0InWVhvJSmcQGkEqJ2/bCXcgQT/sw== with sleep 30 func 010-sleep-python-50d9a9d6-128-1-7-30
+20:32:58,53 INFO P 2 T 5 Sleep 30 F 010-sleep-python-50d9a9d6-128-1-7-30 Url https://010-sleep-python-50d9a9d6-128-1-7-30.azurewebsites.net/api/handler?code=9oO1xCOF0lCteiGeqYFTbhyRU0InWVhvJSmcQGkEqJ2/bCXcgQT/sw==
+20:32:58,63 INFO Process 4 begins url https://010-sleep-python-50d9a9d6-128-1-7-30.azurewebsites.net/api/handler?code=9oO1xCOF0lCteiGeqYFTbhyRU0InWVhvJSmcQGkEqJ2/bCXcgQT/sw== with sleep 30 func 010-sleep-python-50d9a9d6-128-1-7-30
+20:32:58,63 INFO Process 1 begins url https://010-sleep-python-50d9a9d6-128-1-7-30.azurewebsites.net/api/handler?code=9oO1xCOF0lCteiGeqYFTbhyRU0InWVhvJSmcQGkEqJ2/bCXcgQT/sw== with sleep 30 func 010-sleep-python-50d9a9d6-128-1-7-30
+20:32:58,63 INFO P 4 T 5 Sleep 30 F 010-sleep-python-50d9a9d6-128-1-7-30 Url https://010-sleep-python-50d9a9d6-128-1-7-30.azurewebsites.net/api/handler?code=9oO1xCOF0lCteiGeqYFTbhyRU0InWVhvJSmcQGkEqJ2/bCXcgQT/sw==
+20:32:58,63 INFO P 1 T 5 Sleep 30 F 010-sleep-python-50d9a9d6-128-1-7-30 Url https://010-sleep-python-50d9a9d6-128-1-7-30.azurewebsites.net/api/handler?code=9oO1xCOF0lCteiGeqYFTbhyRU0InWVhvJSmcQGkEqJ2/bCXcgQT/sw==
+20:32:58,65 INFO Process 3 begins url https://010-sleep-python-50d9a9d6-128-1-7-30.azurewebsites.net/api/handler?code=9oO1xCOF0lCteiGeqYFTbhyRU0InWVhvJSmcQGkEqJ2/bCXcgQT/sw== with sleep 30 func 010-sleep-python-50d9a9d6-128-1-7-30
+20:32:58,65 INFO P 3 T 5 Sleep 30 F 010-sleep-python-50d9a9d6-128-1-7-30 Url https://010-sleep-python-50d9a9d6-128-1-7-30.azurewebsites.net/api/handler?code=9oO1xCOF0lCteiGeqYFTbhyRU0InWVhvJSmcQGkEqJ2/bCXcgQT/sw==
+20:32:58,66 INFO Process 6 begins url https://010-sleep-python-50d9a9d6-128-1-7-30.azurewebsites.net/api/handler?code=9oO1xCOF0lCteiGeqYFTbhyRU0InWVhvJSmcQGkEqJ2/bCXcgQT/sw== with sleep 30 func 010-sleep-python-50d9a9d6-128-1-7-30
+20:32:58,66 INFO Process 5 begins url https://010-sleep-python-50d9a9d6-128-1-7-30.azurewebsites.net/api/handler?code=9oO1xCOF0lCteiGeqYFTbhyRU0InWVhvJSmcQGkEqJ2/bCXcgQT/sw== with sleep 30 func 010-sleep-python-50d9a9d6-128-1-7-30
+20:32:58,66 INFO P 6 T 5 Sleep 30 F 010-sleep-python-50d9a9d6-128-1-7-30 Url https://010-sleep-python-50d9a9d6-128-1-7-30.azurewebsites.net/api/handler?code=9oO1xCOF0lCteiGeqYFTbhyRU0InWVhvJSmcQGkEqJ2/bCXcgQT/sw==
+20:32:58,67 INFO P 5 T 5 Sleep 30 F 010-sleep-python-50d9a9d6-128-1-7-30 Url https://010-sleep-python-50d9a9d6-128-1-7-30.azurewebsites.net/api/handler?code=9oO1xCOF0lCteiGeqYFTbhyRU0InWVhvJSmcQGkEqJ2/bCXcgQT/sw==
+20:33:08,153 INFO Process 0 begins url https://010-sleep-python-50d9a9d6-128-1-7-15.azurewebsites.net/api/handler?code=aGsCG5Sf7lVColH9ObxWaBn8TMg/Y4xOVCPOII8sacaZqwL2Q8r5Og== with sleep 15 func 010-sleep-python-50d9a9d6-128-1-7-15
+20:33:08,154 INFO P 0 T 4 Sleep 15 F 010-sleep-python-50d9a9d6-128-1-7-15 Url https://010-sleep-python-50d9a9d6-128-1-7-15.azurewebsites.net/api/handler?code=aGsCG5Sf7lVColH9ObxWaBn8TMg/Y4xOVCPOII8sacaZqwL2Q8r5Og==
+20:33:08,154 INFO Process 2 begins url https://010-sleep-python-50d9a9d6-128-1-7-15.azurewebsites.net/api/handler?code=aGsCG5Sf7lVColH9ObxWaBn8TMg/Y4xOVCPOII8sacaZqwL2Q8r5Og== with sleep 15 func 010-sleep-python-50d9a9d6-128-1-7-15
+20:33:08,154 INFO Process 1 begins url https://010-sleep-python-50d9a9d6-128-1-7-15.azurewebsites.net/api/handler?code=aGsCG5Sf7lVColH9ObxWaBn8TMg/Y4xOVCPOII8sacaZqwL2Q8r5Og== with sleep 15 func 010-sleep-python-50d9a9d6-128-1-7-15
+20:33:08,155 INFO P 2 T 4 Sleep 15 F 010-sleep-python-50d9a9d6-128-1-7-15 Url https://010-sleep-python-50d9a9d6-128-1-7-15.azurewebsites.net/api/handler?code=aGsCG5Sf7lVColH9ObxWaBn8TMg/Y4xOVCPOII8sacaZqwL2Q8r5Og==
+20:33:08,155 INFO P 1 T 4 Sleep 15 F 010-sleep-python-50d9a9d6-128-1-7-15 Url https://010-sleep-python-50d9a9d6-128-1-7-15.azurewebsites.net/api/handler?code=aGsCG5Sf7lVColH9ObxWaBn8TMg/Y4xOVCPOII8sacaZqwL2Q8r5Og==
+20:33:08,164 INFO Process 4 begins url https://010-sleep-python-50d9a9d6-128-1-7-15.azurewebsites.net/api/handler?code=aGsCG5Sf7lVColH9ObxWaBn8TMg/Y4xOVCPOII8sacaZqwL2Q8r5Og== with sleep 15 func 010-sleep-python-50d9a9d6-128-1-7-15
+20:33:08,164 INFO P 4 T 4 Sleep 15 F 010-sleep-python-50d9a9d6-128-1-7-15 Url https://010-sleep-python-50d9a9d6-128-1-7-15.azurewebsites.net/api/handler?code=aGsCG5Sf7lVColH9ObxWaBn8TMg/Y4xOVCPOII8sacaZqwL2Q8r5Og==
+20:33:08,166 INFO Process 3 begins url https://010-sleep-python-50d9a9d6-128-1-7-15.azurewebsites.net/api/handler?code=aGsCG5Sf7lVColH9ObxWaBn8TMg/Y4xOVCPOII8sacaZqwL2Q8r5Og== with sleep 15 func 010-sleep-python-50d9a9d6-128-1-7-15
+20:33:08,166 INFO P 3 T 4 Sleep 15 F 010-sleep-python-50d9a9d6-128-1-7-15 Url https://010-sleep-python-50d9a9d6-128-1-7-15.azurewebsites.net/api/handler?code=aGsCG5Sf7lVColH9ObxWaBn8TMg/Y4xOVCPOII8sacaZqwL2Q8r5Og==
+20:33:08,167 INFO Process 5 begins url https://010-sleep-python-50d9a9d6-128-1-7-15.azurewebsites.net/api/handler?code=aGsCG5Sf7lVColH9ObxWaBn8TMg/Y4xOVCPOII8sacaZqwL2Q8r5Og== with sleep 15 func 010-sleep-python-50d9a9d6-128-1-7-15
+20:33:08,167 INFO P 5 T 4 Sleep 15 F 010-sleep-python-50d9a9d6-128-1-7-15 Url https://010-sleep-python-50d9a9d6-128-1-7-15.azurewebsites.net/api/handler?code=aGsCG5Sf7lVColH9ObxWaBn8TMg/Y4xOVCPOII8sacaZqwL2Q8r5Og==
+20:33:08,168 INFO Process 6 begins url https://010-sleep-python-50d9a9d6-128-1-7-15.azurewebsites.net/api/handler?code=aGsCG5Sf7lVColH9ObxWaBn8TMg/Y4xOVCPOII8sacaZqwL2Q8r5Og== with sleep 15 func 010-sleep-python-50d9a9d6-128-1-7-15
+20:33:08,168 INFO P 6 T 4 Sleep 15 F 010-sleep-python-50d9a9d6-128-1-7-15 Url https://010-sleep-python-50d9a9d6-128-1-7-15.azurewebsites.net/api/handler?code=aGsCG5Sf7lVColH9ObxWaBn8TMg/Y4xOVCPOII8sacaZqwL2Q8r5Og==
+20:33:18,255 INFO Process 0 begins url https://010-sleep-python-50d9a9d6-128-1-7-8.azurewebsites.net/api/handler?code=cshl32wF0hCwfpKr9PNWTOD2OqS/D/iBb1YDx9iV3v/eYUZqDVg8XQ== with sleep 8 func 010-sleep-python-50d9a9d6-128-1-7-8
+20:33:18,255 INFO Process 1 begins url https://010-sleep-python-50d9a9d6-128-1-7-8.azurewebsites.net/api/handler?code=cshl32wF0hCwfpKr9PNWTOD2OqS/D/iBb1YDx9iV3v/eYUZqDVg8XQ== with sleep 8 func 010-sleep-python-50d9a9d6-128-1-7-8
+20:33:18,255 INFO P 0 T 3 Sleep 8 F 010-sleep-python-50d9a9d6-128-1-7-8 Url https://010-sleep-python-50d9a9d6-128-1-7-8.azurewebsites.net/api/handler?code=cshl32wF0hCwfpKr9PNWTOD2OqS/D/iBb1YDx9iV3v/eYUZqDVg8XQ==
+20:33:18,255 INFO Process 2 begins url https://010-sleep-python-50d9a9d6-128-1-7-8.azurewebsites.net/api/handler?code=cshl32wF0hCwfpKr9PNWTOD2OqS/D/iBb1YDx9iV3v/eYUZqDVg8XQ== with sleep 8 func 010-sleep-python-50d9a9d6-128-1-7-8
+20:33:18,255 INFO P 1 T 3 Sleep 8 F 010-sleep-python-50d9a9d6-128-1-7-8 Url https://010-sleep-python-50d9a9d6-128-1-7-8.azurewebsites.net/api/handler?code=cshl32wF0hCwfpKr9PNWTOD2OqS/D/iBb1YDx9iV3v/eYUZqDVg8XQ==
+20:33:18,256 INFO P 2 T 3 Sleep 8 F 010-sleep-python-50d9a9d6-128-1-7-8 Url https://010-sleep-python-50d9a9d6-128-1-7-8.azurewebsites.net/api/handler?code=cshl32wF0hCwfpKr9PNWTOD2OqS/D/iBb1YDx9iV3v/eYUZqDVg8XQ==
+20:33:18,265 INFO Process 4 begins url https://010-sleep-python-50d9a9d6-128-1-7-8.azurewebsites.net/api/handler?code=cshl32wF0hCwfpKr9PNWTOD2OqS/D/iBb1YDx9iV3v/eYUZqDVg8XQ== with sleep 8 func 010-sleep-python-50d9a9d6-128-1-7-8
+20:33:18,265 INFO P 4 T 3 Sleep 8 F 010-sleep-python-50d9a9d6-128-1-7-8 Url https://010-sleep-python-50d9a9d6-128-1-7-8.azurewebsites.net/api/handler?code=cshl32wF0hCwfpKr9PNWTOD2OqS/D/iBb1YDx9iV3v/eYUZqDVg8XQ==
+20:33:18,267 INFO Process 3 begins url https://010-sleep-python-50d9a9d6-128-1-7-8.azurewebsites.net/api/handler?code=cshl32wF0hCwfpKr9PNWTOD2OqS/D/iBb1YDx9iV3v/eYUZqDVg8XQ== with sleep 8 func 010-sleep-python-50d9a9d6-128-1-7-8
+20:33:18,268 INFO P 3 T 3 Sleep 8 F 010-sleep-python-50d9a9d6-128-1-7-8 Url https://010-sleep-python-50d9a9d6-128-1-7-8.azurewebsites.net/api/handler?code=cshl32wF0hCwfpKr9PNWTOD2OqS/D/iBb1YDx9iV3v/eYUZqDVg8XQ==
+20:33:18,268 INFO Process 5 begins url https://010-sleep-python-50d9a9d6-128-1-7-8.azurewebsites.net/api/handler?code=cshl32wF0hCwfpKr9PNWTOD2OqS/D/iBb1YDx9iV3v/eYUZqDVg8XQ== with sleep 8 func 010-sleep-python-50d9a9d6-128-1-7-8
+20:33:18,268 INFO Process 6 begins url https://010-sleep-python-50d9a9d6-128-1-7-8.azurewebsites.net/api/handler?code=cshl32wF0hCwfpKr9PNWTOD2OqS/D/iBb1YDx9iV3v/eYUZqDVg8XQ== with sleep 8 func 010-sleep-python-50d9a9d6-128-1-7-8
+20:33:18,269 INFO P 5 T 3 Sleep 8 F 010-sleep-python-50d9a9d6-128-1-7-8 Url https://010-sleep-python-50d9a9d6-128-1-7-8.azurewebsites.net/api/handler?code=cshl32wF0hCwfpKr9PNWTOD2OqS/D/iBb1YDx9iV3v/eYUZqDVg8XQ==
+20:33:18,269 INFO P 6 T 3 Sleep 8 F 010-sleep-python-50d9a9d6-128-1-7-8 Url https://010-sleep-python-50d9a9d6-128-1-7-8.azurewebsites.net/api/handler?code=cshl32wF0hCwfpKr9PNWTOD2OqS/D/iBb1YDx9iV3v/eYUZqDVg8XQ==
+20:33:27,139 INFO Processed request! Tid: 3 Start 1580585598.269207 End 1580585607.139491 Cold? True Duration 0
+20:33:28,35 INFO Processed request! Tid: 3 Start 1580585598.255942 End 1580585608.034987 Cold? False Duration 0
+20:33:28,35 ERROR First invocation not cold on time 8 rep 0 pid 1 tid 3
+20:33:28,356 INFO Process 1 begins url https://010-sleep-python-50d9a9d6-128-1-7-4.azurewebsites.net/api/handler?code=3brqGUXIriP9WTKQAVm/fW0r8p33xusk3VNzjaPacFDQp/LSojkESw== with sleep 4 func 010-sleep-python-50d9a9d6-128-1-7-4
+20:33:28,356 INFO Process 0 begins url https://010-sleep-python-50d9a9d6-128-1-7-4.azurewebsites.net/api/handler?code=3brqGUXIriP9WTKQAVm/fW0r8p33xusk3VNzjaPacFDQp/LSojkESw== with sleep 4 func 010-sleep-python-50d9a9d6-128-1-7-4
+20:33:28,357 INFO P 0 T 2 Sleep 4 F 010-sleep-python-50d9a9d6-128-1-7-4 Url https://010-sleep-python-50d9a9d6-128-1-7-4.azurewebsites.net/api/handler?code=3brqGUXIriP9WTKQAVm/fW0r8p33xusk3VNzjaPacFDQp/LSojkESw==
+20:33:28,357 INFO Process 2 begins url https://010-sleep-python-50d9a9d6-128-1-7-4.azurewebsites.net/api/handler?code=3brqGUXIriP9WTKQAVm/fW0r8p33xusk3VNzjaPacFDQp/LSojkESw== with sleep 4 func 010-sleep-python-50d9a9d6-128-1-7-4
+20:33:28,357 INFO P 1 T 2 Sleep 4 F 010-sleep-python-50d9a9d6-128-1-7-4 Url https://010-sleep-python-50d9a9d6-128-1-7-4.azurewebsites.net/api/handler?code=3brqGUXIriP9WTKQAVm/fW0r8p33xusk3VNzjaPacFDQp/LSojkESw==
+20:33:28,357 INFO P 2 T 2 Sleep 4 F 010-sleep-python-50d9a9d6-128-1-7-4 Url https://010-sleep-python-50d9a9d6-128-1-7-4.azurewebsites.net/api/handler?code=3brqGUXIriP9WTKQAVm/fW0r8p33xusk3VNzjaPacFDQp/LSojkESw==
+20:33:28,366 INFO Process 4 begins url https://010-sleep-python-50d9a9d6-128-1-7-4.azurewebsites.net/api/handler?code=3brqGUXIriP9WTKQAVm/fW0r8p33xusk3VNzjaPacFDQp/LSojkESw== with sleep 4 func 010-sleep-python-50d9a9d6-128-1-7-4
+20:33:28,367 INFO P 4 T 2 Sleep 4 F 010-sleep-python-50d9a9d6-128-1-7-4 Url https://010-sleep-python-50d9a9d6-128-1-7-4.azurewebsites.net/api/handler?code=3brqGUXIriP9WTKQAVm/fW0r8p33xusk3VNzjaPacFDQp/LSojkESw==
+20:33:28,369 INFO Process 6 begins url https://010-sleep-python-50d9a9d6-128-1-7-4.azurewebsites.net/api/handler?code=3brqGUXIriP9WTKQAVm/fW0r8p33xusk3VNzjaPacFDQp/LSojkESw== with sleep 4 func 010-sleep-python-50d9a9d6-128-1-7-4
+20:33:28,370 INFO Process 5 begins url https://010-sleep-python-50d9a9d6-128-1-7-4.azurewebsites.net/api/handler?code=3brqGUXIriP9WTKQAVm/fW0r8p33xusk3VNzjaPacFDQp/LSojkESw== with sleep 4 func 010-sleep-python-50d9a9d6-128-1-7-4
+20:33:28,370 INFO P 5 T 2 Sleep 4 F 010-sleep-python-50d9a9d6-128-1-7-4 Url https://010-sleep-python-50d9a9d6-128-1-7-4.azurewebsites.net/api/handler?code=3brqGUXIriP9WTKQAVm/fW0r8p33xusk3VNzjaPacFDQp/LSojkESw==
+20:33:28,370 INFO P 6 T 2 Sleep 4 F 010-sleep-python-50d9a9d6-128-1-7-4 Url https://010-sleep-python-50d9a9d6-128-1-7-4.azurewebsites.net/api/handler?code=3brqGUXIriP9WTKQAVm/fW0r8p33xusk3VNzjaPacFDQp/LSojkESw==
+20:33:28,371 INFO Process 3 begins url https://010-sleep-python-50d9a9d6-128-1-7-4.azurewebsites.net/api/handler?code=3brqGUXIriP9WTKQAVm/fW0r8p33xusk3VNzjaPacFDQp/LSojkESw== with sleep 4 func 010-sleep-python-50d9a9d6-128-1-7-4
+20:33:28,371 INFO P 3 T 2 Sleep 4 F 010-sleep-python-50d9a9d6-128-1-7-4 Url https://010-sleep-python-50d9a9d6-128-1-7-4.azurewebsites.net/api/handler?code=3brqGUXIriP9WTKQAVm/fW0r8p33xusk3VNzjaPacFDQp/LSojkESw==
+20:33:29,36 INFO Processed request! Tid: 3 Start 1580585598.265842 End 1580585609.035912 Cold? False Duration 0
+20:33:29,36 ERROR First invocation not cold on time 8 rep 0 pid 4 tid 3
+20:33:30,39 INFO Processed request! Tid: 3 Start 1580585598.256184 End 1580585610.038957 Cold? False Duration 0
+20:33:30,39 ERROR First invocation not cold on time 8 rep 0 pid 2 tid 3
+20:33:31,46 INFO Processed request! Tid: 3 Start 1580585598.269609 End 1580585611.046887 Cold? False Duration 0
+20:33:31,47 ERROR First invocation not cold on time 8 rep 0 pid 6 tid 3
+20:33:32,40 INFO Processed request! Tid: 3 Start 1580585598.268127 End 1580585612.040845 Cold? False Duration 0
+20:33:32,41 ERROR First invocation not cold on time 8 rep 0 pid 3 tid 3
+20:33:33,44 INFO Processed request! Tid: 3 Start 1580585598.255703 End 1580585613.044290 Cold? False Duration 0
+20:33:33,44 ERROR First invocation not cold on time 8 rep 0 pid 0 tid 3
+20:33:36,323 INFO Processed request! Tid: 3 Start 1580585615.147617 End 1580585616.323132 Cold? False Duration 0
+20:33:37,319 INFO Processed request! Tid: 3 Start 1580585616.043104 End 1580585617.319113 Cold? False Duration 0
+20:33:38,329 INFO Processed request! Tid: 3 Start 1580585617.044037 End 1580585618.329327 Cold? False Duration 0
+20:33:38,458 INFO Process 1 begins url https://010-sleep-python-50d9a9d6-128-1-7-2.azurewebsites.net/api/handler?code=4KNNw170cCUAUWik5STDicO6i9e2Gx6YpqjFqWxsZ0zAv6n8ZGqCyA== with sleep 2 func 010-sleep-python-50d9a9d6-128-1-7-2
+20:33:38,458 INFO Process 0 begins url https://010-sleep-python-50d9a9d6-128-1-7-2.azurewebsites.net/api/handler?code=4KNNw170cCUAUWik5STDicO6i9e2Gx6YpqjFqWxsZ0zAv6n8ZGqCyA== with sleep 2 func 010-sleep-python-50d9a9d6-128-1-7-2
+20:33:38,458 INFO Process 4 begins url https://010-sleep-python-50d9a9d6-128-1-7-2.azurewebsites.net/api/handler?code=4KNNw170cCUAUWik5STDicO6i9e2Gx6YpqjFqWxsZ0zAv6n8ZGqCyA== with sleep 2 func 010-sleep-python-50d9a9d6-128-1-7-2
+20:33:38,458 INFO Process 2 begins url https://010-sleep-python-50d9a9d6-128-1-7-2.azurewebsites.net/api/handler?code=4KNNw170cCUAUWik5STDicO6i9e2Gx6YpqjFqWxsZ0zAv6n8ZGqCyA== with sleep 2 func 010-sleep-python-50d9a9d6-128-1-7-2
+20:33:38,458 INFO P 0 T 1 Sleep 2 F 010-sleep-python-50d9a9d6-128-1-7-2 Url https://010-sleep-python-50d9a9d6-128-1-7-2.azurewebsites.net/api/handler?code=4KNNw170cCUAUWik5STDicO6i9e2Gx6YpqjFqWxsZ0zAv6n8ZGqCyA==
+20:33:38,458 INFO P 2 T 1 Sleep 2 F 010-sleep-python-50d9a9d6-128-1-7-2 Url https://010-sleep-python-50d9a9d6-128-1-7-2.azurewebsites.net/api/handler?code=4KNNw170cCUAUWik5STDicO6i9e2Gx6YpqjFqWxsZ0zAv6n8ZGqCyA==
+20:33:38,459 INFO P 4 T 1 Sleep 2 F 010-sleep-python-50d9a9d6-128-1-7-2 Url https://010-sleep-python-50d9a9d6-128-1-7-2.azurewebsites.net/api/handler?code=4KNNw170cCUAUWik5STDicO6i9e2Gx6YpqjFqWxsZ0zAv6n8ZGqCyA==
+20:33:38,459 INFO P 1 T 1 Sleep 2 F 010-sleep-python-50d9a9d6-128-1-7-2 Url https://010-sleep-python-50d9a9d6-128-1-7-2.azurewebsites.net/api/handler?code=4KNNw170cCUAUWik5STDicO6i9e2Gx6YpqjFqWxsZ0zAv6n8ZGqCyA==
+20:33:38,470 INFO Process 6 begins url https://010-sleep-python-50d9a9d6-128-1-7-2.azurewebsites.net/api/handler?code=4KNNw170cCUAUWik5STDicO6i9e2Gx6YpqjFqWxsZ0zAv6n8ZGqCyA== with sleep 2 func 010-sleep-python-50d9a9d6-128-1-7-2
+20:33:38,470 INFO Process 5 begins url https://010-sleep-python-50d9a9d6-128-1-7-2.azurewebsites.net/api/handler?code=4KNNw170cCUAUWik5STDicO6i9e2Gx6YpqjFqWxsZ0zAv6n8ZGqCyA== with sleep 2 func 010-sleep-python-50d9a9d6-128-1-7-2
+20:33:38,470 INFO P 5 T 1 Sleep 2 F 010-sleep-python-50d9a9d6-128-1-7-2 Url https://010-sleep-python-50d9a9d6-128-1-7-2.azurewebsites.net/api/handler?code=4KNNw170cCUAUWik5STDicO6i9e2Gx6YpqjFqWxsZ0zAv6n8ZGqCyA==
+20:33:38,470 INFO P 6 T 1 Sleep 2 F 010-sleep-python-50d9a9d6-128-1-7-2 Url https://010-sleep-python-50d9a9d6-128-1-7-2.azurewebsites.net/api/handler?code=4KNNw170cCUAUWik5STDicO6i9e2Gx6YpqjFqWxsZ0zAv6n8ZGqCyA==
+20:33:38,471 INFO Process 3 begins url https://010-sleep-python-50d9a9d6-128-1-7-2.azurewebsites.net/api/handler?code=4KNNw170cCUAUWik5STDicO6i9e2Gx6YpqjFqWxsZ0zAv6n8ZGqCyA== with sleep 2 func 010-sleep-python-50d9a9d6-128-1-7-2
+20:33:38,471 INFO P 3 T 1 Sleep 2 F 010-sleep-python-50d9a9d6-128-1-7-2 Url https://010-sleep-python-50d9a9d6-128-1-7-2.azurewebsites.net/api/handler?code=4KNNw170cCUAUWik5STDicO6i9e2Gx6YpqjFqWxsZ0zAv6n8ZGqCyA==
+20:33:39,328 INFO Processed request! Tid: 3 Start 1580585618.047079 End 1580585619.328221 Cold? False Duration 0
+20:33:40,324 INFO Processed request! Tid: 3 Start 1580585619.052811 End 1580585620.324447 Cold? False Duration 0
+20:33:41,331 INFO Processed request! Tid: 3 Start 1580585620.048971 End 1580585621.331495 Cold? False Duration 0
+20:33:42,332 INFO Processed request! Tid: 3 Start 1580585621.052404 End 1580585622.332754 Cold? False Duration 0
+20:33:48,559 INFO Process 1 begins url https://010-sleep-python-50d9a9d6-128-1-7-1.azurewebsites.net/api/handler?code=Vi0dBqS5LyN2GaA0oSVkAaw5di2dFmo2DpYhFqfVR8FBwCnkpt8dfw== with sleep 1 func 010-sleep-python-50d9a9d6-128-1-7-1
+20:33:48,559 INFO Process 0 begins url https://010-sleep-python-50d9a9d6-128-1-7-1.azurewebsites.net/api/handler?code=Vi0dBqS5LyN2GaA0oSVkAaw5di2dFmo2DpYhFqfVR8FBwCnkpt8dfw== with sleep 1 func 010-sleep-python-50d9a9d6-128-1-7-1
+20:33:48,560 INFO Process 2 begins url https://010-sleep-python-50d9a9d6-128-1-7-1.azurewebsites.net/api/handler?code=Vi0dBqS5LyN2GaA0oSVkAaw5di2dFmo2DpYhFqfVR8FBwCnkpt8dfw== with sleep 1 func 010-sleep-python-50d9a9d6-128-1-7-1
+20:33:48,560 INFO P 0 T 0 Sleep 1 F 010-sleep-python-50d9a9d6-128-1-7-1 Url https://010-sleep-python-50d9a9d6-128-1-7-1.azurewebsites.net/api/handler?code=Vi0dBqS5LyN2GaA0oSVkAaw5di2dFmo2DpYhFqfVR8FBwCnkpt8dfw==
+20:33:48,560 INFO P 2 T 0 Sleep 1 F 010-sleep-python-50d9a9d6-128-1-7-1 Url https://010-sleep-python-50d9a9d6-128-1-7-1.azurewebsites.net/api/handler?code=Vi0dBqS5LyN2GaA0oSVkAaw5di2dFmo2DpYhFqfVR8FBwCnkpt8dfw==
+20:33:48,560 INFO Process 4 begins url https://010-sleep-python-50d9a9d6-128-1-7-1.azurewebsites.net/api/handler?code=Vi0dBqS5LyN2GaA0oSVkAaw5di2dFmo2DpYhFqfVR8FBwCnkpt8dfw== with sleep 1 func 010-sleep-python-50d9a9d6-128-1-7-1
+20:33:48,560 INFO P 1 T 0 Sleep 1 F 010-sleep-python-50d9a9d6-128-1-7-1 Url https://010-sleep-python-50d9a9d6-128-1-7-1.azurewebsites.net/api/handler?code=Vi0dBqS5LyN2GaA0oSVkAaw5di2dFmo2DpYhFqfVR8FBwCnkpt8dfw==
+20:33:48,560 INFO P 4 T 0 Sleep 1 F 010-sleep-python-50d9a9d6-128-1-7-1 Url https://010-sleep-python-50d9a9d6-128-1-7-1.azurewebsites.net/api/handler?code=Vi0dBqS5LyN2GaA0oSVkAaw5di2dFmo2DpYhFqfVR8FBwCnkpt8dfw==
+20:33:48,571 INFO Process 6 begins url https://010-sleep-python-50d9a9d6-128-1-7-1.azurewebsites.net/api/handler?code=Vi0dBqS5LyN2GaA0oSVkAaw5di2dFmo2DpYhFqfVR8FBwCnkpt8dfw== with sleep 1 func 010-sleep-python-50d9a9d6-128-1-7-1
+20:33:48,571 INFO Process 5 begins url https://010-sleep-python-50d9a9d6-128-1-7-1.azurewebsites.net/api/handler?code=Vi0dBqS5LyN2GaA0oSVkAaw5di2dFmo2DpYhFqfVR8FBwCnkpt8dfw== with sleep 1 func 010-sleep-python-50d9a9d6-128-1-7-1
+20:33:48,571 INFO P 5 T 0 Sleep 1 F 010-sleep-python-50d9a9d6-128-1-7-1 Url https://010-sleep-python-50d9a9d6-128-1-7-1.azurewebsites.net/api/handler?code=Vi0dBqS5LyN2GaA0oSVkAaw5di2dFmo2DpYhFqfVR8FBwCnkpt8dfw==
+20:33:48,571 INFO P 6 T 0 Sleep 1 F 010-sleep-python-50d9a9d6-128-1-7-1 Url https://010-sleep-python-50d9a9d6-128-1-7-1.azurewebsites.net/api/handler?code=Vi0dBqS5LyN2GaA0oSVkAaw5di2dFmo2DpYhFqfVR8FBwCnkpt8dfw==
+20:33:48,572 INFO Process 3 begins url https://010-sleep-python-50d9a9d6-128-1-7-1.azurewebsites.net/api/handler?code=Vi0dBqS5LyN2GaA0oSVkAaw5di2dFmo2DpYhFqfVR8FBwCnkpt8dfw== with sleep 1 func 010-sleep-python-50d9a9d6-128-1-7-1
+20:33:48,572 INFO P 3 T 0 Sleep 1 F 010-sleep-python-50d9a9d6-128-1-7-1 Url https://010-sleep-python-50d9a9d6-128-1-7-1.azurewebsites.net/api/handler?code=Vi0dBqS5LyN2GaA0oSVkAaw5di2dFmo2DpYhFqfVR8FBwCnkpt8dfw==
+20:34:02,640 INFO Processed request! Tid: 0 Start 1580585628.560964 End 1580585642.640751 Cold? True Duration 0
+20:34:03,386 INFO Processed request! Tid: 0 Start 1580585628.560961 End 1580585643.386636 Cold? False Duration 0
+20:34:03,386 ERROR First invocation not cold on time 1 rep 0 pid 1 tid 0
+20:34:04,382 INFO Processed request! Tid: 0 Start 1580585628.560572 End 1580585644.382340 Cold? False Duration 0
+20:34:04,382 ERROR First invocation not cold on time 1 rep 0 pid 2 tid 0
+20:34:05,383 INFO Processed request! Tid: 0 Start 1580585628.571934 End 1580585645.383189 Cold? False Duration 0
+20:34:05,383 ERROR First invocation not cold on time 1 rep 0 pid 5 tid 0
+20:34:06,390 INFO Processed request! Tid: 0 Start 1580585628.571932 End 1580585646.390869 Cold? False Duration 0
+20:34:06,391 ERROR First invocation not cold on time 1 rep 0 pid 6 tid 0
+20:34:07,387 INFO Processed request! Tid: 0 Start 1580585628.560451 End 1580585647.387322 Cold? False Duration 0
+20:34:07,387 ERROR First invocation not cold on time 1 rep 0 pid 0 tid 0
+20:34:08,386 INFO Processed request! Tid: 0 Start 1580585643.641910 End 1580585648.386245 Cold? False Duration 0
+20:34:09,388 INFO Processed request! Tid: 0 Start 1580585644.387748 End 1580585649.388345 Cold? False Duration 0
+20:34:10,393 INFO Processed request! Tid: 0 Start 1580585645.383416 End 1580585650.392911 Cold? False Duration 0
+20:34:11,392 INFO Processed request! Tid: 0 Start 1580585646.384350 End 1580585651.392562 Cold? False Duration 0
+20:34:12,395 INFO Processed request! Tid: 0 Start 1580585647.392002 End 1580585652.395741 Cold? False Duration 0
+20:34:13,397 INFO Processed request! Tid: 0 Start 1580585648.387558 End 1580585653.396958 Cold? False Duration 0
+Request 0 at 2020-02-01 20:33:38.458979 for https://010-sleep-python-50d9a9d6-128-1-7-2.azurewebsites.net/api/handler?code=4KNNw170cCUAUWik5STDicO6i9e2Gx6YpqjFqWxsZ0zAv6n8ZGqCyA== finished with statuscode 503! Reason: Site Unavailable
+# Experiments failed! See /users/mcopik/projects/serverless-benchmarks/experiments/prob_first_attempt_azure/1536/7/out.log for details

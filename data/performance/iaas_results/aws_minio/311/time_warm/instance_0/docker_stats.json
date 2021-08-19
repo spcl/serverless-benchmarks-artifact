@@ -1,0 +1,208 @@
+{
+  "read": "2020-11-11T00:42:34.706706004Z",
+  "preread": "2020-11-11T00:42:33.680129151Z",
+  "pids_stats": {
+    "current": 1
+  },
+  "blkio_stats": {
+    "io_service_bytes_recursive": [
+      {
+        "major": 202,
+        "minor": 0,
+        "op": "Read",
+        "value": 17530880
+      },
+      {
+        "major": 202,
+        "minor": 0,
+        "op": "Write",
+        "value": 0
+      },
+      {
+        "major": 202,
+        "minor": 0,
+        "op": "Sync",
+        "value": 17530880
+      },
+      {
+        "major": 202,
+        "minor": 0,
+        "op": "Async",
+        "value": 0
+      },
+      {
+        "major": 202,
+        "minor": 0,
+        "op": "Discard",
+        "value": 0
+      },
+      {
+        "major": 202,
+        "minor": 0,
+        "op": "Total",
+        "value": 17530880
+      }
+    ],
+    "io_serviced_recursive": [
+      {
+        "major": 202,
+        "minor": 0,
+        "op": "Read",
+        "value": 854
+      },
+      {
+        "major": 202,
+        "minor": 0,
+        "op": "Write",
+        "value": 0
+      },
+      {
+        "major": 202,
+        "minor": 0,
+        "op": "Sync",
+        "value": 854
+      },
+      {
+        "major": 202,
+        "minor": 0,
+        "op": "Async",
+        "value": 0
+      },
+      {
+        "major": 202,
+        "minor": 0,
+        "op": "Discard",
+        "value": 0
+      },
+      {
+        "major": 202,
+        "minor": 0,
+        "op": "Total",
+        "value": 854
+      }
+    ],
+    "io_queue_recursive": [],
+    "io_service_time_recursive": [],
+    "io_wait_time_recursive": [],
+    "io_merged_recursive": [],
+    "io_time_recursive": [],
+    "sectors_recursive": []
+  },
+  "num_procs": 0,
+  "storage_stats": {},
+  "cpu_stats": {
+    "cpu_usage": {
+      "total_usage": 119595393953,
+      "percpu_usage": [
+        119595393953,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "usage_in_kernelmode": 9420000000,
+      "usage_in_usermode": 112590000000
+    },
+    "system_cpu_usage": 6795040000000,
+    "online_cpus": 1,
+    "throttling_data": {
+      "periods": 0,
+      "throttled_periods": 0,
+      "throttled_time": 0
+    }
+  },
+  "precpu_stats": {
+    "cpu_usage": {
+      "total_usage": 119595393953,
+      "percpu_usage": [
+        119595393953,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "usage_in_kernelmode": 9420000000,
+      "usage_in_usermode": 112590000000
+    },
+    "system_cpu_usage": 6794050000000,
+    "online_cpus": 1,
+    "throttling_data": {
+      "periods": 0,
+      "throttled_periods": 0,
+      "throttled_time": 0
+    }
+  },
+  "memory_stats": {
+    "usage": 476606464,
+    "max_usage": 544923648,
+    "stats": {
+      "active_anon": 540672,
+      "active_file": 11624448,
+      "cache": 452558848,
+      "dirty": 0,
+      "hierarchical_memory_limit": 9223372036854771712,
+      "hierarchical_memsw_limit": 0,
+      "inactive_anon": 0,
+      "inactive_file": 440877056,
+      "mapped_file": 540672,
+      "pgfault": 469062,
+      "pgmajfault": 231,
+      "pgpgin": 1416657,
+      "pgpgout": 1306056,
+      "rss": 507904,
+      "rss_huge": 0,
+      "total_active_anon": 540672,
+      "total_active_file": 11624448,
+      "total_cache": 452558848,
+      "total_dirty": 0,
+      "total_inactive_anon": 0,
+      "total_inactive_file": 440877056,
+      "total_mapped_file": 540672,
+      "total_pgfault": 469062,
+      "total_pgmajfault": 231,
+      "total_pgpgin": 1416657,
+      "total_pgpgout": 1306056,
+      "total_rss": 507904,
+      "total_rss_huge": 0,
+      "total_unevictable": 0,
+      "total_writeback": 0,
+      "unevictable": 0,
+      "writeback": 0
+    },
+    "limit": 1026154496
+  },
+  "name": "/great_black",
+  "id": "90c06c6f826f64626f27a68eb4a30c29b998eb008aa57f7c8ec9490debc7ec77",
+  "networks": {
+    "eth0": {
+      "rx_bytes": 2028254834,
+      "rx_packets": 97006,
+      "rx_errors": 0,
+      "rx_dropped": 0,
+      "tx_bytes": 1880206792,
+      "tx_packets": 82631,
+      "tx_errors": 0,
+      "tx_dropped": 0
+    }
+  }
+}

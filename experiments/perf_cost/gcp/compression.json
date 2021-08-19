@@ -1,0 +1,35 @@
+{
+  "experiments": {
+    "update_code": false,
+    "update_storage": false,
+    "download_results": false,
+    "runtime": {
+      "language": "python",
+      "version": "3.7"
+    },
+    "type": "perf-cost",
+    "perf-cost": {
+      "benchmark": "311.compression",
+      "experiments": ["cold", "warm"],
+      "input-size": "test",
+      "repetitions": 250,
+      "concurrent-invocations": 50,
+      "memory-sizes": [256,512,1024,2048]
+    }
+  },
+  "deployment": {
+    "name": "gcp",
+    "aws": {
+      "region": "us-east-1",
+      "lambda-role": ""
+    },
+    "azure": {
+      "region": "westeurope"
+    },
+    "gcp": {
+      "region": "europe-west1",
+      "project_name": "",
+      "credentials": ""
+    }
+  }
+}
