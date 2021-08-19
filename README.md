@@ -38,8 +38,13 @@ To conduct the experiments, it is necessary to have an account on the platform. 
 * `libcurl` and its headers must be available on your system to install `pycurl`
 * Standard Linux tools
 
-To install the benchmarks with a support for all platforms, run in the `serverless-benchmarks`
-the following command:
+First, clone the repository with the SeBS submodule:
+
+```
+git clone --recursive https://github.com/spcl/serverless-benchmarks-artifact.git
+```
+
+To install the benchmarks with a support for all platforms, run in the `serverless-benchmarks` the following command:
 
 ```
 ./install.py --aws --azure --gcp --local
