@@ -96,7 +96,7 @@ Please follow the include `README.md` for details.
 
 1. After installing the benchmark suite and activating the virtual environment, create and configure cloud accounts according to the provided instructions in `serverless-benchmarks/docs/platforms.md`.
 
-2. For all platforms define the environmental variables storing cloud credentials.
+2. For all platforms, define the environmental variables storing cloud credentials.
 
 3. Then, repeat the experiments according to the instructions provided for each benchmark.
 
