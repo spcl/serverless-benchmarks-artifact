@@ -96,17 +96,7 @@ Please follow the include `README.md` for details.
 
 1. After installing the benchmark suite and activating the virtual environment, create and configure cloud accounts according to the provided instructions in `serverless-benchmarks/docs/platforms.md`.
 
-2. While for AWS and Azure it is sufficient to define the environment variables with login data, for the Google Cloud platform the `.json` configuration files in benchmark subdirectories need to be updated:
-
-   ```json
-   "gcp": {
-     "region": "europe-west1",
-     "project_name": "HERE_SHOULD_BE_YOUR_PROJECT_NAME",
-     "credentials": "HERE_SHOULD_BE_THE_PATH_TO_YOUR_JSON_WITH_CREDENTIALS"
-   }
-   ```
-
-   
+2. For all platforms define the environmental variables storing cloud credentials.
 
 3. Then, repeat the experiments according to the instructions provided for each benchmark.
 
@@ -118,6 +108,8 @@ This experiment generates data for the main results from Sections 6.2 and 6.3. T
 * For each benchmark, we measure warm and cold invocations on AWS and GCP, and warm and burst invocations on Azure.
 * For each execution we need 200 datapoints, and we perform 250 repetitions as the cloud billing system is not always reliable and it is not guaranteed that we will obtain exact billing data for each invocation.
 * For cold experiments we need to enforce container eviction between each batch of invocations. Thus, the process can take several minutes.
+* On Azure we no longer use the `thumbnailer` Node.js benchmark, as it is no longer possible
+to create Linux function app with Functions runtime 2.0 and Node.js.
 
 Steps needed to reproduce the results.
 
