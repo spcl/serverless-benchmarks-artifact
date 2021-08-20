@@ -6,8 +6,8 @@ echo "Execute benchmark uploader, Python"
 echo "Execute benchmark thumbnailer, Python"
 ../../../serverless-benchmarks/sebs.py experiment invoke perf-cost --config thumbnailer_py.json --output-dir thumbnailer_py --cache cache
 
-echo "Execute benchmark thumbnailer, NodeJS"
-../../../serverless-benchmarks/sebs.py experiment invoke perf-cost --config thumbnailer_node.json --output-dir thumbnailer_node --cache cache
+#echo "Execute benchmark thumbnailer, NodeJS"
+#../../../serverless-benchmarks/sebs.py experiment invoke perf-cost --config thumbnailer_node.json --output-dir thumbnailer_node --cache cache
 
 echo "Execute benchmark compression, Python"
 ../../../serverless-benchmarks/sebs.py experiment invoke perf-cost --config compression.json --output-dir compression --cache cache
