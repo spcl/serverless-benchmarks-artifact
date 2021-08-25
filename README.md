@@ -50,7 +50,14 @@ To install the benchmarks with a support for all platforms, run in the `serverle
 ./install.py --aws --azure --gcp --local
 ```
 
-It will create a virtual environment in `python-virtualenv`, install necessary Python dependencies and third-party dependencies. Then activate the new Python virtual environment, e.g., with `source python-virtualenv/bin/activate`. The environment must be always active when working with SeBS.
+It will create a virtual environment in `python-virtualenv`, install necessary Python dependencies and third-party dependencies there.
+To use SeBS and deploy experiments, you must first active the new Python virtual environment:
+
+```
+. python-virtualenv/bin/activate
+```
+
+**The environment must be always active when working with SeBS.**
 
 The the Docker daemon must be running and the user needs to have sufficient permissions to use it. Otherwise you might experience many "Connection refused" and "Permission denied" errors when using SeBS.
 
